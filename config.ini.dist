@@ -1,6 +1,6 @@
-ce_repository = "git@github.com:magento/magento2ce.git"
-ee_repository = "git@github.com:magento/magento2ee.git"
-b2b_repository = "git@github.com:magento/magento2b2b.git"
+ce_repository = "<-paste here->"
+ee_repository = "<-paste here->"
+b2b_repository = "<-paste here->"
 
 [editions]
 edition[] = "ce"
