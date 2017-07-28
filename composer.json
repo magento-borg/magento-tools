@@ -1,0 +1,17 @@
+{
+    "name": "magento/deprecation-tool",
+    "version": "1.0.0",
+    "require": {
+        "roave/better-reflection": "*",
+        "zendframework/zend-stdlib": "^2.7.7",
+        "nette/reflection": "*",
+        "phpdocumentor/reflection-docblock": "*",
+        "ext-pthreads": "*",
+        "zendframework/zend-log": "^2.9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Magento\\DeprecationTool\\": "code/"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.idea
+config.ini
+/vendor/*
+!/vendor/.gitkeep
+/var/*
+!/var/master/.gitkeep
+!/var/releases/.gitkeep
+!var/metadata/.gitkeep
+!var/changelog/.gitkeep
