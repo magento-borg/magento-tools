@@ -27,14 +27,15 @@ class ClassReader
     {
         /** @var ClassLoader $classLoader */
         $classLoader = require $autoloaderPath;
-        $classLoader->register();
+        $classLoader->register(true);
         $classes = AnnotationsParser::parsePhp(file_get_contents($filePath));
         $reflector = new ClassReflector(new ComposerSourceLocator($classLoader));
         $output = [];
 
         foreach ($classes as $className => $someData) {
             $reflectionClass = $reflector->reflect($className);
-            $classDocBlock = new DocBlock($reflectionClass->getAst()->getDocComment()->getText());
+            $docCommentObject = $reflectionClass->getAst()->getDocComment();
+            $classDocBlock = new DocBlock($docCommentObject ? $docCommentObject->getText() : '');
             $classDeprecated = $classDocBlock->getTagsByName('deprecated');
             $classSee = $classDocBlock->getTagsByName('see');
             $classSince = $classDocBlock->getTagsByName('since');
@@ -100,12 +101,13 @@ class ClassReader
         foreach ($reflectionClass->getImmediateMethods() as $method) {
             $deprecated = $see = $since =[];
             try {
-                $docBlock = new DocBlock($method->getAst()->getDocComment()->getText());
+                $docCommentObject = $method->getAst()->getDocComment();
+                $docBlock = new DocBlock($docCommentObject ? $docCommentObject->getText() : '');
                 $deprecated = $docBlock->getTagsByName('deprecated');
                 $see = $docBlock->getTagsByName('see');
                 $since = $docBlock->getTagsByName('since');
             } catch (\Exception $exception) {
-                echo 'Invalid DocBlock in ' . $reflectionClass->getName() . '::' . $method->getName() . ' ' . $reflectionClass->getLocatedSource()->getFileName() . PHP_EOL;
+                echo 'Invalid DocBlock in ' . $reflectionClass->getName() . '::' . $method->getName() . ' ' . realpath($reflectionClass->getLocatedSource()->getFileName()) . ' :: ' . $exception->getMessage() . PHP_EOL;
             }
 
             $methodMeta = new MethodMetadata();
@@ -140,7 +142,7 @@ class ClassReader
                 $see = $docBlock->getTagsByName('see');
                 $since = $docBlock->getTagsByName('since');
             } catch (\Exception $exception) {
-                echo 'Invalid DocBlock in ' . $reflectionClass->getName() . '::' . $property->getName() . ' ' . $reflectionClass->getLocatedSource()->getFileName() . PHP_EOL;
+                echo 'Invalid DocBlock in ' . $reflectionClass->getName() . '::' . $property->getName() . ' ' . realpath($reflectionClass->getLocatedSource()->getFileName()) . ' :: ' . $exception->getMessage() . PHP_EOL;
             }
 
             $propertyMetadata = new PropertyMetadata();

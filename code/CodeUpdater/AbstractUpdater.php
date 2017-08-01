@@ -48,22 +48,22 @@ abstract class AbstractUpdater extends \Thread
 
         $this->classLoader->register();
 
-        $logger = new \Zend\Log\Logger();
-        $infoWriter = new \Zend\Log\Writer\Stream('php://output');
-        $infoWriter->setFormatter('simple', ['format' => '%timestamp% ' . $this->getLogType() . ' %priorityName%: %message%', 'dateTimeFormat' => 'H:i:s']);
+        $logger = new \Zend_Log();
+        $infoWriter = new \Zend_Log_Writer_Stream('php://output');
+        $infoWriter->setFormatter(new \Zend_Log_Formatter_Simple('%timestamp% ' . $this->getLogType() . ' %priorityName%: %message%'));
 
-        $errorWriter = new \Zend\Log\Writer\Stream($this->config->getLogPath($this->edition . '/' . $this->getLogType() . '.error.log'));
-        $errorWriter->addFilter(\Zend\Log\Logger::ERR);
-        $errorWriter->setFormatter('simple', ['format' => '%timestamp% %priorityName%: %message%', 'dateTimeFormat' => 'H:i:s']);
+        $errorWriter = new \Zend_Log_Writer_Stream($this->config->getLogPath($this->edition . '/' . $this->getLogType() . '.error.log'));
+        $errorWriter->addFilter(\Zend_Log::ERR);
+        $errorWriter->setFormatter(new \Zend_Log_Formatter_Simple('%timestamp% %priorityName%: %message%'));
 
-        $logger->addWriter($infoWriter, \Zend\Log\Logger::INFO);
-        $logger->addWriter($errorWriter, \Zend\Log\Logger::ERR);
+        $logger->addWriter($infoWriter);
+        $logger->addWriter($errorWriter);
         $this->execute($logger);
 
         $this->classLoader->unregister();
     }
 
-    protected abstract function execute(\Zend\Log\Logger $logger);
+    protected abstract function execute(\Zend_Log $logger);
 
     protected abstract function getLogType();
 

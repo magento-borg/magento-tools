@@ -19,9 +19,9 @@ class DeprecatedProperties extends AbstractUpdater
     }
 
     /**
-     * @param \Zend\Log\Logger $logger
+     * @param \Zend_Log $logger
      */
-    protected function execute(\Zend\Log\Logger $logger)
+    protected function execute(\Zend_Log $logger)
     {
         $reflector = $this->getClassReflector();
         $changeLog = $this->getChangeLog();
@@ -40,7 +40,7 @@ class DeprecatedProperties extends AbstractUpdater
         }
     }
 
-    private function updateDocBlock(ClassReflector $reflector, $className, $propertyName, $expectedSince, \Zend\Log\Logger $logger)
+    private function updateDocBlock(ClassReflector $reflector, $className, $propertyName, $expectedSince, \Zend_Log $logger)
     {
         $reflectionClass = $reflector->reflect($className);
         /** @var ReflectionProperty $reflectionProperty */

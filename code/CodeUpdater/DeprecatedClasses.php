@@ -18,9 +18,9 @@ class DeprecatedClasses extends AbstractUpdater
     }
 
     /**
-     * @param \Zend\Log\Logger $logger
+     * @param \Zend_Log $logger
      */
-    protected function execute(\Zend\Log\Logger $logger)
+    protected function execute(\Zend_Log $logger)
     {
         $reflector = $this->getClassReflector();
         $changeLog = $this->getChangeLog();

@@ -18,9 +18,9 @@ class SinceProperties extends AbstractUpdater
     }
 
     /**
-     * @param \Zend\Log\Logger $logger
+     * @param \Zend_Log $logger
      */
-    protected function execute(\Zend\Log\Logger $logger)
+    protected function execute(\Zend_Log $logger)
     {
         $reflector = $this->getClassReflector();
         $changeLog = $this->getChangeLog();
@@ -39,7 +39,7 @@ class SinceProperties extends AbstractUpdater
         }
     }
 
-    private function updateClassDocBlock(ClassReflector $reflector, $className, $propertyName, $since, \Zend\Log\Logger $logger)
+    private function updateClassDocBlock(ClassReflector $reflector, $className, $propertyName, $since, \Zend_Log $logger)
     {
         $reflectionClass = $reflector->reflect($className);
 

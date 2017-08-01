@@ -75,29 +75,16 @@ class MetadataGenerator extends \Thread
             if (file_exists($artifactPath)) {
                 continue;
             }
-            $metadata = [];
+
             $paths = [];
             $paths[] = $config['path'] . '/app/code/Magento';
             $paths[] = $config['path'] . '/lib/internal/Magento';
             $paths[] = $config['path'] . '/setup/src/Magento/Setup/';
             $files = $this->fileReader->read($paths, '*.php');
             $autoloader = $config['autoloader'];
-            foreach ($files as $file) {
-                foreach ($this->classReader->read($file, $autoloader, $config['path']) as $meta) {
-                    $metadata[$meta->getName()] = $meta;
-                }
-            }
-            $dataArray = array_map(
-                function (Entity\ClassMetadata $item) { return $item->toArray(); },
-                $metadata
-            );
-            $artifactDirectory = $this->config->getArtifactPath($edition, $config['release'], false);
-            if (!file_exists($artifactPath)) {
-                $this->config->createFolder($artifactDirectory);
-            }
-            file_put_contents($artifactPath, json_encode($dataArray, JSON_PRETTY_PRINT));
-            unset($metadata);
-            unset($dataArray);
+
+            $generator = new MetadataGeneratorThread($files, $autoloader, $this->config, $config, $edition, $artifactPath, $this->classReader, $this->loader);
+            $generator->start();
         }
     }
 }
