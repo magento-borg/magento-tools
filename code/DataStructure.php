@@ -7,6 +7,11 @@ namespace Magento\DeprecationTool;
 
 class DataStructure
 {
+    private $baseReleases = [
+        'ce' => '2.0.0',
+        'ee' => '2.0.0',
+        'b2b' => '1.0.0',
+    ];
     /**
      * @var array
      */
@@ -23,15 +28,22 @@ class DataStructure
     private $release;
 
     /**
+     * @var string
+     */
+    private $edition;
+
+    /**
      * Initialize dependencies.
      *
      * @param array $data
      * @param $release
+     * @param $edition
      */
-    public function __construct(array $data, $release)
+    public function __construct(array $data, $release, $edition)
     {
         $this->data = $data;
         $this->release = $release;
+        $this->edition = $edition;
     }
 
     /**
@@ -70,6 +82,14 @@ class DataStructure
             return $this->getRelease();
         }
         return $this->getPrevious()->getSinceInformation($path);
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getBaseRelease()
+    {
+        return $this->baseReleases[$this->edition];
     }
 
     public function getData($key = '', $index = null)

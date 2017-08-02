@@ -27,10 +27,10 @@ class DeprecatedMethods extends AbstractUpdater
         $index = 1;
         $count = count($changeLog);
         foreach ($changeLog as $info) {
-            $logger->info('Processing ' . $index . ' of ' . $count . '. ' . $info['class'] . "::" . $info['method']);
-            if (!$info['deprecatedSince']) {
+            $logger->info('Processing ' . $index . ' of ' . $count . '. ' . $info['class'] . "::" . $info['method'] . PHP_EOL);
+            if ($info['actualDeprecatedSince'] != $info['expectedDeprecatedSince']) {
                 try {
-                    $this->updateDocBlock($reflector, $info['class'], $info['method'], $info['expectedSince'], $logger);
+                    $this->updateDocBlock($reflector, $info['class'], $info['method'], $info['expectedDeprecatedSince'], $info['actualDeprecatedSince'], $logger);
                 } catch (\Exception $exception) {
                     $logger->err('Error in method ' . $info['class'] . "::" . $info['method'] .  PHP_EOL . $exception->getMessage());
                 }
@@ -39,7 +39,7 @@ class DeprecatedMethods extends AbstractUpdater
         }
     }
 
-    private function updateDocBlock(ClassReflector $reflector, $className, $methodName, $expectedSince, \Zend_Log $logger)
+    private function updateDocBlock(ClassReflector $reflector, $className, $methodName, $expected, $actual, \Zend_Log $logger)
     {
         $reflectionClass = $reflector->reflect($className);
         $reflectionMethod = null;
@@ -57,7 +57,11 @@ class DeprecatedMethods extends AbstractUpdater
         try {
             $doc = $reflectionMethod->getAst()->getDocComment()->getText();
             $filePosition = $reflectionMethod->getAst()->getDocComment()->getFilePos();
-            $updatedDocBlock = str_replace('@deprecated', '@deprecated ' . $expectedSince, $doc);
+            if ($actual) {
+                $updatedDocBlock = str_replace('@deprecated ' . $actual, '@deprecated ' . $expected, $doc);
+            } else {
+                $updatedDocBlock = str_replace('@deprecated', '@deprecated ' . $expected, $doc);
+            }
             $source = $reflectionClass->getLocatedSource()->getSource();
             $sourceBefore = substr($source, 0, $filePosition);
             $sourceAfter = substr($source, $filePosition + strlen($doc));

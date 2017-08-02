@@ -27,10 +27,10 @@ class DeprecatedClasses extends AbstractUpdater
         $index = 1;
         $count = count($changeLog);
         foreach ($changeLog as $classInfo) {
-            $logger->info('Processing ' . $index . ' of ' . $count . '. ' . $classInfo['class']);
-            if (!$classInfo['deprecatedSince']) {
+            $logger->info('Processing ' . $index . ' of ' . $count . '. ' . $classInfo['class'] . PHP_EOL);
+            if ($classInfo['actualDeprecatedSince'] != $classInfo['expectedDeprecatedSince']) {
                 try {
-                    $this->updateClassDocBlock($reflector, $classInfo['class'], $classInfo['expectedSince']);
+                    $this->updateClassDocBlock($reflector, $classInfo['class'], $classInfo['expectedDeprecatedSince'], $classInfo['actualDeprecatedSince']);
                 } catch (\Exception $exception) {
                     $logger->err('Error in class ' . $classInfo['class'] .  PHP_EOL . $exception->getMessage());
                 }
@@ -39,12 +39,16 @@ class DeprecatedClasses extends AbstractUpdater
         }
     }
 
-    private function updateClassDocBlock(ClassReflector $reflector, $className, $expectedSince)
+    private function updateClassDocBlock(ClassReflector $reflector, $className, $expected, $actual)
     {
         $reflectionClass = $reflector->reflect($className);
         $doc = $reflectionClass->getDocComment();
         $filePosition = $reflectionClass->getAst()->getDocComment()->getFilePos();
-        $updatedDocBlock = str_replace('@deprecated', '@deprecated ' . $expectedSince, $doc);
+        if ($actual) {
+            $updatedDocBlock = str_replace('@deprecated ' . $actual, '@deprecated ' . $expected, $doc);
+        } else {
+            $updatedDocBlock = str_replace('@deprecated', '@deprecated ' . $expected, $doc);
+        }
         $source = $reflectionClass->getLocatedSource()->getSource();
         $sourceBefore = substr($source, 0, $filePosition);
         $sourceAfter = substr($source, $filePosition + strlen($doc));

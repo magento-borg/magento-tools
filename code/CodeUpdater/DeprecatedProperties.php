@@ -28,10 +28,10 @@ class DeprecatedProperties extends AbstractUpdater
         $index = 1;
         $count = count($changeLog);
         foreach ($changeLog as $info) {
-            $logger->info('Processing ' . $index . ' of ' . $count . '. ' . $info['class'] . "::" . $info['property']);
-            if (!$info['deprecatedSince']) {
+            $logger->info('Processing ' . $index . ' of ' . $count . '. ' . $info['class'] . "::" . $info['property'] . PHP_EOL);
+            if ($info['actualDeprecatedSince'] != $info['expectedDeprecatedSince']) {
                 try {
-                    $this->updateDocBlock($reflector, $info['class'], $info['property'], $info['expectedSince'], $logger);
+                    $this->updateDocBlock($reflector, $info['class'], $info['property'], $info['expectedDeprecatedSince'], $info['actualDeprecatedSince'], $logger);
                 } catch (\Exception $exception) {
                     $logger->err('Error in method ' . $info['class'] . "::" . $info['property'] .  PHP_EOL . $exception->getMessage());
                 }
@@ -40,7 +40,7 @@ class DeprecatedProperties extends AbstractUpdater
         }
     }
 
-    private function updateDocBlock(ClassReflector $reflector, $className, $propertyName, $expectedSince, \Zend_Log $logger)
+    private function updateDocBlock(ClassReflector $reflector, $className, $propertyName, $expected, $actual, \Zend_Log $logger)
     {
         $reflectionClass = $reflector->reflect($className);
         /** @var ReflectionProperty $reflectionProperty */
@@ -68,7 +68,11 @@ class DeprecatedProperties extends AbstractUpdater
                 return;
             }
             $originLine = $fileContent[$deprecatedLineIndex];
-            $updatedDocBlockLine = str_replace('@deprecated', '@deprecated ' . $expectedSince, $originLine);
+            if ($actual) {
+                $updatedDocBlockLine = str_replace('@deprecated ' . $actual, '@deprecated ' . $expected, $originLine);
+            } else {
+                $updatedDocBlockLine = str_replace('@deprecated', '@deprecated ' . $expected, $originLine);
+            }
             $fileContent[$deprecatedLineIndex] = $updatedDocBlockLine;
             $newContent = implode('', $fileContent);
             $this->saveContent($reflectionClass, $newContent);

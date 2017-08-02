@@ -11,7 +11,7 @@ interface CheckoutStrategyInterface
 {
     /**
      * @param string $release
-     * @param string $commit
+     * @param string|array $commit
      * @return void
      */
     public function checkout($release, $commit);

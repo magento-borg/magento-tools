@@ -34,7 +34,7 @@ class DataStructureFactory
         $artifactPath = $this->config->getArtifactPath($edition, $latestTag);
 
         $data = json_decode(file_get_contents($artifactPath), true);
-        $structure = new DataStructure($data, $latestTag); //latest tag
+        $structure = new DataStructure($data, $latestTag, $edition); //latest tag
         $this->populateStructure($structure, $tags, $edition);
         return $structure;
     }
@@ -53,7 +53,7 @@ class DataStructureFactory
         }
         $artifactPath = $this->config->getArtifactPath($edition, $tag);
         $data = json_decode(file_get_contents($artifactPath), true);
-        $structure->setPrevious(new DataStructure($data, $tag));
+        $structure->setPrevious(new DataStructure($data, $tag, $edition));
         if (next($tags)) {
             $this->populateStructure($structure->getPrevious(), $tags, $edition);
         }

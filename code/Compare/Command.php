@@ -25,12 +25,12 @@ class Command
         foreach ($dataStructure->getData() as $className => $classData) {
             $path = $className . '/isDeprecated';
             $isDeprecated = $dataStructure->getData($path);
-            if ($isDeprecated && !$classData['deprecatedSince']) {
-                $requiredDeprecatedSince = $dataStructure->getSinceInformation($path);
+            $requiredDeprecatedSince = $dataStructure->getSinceInformation($path);
+            if ($isDeprecated && $classData['deprecatedSince'] != $requiredDeprecatedSince) {
                 $deprecatedClasses[] = [
                     'entity' => $className,
-                    'expectedSince' => $requiredDeprecatedSince,
-                    'deprecatedSince' => $classData['deprecatedSince'],
+                    'expectedDeprecatedSince' => $requiredDeprecatedSince,
+                    'actualDeprecatedSince' => $classData['deprecatedSince'],
                     'class' => $className
                 ];
             }
@@ -49,12 +49,12 @@ class Command
             $methods = $dataStructure->getData($className . '/methods') ?? [];
             foreach ($methods as $methodName => $methodData) {
                 $isDeprecated = $methodData['isDeprecated'];
-                if ($isDeprecated && !$methodData['deprecatedSince']) {
-                    $requiredDeprecatedSince = $dataStructure->getSinceInformation($className . '/methods/' . $methodName . '/isDeprecated');
+                $requiredDeprecatedSince = $dataStructure->getSinceInformation($className . '/methods/' . $methodName . '/isDeprecated');
+                if ($isDeprecated && $methodData['deprecatedSince'] != $requiredDeprecatedSince) {
                     $deprecatedMethods[] = [
                         'entity' => $className . '::' . $methodName,
-                        'expectedSince' => $requiredDeprecatedSince,
-                        'deprecatedSince' => $methodData['deprecatedSince'],
+                        'expectedDeprecatedSince' => $requiredDeprecatedSince,
+                        'actualDeprecatedSince' => $methodData['deprecatedSince'],
                         'method' => $methodName,
                         'class' => $className
                     ];
@@ -75,12 +75,12 @@ class Command
             $properties = $dataStructure->getData($className . '/properties') ?? [];
             foreach ($properties as $propertyName => $propertyData) {
                 $isDeprecated = $propertyData['isDeprecated'];
-                if ($isDeprecated && !$propertyData['deprecatedSince']) {
-                    $requiredDeprecatedSince = $dataStructure->getSinceInformation($className . '/properties/' . $propertyName . '/isDeprecated');
+                $requiredDeprecatedSince = $dataStructure->getSinceInformation($className . '/properties/' . $propertyName . '/isDeprecated');
+                if ($isDeprecated && $propertyData['deprecatedSince'] != $requiredDeprecatedSince) {
                     $output[] = [
                         'entity' => $className . '::' . $propertyName,
-                        'expectedSince' => $requiredDeprecatedSince,
-                        'deprecatedSince' => $propertyData['deprecatedSince'],
+                        'expectedDeprecatedSince' => $requiredDeprecatedSince,
+                        'actualDeprecatedSince' => $propertyData['deprecatedSince'],
                         'property' => $propertyName,
                         'class' => $className
                     ];
@@ -99,13 +99,14 @@ class Command
         $classes = [];
         foreach ($dataStructure->getData() as $className => $classData) {
             $requiredCreatedSince = $dataStructure->getSinceInformation($className);
-            if ($classData['since']) {
+            $requiredCreatedSince = $requiredCreatedSince == $dataStructure->getBaseRelease() ? '' : $requiredCreatedSince;
+            if ($classData['since'] == $requiredCreatedSince) {
                 continue;
             }
             $classes[] = [
                 'entity' => $className,
-                'createdSince' => $classData['since'],
-                'expectedSince' => $requiredCreatedSince,
+                'actualCreatedSince' => $classData['since'],
+                'expectedCreatedSince' => $requiredCreatedSince,
                 'class' => $className
             ];
 
@@ -123,14 +124,15 @@ class Command
         foreach ($dataStructure->getData() as $className => $classData) {
             $methods = $dataStructure->getData($className . '/methods') ?? [];
             foreach ($methods as $methodName => $methodData) {
-                if ($methodData['since']) {
+                $requiredCreatedSince = $dataStructure->getSinceInformation($className . '/methods/' . $methodName);
+                $requiredCreatedSince = $requiredCreatedSince == $dataStructure->getBaseRelease() ? '' : $requiredCreatedSince;
+                if ($methodData['since'] == $requiredCreatedSince) {
                     continue;
                 }
-                $requiredCreatedSince = $dataStructure->getSinceInformation($className . '/methods/' . $methodName);
                 $output[] = [
                     'entity' => $className . '::' . $methodName,
-                    'expectedSince' => $requiredCreatedSince,
-                    'createdSince' => $methodData['since'],
+                    'expectedCreatedSince' => $requiredCreatedSince,
+                    'actualCreatedSince' => $methodData['since'],
                     'method' => $methodName,
                     'class' => $className
                 ];
@@ -150,14 +152,15 @@ class Command
         foreach ($dataStructure->getData() as $className => $classData) {
             $properties = $dataStructure->getData($className . '/properties') ?? [];
             foreach ($properties as $name => $data) {
-                if ($data['since']) {
+                $requiredCreatedSince = $dataStructure->getSinceInformation($className . '/properties/' . $name);
+                $requiredCreatedSince = $requiredCreatedSince == $dataStructure->getBaseRelease() ? '' : $requiredCreatedSince;
+                if ($data['since'] == $requiredCreatedSince) {
                     continue;
                 }
-                $requiredCreatedSince = $dataStructure->getSinceInformation($className . '/properties/' . $name);
                 $output[] = [
                     'entity' => $className . '::' . $name,
-                    'expectedSince' => $requiredCreatedSince,
-                    'createdSince' => $data['since'],
+                    'expectedCreatedSince' => $requiredCreatedSince,
+                    'actualCreatedSince' => $data['since'],
                     'property' => $name,
                     'class' => $className
                 ];

@@ -27,10 +27,10 @@ class SinceProperties extends AbstractUpdater
         $index = 1;
         $count = count($changeLog);
         foreach ($changeLog as $info) {
-            $logger->info('Processing ' . $index . ' of ' . $count . '. ' . $info['class'] . "::" . $info['property']);
-            if (!$info['createdSince']) {
+            $logger->info('Processing ' . $index . ' of ' . $count . '. ' . $info['class'] . "::" . $info['property'] . PHP_EOL);
+            if ($info['actualCreatedSince'] != $info['expectedCreatedSince']) {
                 try {
-                    $this->updateClassDocBlock($reflector, $info['class'], $info['property'], $info['expectedSince'], $logger);
+                    $this->updateClassDocBlock($reflector, $info['class'], $info['property'], $info['expectedCreatedSince'], $info['actualCreatedSince'], $logger);
                 } catch (\Exception $exception) {
                     $logger->err('Error in method ' . $info['class'] . "::" . $info['property'] .  PHP_EOL . $exception->getMessage());
                 }
@@ -39,7 +39,7 @@ class SinceProperties extends AbstractUpdater
         }
     }
 
-    private function updateClassDocBlock(ClassReflector $reflector, $className, $propertyName, $since, \Zend_Log $logger)
+    private function updateClassDocBlock(ClassReflector $reflector, $className, $propertyName, $expected, $actual, \Zend_Log $logger)
     {
         $reflectionClass = $reflector->reflect($className);
 
@@ -81,20 +81,34 @@ class SinceProperties extends AbstractUpdater
                 }
             }
 
-            if (count($docBlockLines) == 1) {
-                $before = array_slice($fileContent, 0, $propertyLineIndex - 1);
+            if ($actual) {
+                if ($expected) {
+                    $updatedDocBlock = str_replace('@since ' . $actual, '@since ' . $expected, $doc);
+                } else {
+                    $updatedDocBlock = str_replace(' * @since ' . $actual . PHP_EOL, '', $doc);
+                }
+                $docLines = explode(PHP_EOL, $updatedDocBlock);
+                $docLines = array_map(function ($item) { return '    ' . $item; }, $docLines);
+                $updatedDocBlock = implode(PHP_EOL, $docLines) . PHP_EOL;
                 $after = array_slice($fileContent, $propertyLineIndex);
-                $line = [];
-                $line[] = '    /**';
-                $line[] = '     * @var ' . implode('|', $reflectionProperty->getDocBlockTypeStrings());
-                $line[] = '     * @since ' . $since;
-                $line[] = '     */' . PHP_EOL;
-                $newContent = implode('', array_merge($before, [implode(PHP_EOL, $line)], $after));
+                $before = array_slice($fileContent, 0, $propertyLineIndex - count($docBlockLines));
+                $newContent = implode('', array_merge($before, [$updatedDocBlock], $after));
             } else {
-                $after = array_slice($fileContent, $propertyLineIndex - 1);
-                $before = array_slice($fileContent, 0, $propertyLineIndex - 1);
-                $line = '     * @since ' . $since . PHP_EOL;
-                $newContent = implode('', array_merge($before, [$line], $after));
+                if (count($docBlockLines) == 1) {
+                    $before = array_slice($fileContent, 0, $propertyLineIndex - 1);
+                    $after = array_slice($fileContent, $propertyLineIndex);
+                    $line = [];
+                    $line[] = '    /**';
+                    $line[] = '     * @var ' . implode('|', $reflectionProperty->getDocBlockTypeStrings());
+                    $line[] = '     * @since ' . $expected;
+                    $line[] = '     */' . PHP_EOL;
+                    $newContent = implode('', array_merge($before, [implode(PHP_EOL, $line)], $after));
+                } else {
+                    $after = array_slice($fileContent, $propertyLineIndex - 1);
+                    $before = array_slice($fileContent, 0, $propertyLineIndex - 1);
+                    $line = '     * @since ' . $expected . PHP_EOL;
+                    $newContent = implode('', array_merge($before, [$line], $after));
+                }
             }
             $this->saveContent($reflectionClass, $newContent);
         }

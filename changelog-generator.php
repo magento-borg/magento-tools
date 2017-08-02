@@ -21,20 +21,20 @@ foreach ($config->getEditions() as $edition) {
     $dataStructure = $dataStructureFactory->create($edition);
 
     $classesChangelog = $command->compareDeprecatedClasses($dataStructure);
-    $writer->write($edition, $classesChangelog, 'deprecated.classes', \Magento\DeprecationTool\Compare\ArtifactWriter::TYPE_DEPRECATED);
+    $writer->write($edition, $classesChangelog, 'deprecated.classes');
 
     $methodsChangelog = $command->compareDeprecatedMethods($dataStructure);
-    $writer->write($edition, $methodsChangelog, 'deprecated.methods', \Magento\DeprecationTool\Compare\ArtifactWriter::TYPE_DEPRECATED);
+    $writer->write($edition, $methodsChangelog, 'deprecated.methods');
 
     $propertiesChangelog = $command->compareDeprecatedProperties($dataStructure);
-    $writer->write($edition, $propertiesChangelog, 'deprecated.properties', \Magento\DeprecationTool\Compare\ArtifactWriter::TYPE_DEPRECATED);
+    $writer->write($edition, $propertiesChangelog, 'deprecated.properties');
 
     $newClassesChangelog = $command->compareNewClasses($dataStructure);
-    $writer->write($edition, $newClassesChangelog, 'new.classes', \Magento\DeprecationTool\Compare\ArtifactWriter::TYPE_NEW_CODE);
+    $writer->write($edition, $newClassesChangelog, 'new.classes');
 
     $newMethodsChangelog = $command->compareNewMethods($dataStructure);
-    $writer->write($edition, $newMethodsChangelog, 'new.methods', \Magento\DeprecationTool\Compare\ArtifactWriter::TYPE_NEW_CODE);
+    $writer->write($edition, $newMethodsChangelog, 'new.methods');
 
     $newPropertiesChangelog = $command->compareNewProperties($dataStructure);
-    $writer->write($edition, $newPropertiesChangelog, 'new.properties', \Magento\DeprecationTool\Compare\ArtifactWriter::TYPE_NEW_CODE);
+    $writer->write($edition, $newPropertiesChangelog, 'new.properties');
 }

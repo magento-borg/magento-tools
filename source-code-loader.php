@@ -12,6 +12,7 @@ $checkoutStrategyPool = new \Magento\DeprecationTool\CheckoutStrategyPool(
     [
         \Magento\DeprecationTool\Config::CE_EDITION => new \Magento\DeprecationTool\CheckoutStrategy\Community($config),
         \Magento\DeprecationTool\Config::EE_EDITION => new \Magento\DeprecationTool\CheckoutStrategy\Enterprise($config),
+        \Magento\DeprecationTool\Config::B2B_EDITION => new \Magento\DeprecationTool\CheckoutStrategy\B2B($config),
     ]
 );
 

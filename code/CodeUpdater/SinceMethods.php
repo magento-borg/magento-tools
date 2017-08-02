@@ -27,10 +27,10 @@ class SinceMethods extends AbstractUpdater
         $index = 1;
         $count = count($changeLog);
         foreach ($changeLog as $info) {
-            $logger->info('Processing ' . $index . ' of ' . $count . '. ' . $info['class'] . "::" . $info['method']);
-            if (!$info['createdSince']) {
+            $logger->info('Processing ' . $index . ' of ' . $count . '. ' . $info['class'] . "::" . $info['method'] . PHP_EOL);
+            if ($info['actualCreatedSince'] != $info['expectedCreatedSince']) {
                 try {
-                    $this->updateClassDocBlock($reflector, $info['class'], $info['method'], $info['expectedSince'], $logger);
+                    $this->updateClassDocBlock($reflector, $info['class'], $info['method'], $info['expectedCreatedSince'], $info['actualCreatedSince'], $logger);
                 } catch (\Exception $exception) {
                     $logger->err('Error in method ' . $info['class'] . "::" . $info['method'] .  PHP_EOL . $exception->getMessage());
                 }
@@ -39,7 +39,7 @@ class SinceMethods extends AbstractUpdater
         }
     }
 
-    private function updateClassDocBlock(ClassReflector $reflector, $className, $methodName, $since, \Zend_Log $logger)
+    private function updateClassDocBlock(ClassReflector $reflector, $className, $methodName, $expected, $actual, \Zend_Log $logger)
     {
         $reflectionClass = $reflector->reflect($className);
 
@@ -64,7 +64,7 @@ class SinceMethods extends AbstractUpdater
             $before = array_slice($lines, 0, $startLine - 1);
             $update = [
                 '    /**' . PHP_EOL
-                . '     * @since ' . $since . PHP_EOL
+                . '     * @since ' . $expected . PHP_EOL
                 . '     */' . PHP_EOL,
             ];
             $newContent = implode('', array_merge($before, $update, $after));
@@ -72,11 +72,20 @@ class SinceMethods extends AbstractUpdater
             $doc = $docBlock->getText();
             $linesInDocBlock = count(explode(PHP_EOL, $doc));
             $before = array_slice($lines, 0, $startLine - 1 - $linesInDocBlock);
-            $lines = explode(PHP_EOL, $doc);
-            $closingLine = array_pop($lines);
-            $lines[] = '     * @since ' . $since;
-            $lines[] = $closingLine . PHP_EOL;
-            $updatedDocBlock = '    ' . implode(PHP_EOL, $lines);
+            if ($actual) {
+                if ($expected) {
+                    $updatedDocBlock = str_replace('@since ' . $actual, '@since ' . $expected, $doc);
+                } else {
+                    $updatedDocBlock = str_replace('     * @since ' . $actual . PHP_EOL, '', $doc);
+                }
+                $updatedDocBlock = '    ' . $updatedDocBlock . PHP_EOL;
+            } else {
+                $lines = explode(PHP_EOL, $doc);
+                $closingLine = array_pop($lines);
+                $lines[] = '     * @since ' . $expected;
+                $lines[] = $closingLine . PHP_EOL;
+                $updatedDocBlock = '    ' . implode(PHP_EOL, $lines);
+            }
             $newContent = implode('', array_merge($before, [$updatedDocBlock], $after));
         }
         $this->saveContent($reflectionClass, $newContent);
