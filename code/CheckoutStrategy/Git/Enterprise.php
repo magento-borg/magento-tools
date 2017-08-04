@@ -4,24 +4,24 @@
  * See COPYING.txt for license details.
  */
 
-namespace Magento\DeprecationTool\CheckoutStrategy;
+namespace Magento\DeprecationTool\CheckoutStrategy\Git;
 
 use \Magento\DeprecationTool\CheckoutStrategyInterface;
-use \Magento\DeprecationTool\Config;
+use \Magento\DeprecationTool\AppConfig;
 
 class Enterprise implements CheckoutStrategyInterface
 {
     /**
-     * @var Config
+     * @var AppConfig
      */
     private $config;
 
     /**
      * Initialize dependencies.
      *
-     * @param Config $config
+     * @param AppConfig $config
      */
-    public function __construct(Config $config)
+    public function __construct(AppConfig $config)
     {
         $this->config = $config;
     }
@@ -32,17 +32,17 @@ class Enterprise implements CheckoutStrategyInterface
      */
     public function checkout($release, $commit)
     {
-        $cePath = $this->config->getSourceCodePath(Config::EE_EDITION, $release);
+        $cePath = $this->config->getSourceCodePath(AppConfig::EE_EDITION, $release);
         if (!file_exists($cePath . '/composer.json')) {
             $this->config->createFolder($cePath);
-            exec('cp -r ' . $this->config->getMasterSourceCodePath(Config::CE_EDITION) . '/ ' . $cePath . '/');
+            exec('cp -r ' . $this->config->getMasterSourceCodePath(AppConfig::CE_EDITION) . '/ ' . $cePath . '/');
             exec('cd ' . $cePath . '; git checkout ' . $commit);
         }
 
         $eePath =  $cePath . '/magento2ee';
         if (!file_exists($eePath . '/composer.json')) {
             $this->config->createFolder($eePath);
-            exec('cp -r ' . $this->config->getMasterSourceCodePath(Config::EE_EDITION) . '/ ' . $eePath . '/');
+            exec('cp -r ' . $this->config->getMasterSourceCodePath(AppConfig::EE_EDITION) . '/ ' . $eePath . '/');
             exec('cd ' . $eePath . '; git checkout ' . $commit);
             $this->executeLinkCommand($eePath, $cePath);
             exec('cp ' . $eePath . '/composer.json ' . $cePath . '/composer.json');

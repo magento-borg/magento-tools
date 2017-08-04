@@ -7,7 +7,7 @@
 require_once 'bootstrap.php';
 /** @var \Composer\Autoload\ClassLoader $loader */
 $loader = require './vendor/autoload.php';
-$config = new \Magento\DeprecationTool\Config();
+$config = new \Magento\DeprecationTool\AppConfig();
 /** @var \Magento\DeprecationTool\CodeUpdater\AbstractUpdater[] $workers */
 $workers = [];
 foreach ($config->getEditions() as $edition) {

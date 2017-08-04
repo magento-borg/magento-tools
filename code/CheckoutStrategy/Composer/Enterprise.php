@@ -1,28 +1,27 @@
 <?php
-
 /**
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 
-namespace Magento\DeprecationTool\CheckoutStrategy;
+namespace Magento\DeprecationTool\CheckoutStrategy\Composer;
 
 use \Magento\DeprecationTool\CheckoutStrategyInterface;
-use \Magento\DeprecationTool\Config;
+use \Magento\DeprecationTool\AppConfig;
 
-class Community implements CheckoutStrategyInterface
+class Enterprise implements CheckoutStrategyInterface
 {
     /**
-     * @var Config
+     * @var AppConfig
      */
     private $config;
 
     /**
      * Initialize dependencies.
      *
-     * @param Config $config
+     * @param AppConfig $config
      */
-    public function __construct(Config $config)
+    public function __construct(AppConfig $config)
     {
         $this->config = $config;
     }
@@ -33,12 +32,10 @@ class Community implements CheckoutStrategyInterface
      */
     public function checkout($release, $commit)
     {
-        $path = $this->config->getSourceCodePath(Config::CE_EDITION, $release);
+        $path = $this->config->getSourceCodePath(AppConfig::EE_EDITION, $release);
         if (!file_exists($path . '/composer.json')) {
             $this->config->createFolder($path);
-            exec('cp -r ' . $this->config->getMasterSourceCodePath(Config::CE_EDITION) . '/ ' . $path . '/');
-            exec('cd ' . $path . '; git checkout ' . $commit);
-            exec('cd ' . $path . '; composer install');
+            exec('cd ' . $path . '; composer create-project magento/project-enterprise-edition=' . $release . ' --repository-url=https://repo.magento.com ./');
         }
     }
 }

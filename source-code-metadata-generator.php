@@ -6,24 +6,9 @@
 require_once 'bootstrap.php';
 
 $loader = require './vendor/autoload.php';
-$config = new \Magento\DeprecationTool\Config();
+$config = new \Magento\DeprecationTool\AppConfig();
 $fileReader = new \Magento\DeprecationTool\FileReader();
 $classReader = new \Magento\DeprecationTool\ClassReader();
-
-/** @var \Magento\DeprecationTool\MetadataGenerator[] $workers */
-$workers = [];
-foreach ($config->getEditions() as $index => $edition) {
-    $workers[$index] = new \Magento\DeprecationTool\MetadataGenerator($config, $fileReader, $classReader, $edition, $loader);
-    $workers[$index]->start();
-}
-
-while (!empty($workers)) {
-    foreach ($workers as $index => $worker) {
-        if (!$worker->isRunning()) {
-            unset($workers[$index]);
-        }
-    }
-    sleep(1);
-}
-
+$worker = new \Magento\DeprecationTool\MetadataGenerator();
+$worker->generate($config, $fileReader, $classReader, $loader);
 

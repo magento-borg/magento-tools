@@ -7,35 +7,33 @@
 
 namespace Magento\DeprecationTool\Compare;
 
-use Magento\DeprecationTool\Config;
+use Magento\DeprecationTool\AppConfig;
 
 class ArtifactWriter
 {
     /**
-     * @var Config
+     * @var AppConfig
      */
-    private $config;
-
-    const TYPE_DEPRECATED = 1;
-    const TYPE_NEW_CODE = 2;
+    private $appConfig;
 
     /**
      * Initialize dependencies.
      *
-     * @param Config $config
+     * @param AppConfig $appConfig
      */
-    public function __construct(Config $config)
+    public function __construct(AppConfig $appConfig)
     {
-        $this->config = $config;
+        $this->appConfig = $appConfig;
     }
 
-    public function write($edition, $data, $fileName)
+    public function write($packageName, $data, $type)
     {
         if (!empty($data)) {
-            if (!file_exists($this->config->getChangelogPath($edition))) {
-                @mkdir($this->config->getChangelogPath($edition), 0777, true);
+            $packageName = str_replace('/', '-', $packageName);
+            if (!file_exists($this->appConfig->getChangelogPath($type))) {
+                @mkdir($this->appConfig->getChangelogPath($type), 0777, true);
             }
-            $jsonReportPath = $this->config->getChangelogPath($edition) . '/' . $fileName . '.json';
+            $jsonReportPath = $this->appConfig->getChangelogPath($type) . '/' . $packageName . '.json';
             file_put_contents($jsonReportPath, json_encode($data, JSON_PRETTY_PRINT));
         }
     }

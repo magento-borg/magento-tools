@@ -7,7 +7,7 @@ namespace Magento\DeprecationTool\CodeUpdater;
 
 use BetterReflection\Reflection\ReflectionClass;
 use Composer\Autoload\ClassLoader;
-use Magento\DeprecationTool\Config;
+use Magento\DeprecationTool\AppConfig;
 
 abstract class AbstractUpdater extends \Thread
 {
@@ -17,7 +17,7 @@ abstract class AbstractUpdater extends \Thread
     protected $classLoader;
 
     /**
-     * @var Config
+     * @var AppConfig
      */
     protected $config;
 
@@ -30,10 +30,10 @@ abstract class AbstractUpdater extends \Thread
      * Initialize dependencies.
      *
      * @param ClassLoader $classLoader
-     * @param Config $config
+     * @param AppConfig $config
      * @param string $edition
      */
-    public function __construct(ClassLoader $classLoader, Config $config, $edition)
+    public function __construct(ClassLoader $classLoader, AppConfig $config, $edition)
     {
         $this->classLoader = $classLoader;
         $this->config = $config;

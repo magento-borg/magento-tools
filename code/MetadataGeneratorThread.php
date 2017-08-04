@@ -14,11 +14,9 @@ class MetadataGeneratorThread extends \Thread
     private $files;
     private $autoloader;
     /**
-     * @var Config
+     * @var AppConfig
      */
-    private $config;
-    private $edition;
-    private $artifactPath;
+    private $appConfig;
     /**
      * @var ClassReader
      */
@@ -39,18 +37,16 @@ class MetadataGeneratorThread extends \Thread
      *
      * @param $files
      * @param $autoloader
-     * @param Config $config
-     * @param $edition
-     * @param $artifactPath
+     * @param AppConfig $config
+     * @param $data
      * @param ClassReader $classReader
+     * @param ClassLoader $loader
      */
-    public function __construct($files, $autoloader, Config $config, $data, $edition, $artifactPath, ClassReader $classReader, ClassLoader $loader)
+    public function __construct($files, $autoloader, AppConfig $config, $data, ClassReader $classReader, ClassLoader $loader)
     {
         $this->files = $files;
         $this->autoloader = $autoloader;
-        $this->config = $config;
-        $this->edition = $edition;
-        $this->artifactPath = $artifactPath;
+        $this->appConfig = $config;
         $this->classReader = $classReader;
         $this->classLoader = $loader;
         $this->data = $data;
@@ -60,21 +56,19 @@ class MetadataGeneratorThread extends \Thread
     public function run()
     {
         $this->classLoader->register();
-        $this->processFiles($this->files, $this->autoloader, $this->data, $this->edition, $this->artifactPath);
+        $this->processFiles($this->files, $this->autoloader, $this->data);
     }
 
     /**
      * @param $files
      * @param $autoloader
      * @param $config
-     * @param $edition
-     * @param $artifactPath
      */
-    private function processFiles($files, $autoloader, $config, $edition, $artifactPath)
+    private function processFiles($files, $autoloader, $config)
     {
         $metadata = [];
         foreach ($files as $file) {
-            foreach ($this->classReader->read($file, $autoloader, $config['path']) as $meta) {
+            foreach ($this->classReader->read($file, $autoloader, $config) as $meta) {
                 $metadata[$meta->getName()] = $meta;
             }
         }
@@ -84,10 +78,11 @@ class MetadataGeneratorThread extends \Thread
             },
             $metadata
         );
-        $artifactDirectory = $this->config->getArtifactPath($edition, $config['release'], false);
-        if (!file_exists($artifactPath)) {
-            $this->config->createFolder($artifactDirectory);
+        $artifactDirectory = $this->appConfig->getMetadataPath($config['name'], $config['version'], false);
+        if (!file_exists($artifactDirectory)) {
+            $this->appConfig->createFolder($artifactDirectory);
         }
+        $artifactPath = $this->appConfig->getMetadataPath($config['name'], $config['version']);
         file_put_contents($artifactPath, json_encode($dataArray, JSON_PRETTY_PRINT));
         unset($metadata);
         unset($dataArray);

@@ -8,54 +8,70 @@ namespace Magento\DeprecationTool;
 class DataStructureFactory
 {
     /**
-     * @var Config
+     * @var AppConfig
      */
-    private $config;
+    private $appConfig;
 
     /**
      * Initialize dependencies.
      *
-     * @param Config $config
+     * @param AppConfig $appConfig
      */
-    public function __construct(Config $config)
+    public function __construct(AppConfig $appConfig)
     {
-        $this->config = $config;
+        $this->appConfig = $appConfig;
     }
 
     /**
      * @param $edition
-     * @return DataStructure
+     * @return DataStructure[]
      */
     public function create($edition)
     {
-        $tags = $this->config->getTags($edition);
-        $latestTag = $this->config->getLatestRelease($edition);
+        $output = [];
+        $path = $this->appConfig->getGitSourceCodeLocation($edition, $this->appConfig->getLatestRelease($edition));
+        $packages = PackagesListReader::getGitPackages($path);
 
-        $artifactPath = $this->config->getArtifactPath($edition, $latestTag);
+        foreach (array_keys($packages) as $packageName) {
+            $versions = $this->getVersions($packageName);
+            $latestVersion = array_shift($versions);
+            $artifactPath = $this->appConfig->getMetadataPath($packageName, $latestVersion);
+            $data = json_decode(file_get_contents($artifactPath), true);
+            $structure = new DataStructure($data, $latestVersion, $packageName, $edition);
+            $this->populateStructure($structure, $versions, $packageName, $edition);
+            $output[$packageName] = $structure;
+        }
 
-        $data = json_decode(file_get_contents($artifactPath), true);
-        $structure = new DataStructure($data, $latestTag, $edition); //latest tag
-        $this->populateStructure($structure, $tags, $edition);
-        return $structure;
+        return $output;
+    }
+
+    private function getVersions($packageName)
+    {
+        $artifactDirectory = $this->appConfig->getMetadataPath($packageName, null, false);
+        $files = glob($artifactDirectory . '/*.json');
+        $files = array_map('basename', $files);
+        $versions = array_map(function ($item) { return substr($item, 0, -5); }, $files);
+        usort($versions, 'version_compare');
+        $versions = array_reverse($versions);
+        return $versions;
     }
 
     /**
      * @param DataStructure $structure
-     * @param array $tags
-     * @param $edition
-     * @return void
+     * @param $versions
+     * @param $packageName
      */
-    private function populateStructure(DataStructure $structure, $tags, $edition)
+    private function populateStructure(DataStructure $structure, $versions, $packageName, $edition)
     {
-        $tag = current($tags);
-        if (!$tag) {
+        $version = current($versions);
+        if (!$version) {
             return;
         }
-        $artifactPath = $this->config->getArtifactPath($edition, $tag);
+        $artifactPath = $this->appConfig->getMetadataPath($packageName, $version);
         $data = json_decode(file_get_contents($artifactPath), true);
-        $structure->setPrevious(new DataStructure($data, $tag, $edition));
-        if (next($tags)) {
-            $this->populateStructure($structure->getPrevious(), $tags, $edition);
+        $structure->setPrevious(new DataStructure($data, $version, $packageName, $edition));
+        if (next($versions)) {
+            $this->populateStructure($structure->getPrevious(), $versions, $packageName, $edition);
         }
     }
 }

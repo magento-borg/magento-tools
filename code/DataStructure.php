@@ -8,9 +8,9 @@ namespace Magento\DeprecationTool;
 class DataStructure
 {
     private $baseReleases = [
-        'ce' => '2.0.0',
-        'ee' => '2.0.0',
-        'b2b' => '1.0.0',
+        AppConfig::CE_EDITION => '2.0.0',
+        AppConfig::EE_EDITION => '2.0.0',
+        AppConfig::B2B_EDITION => '1.0.0',
     ];
     /**
      * @var array
@@ -25,7 +25,7 @@ class DataStructure
     /**
      * @var string
      */
-    private $release;
+    private $version;
 
     /**
      * @var string
@@ -33,25 +33,31 @@ class DataStructure
     private $edition;
 
     /**
+     * @var string
+     */
+    private $package;
+
+    /**
      * Initialize dependencies.
      *
      * @param array $data
-     * @param $release
+     * @param $version
      * @param $edition
      */
-    public function __construct(array $data, $release, $edition)
+    public function __construct(array $data, $version, $package, $edition)
     {
         $this->data = $data;
-        $this->release = $release;
+        $this->version = $version;
         $this->edition = $edition;
+        $this->package = $package;
     }
 
     /**
      * @return string
      */
-    public function getRelease()
+    public function getVersion()
     {
-        return $this->release;
+        return $this->version;
     }
 
     /**
@@ -79,9 +85,24 @@ class DataStructure
     public function getSinceInformation($path)
     {
         if (!$this->getPrevious() || !$this->getPrevious()->getData($path)) {
-            return $this->getRelease();
+            return $this->getVersion();
         }
         return $this->getPrevious()->getSinceInformation($path);
+    }
+
+    /**
+     * @param $path
+     * @return string
+     */
+    public function getCreatedSinceInformation($path)
+    {
+        if (!$this->getPrevious() || !$this->getPrevious()->getData($path)) {
+            $version = $this->getVersion();
+            $release = $this->getData($path . '/release');
+            $version = $this->getBaseRelease() == $release ? '' : $version;
+            return $version;
+        }
+        return $this->getPrevious()->getCreatedSinceInformation($path);
     }
 
     /**

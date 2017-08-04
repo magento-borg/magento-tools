@@ -33,6 +33,69 @@ abstract class AbstractMetadata
     protected $since;
 
     /**
+     * @var string
+     */
+    protected $release;
+
+    /**
+     * @var string
+     */
+    protected $package;
+
+    /**
+     * @var string
+     */
+    protected $packageVersion;
+
+    /**
+     * @return string
+     */
+    public function getPackage()
+    {
+        return $this->package;
+    }
+
+    /**
+     * @param string $package
+     */
+    public function setPackage($package)
+    {
+        $this->package = $package;
+    }
+
+    /**
+     * @return string
+     */
+    public function getPackageVersion()
+    {
+        return $this->packageVersion;
+    }
+
+    /**
+     * @param string $packageVersion
+     */
+    public function setPackageVersion($packageVersion)
+    {
+        $this->packageVersion = $packageVersion;
+    }
+
+    /**
+     * @return string
+     */
+    public function getRelease()
+    {
+        return $this->release;
+    }
+
+    /**
+     * @param string $release
+     */
+    public function setRelease($release)
+    {
+        $this->release = $release;
+    }
+
+    /**
      * @return string
      */
     public function getName()
@@ -123,6 +186,9 @@ abstract class AbstractMetadata
             'deprecatedSince' => $this->deprecatedSince,
             'see' => $this->see,
             'since' => $this->since,
+            'release' => $this->release,
+            'package' => $this->package,
+            'packageVersion' => $this->packageVersion,
         ];
     }
 }

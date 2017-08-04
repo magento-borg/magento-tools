@@ -98,8 +98,7 @@ class Command
     {
         $classes = [];
         foreach ($dataStructure->getData() as $className => $classData) {
-            $requiredCreatedSince = $dataStructure->getSinceInformation($className);
-            $requiredCreatedSince = $requiredCreatedSince == $dataStructure->getBaseRelease() ? '' : $requiredCreatedSince;
+            $requiredCreatedSince = $dataStructure->getCreatedSinceInformation($className);
             if ($classData['since'] == $requiredCreatedSince) {
                 continue;
             }
@@ -124,8 +123,7 @@ class Command
         foreach ($dataStructure->getData() as $className => $classData) {
             $methods = $dataStructure->getData($className . '/methods') ?? [];
             foreach ($methods as $methodName => $methodData) {
-                $requiredCreatedSince = $dataStructure->getSinceInformation($className . '/methods/' . $methodName);
-                $requiredCreatedSince = $requiredCreatedSince == $dataStructure->getBaseRelease() ? '' : $requiredCreatedSince;
+                $requiredCreatedSince = $dataStructure->getCreatedSinceInformation($className . '/methods/' . $methodName);
                 if ($methodData['since'] == $requiredCreatedSince) {
                     continue;
                 }
@@ -152,8 +150,7 @@ class Command
         foreach ($dataStructure->getData() as $className => $classData) {
             $properties = $dataStructure->getData($className . '/properties') ?? [];
             foreach ($properties as $name => $data) {
-                $requiredCreatedSince = $dataStructure->getSinceInformation($className . '/properties/' . $name);
-                $requiredCreatedSince = $requiredCreatedSince == $dataStructure->getBaseRelease() ? '' : $requiredCreatedSince;
+                $requiredCreatedSince = $dataStructure->getCreatedSinceInformation($className . '/properties/' . $name);
                 if ($data['since'] == $requiredCreatedSince) {
                     continue;
                 }

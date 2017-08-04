@@ -20,10 +20,9 @@ class ClassReader
     /**
      * @param string $filePath
      * @param string $autoloaderPath
-     * @param string $basePath
      * @return ClassMetadata[]
      */
-    public function read($filePath, $autoloaderPath, $basePath)
+    public function read($filePath, $autoloaderPath, $package)
     {
         /** @var ClassLoader $classLoader */
         $classLoader = require $autoloaderPath;
@@ -40,16 +39,16 @@ class ClassReader
             $classSee = $classDocBlock->getTagsByName('see');
             $classSince = $classDocBlock->getTagsByName('since');
 
-            $methods = $this->readMethods($reflectionClass);
-            $properties = $this->readProperties($reflectionClass);
-            $constants = $this->readConstants($reflectionClass);
+            $methods = $this->readMethods($reflectionClass, $package);
+            $properties = $this->readProperties($reflectionClass, $package);
 
             $class = new ClassMetadata();
             $class->setName($reflectionClass->getName());
-            $class->setPath(str_replace($basePath, '', $filePath));
+            $class->setRelease($package['release']);
+            $class->setPackage($package['name']);
+            $class->setPackageVersion($package['version']);
             $class->setMethods($methods);
             $class->setProperties($properties);
-            $class->setConstants($constants);
             $class->setIsDeprecated(!empty($classDeprecated));
             $class->setDeprecatedSince($this->getDeprecatedSince($classDeprecated));
             $class->setHasSee(!empty($classSee));
@@ -92,10 +91,11 @@ class ClassReader
     }
 
     /**
-     * @param $reflectionClass
-     * @return MethodMetadata[]
+     * @param ReflectionClass $reflectionClass
+     * @param $package
+     * @return array
      */
-    private function readMethods(ReflectionClass $reflectionClass)
+    private function readMethods(ReflectionClass $reflectionClass, $package)
     {
         $methods = [];
         foreach ($reflectionClass->getImmediateMethods() as $method) {
@@ -112,6 +112,9 @@ class ClassReader
 
             $methodMeta = new MethodMetadata();
             $methodMeta->setName($method->getName());
+            $methodMeta->setRelease($package['release']);
+            $methodMeta->setPackage($package['name']);
+            $methodMeta->setPackageVersion($package['version']);
             $methodMeta->setIsDeprecated(!empty($deprecated));
             $methodMeta->setHasSee(!empty($see));
             $methodMeta->setSince($this->getSince($since));
@@ -123,10 +126,11 @@ class ClassReader
     }
 
     /**
-     * @param $reflectionClass
-     * @return PropertyMetadata[]
+     * @param ReflectionClass $reflectionClass
+     * @param $package
+     * @return array
      */
-    private function readProperties(ReflectionClass $reflectionClass)
+    private function readProperties(ReflectionClass $reflectionClass, $package)
     {
         $properties = [];
         foreach ($reflectionClass->getProperties() as $property) {
@@ -148,6 +152,9 @@ class ClassReader
             $propertyMetadata = new PropertyMetadata();
             $propertyMetadata->setName($property->getName());
             $propertyMetadata->setIsDeprecated(!empty($deprecated));
+            $propertyMetadata->setRelease($package['release']);
+            $propertyMetadata->setPackage($package['name']);
+            $propertyMetadata->setPackageVersion($package['version']);
             $propertyMetadata->setHasSee(!empty($see));
             $propertyMetadata->setSince($this->getSince($since));
             $propertyMetadata->setDeprecatedSince($this->getDeprecatedSince($deprecated));
@@ -155,15 +162,5 @@ class ClassReader
             $properties[$property->getName()] = $propertyMetadata;
         }
         return $properties;
-    }
-
-    /**
-     * @param $reflectionClass
-     * @return ConstantMetadata[]
-     */
-    private function readConstants(ReflectionClass $reflectionClass)
-    {
-        //TODO implement constants read
-        return [];
     }
 }

@@ -7,7 +7,7 @@
 
 namespace Magento\DeprecationTool;
 
-class Config
+class AppConfig
 {
     const CE_EDITION = 'ce';
     const EE_EDITION = 'ee';
@@ -33,7 +33,9 @@ class Config
      */
     public function getTags($edition)
     {
-        return isset($this->config[$edition. '_tags']['release']) ? $this->config[$edition. '_tags']['release'] : [];
+        $tags = isset($this->config[$edition. '_tags']['release']) ? $this->config[$edition. '_tags']['release'] : [];
+        usort($tags, 'version_compare');
+        return $tags;
     }
 
     /**
@@ -83,12 +85,12 @@ class Config
     }
 
     /**
-     * @param $edition
+     * @param $packageName
      * @return string
      */
-    public function getChangelogPath($edition)
+    public function getChangelogPath($packageName)
     {
-        $path = BP . '/var/changelog/' . $edition;
+        $path = BP . '/var/changelog/' . $packageName;
         return $path;
     }
 
@@ -107,16 +109,14 @@ class Config
      * @param $release
      * @return string
      */
-    public function getSourceCodeLocation($edition, $release)
+    public function getGitSourceCodeLocation($edition, $release)
     {
-        if ($edition == self::CE_EDITION) {
-            $path = BP . '/var/releases/' . $release . '/magento2' . $edition;
+        if ($edition == 'ce') {
+            return BP . '/var/releases/' . $release . '/magento2' . $edition;
         } else {
-            // Ex: /var/release/2.2.0/magento2ee/magento2ee; magento2ee is a sub-folder of root directory.
-            $path = BP . '/var/releases/' . $release . '/magento2' . $edition . '/magento2' . $edition;
+            return BP . '/var/releases/' . $release . '/magento2' . $edition . '/magento2' . $edition;
         }
 
-        return $path;
     }
 
     /**
@@ -149,6 +149,23 @@ class Config
             $path = BP . '/var/metadata/' . $release . '/magento2' . $edition . '.json';
         } else {
             $path = BP . '/var/metadata/' . $release;
+        }
+        return $path;
+    }
+
+    /**
+     * @param $package
+     * @param $version
+     * @param bool $withFileName
+     * @return string
+     */
+    public function getMetadataPath($package, $version, $withFileName = true)
+    {
+        $package = str_replace('/', '-', $package);
+        if ($withFileName) {
+            $path = BP . '/var/metadata/' . $package . '/' . $version . '.json';
+        } else {
+            $path = BP . '/var/metadata/' . $package;
         }
         return $path;
     }
