@@ -99,7 +99,10 @@ class DataStructure
         if (!$this->getPrevious() || !$this->getPrevious()->getData($path)) {
             $version = $this->getVersion();
             $release = $this->getData($path . '/release');
-            $version = $this->getBaseRelease() == $release ? '' : $version;
+            $isAPI = $this->getData($path . '/api');
+            $isPrivate = $this->getData($path . '/private');
+            //skip base release, non-@api classes and private methods/properties
+            $version = ($this->getBaseRelease() == $release || !$isAPI || $isPrivate) ? '' : $version;
             return $version;
         }
         return $this->getPrevious()->getCreatedSinceInformation($path);

@@ -55,8 +55,15 @@ class MetadataGeneratorThread extends \Thread
 
     public function run()
     {
+        $logger = new \Zend_Log();
+        $writer = new \Zend_Log_Writer_Stream($this->appConfig->getLogPath('metadata-generator.log'));
+        $writer->setFormatter(new \Zend_Log_Formatter_Simple('%timestamp% ' . $this->data['name'] . ':' . $this->data['version'] . ' %priorityName%: %message%' . PHP_EOL));
+        $logger->addWriter($writer);
+
+        $logger->info('Processing');
+
         $this->classLoader->register();
-        $this->processFiles($this->files, $this->autoloader, $this->data);
+        $this->processFiles($this->files, $this->autoloader, $this->data, $logger);
     }
 
     /**
@@ -64,11 +71,11 @@ class MetadataGeneratorThread extends \Thread
      * @param $autoloader
      * @param $config
      */
-    private function processFiles($files, $autoloader, $config)
+    private function processFiles($files, $autoloader, $config, \Zend_Log $logger)
     {
         $metadata = [];
         foreach ($files as $file) {
-            foreach ($this->classReader->read($file, $autoloader, $config) as $meta) {
+            foreach ($this->classReader->read($file, $autoloader, $config, $logger) as $meta) {
                 $metadata[$meta->getName()] = $meta;
             }
         }

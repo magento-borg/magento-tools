@@ -6,6 +6,7 @@
 namespace Magento\DeprecationTool\CodeUpdater;
 
 use BetterReflection\Reflector\ClassReflector;
+use Magento\DeprecationTool\AppConfig;
 
 class SinceProperties extends AbstractUpdater
 {
@@ -14,7 +15,7 @@ class SinceProperties extends AbstractUpdater
      */
     protected function getLogType()
     {
-        return 'new.properties';
+        return AppConfig::TYPE_SINCE_PROPERTIES;
     }
 
     /**

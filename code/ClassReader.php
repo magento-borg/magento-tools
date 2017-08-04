@@ -6,6 +6,7 @@
 namespace Magento\DeprecationTool;
 use BetterReflection\Reflection\ReflectionClass;
 use Composer\Autoload\ClassLoader;
+use Magento\DeprecationTool\Entity\AbstractMetadata;
 use Magento\DeprecationTool\Entity\ClassMetadata;
 use Magento\DeprecationTool\Entity\ConstantMetadata;
 use Magento\DeprecationTool\Entity\MethodMetadata;
@@ -18,11 +19,13 @@ use \phpDocumentor\Reflection\DocBlock;
 class ClassReader
 {
     /**
-     * @param string $filePath
-     * @param string $autoloaderPath
-     * @return ClassMetadata[]
+     * @param $filePath
+     * @param $autoloaderPath
+     * @param $package
+     * @param \Zend_Log $logger
+     * @return AbstractMetadata[]
      */
-    public function read($filePath, $autoloaderPath, $package)
+    public function read($filePath, $autoloaderPath, $package, \Zend_Log $logger)
     {
         /** @var ClassLoader $classLoader */
         $classLoader = require $autoloaderPath;
@@ -38,9 +41,11 @@ class ClassReader
             $classDeprecated = $classDocBlock->getTagsByName('deprecated');
             $classSee = $classDocBlock->getTagsByName('see');
             $classSince = $classDocBlock->getTagsByName('since');
+            $api = $classDocBlock->getTagsByName('api');
+            $isAPI = !empty($api);
 
-            $methods = $this->readMethods($reflectionClass, $package);
-            $properties = $this->readProperties($reflectionClass, $package);
+            $methods = $this->readMethods($reflectionClass, $package, $isAPI, $logger);
+            $properties = $this->readProperties($reflectionClass, $package, $isAPI, $logger);
 
             $class = new ClassMetadata();
             $class->setName($reflectionClass->getName());
@@ -50,6 +55,8 @@ class ClassReader
             $class->setMethods($methods);
             $class->setProperties($properties);
             $class->setIsDeprecated(!empty($classDeprecated));
+            $class->setIsPrivate(false);
+            $class->setIsApi($isAPI);
             $class->setDeprecatedSince($this->getDeprecatedSince($classDeprecated));
             $class->setHasSee(!empty($classSee));
             $class->setSince($this->getSince($classSince));
@@ -93,9 +100,10 @@ class ClassReader
     /**
      * @param ReflectionClass $reflectionClass
      * @param $package
+     * @param $isApi
      * @return array
      */
-    private function readMethods(ReflectionClass $reflectionClass, $package)
+    private function readMethods(ReflectionClass $reflectionClass, $package, $isApi, \Zend_Log $logger)
     {
         $methods = [];
         foreach ($reflectionClass->getImmediateMethods() as $method) {
@@ -107,7 +115,7 @@ class ClassReader
                 $see = $docBlock->getTagsByName('see');
                 $since = $docBlock->getTagsByName('since');
             } catch (\Exception $exception) {
-                echo 'Invalid DocBlock in ' . $reflectionClass->getName() . '::' . $method->getName() . ' ' . realpath($reflectionClass->getLocatedSource()->getFileName()) . ' :: ' . $exception->getMessage() . PHP_EOL;
+                $logger->err('Invalid DocBlock in ' . $reflectionClass->getName() . '::' . $method->getName() . ' ' . realpath($reflectionClass->getLocatedSource()->getFileName()) . ' :: ' . $exception->getMessage());
             }
 
             $methodMeta = new MethodMetadata();
@@ -116,6 +124,8 @@ class ClassReader
             $methodMeta->setPackage($package['name']);
             $methodMeta->setPackageVersion($package['version']);
             $methodMeta->setIsDeprecated(!empty($deprecated));
+            $methodMeta->setIsApi($isApi);
+            $methodMeta->setIsPrivate($method->isPrivate());
             $methodMeta->setHasSee(!empty($see));
             $methodMeta->setSince($this->getSince($since));
             $methodMeta->setDeprecatedSince($this->getDeprecatedSince($deprecated));
@@ -128,9 +138,10 @@ class ClassReader
     /**
      * @param ReflectionClass $reflectionClass
      * @param $package
+     * @param $isApi
      * @return array
      */
-    private function readProperties(ReflectionClass $reflectionClass, $package)
+    private function readProperties(ReflectionClass $reflectionClass, $package, $isApi, \Zend_Log $logger)
     {
         $properties = [];
         foreach ($reflectionClass->getProperties() as $property) {
@@ -146,7 +157,7 @@ class ClassReader
                 $see = $docBlock->getTagsByName('see');
                 $since = $docBlock->getTagsByName('since');
             } catch (\Exception $exception) {
-                echo 'Invalid DocBlock in ' . $reflectionClass->getName() . '::' . $property->getName() . ' ' . realpath($reflectionClass->getLocatedSource()->getFileName()) . ' :: ' . $exception->getMessage() . PHP_EOL;
+                $logger->err('Invalid DocBlock in ' . $reflectionClass->getName() . '::' . $property->getName() . ' ' . realpath($reflectionClass->getLocatedSource()->getFileName()) . ' :: ' . $exception->getMessage());
             }
 
             $propertyMetadata = new PropertyMetadata();
@@ -156,6 +167,8 @@ class ClassReader
             $propertyMetadata->setPackage($package['name']);
             $propertyMetadata->setPackageVersion($package['version']);
             $propertyMetadata->setHasSee(!empty($see));
+            $propertyMetadata->setIsApi($isApi);
+            $propertyMetadata->setIsPrivate($property->isPrivate());
             $propertyMetadata->setSince($this->getSince($since));
             $propertyMetadata->setDeprecatedSince($this->getDeprecatedSince($deprecated));
 

@@ -22,21 +22,21 @@ foreach ($config->getEditions() as $edition) {
 
     foreach ($dataStructures as $packageName => $dataStructure) {
         $classesChangelog = $command->compareDeprecatedClasses($dataStructure);
-        $writer->write($packageName, $classesChangelog, 'deprecated-classes');
+        $writer->write($packageName, $classesChangelog, \Magento\DeprecationTool\AppConfig::TYPE_DEPRECATED_CLASSES);
 
         $methodsChangelog = $command->compareDeprecatedMethods($dataStructure);
-        $writer->write($packageName, $methodsChangelog, 'deprecated-methods');
+        $writer->write($packageName, $methodsChangelog, \Magento\DeprecationTool\AppConfig::TYPE_DEPRECATED_METHODS);
 
         $propertiesChangelog = $command->compareDeprecatedProperties($dataStructure);
-        $writer->write($packageName, $propertiesChangelog, 'deprecated-properties');
+        $writer->write($packageName, $propertiesChangelog, \Magento\DeprecationTool\AppConfig::TYPE_DEPRECATED_PROPERTIES);
 
         $newClassesChangelog = $command->compareNewClasses($dataStructure);
-        $writer->write($packageName, $newClassesChangelog, 'since-classes');
+        $writer->write($packageName, $newClassesChangelog, \Magento\DeprecationTool\AppConfig::TYPE_SINCE_CLASSES);
 
         $newMethodsChangelog = $command->compareNewMethods($dataStructure);
-        $writer->write($packageName, $newMethodsChangelog, 'since-methods');
+        $writer->write($packageName, $newMethodsChangelog, \Magento\DeprecationTool\AppConfig::TYPE_SINCE_METHODS);
 
         $newPropertiesChangelog = $command->compareNewProperties($dataStructure);
-        $writer->write($packageName, $newPropertiesChangelog, 'since-properties');
+        $writer->write($packageName, $newPropertiesChangelog, \Magento\DeprecationTool\AppConfig::TYPE_SINCE_PROPERTIES);
     }
 }

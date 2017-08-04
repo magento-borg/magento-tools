@@ -6,6 +6,7 @@
 namespace Magento\DeprecationTool\CodeUpdater;
 
 use BetterReflection\Reflector\ClassReflector;
+use Magento\DeprecationTool\AppConfig;
 
 class DeprecatedMethods extends AbstractUpdater
 {
@@ -14,7 +15,7 @@ class DeprecatedMethods extends AbstractUpdater
      */
     protected function getLogType()
     {
-        return 'deprecated.methods';
+        return AppConfig::TYPE_DEPRECATED_METHODS;
     }
 
     /**

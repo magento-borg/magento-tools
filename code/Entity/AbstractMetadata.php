@@ -48,6 +48,48 @@ abstract class AbstractMetadata
     protected $packageVersion;
 
     /**
+     * @var bool
+     */
+    private $isPrivate = false;
+
+    /**
+     * @return bool
+     */
+    public function isPrivate()
+    {
+        return $this->isPrivate;
+    }
+
+    /**
+     * @param bool $isPrivate
+     */
+    public function setIsPrivate($isPrivate)
+    {
+        $this->isPrivate = $isPrivate;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isApi()
+    {
+        return $this->isApi;
+    }
+
+    /**
+     * @param bool $isApi
+     */
+    public function setIsApi(bool $isApi)
+    {
+        $this->isApi = $isApi;
+    }
+
+    /**
+     * @var bool
+     */
+    protected $isApi;
+
+    /**
      * @return string
      */
     public function getPackage()
@@ -189,6 +231,8 @@ abstract class AbstractMetadata
             'release' => $this->release,
             'package' => $this->package,
             'packageVersion' => $this->packageVersion,
+            'api' => $this->isApi,
+            'private' => $this->isPrivate,
         ];
     }
 }

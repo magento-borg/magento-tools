@@ -7,6 +7,7 @@ namespace Magento\DeprecationTool\CodeUpdater;
 
 use BetterReflection\Reflection\ReflectionProperty;
 use BetterReflection\Reflector\ClassReflector;
+use Magento\DeprecationTool\AppConfig;
 
 class DeprecatedProperties extends AbstractUpdater
 {
@@ -15,7 +16,7 @@ class DeprecatedProperties extends AbstractUpdater
      */
     protected function getLogType()
     {
-        return 'deprecated.properties';
+        return AppConfig::TYPE_DEPRECATED_PROPERTIES;
     }
 
     /**

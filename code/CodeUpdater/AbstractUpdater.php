@@ -8,6 +8,7 @@ namespace Magento\DeprecationTool\CodeUpdater;
 use BetterReflection\Reflection\ReflectionClass;
 use Composer\Autoload\ClassLoader;
 use Magento\DeprecationTool\AppConfig;
+use Magento\DeprecationTool\PackagesListReader;
 
 abstract class AbstractUpdater extends \Thread
 {
@@ -19,7 +20,7 @@ abstract class AbstractUpdater extends \Thread
     /**
      * @var AppConfig
      */
-    protected $config;
+    protected $appConfig;
 
     /**
      * @var string
@@ -36,14 +37,14 @@ abstract class AbstractUpdater extends \Thread
     public function __construct(ClassLoader $classLoader, AppConfig $config, $edition)
     {
         $this->classLoader = $classLoader;
-        $this->config = $config;
+        $this->appConfig = $config;
         $this->edition = $edition;
     }
 
     public final function run()
     {
-        if (!file_exists($this->config->getLogPath($this->edition))) {
-            $this->config->createFolder($this->config->getLogPath($this->edition));
+        if (!file_exists($this->appConfig->getLogPath($this->edition))) {
+            $this->appConfig->createFolder($this->appConfig->getLogPath($this->edition));
         }
 
         $this->classLoader->register();
@@ -52,7 +53,7 @@ abstract class AbstractUpdater extends \Thread
         $infoWriter = new \Zend_Log_Writer_Stream('php://output');
         $infoWriter->setFormatter(new \Zend_Log_Formatter_Simple('%timestamp% ' . $this->getLogType() . ' %priorityName%: %message%'));
 
-        $errorWriter = new \Zend_Log_Writer_Stream($this->config->getLogPath($this->edition . '/' . $this->getLogType() . '.error.log'));
+        $errorWriter = new \Zend_Log_Writer_Stream($this->appConfig->getLogPath($this->edition . '/' . $this->getLogType() . '.error.log'));
         $errorWriter->addFilter(\Zend_Log::ERR);
         $errorWriter->setFormatter(new \Zend_Log_Formatter_Simple('%timestamp% %priorityName%: %message%'));
 
@@ -69,12 +70,17 @@ abstract class AbstractUpdater extends \Thread
 
     protected function getChangeLog()
     {
-        $changelogPath = $this->config->getChangelogPath($this->edition) . '/' . $this->getLogType() .'.json';
-        if (!file_exists($changelogPath)) {
-            return [];
+        $output = [];
+        $packages = PackagesListReader::getGitPackages($this->appConfig->getGitSourceCodeLocation($this->edition, $this->appConfig->getLatestRelease($this->edition)));
+        foreach (array_keys($packages) as $packageName) {
+            $changelogPath = $this->appConfig->getChangelogPath($this->getLogType(), $packageName);
+            if (!file_exists($changelogPath)) {
+                continue;
+            }
+            $changelog = json_decode(file_get_contents($changelogPath), true);
+            $output = array_merge($output, $changelog);
         }
-        $changelog = json_decode(file_get_contents($changelogPath), true);
-        return $changelog;
+        return $output;
     }
 
     protected function saveContent(ReflectionClass $reflectionClass, $newContent)
@@ -88,9 +94,9 @@ abstract class AbstractUpdater extends \Thread
      */
     protected function getClassReflector()
     {
-        $autoloaderPath = $this->config->getSourceCodePath(
+        $autoloaderPath = $this->appConfig->getSourceCodePath(
                 $this->edition,
-                $this->config->getLatestRelease($this->edition)
+                $this->appConfig->getLatestRelease($this->edition)
             ) . '/vendor/autoload.php';
 
         $classLoader = require $autoloaderPath;

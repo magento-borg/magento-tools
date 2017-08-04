@@ -13,6 +13,14 @@ class AppConfig
     const EE_EDITION = 'ee';
     const B2B_EDITION = 'b2b';
 
+    const TYPE_DEPRECATED_CLASSES = 'deprecated-classes';
+    const TYPE_DEPRECATED_METHODS = 'deprecated-methods';
+    const TYPE_DEPRECATED_PROPERTIES = 'deprecated-properties';
+
+    const TYPE_SINCE_CLASSES = 'since-classes';
+    const TYPE_SINCE_METHODS = 'since-methods';
+    const TYPE_SINCE_PROPERTIES = 'since-properties';
+
     /**
      * @var array
      */
@@ -85,12 +93,17 @@ class AppConfig
     }
 
     /**
-     * @param $packageName
+     * @param $type
+     * @param null $packageName
      * @return string
      */
-    public function getChangelogPath($packageName)
+    public function getChangelogPath($type, $packageName = null)
     {
-        $path = BP . '/var/changelog/' . $packageName;
+        if ($packageName) {
+            $packageName = str_replace('/', '-', $packageName);
+            return BP . '/var/changelog/' . $type . '/' . $packageName . '.json';
+        }
+        $path = BP . '/var/changelog/' . $type;
         return $path;
     }
 
@@ -168,5 +181,13 @@ class AppConfig
             $path = BP . '/var/metadata/' . $package;
         }
         return $path;
+    }
+
+    /**
+     * @return int
+     */
+    public function getThreadsCount()
+    {
+        return isset($this->config['threads']) ? intval($this->config['threads']) : 10;
     }
 }

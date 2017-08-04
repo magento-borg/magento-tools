@@ -6,6 +6,7 @@
 namespace Magento\DeprecationTool\CodeUpdater;
 
 use BetterReflection\Reflector\ClassReflector;
+use Magento\DeprecationTool\AppConfig;
 
 class SinceMethods extends AbstractUpdater
 {
@@ -14,7 +15,7 @@ class SinceMethods extends AbstractUpdater
      */
     protected function getLogType()
     {
-        return 'new.methods';
+        return AppConfig::TYPE_SINCE_METHODS;
     }
 
     /**
