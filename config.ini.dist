@@ -2,13 +2,14 @@ ce_repository = "<-paste here->"
 ee_repository = "<-paste here->"
 b2b_repository = "<-paste here->"
 
+threads = "20"
+
 [editions]
 edition[] = "ce"
 edition[] = "ee"
 edition[] = "b2b"
 
 [ce_tags]
-;sort descending
 release[] = "2.1.7"
 release[] = "2.1.6"
 release[] = "2.1.5"
@@ -35,7 +36,6 @@ release[] = "2.0.1"
 release[] = "2.0.0"
 
 [ee_tags]
-;sort descending
 release[] = "2.1.7"
 release[] = "2.1.6"
 release[] = "2.1.5"
@@ -63,7 +63,6 @@ release[] = "2.0.0"
 
 [b2b_tags]
 ;there is no b2b tags yet
-;TODO: define the format for configuration of related commits from CE and EE for B2B
 
 [ce_latest]
 release = "2.2.0"
