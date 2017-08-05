@@ -90,6 +90,16 @@ class Command
         return $output;
     }
 
+    private function getCreatedSince(DataStructure $dataStructure, $path)
+    {
+        $sinceVersion = $dataStructure->getCreatedSinceInformation($path);
+        $isAPI = $dataStructure->getData($path . '/api');
+        $isPrivate = $dataStructure->getData($path . '/private');
+        //skip non-@api classes and private methods/properties
+        $sinceVersion = (!$isAPI || $isPrivate) ? '' : $sinceVersion;
+        return $sinceVersion;
+    }
+
     /**
      * @param DataStructure $dataStructure
      * @return array
@@ -98,7 +108,7 @@ class Command
     {
         $classes = [];
         foreach ($dataStructure->getData() as $className => $classData) {
-            $requiredCreatedSince = $dataStructure->getCreatedSinceInformation($className);
+            $requiredCreatedSince = $this->getCreatedSince($dataStructure, $className);
             if ($classData['since'] == $requiredCreatedSince) {
                 continue;
             }
@@ -123,7 +133,7 @@ class Command
         foreach ($dataStructure->getData() as $className => $classData) {
             $methods = $dataStructure->getData($className . '/methods') ?? [];
             foreach ($methods as $methodName => $methodData) {
-                $requiredCreatedSince = $dataStructure->getCreatedSinceInformation($className . '/methods/' . $methodName);
+                $requiredCreatedSince = $this->getCreatedSince($dataStructure, $className . '/methods/' . $methodName);
                 if ($methodData['since'] == $requiredCreatedSince) {
                     continue;
                 }
@@ -150,7 +160,7 @@ class Command
         foreach ($dataStructure->getData() as $className => $classData) {
             $properties = $dataStructure->getData($className . '/properties') ?? [];
             foreach ($properties as $name => $data) {
-                $requiredCreatedSince = $dataStructure->getCreatedSinceInformation($className . '/properties/' . $name);
+                $requiredCreatedSince = $this->getCreatedSince($dataStructure, $className . '/properties/' . $name);
                 if ($data['since'] == $requiredCreatedSince) {
                     continue;
                 }
