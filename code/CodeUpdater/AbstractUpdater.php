@@ -43,17 +43,13 @@ abstract class AbstractUpdater extends \Thread
 
     public final function run()
     {
-        if (!file_exists($this->appConfig->getLogPath($this->edition))) {
-            $this->appConfig->createFolder($this->appConfig->getLogPath($this->edition));
-        }
-
         $this->classLoader->register();
 
         $logger = new \Zend_Log();
         $infoWriter = new \Zend_Log_Writer_Stream('php://output');
         $infoWriter->setFormatter(new \Zend_Log_Formatter_Simple('%timestamp% ' . $this->getLogType() . ' %priorityName%: %message%'));
 
-        $errorWriter = new \Zend_Log_Writer_Stream($this->appConfig->getLogPath($this->edition . '/' . $this->getLogType() . '.error.log'));
+        $errorWriter = new \Zend_Log_Writer_Stream($this->appConfig->getLogPath('error.log'));
         $errorWriter->addFilter(\Zend_Log::ERR);
         $errorWriter->setFormatter(new \Zend_Log_Formatter_Simple('%timestamp% %priorityName%: %message%'));
 

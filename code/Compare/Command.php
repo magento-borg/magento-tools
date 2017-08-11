@@ -90,9 +90,20 @@ class Command
         return $output;
     }
 
-    private function getCreatedSince(DataStructure $dataStructure, $path)
+    /**
+     * @param DataStructure $dataStructure
+     * @param $path
+     * @param bool $includeBaseRelease
+     * @return string
+     */
+    private function getCreatedSince(DataStructure $dataStructure, $path, $includeBaseRelease = false)
     {
-        $sinceVersion = $dataStructure->getCreatedSinceInformation($path);
+        if ($includeBaseRelease === false) {
+            $sinceVersion = $dataStructure->getCreatedSinceInformation($path);
+        } else {
+            $sinceVersion = $dataStructure->getSinceInformation($path);
+        }
+
         $isAPI = $dataStructure->getData($path . '/api');
         $isPrivate = $dataStructure->getData($path . '/private');
         //skip non-@api classes and private methods/properties
@@ -108,7 +119,7 @@ class Command
     {
         $classes = [];
         foreach ($dataStructure->getData() as $className => $classData) {
-            $requiredCreatedSince = $this->getCreatedSince($dataStructure, $className);
+            $requiredCreatedSince = $this->getCreatedSince($dataStructure, $className, true);
             if ($classData['since'] == $requiredCreatedSince) {
                 continue;
             }

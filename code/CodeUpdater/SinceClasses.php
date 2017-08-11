@@ -96,21 +96,11 @@ class SinceClasses extends AbstractUpdater
             $after = array_slice($lines, $classStart - 1);
             $update = [
                 '/**' . PHP_EOL
-                . ' * ' . $this->getEntityType($reflectionClass) . ' \\' . $reflectionClass->getName() . PHP_EOL
-                . ' *' . PHP_EOL
                 . ' * @since ' . $expected . PHP_EOL
                 . ' */' . PHP_EOL,
             ];
             $newContent = implode('', array_merge($before, $update, $after));
         }
         $this->saveContent($reflectionClass, $newContent);
-    }
-
-    private function getEntityType(ReflectionClass $reflectionClass)
-    {
-        if ($reflectionClass->isInterface()) {
-            return 'Interface';
-        }
-        return 'Class';
     }
 }

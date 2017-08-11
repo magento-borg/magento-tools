@@ -8,7 +8,6 @@ use BetterReflection\Reflection\ReflectionClass;
 use Composer\Autoload\ClassLoader;
 use Magento\DeprecationTool\Entity\AbstractMetadata;
 use Magento\DeprecationTool\Entity\ClassMetadata;
-use Magento\DeprecationTool\Entity\ConstantMetadata;
 use Magento\DeprecationTool\Entity\MethodMetadata;
 use Magento\DeprecationTool\Entity\PropertyMetadata;
 use Nette\Reflection\AnnotationsParser;
@@ -29,7 +28,7 @@ class ClassReader
     {
         /** @var ClassLoader $classLoader */
         $classLoader = require $autoloaderPath;
-        $classLoader->register(true);
+        $classLoader->register(false);
         $classes = AnnotationsParser::parsePhp(file_get_contents($filePath));
         $reflector = new ClassReflector(new ComposerSourceLocator($classLoader));
         $output = [];

@@ -17,6 +17,8 @@ $dataStructureFactory = new \Magento\DeprecationTool\DataStructureFactory($confi
 $command = new \Magento\DeprecationTool\Compare\Command();
 $writer = new \Magento\DeprecationTool\Compare\ArtifactWriter($config);
 
+exec('rm -rf ' . BP . '/var/changelog');
+
 foreach ($config->getEditions() as $edition) {
     $dataStructures = $dataStructureFactory->create($edition);
 
