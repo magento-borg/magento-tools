@@ -144,7 +144,7 @@ class Command
         foreach ($dataStructure->getData() as $className => $classData) {
             $methods = $dataStructure->getData($className . '/methods') ?? [];
             foreach ($methods as $methodName => $methodData) {
-                $requiredCreatedSince = $this->getCreatedSince($dataStructure, $className . '/methods/' . $methodName);
+                $requiredCreatedSince = ($methodName == '__construct') ? '' : $this->getCreatedSince($dataStructure, $className . '/methods/' . $methodName);
                 if ($methodData['since'] == $requiredCreatedSince) {
                     continue;
                 }
