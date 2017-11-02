@@ -29,7 +29,7 @@ class SinceProperties extends AbstractUpdater
         $count = count($changeLog);
         foreach ($changeLog as $info) {
             $logger->info('Processing ' . $index . ' of ' . $count . '. ' . $info['class'] . "::" . $info['property'] . PHP_EOL);
-            if ($info['actualCreatedSince'] != $info['expectedCreatedSince']) {
+            if ($info['actualCreatedSince'] === "") {
                 try {
                     $this->updateClassDocBlock($reflector, $info['class'], $info['property'], $info['expectedCreatedSince'], $info['actualCreatedSince'], $logger);
                 } catch (\Exception $exception) {

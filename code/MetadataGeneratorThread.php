@@ -9,7 +9,7 @@ namespace Magento\DeprecationTool;
 
 use Composer\Autoload\ClassLoader;
 
-class MetadataGeneratorThread extends \Thread
+class MetadataGeneratorThread// extends \Thread
 {
     private $files;
     private $autoloader;
@@ -68,14 +68,14 @@ class MetadataGeneratorThread extends \Thread
 
     /**
      * @param $files
-     * @param $autoloader
+     * @param ClassLoader $classLoader
      * @param $config
      */
-    private function processFiles($files, $autoloader, $config, \Zend_Log $logger)
+    private function processFiles($files, ClassLoader $classLoader, $config, \Zend_Log $logger)
     {
         $metadata = [];
         foreach ($files as $file) {
-            foreach ($this->classReader->read($file, $autoloader, $config, $logger) as $meta) {
+            foreach ($this->classReader->read($file, $classLoader, $config, $logger) as $meta) {
                 $metadata[$meta->getName()] = $meta;
             }
         }

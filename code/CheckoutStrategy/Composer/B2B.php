@@ -11,6 +11,11 @@ use \Magento\DeprecationTool\AppConfig;
 
 class B2B implements CheckoutStrategyInterface
 {
+    const B2B_EE_MAPPING = [
+        '1.0.0' => '2.2.0',
+        '1.0.1' => '2.2.1',
+    ];
+
     /**
      * @var AppConfig
      */
@@ -33,6 +38,11 @@ class B2B implements CheckoutStrategyInterface
      */
     public function checkout($release, $commit)
     {
-        throw new \Exception('This logic is not implemented yet');
+        $path = $this->config->getSourceCodePath(AppConfig::B2B_EDITION, $release);
+        if (!file_exists($path . '/composer.json')) {
+            $this->config->createFolder($path);
+            exec('cd ' . $path . '; composer create-project magento/project-enterprise-edition=' . self::B2B_EE_MAPPING[$release] . ' --repository-url=https://repo.magento.com ./');
+            exec('cd ' . $path . '; composer require magento/extension-b2b');
+        }
     }
 }

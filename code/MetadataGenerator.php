@@ -58,6 +58,11 @@ class MetadataGenerator
             }
         }
 
+        // TODO: debug
+//        $directories = ['magento/framework' => $directories['magento/framework']];
+
+        $autoloaders = [];
+
         foreach ($directories as $packageName => $versions) {
             foreach ($versions as $version => $config) {
                 $key = $config['name'] . ' = ' . $config['version'];
@@ -68,38 +73,63 @@ class MetadataGenerator
                 }
 
                 $paths = $config['path'];
-                $autoloader = $config['autoloader'];
-                $files = $fileReader->read($paths, '*.php');
-                $jobs[$key] = new MetadataGeneratorThread($files, $autoloader, $appConfig, $config, $classReader, $loader);
-            }
-        }
-
-        $threads = $appConfig->getThreadsCount();
-        $logger->info('Running ' . $threads . ' threads');
-        for ($i = 0; $i < $threads; $i++) {
-            if (empty($jobs)) {
-                break;
-            }
-            $name = key($jobs);
-            $workers[$name] = array_shift($jobs);
-            $workers[$name]->start();
-        }
-
-        while (!empty($workers)) {
-            foreach ($workers as $index => $worker) {
-                if (!$worker->isRunning()) {
-                    unset($workers[$index]);
-                    $logger->info('Completed ' . $index. '. Jobs left: ' . count($jobs));
-
-                    if (!empty($jobs)) {
-                        $name = key($jobs);
-                        $workers[$name] = array_shift($jobs);
-                        $workers[$name]->start();
+                if (!isset($autoloaders[$config['autoloader']])) {
+                    foreach ($autoloaders as $autoloader) {
+                        $autoloader->unregister();
+                        \Closure::bind(function () {
+                            foreach (self::$paths as $key => $path) {
+                                self::$paths[$key] = [];
+                            }
+                        }, null, \Magento\Framework\Component\ComponentRegistrar::class)
+                            ->__invoke();
                     }
+                    $autoloaders[$config['autoloader']] = require_once $config['autoloader'];
+                    $autoloaders[$config['autoloader']]->unregister();
                 }
+                $autoloader = $autoloaders[$config['autoloader']];
+                $files = $fileReader->read($paths, '*.php');
+
+                // TODO: debug
+//                $index = 0;
+//                foreach ($files as $key => $file) {
+//                    if (strpos($file, 'Magento/Framework/Stdlib/DateTime.php')) {
+//                        $index = $key;
+//                        continue;
+//                    }
+//                }
+//                $files = [$files[$index]];
+
+                $jobs[$key] = new MetadataGeneratorThread($files, $autoloader, $appConfig, $config, $classReader, $loader);
+                $jobs[$key]->run();
             }
-            sleep(1);
         }
-        $logger->info('All done');
+
+//        $threads = $appConfig->getThreadsCount();
+//        $logger->info('Running ' . $threads . ' threads');
+//        for ($i = 0; $i < $threads; $i++) {
+//            if (empty($jobs)) {
+//                break;
+//            }
+//            $name = key($jobs);
+//            $workers[$name] = array_shift($jobs);
+//            $workers[$name]->start();
+//        }
+//
+//        while (!empty($workers)) {
+//            foreach ($workers as $index => $worker) {
+//                if (!$worker->isRunning()) {
+//                    unset($workers[$index]);
+//                    $logger->info('Completed ' . $index. '. Jobs left: ' . count($jobs));
+//
+//                    if (!empty($jobs)) {
+//                        $name = key($jobs);
+//                        $workers[$name] = array_shift($jobs);
+//                        $workers[$name]->start();
+//                    }
+//                }
+//            }
+//            sleep(1);
+//        }
+//        $logger->info('All done');
     }
 }

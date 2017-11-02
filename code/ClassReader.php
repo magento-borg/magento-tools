@@ -19,16 +19,13 @@ class ClassReader
 {
     /**
      * @param $filePath
-     * @param $autoloaderPath
+     * @param ClassLoader $classLoader
      * @param $package
      * @param \Zend_Log $logger
      * @return AbstractMetadata[]
      */
-    public function read($filePath, $autoloaderPath, $package, \Zend_Log $logger)
+    public function read($filePath, ClassLoader $classLoader, $package, \Zend_Log $logger)
     {
-        /** @var ClassLoader $classLoader */
-        $classLoader = require $autoloaderPath;
-        $classLoader->register(false);
         $classes = AnnotationsParser::parsePhp(file_get_contents($filePath));
         $reflector = new ClassReflector(new ComposerSourceLocator($classLoader));
         $output = [];
@@ -62,7 +59,7 @@ class ClassReader
 
             $output[] = $class;
         }
-        $classLoader->unregister();
+
         return $output;
     }
 
