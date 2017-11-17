@@ -21,6 +21,5 @@ foreach ($appConfig->getEditions() as $edition) {
 }
 
 foreach ($workers as $worker) {
-    $worker->start(); //start new thread
-    $worker->join(); //wait until thread is finished
+    $worker->run();
 }

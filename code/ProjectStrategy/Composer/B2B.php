@@ -4,16 +4,17 @@
  * See COPYING.txt for license details.
  */
 
-namespace Magento\DeprecationTool\CheckoutStrategy\Composer;
+namespace Magento\DeprecationTool\ProjectStrategy\Composer;
 
-use \Magento\DeprecationTool\CheckoutStrategyInterface;
+use \Magento\DeprecationTool\ProjectStrategyInterface;
 use \Magento\DeprecationTool\AppConfig;
 
-class B2B implements CheckoutStrategyInterface
+class B2B implements ProjectStrategyInterface
 {
     const B2B_EE_MAPPING = [
         '1.0.0' => '2.2.0',
         '1.0.1' => '2.2.1',
+        '1.0.2' => '2.2.2',
     ];
 
     /**
@@ -41,8 +42,18 @@ class B2B implements CheckoutStrategyInterface
         $path = $this->config->getSourceCodePath(AppConfig::B2B_EDITION, $release);
         if (!file_exists($path . '/composer.json')) {
             $this->config->createFolder($path);
-            exec('cd ' . $path . '; composer create-project magento/project-enterprise-edition=' . self::B2B_EE_MAPPING[$release] . ' --repository-url=https://repo.magento.com ./');
-            exec('cd ' . $path . '; composer require magento/extension-b2b');
+            exec('cd ' . $path . '; /usr/local/bin/composer create-project magento/project-enterprise-edition=' . self::B2B_EE_MAPPING[$release] . ' --repository-url=https://repo.magento.com ./');
+            exec('cd ' . $path . '; /usr/local/bin/composer require magento/extension-b2b');
         }
+    }
+
+    /**
+     * @param string $release
+     * @param string $message
+     * @return mixed
+     */
+    public function deploy($release, $message)
+    {
+        // TODO: Implement deploy() method.
     }
 }

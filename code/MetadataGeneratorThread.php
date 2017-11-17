@@ -9,7 +9,7 @@ namespace Magento\DeprecationTool;
 
 use Composer\Autoload\ClassLoader;
 
-class MetadataGeneratorThread// extends \Thread
+class MetadataGeneratorThread
 {
     private $files;
     private $autoloader;

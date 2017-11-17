@@ -88,7 +88,17 @@ class AppConfig
      */
     public function getSourceCodePath($edition, $release)
     {
-        $path = BP . '/../var/releases/' . $release . '/magento2' . $edition;
+        $path = BP . '/var/releases/' . $release . '/magento2' . $edition;
+        return $path;
+    }
+
+    /**
+     * @param $release
+     * @return string
+     */
+    public function getReleaseFolderPath($release)
+    {
+        $path = BP . '/var/releases/' . $release;
         return $path;
     }
 
@@ -101,9 +111,9 @@ class AppConfig
     {
         if ($packageName) {
             $packageName = str_replace('/', '-', $packageName);
-            return BP . '/../var/changelog/' . $type . '/' . $packageName . '.json';
+            return BP . '/var/changelog/' . $type . '/' . $packageName . '.json';
         }
-        $path = BP . '/../var/changelog/' . $type;
+        $path = BP . '/var/changelog/' . $type;
         return $path;
     }
 
@@ -113,7 +123,7 @@ class AppConfig
      */
     public function getLogPath($type)
     {
-        $path = BP . '/../var/log/' . $type;
+        $path = BP . '/var/log/' . $type;
         return $path;
     }
 
@@ -125,9 +135,9 @@ class AppConfig
     public function getGitSourceCodeLocation($edition, $release)
     {
         if ($edition == 'ce') {
-            return BP . '/../var/releases/' . $release . '/magento2' . $edition;
+            return BP . '/var/releases/' . $release . '/magento2' . $edition;
         } else {
-            return BP . '/../var/releases/' . $release . '/magento2' . $edition . '/magento2' . $edition;
+            return BP . '/var/releases/' . $release . '/magento2' . $edition . '/magento2' . $edition;
         }
 
     }
@@ -138,7 +148,7 @@ class AppConfig
      */
     public function getMasterSourceCodePath($edition)
     {
-        $path = BP . '/../var/master/magento2' . $edition;
+        $path = BP . '/var/master/magento2' . $edition;
         return $path;
     }
 
@@ -159,9 +169,9 @@ class AppConfig
     public function getArtifactPath($edition, $release, $withFileName = true)
     {
         if ($withFileName) {
-            $path = BP . '/../var/metadata/' . $release . '/magento2' . $edition . '.json';
+            $path = BP . '/var/metadata/' . $release . '/magento2' . $edition . '.json';
         } else {
-            $path = BP . '/../var/metadata/' . $release;
+            $path = BP . '/var/metadata/' . $release;
         }
         return $path;
     }
@@ -176,18 +186,34 @@ class AppConfig
     {
         $package = str_replace('/', '-', $package);
         if ($withFileName) {
-            $path = BP . '/../var/metadata/' . $package . '/' . $version . '.json';
+            $path = BP . '/var/metadata/' . $package . '/' . $version . '.json';
         } else {
-            $path = BP . '/../var/metadata/' . $package;
+            $path = BP . '/var/metadata/' . $package;
         }
         return $path;
     }
 
     /**
-     * @return int
+     * @return string
      */
-    public function getThreadsCount()
+    public function getCommitMessage()
     {
-        return isset($this->config['threads']) ? intval($this->config['threads']) : 10;
+        return str_replace('\n', PHP_EOL, $this->config['commit_message']);
+    }
+
+    /**
+     * @return string
+     */
+    public function getGitUserName()
+    {
+        return $this->config['git_user_name'];
+    }
+
+    /**
+     * @return string
+     */
+    public function getGitUserEmail()
+    {
+        return $this->config['git_user_email'];
     }
 }

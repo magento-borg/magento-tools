@@ -41,7 +41,7 @@ class ClassReader
             $isAPI = !empty($api);
 
             $methods = $this->readMethods($reflectionClass, $package, $isAPI, $logger);
-            $properties = $this->readProperties($reflectionClass, $package, $isAPI, $logger);
+            $properties = $this->readProperties($reflectionClass, $package, $isAPI, $logger, $classLoader);
 
             $class = new ClassMetadata();
             $class->setName($reflectionClass->getName());
@@ -137,7 +137,7 @@ class ClassReader
      * @param $isApi
      * @return array
      */
-    private function readProperties(ReflectionClass $reflectionClass, $package, $isApi, \Zend_Log $logger)
+    private function readProperties(ReflectionClass $reflectionClass, $package, $isApi, \Zend_Log $logger, ClassLoader $classLoader)
     {
         $properties = [];
         foreach ($reflectionClass->getProperties() as $property) {
@@ -147,7 +147,9 @@ class ClassReader
                     //take only immediate properties
                     continue;
                 }
+                $classLoader->register(true);
                 $originProperty = new \ReflectionProperty($reflectionClass->getName(), $property->getName());
+                $classLoader->unregister();
                 $docBlock = new DocBlock($originProperty->getDocComment());
                 $deprecated = $docBlock->getTagsByName('deprecated');
                 $see = $docBlock->getTagsByName('see');

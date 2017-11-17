@@ -4,12 +4,12 @@
  * See COPYING.txt for license details.
  */
 
-namespace Magento\DeprecationTool\CheckoutStrategy\Composer;
+namespace Magento\DeprecationTool\ProjectStrategy\Composer;
 
-use \Magento\DeprecationTool\CheckoutStrategyInterface;
+use \Magento\DeprecationTool\ProjectStrategyInterface;
 use \Magento\DeprecationTool\AppConfig;
 
-class Enterprise implements CheckoutStrategyInterface
+class Enterprise implements ProjectStrategyInterface
 {
     /**
      * @var AppConfig
@@ -35,7 +35,17 @@ class Enterprise implements CheckoutStrategyInterface
         $path = $this->config->getSourceCodePath(AppConfig::EE_EDITION, $release);
         if (!file_exists($path . '/composer.json')) {
             $this->config->createFolder($path);
-            exec('cd ' . $path . '; composer create-project magento/project-enterprise-edition=' . $release . ' --repository-url=https://repo.magento.com ./');
+            exec('cd ' . $path . '; /usr/local/bin/composer create-project magento/project-enterprise-edition=' . $release . ' --repository-url=https://repo.magento.com ./');
         }
+    }
+
+    /**
+     * @param string $release
+     * @param string $message
+     * @return mixed
+     */
+    public function deploy($release, $message)
+    {
+        // TODO: Implement deploy() method.
     }
 }

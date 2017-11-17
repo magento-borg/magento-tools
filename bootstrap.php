@@ -5,4 +5,6 @@
  */
 
 require_once './vendor/autoload.php';
+require_once 'functions.php';
+
 define('BP', __DIR__);
