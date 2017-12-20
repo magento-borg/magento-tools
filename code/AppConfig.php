@@ -36,6 +36,17 @@ class AppConfig
     }
 
     /**
+     * @param $edition
+     * @param array $tags
+     */
+    public function setTags($edition, array $tags)
+    {
+        foreach ($tags as $tag) {
+            $this->config[$edition . '_tags']['release'][] = $tag;
+        }
+    }
+
+    /**
      * @param string $edition
      * @return string[]
      */
@@ -57,6 +68,15 @@ class AppConfig
 
     /**
      * @param string $edition
+     * @param string $release
+     */
+    public function setLatestRelease($edition, $release)
+    {
+        $this->config[$edition . '_latest']['release'] = $release;
+    }
+
+    /**
+     * @param string $edition
      * @return string
      */
     public function getLatestRelease($edition)
@@ -66,11 +86,28 @@ class AppConfig
 
     /**
      * @param string $edition
+     * @param string $commit
+     */
+    public function setLatestCommit($edition, $commit)
+    {
+        $this->config[$edition . '_latest']['commit'] = $commit;
+    }
+
+    /**
+     * @param string $edition
      * @return string
      */
     public function getLatestCommit($edition)
     {
         return $this->config[$edition . '_latest']['commit'];
+    }
+
+    /**
+     * @param array $editions
+     */
+    public function setEditions(array $editions)
+    {
+        $this->config['editions']['edition'] = $editions;
     }
 
     /**
@@ -139,7 +176,6 @@ class AppConfig
         } else {
             return BP . '/var/releases/' . $release . '/magento2' . $edition . '/magento2' . $edition;
         }
-
     }
 
     /**

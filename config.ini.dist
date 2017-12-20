@@ -10,26 +10,3 @@ git_user_email = "%git_user_email%"
 edition[] = "ce"
 edition[] = "ee"
 edition[] = "b2b"
-
-[ce_tags]
-release[] = "%ce_previous_release%"
-
-[ee_tags]
-release[] = "%ee_previous_release%"
-
-[b2b_tags]
-release[] = "%b2b_previous_release%"
-
-[ce_latest]
-release = "%ce_release%"
-commit = "%ce_commit%-rc"
-
-[ee_latest]
-release = "%ee_release%"
-commit = "%ee_commit%-rc"
-
-[b2b_latest]
-release = "%b2b_release%"
-commit["b2b"] = "%b2b_commit%-rc"
-commit["ce"] = "%ce_commit%-rc"
-commit["ee"] = "%ee_commit%-rc"

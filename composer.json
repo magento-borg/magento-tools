@@ -1,31 +1,16 @@
 {
     "name": "magento/deprecation-tool",
     "version": "1.0.0",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/vgoncharenko/BetterReflection"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/vgoncharenko/super_closure"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/tomzx/php-parser"
-        }
-    ],
     "require": {
-        "roave/better-reflection": "dev-features/php-semver-checker",
+        "roave/better-reflection": "*",
         "nette/reflection": "*",
-        "phpdocumentor/reflection-docblock": "*",
         "magento/zendframework1": "~1.13.0",
-        "nikic/php-parser": "dev-features/php-semver-checker",
-        "jeremeamia/superclosure": "dev-features/php-semver-checker"
+        "symfony/console": "~2.0"
     },
     "autoload": {
         "psr-4": {
             "Magento\\DeprecationTool\\": "code/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }

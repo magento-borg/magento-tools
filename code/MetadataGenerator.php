@@ -25,13 +25,16 @@ class MetadataGenerator
 
         $jobs = [];
         $directories = [];
+
         foreach ($appConfig->getEditions() as $index => $edition) {
-            $path = $appConfig->getGitSourceCodeLocation($edition, $appConfig->getLatestRelease($edition));
-            foreach (PackagesListReader::getGitPackages($path) as $name => $info) {
+            $gitPath = $appConfig->getGitSourceCodeLocation($edition, $appConfig->getLatestRelease($edition));
+            $packagesGit = PackagesListReader::getGitPackages($gitPath);
+            foreach ($packagesGit as $name => $info) {
                 if (!isset($directories[$name][$info['version']])) {
                     $directories[$name][$info['version']] = [
                         'path' => $info['path'],
-                        'autoloader' => $appConfig->getSourceCodePath($edition, $appConfig->getLatestRelease($edition)) . '/vendor/autoload.php',
+                        'autoloader' => $appConfig->getSourceCodePath($edition,
+                                $appConfig->getLatestRelease($edition)) . '/vendor/autoload.php',
                         'version' => $info['version'],
                         'release' => $appConfig->getLatestRelease($edition),
                         'edition' => $edition,
@@ -40,8 +43,10 @@ class MetadataGenerator
                 }
             }
             foreach ($appConfig->getTags($edition) as $tag) {
-                $path = $appConfig->getSourceCodePath($edition, $tag);
-                foreach (PackagesListReader::getComposerPackages($path) as $name => $info) {
+                $composerPath = $appConfig->getSourceCodePath($edition, $tag);
+                $allPackagesComposer = PackagesListReader::getComposerPackages($composerPath);
+                $editionPackagesComposer = array_intersect_key($allPackagesComposer, $packagesGit);
+                foreach ($editionPackagesComposer as $name => $info) {
                     if (!isset($directories[$name][$info['version']])) {
                         $directories[$name][$info['version']] = [
                             'path' => $info['path'],
@@ -55,7 +60,6 @@ class MetadataGenerator
                 }
             }
         }
-
         $fn = \Closure::bind(function () {
             foreach (self::$paths as $key => $path) {
                 self::$paths[$key] = [];
