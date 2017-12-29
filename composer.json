@@ -2,7 +2,7 @@
     "name": "magento/deprecation-tool",
     "version": "1.0.0",
     "require": {
-        "roave/better-reflection": "*",
+        "roave/better-reflection": "~1.2.0",
         "nette/reflection": "*",
         "magento/zendframework1": "~1.13.0",
         "symfony/console": "~2.0"

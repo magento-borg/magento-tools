@@ -12,6 +12,9 @@ use Magento\DeprecationTool\AppConfig;
 
 class ChangelogGeneratorCommand extends AbstractCommand
 {
+    /**
+     * @inheritdoc
+     */
     protected function configure()
     {
         parent::configure();
@@ -19,6 +22,12 @@ class ChangelogGeneratorCommand extends AbstractCommand
             ->setDescription('Generate information about classes/methods that must be updated.');
     }
 
+    /**
+     * Run changelog generator
+     *
+     * @param InputInterface $input
+     * @param OutputInterface $output
+     */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $userInput = $this->getUserInput($input);

@@ -12,6 +12,9 @@ use Magento\DeprecationTool\AppConfig;
 
 class CommitCodeCommand extends AbstractCommand
 {
+    /**
+     * @inheritdoc
+     */
     protected function configure()
     {
         parent::configure();
@@ -19,6 +22,12 @@ class CommitCodeCommand extends AbstractCommand
             ->setDescription('Commit updated source code');
     }
 
+    /**
+     * Commit code to repository
+     *
+     * @param InputInterface $input
+     * @param OutputInterface $output
+     */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $userInput = $this->getUserInput($input);

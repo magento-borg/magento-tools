@@ -11,7 +11,7 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputInterface;
 use Magento\DeprecationTool\AppConfig;
 
-class AbstractCommand extends Command
+abstract class AbstractCommand extends Command
 {
     protected $requiredOptions = [
         'edition', 'tags', 'latest', 'branch'
@@ -23,6 +23,9 @@ class AbstractCommand extends Command
         AppConfig::B2B_EDITION
     ];
 
+    /**
+     * @inheritdoc
+     */
     protected function configure()
     {
         $this->setName('default')
@@ -53,10 +56,13 @@ class AbstractCommand extends Command
     }
 
     /**
+     * Get and validate user input from the command line
+     *
      * @param InputInterface $input
      * @return array
      */
-    protected function getUserInput(InputInterface $input){
+    protected function getUserInput(InputInterface $input)
+    {
         $editionArg = $input->getOption('edition');
         $tagsArg = $input->getOption('tags');
         $latestArg = $input->getOption('latest');

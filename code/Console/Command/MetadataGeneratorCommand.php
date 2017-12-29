@@ -12,6 +12,9 @@ use Magento\DeprecationTool\AppConfig;
 
 class MetadataGeneratorCommand extends AbstractCommand
 {
+    /**
+     * @inheritdoc
+     */
     protected function configure()
     {
         parent::configure();
@@ -19,6 +22,12 @@ class MetadataGeneratorCommand extends AbstractCommand
             ->setDescription('Generate source code metadata');
     }
 
+    /**
+     * Run metadata generator
+     *
+     * @param InputInterface $input
+     * @param OutputInterface $output
+     */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $userInput = $this->getUserInput($input);

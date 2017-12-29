@@ -33,6 +33,7 @@ class B2B implements ProjectStrategyInterface
     public function checkout($release, $commit)
     {
         $cePath = $this->config->getSourceCodePath(AppConfig::B2B_EDITION, $release);
+        $this->requireDependencies($release, $commit);
         if (!file_exists($cePath . '/composer.json')) {
             $releaseFolder = $this->config->getReleaseFolderPath($release);
             if (!file_exists($releaseFolder)) {
@@ -40,14 +41,14 @@ class B2B implements ProjectStrategyInterface
             }
             execVerbose('cp -r %s %s', $this->config->getMasterSourceCodePath(AppConfig::CE_EDITION), $cePath);
             execVerbose('ls -la %s', $cePath);
-            execVerbose('cd %s; git checkout %s', $cePath, $commit['ce']);
+            execVerbose('cd %s; git checkout %s', $cePath, $commit);
         }
 
         $eePath =  $cePath . '/magento2ee';
         if (!file_exists($eePath . '/composer.json')) {
             execVerbose('cp -r %s %s', $this->config->getMasterSourceCodePath(AppConfig::EE_EDITION), $eePath);
             execVerbose('ls -la %s', $eePath);
-            execVerbose('cd %s; git checkout %s', $eePath, $commit['ee']);
+            execVerbose('cd %s; git checkout %s', $eePath, $commit);
             $this->executeLinkCommand($eePath, $cePath, $eePath);
         }
 
@@ -55,7 +56,7 @@ class B2B implements ProjectStrategyInterface
         if (!file_exists($b2bPath)) {
             execVerbose('cp -r %s %s', $this->config->getMasterSourceCodePath(AppConfig::B2B_EDITION), $b2bPath);
             execVerbose('ls -la %s', $b2bPath);
-            execVerbose('cd %s; git checkout %s', $b2bPath, $commit['b2b']);
+            execVerbose('cd %s; git checkout %s', $b2bPath, $commit);
             $this->executeLinkCommand($b2bPath, $cePath, $eePath);
         }
 
@@ -78,6 +79,26 @@ class B2B implements ProjectStrategyInterface
             $cePath,
             $eePath
         );
+    }
+
+    /**
+     * @param string $release
+     * @param string $commit
+     */
+    private function requireDependencies($release, $commit)
+    {
+        $ceMasterPath = $this->config->getMasterSourceCodePath(AppConfig::CE_EDITION);
+        $eeMasterPath = $this->config->getMasterSourceCodePath(AppConfig::EE_EDITION);
+        if (!file_exists($ceMasterPath)) {
+            execVerbose('git clone %s %s', $this->config->getRepository(AppConfig::CE_EDITION), $ceMasterPath);
+            $ceGitStrategy = new Community($this->config);
+            $ceGitStrategy->checkout($release, $commit);
+        }
+        if (!file_exists($eeMasterPath)) {
+            execVerbose('git clone %s %s', $this->config->getRepository(AppConfig::EE_EDITION), $eeMasterPath);
+            $eeGitStrategy = new Enterprise($this->config);
+            $eeGitStrategy->checkout($release, $commit);
+        }
     }
 
     /**

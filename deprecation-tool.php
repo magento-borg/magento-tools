@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-require_once 'bootstrap.php';
+require_once __DIR__ . '/bootstrap.php';
 
 $application = new \Symfony\Component\Console\Application();
 

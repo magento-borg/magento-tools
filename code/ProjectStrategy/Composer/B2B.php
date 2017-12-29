@@ -42,7 +42,8 @@ class B2B implements ProjectStrategyInterface
         $path = $this->config->getSourceCodePath(AppConfig::B2B_EDITION, $release);
         if (!file_exists($path . '/composer.json')) {
             $this->config->createFolder($path);
-            exec('cd ' . $path . '; /usr/local/bin/composer create-project magento/project-enterprise-edition=' . self::B2B_EE_MAPPING[$release] . ' --repository-url=https://repo.magento.com ./');
+            $eeRelease = isset(self::B2B_EE_MAPPING[$release]) ? self::B2B_EE_MAPPING[$release] : $release;
+            exec('cd ' . $path . '; /usr/local/bin/composer create-project magento/project-enterprise-edition=' . $eeRelease . ' --repository-url=https://repo.magento.com ./');
             exec('cd ' . $path . '; /usr/local/bin/composer require magento/extension-b2b');
         }
     }

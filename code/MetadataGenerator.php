@@ -8,6 +8,7 @@
 namespace Magento\DeprecationTool;
 
 use Composer\Autoload\ClassLoader;
+use Magento\Framework\Component\ComponentRegistrar;
 
 class MetadataGenerator
 {
@@ -60,24 +61,25 @@ class MetadataGenerator
                 }
             }
         }
-        $fn = \Closure::bind(function () {
-            foreach (self::$paths as $key => $path) {
-                self::$paths[$key] = [];
-            }
-        }, null, \Magento\Framework\Component\ComponentRegistrar::class);
-        if (class_exists(\Magento\Framework\Component\ComponentRegistrar::class)) {
-            $fn();
-        }
 
         $autoloaders = [];
         foreach ($directories as $packageName => $versions) {
             foreach ($versions as $version => $config) {
                 $key = $config['name'] . ' = ' . $config['version'];
+                if (MetadataRegistry::hasPackageMetadata($config['edition'], $config['release'], $config['name'])) {
+                    //Don't generate metadata if it exists
+                    continue;
+                }
                 $paths = $config['path'];
                 if (!isset($autoloaders[$config['autoloader']])) {
                     foreach ($autoloaders as $autoloader) {
                         $autoloader->unregister();
-                        $fn();
+                        \Closure::bind(function () {
+                            foreach (self::$paths as $key => $path) {
+                                self::$paths[$key] = [];
+                            }
+                        }, null, \Magento\Framework\Component\ComponentRegistrar::class)
+                        ->__invoke();
                     }
                     $autoloaders[$config['autoloader']] = require_once $config['autoloader'];
                     $autoloaders[$config['autoloader']]->unregister();
@@ -85,7 +87,7 @@ class MetadataGenerator
                 $autoloader = $autoloaders[$config['autoloader']];
                 $files = $fileReader->read($paths, '*.php');
 
-                $jobs[$key] = new MetadataGeneratorThread($files, $autoloader, $appConfig, $config, $classReader, $loader);
+                $jobs[$key] = new MetadataGeneratorWorker($files, $autoloader, $appConfig, $config, $classReader, $loader);
                 $jobs[$key]->run();
             }
         }

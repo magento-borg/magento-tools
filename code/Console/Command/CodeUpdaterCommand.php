@@ -12,6 +12,9 @@ use Magento\DeprecationTool\AppConfig;
 
 class CodeUpdaterCommand extends AbstractCommand
 {
+    /**
+     * @inheritdoc
+     */
     protected function configure()
     {
         parent::configure();
@@ -19,6 +22,12 @@ class CodeUpdaterCommand extends AbstractCommand
             ->setDescription('Update source code with @since/@deprecated annotations');
     }
 
+    /**
+     * Run code updater
+     *
+     * @param InputInterface $input
+     * @param OutputInterface $output
+     */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $userInput = $this->getUserInput($input);

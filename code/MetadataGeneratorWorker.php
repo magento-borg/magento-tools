@@ -9,7 +9,7 @@ namespace Magento\DeprecationTool;
 
 use Composer\Autoload\ClassLoader;
 
-class MetadataGeneratorThread
+class MetadataGeneratorWorker
 {
     private $files;
     private $autoloader;
@@ -52,7 +52,6 @@ class MetadataGeneratorThread
         $this->data = $data;
     }
 
-
     public function run()
     {
         $logger = new \Zend_Log();
@@ -85,11 +84,21 @@ class MetadataGeneratorThread
             },
             $metadata
         );
-        $artifactDirectory = $this->appConfig->getMetadataPath($config['name'], $config['version'], false);
+        $artifactDirectory = MetadataRegistry::getPackageMetadataPath(
+            $config['edition'],
+            $config['release'],
+            $config['name']
+        );
         if (!file_exists($artifactDirectory)) {
             $this->appConfig->createFolder($artifactDirectory);
         }
-        $artifactPath = $this->appConfig->getMetadataPath($config['name'], $config['version']);
+        $artifactPath = MetadataRegistry::getPackageVersionMetadataPath(
+            $config['edition'],
+            $config['release'],
+            $config['name'],
+            $config['version']
+        );
+
         file_put_contents($artifactPath, json_encode($dataArray, JSON_PRETTY_PRINT));
         unset($metadata);
         unset($dataArray);

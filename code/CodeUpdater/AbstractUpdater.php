@@ -90,16 +90,6 @@ abstract class AbstractUpdater
      */
     protected function getClassReflector()
     {
-        $fn = \Closure::bind(function () {
-            foreach (self::$paths as $key => $path) {
-                self::$paths[$key] = [];
-            }
-        }, null, \Magento\Framework\Component\ComponentRegistrar::class);
-
-        if (class_exists(\Magento\Framework\Component\ComponentRegistrar::class)) {
-            $fn();
-        }
-
         $autoloaderPath = $this->appConfig->getSourceCodePath(
                 $this->edition,
                 $this->appConfig->getLatestRelease($this->edition)
