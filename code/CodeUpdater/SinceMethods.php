@@ -29,7 +29,7 @@ class SinceMethods extends AbstractUpdater
         $count = count($changeLog);
         foreach ($changeLog as $info) {
             $logger->info('Processing ' . $index . ' of ' . $count . '. ' . $info['class'] . "::" . $info['method'] . PHP_EOL);
-            if ($info['actualCreatedSince'] === "") {
+            if ($info['actualCreatedSince'] != $info['expectedCreatedSince']) {
                 try {
                     $this->updateClassDocBlock($reflector, $info['class'], $info['method'], $info['expectedCreatedSince'], $info['actualCreatedSince'], $logger);
                 } catch (\Exception $exception) {

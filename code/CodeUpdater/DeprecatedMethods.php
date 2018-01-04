@@ -29,7 +29,7 @@ class DeprecatedMethods extends AbstractUpdater
         $count = count($changeLog);
         foreach ($changeLog as $info) {
             $logger->info('Processing ' . $index . ' of ' . $count . '. ' . $info['class'] . "::" . $info['method'] . PHP_EOL);
-            if ($info['actualDeprecatedSince'] === "") {
+            if ($info['actualDeprecatedSince'] != $info['expectedDeprecatedSince']) {
                 try {
                     $this->updateDocBlock($reflector, $info['class'], $info['method'], $info['expectedDeprecatedSince'], $info['actualDeprecatedSince'], $logger);
                 } catch (\Exception $exception) {

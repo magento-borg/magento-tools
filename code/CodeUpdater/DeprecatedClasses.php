@@ -29,7 +29,7 @@ class DeprecatedClasses extends AbstractUpdater
         $count = count($changeLog);
         foreach ($changeLog as $classInfo) {
             $logger->info('Processing ' . $index . ' of ' . $count . '. ' . $classInfo['class'] . PHP_EOL);
-            if ($classInfo['actualDeprecatedSince'] === "") {
+            if ($classInfo['actualDeprecatedSince'] != $classInfo['expectedDeprecatedSince']) {
                 try {
                     $this->updateClassDocBlock($reflector, $classInfo['class'], $classInfo['expectedDeprecatedSince'], $classInfo['actualDeprecatedSince']);
                 } catch (\Exception $exception) {
