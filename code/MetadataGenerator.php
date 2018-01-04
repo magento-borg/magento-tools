@@ -25,19 +25,20 @@ class MetadataGenerator
         $logger->addWriter($infoWriter);
 
         $jobs = [];
-        $directories = [];
+        $packages = [];
 
-        foreach ($appConfig->getEditions() as $index => $edition) {
+        foreach ($appConfig->getEditions() as $edition) {
             $gitPath = $appConfig->getGitSourceCodeLocation($edition, $appConfig->getLatestRelease($edition));
             $packagesGit = PackagesListReader::getGitPackages($gitPath);
+            $release = $appConfig->getLatestRelease($edition);
             foreach ($packagesGit as $name => $info) {
-                if (!isset($directories[$name][$info['version']])) {
-                    $directories[$name][$info['version']] = [
+                $packageKey = $release . $edition . $name . $info['version'];
+                if (!isset($packages[$packageKey])) {
+                    $packages[$packageKey] = [
                         'path' => $info['path'],
-                        'autoloader' => $appConfig->getSourceCodePath($edition,
-                                $appConfig->getLatestRelease($edition)) . '/vendor/autoload.php',
+                        'autoloader' => $appConfig->getSourceCodePath($edition, $release) . '/vendor/autoload.php',
                         'version' => $info['version'],
-                        'release' => $appConfig->getLatestRelease($edition),
+                        'release' => $release,
                         'edition' => $edition,
                         'name' => $name
                     ];
@@ -48,8 +49,9 @@ class MetadataGenerator
                 $allPackagesComposer = PackagesListReader::getComposerPackages($composerPath);
                 $editionPackagesComposer = array_intersect_key($allPackagesComposer, $packagesGit);
                 foreach ($editionPackagesComposer as $name => $info) {
-                    if (!isset($directories[$name][$info['version']])) {
-                        $directories[$name][$info['version']] = [
+                    $packageKey = $tag . $edition . $name . $info['version'];
+                    if (!isset($packages[$packageKey])) {
+                        $packages[$packageKey] = [
                             'path' => $info['path'],
                             'autoloader' => $appConfig->getSourceCodePath($edition, $tag) . '/vendor/autoload.php',
                             'version' => $info['version'],
@@ -63,33 +65,31 @@ class MetadataGenerator
         }
 
         $autoloaders = [];
-        foreach ($directories as $packageName => $versions) {
-            foreach ($versions as $version => $config) {
-                $key = $config['name'] . ' = ' . $config['version'];
-                if (MetadataRegistry::hasPackageMetadata($config['edition'], $config['release'], $config['name'])) {
-                    //Don't generate metadata if it exists
-                    continue;
-                }
-                $paths = $config['path'];
-                if (!isset($autoloaders[$config['autoloader']])) {
-                    foreach ($autoloaders as $autoloader) {
-                        $autoloader->unregister();
-                        \Closure::bind(function () {
-                            foreach (self::$paths as $key => $path) {
-                                self::$paths[$key] = [];
-                            }
-                        }, null, \Magento\Framework\Component\ComponentRegistrar::class)
-                        ->__invoke();
-                    }
-                    $autoloaders[$config['autoloader']] = require_once $config['autoloader'];
-                    $autoloaders[$config['autoloader']]->unregister();
-                }
-                $autoloader = $autoloaders[$config['autoloader']];
-                $files = $fileReader->read($paths, '*.php');
-
-                $jobs[$key] = new MetadataGeneratorWorker($files, $autoloader, $appConfig, $config, $classReader, $loader);
-                $jobs[$key]->run();
+        foreach ($packages as $config) {
+            $key = $config['name'] . ' = ' . $config['version'];
+            if (MetadataRegistry::hasPackageMetadata($config['edition'], $config['release'], $config['name'])) {
+                //Don't generate metadata if it exists
+                continue;
             }
+            $paths = $config['path'];
+            if (!isset($autoloaders[$config['autoloader']])) {
+                foreach ($autoloaders as $autoloader) {
+                    $autoloader->unregister();
+                    \Closure::bind(function () {
+                        foreach (self::$paths as $key => $path) {
+                            self::$paths[$key] = [];
+                        }
+                    }, null, \Magento\Framework\Component\ComponentRegistrar::class)
+                    ->__invoke();
+                }
+                $autoloaders[$config['autoloader']] = require_once $config['autoloader'];
+                $autoloaders[$config['autoloader']]->unregister();
+            }
+            $autoloader = $autoloaders[$config['autoloader']];
+            $files = $fileReader->read($paths, '*.php');
+
+            $jobs[$key] = new MetadataGeneratorWorker($files, $autoloader, $appConfig, $config, $classReader, $loader);
+            $jobs[$key]->run();
         }
     }
 }
