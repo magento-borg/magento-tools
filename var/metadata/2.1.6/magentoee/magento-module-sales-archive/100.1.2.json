@@ -1,0 +1,2276 @@
+{
+    "Magento\\SalesArchive\\Cron\\ArchiveOrdersByCron": {
+        "name": "Magento\\SalesArchive\\Cron\\ArchiveOrdersByCron",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_config": {
+                "name": "_config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_archiveFactory": {
+                "name": "_archiveFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive": {
+        "name": "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_renderGrid": {
+                "name": "_renderGrid",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_export": {
+                "name": "_export",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_archiveModel": {
+                "name": "_archiveModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_fileFactory": {
+                "name": "_fileFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\Shipments": {
+        "name": "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\Shipments",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\Creditmemos": {
+        "name": "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\Creditmemos",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\Remove": {
+        "name": "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\Remove",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\Orders": {
+        "name": "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\Orders",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\Add": {
+        "name": "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\Add",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\MassAdd": {
+        "name": "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\MassAdd",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "massAction": {
+                "name": "massAction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_archiveModel": {
+                "name": "_archiveModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\MassRemove": {
+        "name": "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\MassRemove",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "massAction": {
+                "name": "massAction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_archiveModel": {
+                "name": "_archiveModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\Invoices": {
+        "name": "Magento\\SalesArchive\\Controller\\Adminhtml\\Archive\\Invoices",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\SalesArchive\\Controller\\Adminhtml\\Order\\View": {
+        "name": "Magento\\SalesArchive\\Controller\\Adminhtml\\Order\\View",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_archiveModel": {
+                "name": "_archiveModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Model\\ArchivalList": {
+        "name": "Magento\\SalesArchive\\Model\\ArchivalList",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getResource": {
+                "name": "getResource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_getClassByEntity": {
+                "name": "_getClassByEntity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getEntityByObject": {
+                "name": "getEntityByObject",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getEntityNames": {
+                "name": "getEntityNames",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_entities": {
+                "name": "_entities",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_objectManager": {
+                "name": "_objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Model\\Config": {
+        "name": "Magento\\SalesArchive\\Model\\Config",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isArchiveActive": {
+                "name": "isArchiveActive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getArchiveAge": {
+                "name": "getArchiveAge",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getArchiveOrderStatuses": {
+                "name": "getArchiveOrderStatuses",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_scopeConfig": {
+                "name": "_scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Model\\Archive": {
+        "name": "Magento\\SalesArchive\\Model\\Archive",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "updateGridRecords": {
+                "name": "updateGridRecords",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getIdsInArchive": {
+                "name": "getIdsInArchive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "archiveOrders": {
+                "name": "archiveOrders",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "archiveOrdersById": {
+                "name": "archiveOrdersById",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "removeOrdersFromArchive": {
+                "name": "removeOrdersFromArchive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "removeOrdersFromArchiveById": {
+                "name": "removeOrdersFromArchiveById",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getRelatedIds": {
+                "name": "getRelatedIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_eventManager": {
+                "name": "_eventManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_resourceArchive": {
+                "name": "_resourceArchive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Model\\ResourceModel\\Synchronizer": {
+        "name": "Magento\\SalesArchive\\Model\\ResourceModel\\Synchronizer",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "syncArchiveStructure": {
+                "name": "syncArchiveStructure",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_fastDescribe": {
+                "name": "_fastDescribe",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_syncTable": {
+                "name": "_syncTable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "changeColumnPosition": {
+                "name": "changeColumnPosition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_syncTableIndex": {
+                "name": "_syncTableIndex",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_checkColumnDifference": {
+                "name": "_checkColumnDifference",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_checkIndexDifference": {
+                "name": "_checkIndexDifference",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_checkConstraintDifference": {
+                "name": "_checkConstraintDifference",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isItemEqual": {
+                "name": "isItemEqual",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_syncTableConstraint": {
+                "name": "_syncTableConstraint",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_changeColumnPosition": {
+                "name": "_changeColumnPosition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "resource": {
+                "name": "resource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "connectionName": {
+                "name": "connectionName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "connection": {
+                "name": "connection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_tablesMap": {
+                "name": "_tablesMap",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_tableContraintMap": {
+                "name": "_tableContraintMap",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Model\\ResourceModel\\Archive": {
+        "name": "Magento\\SalesArchive\\Model\\ResourceModel\\Archive",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isArchiveEntityExists": {
+                "name": "isArchiveEntityExists",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getArchiveEntityTable": {
+                "name": "getArchiveEntityTable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getArchiveEntitySourceTable": {
+                "name": "getArchiveEntitySourceTable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isOrderInArchive": {
+                "name": "isOrderInArchive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getIdsInArchive": {
+                "name": "getIdsInArchive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getOrderIdsForArchive": {
+                "name": "getOrderIdsForArchive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_getOrderIdsForArchiveSelect": {
+                "name": "_getOrderIdsForArchiveSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getOrderIdsForArchiveExpression": {
+                "name": "getOrderIdsForArchiveExpression",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "moveToArchive": {
+                "name": "moveToArchive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "removeFromGrid": {
+                "name": "removeFromGrid",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "removeFromArchive": {
+                "name": "removeFromArchive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "removeOrdersFromArchiveById": {
+                "name": "removeOrdersFromArchiveById",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "updateGridRecords": {
+                "name": "updateGridRecords",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getRelatedIds": {
+                "name": "getRelatedIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_tables": {
+                "name": "_tables",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_salesArchiveConfig": {
+                "name": "_salesArchiveConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_archivalList": {
+                "name": "_archivalList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "dateTime": {
+                "name": "dateTime",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Model\\ResourceModel\\Archive\\Factory": {
+        "name": "Magento\\SalesArchive\\Model\\ResourceModel\\Archive\\Factory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "get": {
+                "name": "get",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_objectManager": {
+                "name": "_objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Model\\ResourceModel\\Plugin\\Grid": {
+        "name": "Magento\\SalesArchive\\Model\\ResourceModel\\Plugin\\Grid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "aroundRefresh": {
+                "name": "aroundRefresh",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "gridPool": {
+                "name": "gridPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "archive": {
+                "name": "archive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "resource": {
+                "name": "resource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Model\\ResourceModel\\Order\\Collection": {
+        "name": "Magento\\SalesArchive\\Model\\ResourceModel\\Order\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getOrderGridArchiveSelect": {
+                "name": "getOrderGridArchiveSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\SalesArchive\\Model\\Order\\Archive\\Grid\\Massaction\\ItemsUpdater": {
+        "name": "Magento\\SalesArchive\\Model\\Order\\Archive\\Grid\\Massaction\\ItemsUpdater",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "update": {
+                "name": "update",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\SalesArchive\\Model\\Order\\Archive\\Grid\\Row\\UrlGenerator": {
+        "name": "Magento\\SalesArchive\\Model\\Order\\Archive\\Grid\\Row\\UrlGenerator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getUrl": {
+                "name": "getUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_authorizationModel": {
+                "name": "_authorizationModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Model\\Order\\Grid\\Massaction\\ItemsUpdater": {
+        "name": "Magento\\SalesArchive\\Model\\Order\\Grid\\Massaction\\ItemsUpdater",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "update": {
+                "name": "update",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_salesArchiveConfig": {
+                "name": "_salesArchiveConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_authorizationModel": {
+                "name": "_authorizationModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Model\\Order\\Status\\Source": {
+        "name": "Magento\\SalesArchive\\Model\\Order\\Status\\Source",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": true,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\SalesArchive\\Model\\Order\\Invoice\\CollectionUpdater": {
+        "name": "Magento\\SalesArchive\\Model\\Order\\Invoice\\CollectionUpdater",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "update": {
+                "name": "update",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "orderItem": {
+                "name": "orderItem",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Model\\Order\\Shipment\\CollectionUpdater": {
+        "name": "Magento\\SalesArchive\\Model\\Order\\Shipment\\CollectionUpdater",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "update": {
+                "name": "update",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "orderItem": {
+                "name": "orderItem",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Model\\Order\\Creditmemo\\CollectionUpdater": {
+        "name": "Magento\\SalesArchive\\Model\\Order\\Creditmemo\\CollectionUpdater",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "update": {
+                "name": "update",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "orderItem": {
+                "name": "orderItem",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Model\\System\\Config\\Backend\\Active": {
+        "name": "Magento\\SalesArchive\\Model\\System\\Config\\Backend\\Active",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "afterSave": {
+                "name": "afterSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getCommentText": {
+                "name": "getCommentText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getIdentities": {
+                "name": "getIdentities",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_archive": {
+                "name": "_archive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_orderCollection": {
+                "name": "_orderCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_cacheTags": {
+                "name": "_cacheTags",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Setup\\Recurring": {
+        "name": "Magento\\SalesArchive\\Setup\\Recurring",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "synchronizer": {
+                "name": "synchronizer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Ui\\Component\\Listing": {
+        "name": "Magento\\SalesArchive\\Ui\\Component\\Listing",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "prepare": {
+                "name": "prepare",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "salesArchiveConfig": {
+                "name": "salesArchiveConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "authorizationModel": {
+                "name": "authorizationModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Ui\\Component\\MassAction": {
+        "name": "Magento\\SalesArchive\\Ui\\Component\\MassAction",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "prepare": {
+                "name": "prepare",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "salesArchiveConfig": {
+                "name": "salesArchiveConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "authorizationModel": {
+                "name": "authorizationModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Observer\\SalesUpdateGridRecordsObserver": {
+        "name": "Magento\\SalesArchive\\Observer\\SalesUpdateGridRecordsObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_archiveFactory": {
+                "name": "_archiveFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_archivalList": {
+                "name": "_archivalList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_config": {
+                "name": "_config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Observer\\ReplaceSalesOrderRedirectObserver": {
+        "name": "Magento\\SalesArchive\\Observer\\ReplaceSalesOrderRedirectObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\SalesArchive\\Observer\\SalesObjectAfterLoadObserver": {
+        "name": "Magento\\SalesArchive\\Observer\\SalesObjectAfterLoadObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_archivalList": {
+                "name": "_archivalList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_config": {
+                "name": "_config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_backendData": {
+                "name": "_backendData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_archiveFactory": {
+                "name": "_archiveFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\SalesArchive\\Block\\Adminhtml\\Sales\\Order\\View\\Buttons": {
+        "name": "Magento\\SalesArchive\\Block\\Adminhtml\\Sales\\Order\\View\\Buttons",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-sales-archive",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "addMoveToArchiveButton": {
+                "name": "addMoveToArchiveButton",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "addRestoreFromArchiveButton": {
+                "name": "addRestoreFromArchiveButton",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "addButtons": {
+                "name": "addButtons",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-sales-archive",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

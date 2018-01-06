@@ -1,0 +1,1181 @@
+{
+    "Magento\\Authorization\\Model\\Role": {
+        "name": "Magento\\Authorization\\Model\\Role",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "__sleep": {
+                "name": "__sleep",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "__wakeup": {
+                "name": "__wakeup",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "update": {
+                "name": "update",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getRoleUsers": {
+                "name": "getRoleUsers",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_eventPrefix": {
+                "name": "_eventPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Authorization\\Model\\CompositeUserContext": {
+        "name": "Magento\\Authorization\\Model\\CompositeUserContext",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "add": {
+                "name": "add",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getUserId": {
+                "name": "getUserId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getUserType": {
+                "name": "getUserType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getUserContext": {
+                "name": "getUserContext",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "userContexts": {
+                "name": "userContexts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "chosenUserContext": {
+                "name": "chosenUserContext",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Authorization\\Model\\Rules": {
+        "name": "Magento\\Authorization\\Model\\Rules",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "update": {
+                "name": "update",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "saveRel": {
+                "name": "saveRel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Authorization\\Model\\UserContextInterface": {
+        "name": "Magento\\Authorization\\Model\\UserContextInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getUserId": {
+                "name": "getUserId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getUserType": {
+                "name": "getUserType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Authorization\\Model\\ResourceModel\\Role": {
+        "name": "Magento\\Authorization\\Model\\ResourceModel\\Role",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_beforeSave": {
+                "name": "_beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_afterSave": {
+                "name": "_afterSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_afterDelete": {
+                "name": "_afterDelete",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getRoleUsers": {
+                "name": "getRoleUsers",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_ruleTable": {
+                "name": "_ruleTable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_cache": {
+                "name": "_cache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Authorization\\Model\\ResourceModel\\Rules": {
+        "name": "Magento\\Authorization\\Model\\ResourceModel\\Rules",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "saveRel": {
+                "name": "saveRel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_rootResource": {
+                "name": "_rootResource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_aclCache": {
+                "name": "_aclCache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_aclBuilder": {
+                "name": "_aclBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_logger": {
+                "name": "_logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Authorization\\Model\\ResourceModel\\Role\\Collection": {
+        "name": "Magento\\Authorization\\Model\\ResourceModel\\Role\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "setUserFilter": {
+                "name": "setUserFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "setRolesFilter": {
+                "name": "setRolesFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Authorization\\Model\\ResourceModel\\Role\\Grid\\Collection": {
+        "name": "Magento\\Authorization\\Model\\ResourceModel\\Role\\Grid\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_initSelect": {
+                "name": "_initSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Authorization\\Model\\ResourceModel\\Rules\\Collection": {
+        "name": "Magento\\Authorization\\Model\\ResourceModel\\Rules\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getByRoles": {
+                "name": "getByRoles",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "addSortByLength": {
+                "name": "addSortByLength",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Authorization\\Model\\ResourceModel\\Permissions\\Collection": {
+        "name": "Magento\\Authorization\\Model\\ResourceModel\\Permissions\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Authorization\\Model\\Acl\\AclRetriever": {
+        "name": "Magento\\Authorization\\Model\\Acl\\AclRetriever",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getAllowedResourcesByUser": {
+                "name": "getAllowedResourcesByUser",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getAllowedResourcesByRole": {
+                "name": "getAllowedResourcesByRole",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_getUserRole": {
+                "name": "_getUserRole",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_canRoleBeCreatedForUserType": {
+                "name": "_canRoleBeCreatedForUserType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "rulesCollectionFactory": {
+                "name": "rulesCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "aclBuilder": {
+                "name": "aclBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "roleCollectionFactory": {
+                "name": "roleCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Authorization\\Model\\Acl\\Role\\Group": {
+        "name": "Magento\\Authorization\\Model\\Acl\\Role\\Group",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\Authorization\\Model\\Acl\\Role\\Generic": {
+        "name": "Magento\\Authorization\\Model\\Acl\\Role\\Generic",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\Authorization\\Model\\Acl\\Role\\User": {
+        "name": "Magento\\Authorization\\Model\\Acl\\Role\\User",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\Authorization\\Model\\Acl\\Loader\\Role": {
+        "name": "Magento\\Authorization\\Model\\Acl\\Loader\\Role",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "populateAcl": {
+                "name": "populateAcl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_resource": {
+                "name": "_resource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_groupFactory": {
+                "name": "_groupFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_roleFactory": {
+                "name": "_roleFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Authorization\\Model\\Acl\\Loader\\Rule": {
+        "name": "Magento\\Authorization\\Model\\Acl\\Loader\\Rule",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "populateAcl": {
+                "name": "populateAcl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_resource": {
+                "name": "_resource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Authorization\\Setup\\AuthorizationFactory": {
+        "name": "Magento\\Authorization\\Setup\\AuthorizationFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "createRoleCollection": {
+                "name": "createRoleCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "createRulesCollection": {
+                "name": "createRulesCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "createRole": {
+                "name": "createRole",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "createRules": {
+                "name": "createRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_roleCollectionFactory": {
+                "name": "_roleCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_rulesCollectionFactory": {
+                "name": "_rulesCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_roleFactory": {
+                "name": "_roleFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_rulesFactory": {
+                "name": "_rulesFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Authorization\\Setup\\InstallData": {
+        "name": "Magento\\Authorization\\Setup\\InstallData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "authFactory": {
+                "name": "authFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Authorization\\Setup\\InstallSchema": {
+        "name": "Magento\\Authorization\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-authorization",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-authorization",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

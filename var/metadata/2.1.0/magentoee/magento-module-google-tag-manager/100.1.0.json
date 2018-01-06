@@ -1,0 +1,2000 @@
+{
+    "Magento\\GoogleTagManager\\Helper\\Data": {
+        "name": "Magento\\GoogleTagManager\\Helper\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "isGoogleAnalyticsAvailable": {
+                "name": "isGoogleAnalyticsAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "isTagManagerAvailable": {
+                "name": "isTagManagerAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GoogleTagManager\\Model\\Banner\\Collector": {
+        "name": "Magento\\GoogleTagManager\\Model\\Banner\\Collector",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "addBannerBlock": {
+                "name": "addBannerBlock",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getBannerIds": {
+                "name": "getBannerIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "bannerIds": {
+                "name": "bannerIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Model\\Config\\Source\\AccountType": {
+        "name": "Magento\\GoogleTagManager\\Model\\Config\\Source\\AccountType",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GoogleTagManager\\Model\\Plugin\\Layout": {
+        "name": "Magento\\GoogleTagManager\\Model\\Plugin\\Layout",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "afterCreateBlock": {
+                "name": "afterCreateBlock",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Model\\Plugin\\Quote": {
+        "name": "Magento\\GoogleTagManager\\Model\\Plugin\\Quote",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "afterLoad": {
+                "name": "afterLoad",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "checkoutSession": {
+                "name": "checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "registry": {
+                "name": "registry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Model\\Plugin\\Config": {
+        "name": "Magento\\GoogleTagManager\\Model\\Plugin\\Config",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "afterSave": {
+                "name": "afterSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "typeList": {
+                "name": "typeList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Model\\Plugin\\Creditmemo": {
+        "name": "Magento\\GoogleTagManager\\Model\\Plugin\\Creditmemo",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "afterSave": {
+                "name": "afterSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "backendSession": {
+                "name": "backendSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Setup\\InstallSchema": {
+        "name": "Magento\\GoogleTagManager\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "moduleManager": {
+                "name": "moduleManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Observer\\SetGoogleAnalyticsOnOrderSuccessPageViewObserver": {
+        "name": "Magento\\GoogleTagManager\\Observer\\SetGoogleAnalyticsOnOrderSuccessPageViewObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "view": {
+                "name": "view",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Observer\\SetGoogleAnalyticsOnCartRemoveObserver": {
+        "name": "Magento\\GoogleTagManager\\Observer\\SetGoogleAnalyticsOnCartRemoveObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "registry": {
+                "name": "registry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Observer\\ClearSessionCartQuantityObserver": {
+        "name": "Magento\\GoogleTagManager\\Observer\\ClearSessionCartQuantityObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "checkoutSession": {
+                "name": "checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Observer\\UpdatePlaceholderInfoObserver": {
+        "name": "Magento\\GoogleTagManager\\Observer\\UpdatePlaceholderInfoObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "blockPromotions": {
+                "name": "blockPromotions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Observer\\UpdateLinkedProductPlaceholderInfoObserver": {
+        "name": "Magento\\GoogleTagManager\\Observer\\UpdateLinkedProductPlaceholderInfoObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_getFpcBlockPositions": {
+                "name": "_getFpcBlockPositions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "fpcBlockPositions": {
+                "name": "fpcBlockPositions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "blockPromotions": {
+                "name": "blockPromotions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Observer\\SendCookieOnCartActionCompleteObserver": {
+        "name": "Magento\\GoogleTagManager\\Observer\\SendCookieOnCartActionCompleteObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "registry": {
+                "name": "registry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "cookieManager": {
+                "name": "cookieManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "jsonHelper": {
+                "name": "jsonHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "cookieMetadataFactory": {
+                "name": "cookieMetadataFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Observer\\UpdateBannerPlaceholderInfoObserver": {
+        "name": "Magento\\GoogleTagManager\\Observer\\UpdateBannerPlaceholderInfoObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "blockPromotions": {
+                "name": "blockPromotions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Observer\\SetGoogleAnalyticsOnCheckoutObserver": {
+        "name": "Magento\\GoogleTagManager\\Observer\\SetGoogleAnalyticsOnCheckoutObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "checkoutSession": {
+                "name": "checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "jsonHelper": {
+                "name": "jsonHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "view": {
+                "name": "view",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Observer\\SetGoogleAnalyticsOnCartAddObserver": {
+        "name": "Magento\\GoogleTagManager\\Observer\\SetGoogleAnalyticsOnCartAddObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "checkoutSession": {
+                "name": "checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "registry": {
+                "name": "registry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Block\\ListJson": {
+        "name": "Magento\\GoogleTagManager\\Block\\ListJson",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getListBlock": {
+                "name": "getListBlock",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "checkCartItems": {
+                "name": "checkCartItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_getProducts": {
+                "name": "_getProducts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_getProductCollection": {
+                "name": "_getProductCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getLoadedProductCollection": {
+                "name": "getLoadedProductCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getCurrentCategory": {
+                "name": "getCurrentCategory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getCurrentProduct": {
+                "name": "getCurrentProduct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getCurrentCategoryName": {
+                "name": "getCurrentCategoryName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getCurrentListName": {
+                "name": "getCurrentListName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "appendBannerBlock": {
+                "name": "appendBannerBlock",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getBannerCollection": {
+                "name": "getBannerCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getBannerPosition": {
+                "name": "getBannerPosition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getStepNumber": {
+                "name": "getStepNumber",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "detectStepName": {
+                "name": "detectStepName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "isCustomerLoggedIn": {
+                "name": "isCustomerLoggedIn",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getCartContent": {
+                "name": "getCartContent",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getCartContentForUpdate": {
+                "name": "getCartContentForUpdate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_formatProduct": {
+                "name": "_formatProduct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getCheckoutSession": {
+                "name": "getCheckoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "_productCollection": {
+                "name": "_productCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_showCrossSells": {
+                "name": "_showCrossSells",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "jsonHelper": {
+                "name": "jsonHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "registry": {
+                "name": "registry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "checkoutSession": {
+                "name": "checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "customerSession": {
+                "name": "customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "checkoutCart": {
+                "name": "checkoutCart",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "catalogLayer": {
+                "name": "catalogLayer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_bannerCollection": {
+                "name": "_bannerCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "moduleManager": {
+                "name": "moduleManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "bannerColFactory": {
+                "name": "bannerColFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "bannerCollector": {
+                "name": "bannerCollector",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Block\\Ga": {
+        "name": "Magento\\GoogleTagManager\\Block\\Ga",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_isAvailable": {
+                "name": "_isAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getStoreCurrencyCode": {
+                "name": "getStoreCurrencyCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getOrdersData": {
+                "name": "getOrdersData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "isUserNotAllowSaveCookie": {
+                "name": "isUserNotAllowSaveCookie",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "cookieHelper": {
+                "name": "cookieHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "jsonHelper": {
+                "name": "jsonHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Block\\Adminhtml\\Ga": {
+        "name": "Magento\\GoogleTagManager\\Block\\Adminhtml\\Ga",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getOrderId": {
+                "name": "getOrderId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getStoreCurrencyCode": {
+                "name": "getStoreCurrencyCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "backendSession": {
+                "name": "backendSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Block\\Adminhtml\\Banner\\Edit\\Tab\\Ga": {
+        "name": "Magento\\GoogleTagManager\\Block\\Adminhtml\\Banner\\Edit\\Tab\\Ga",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_prepareForm": {
+                "name": "_prepareForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getTabLabel": {
+                "name": "getTabLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getTabTitle": {
+                "name": "getTabTitle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "canShowTab": {
+                "name": "canShowTab",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "isHidden": {
+                "name": "isHidden",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Block\\Adminhtml\\Creditmemo\\Ga": {
+        "name": "Magento\\GoogleTagManager\\Block\\Adminhtml\\Creditmemo\\Ga",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getOrderId": {
+                "name": "getOrderId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getRevenue": {
+                "name": "getRevenue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getProducts": {
+                "name": "getProducts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getRefundJson": {
+                "name": "getRefundJson",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "backendSession": {
+                "name": "backendSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleTagManager\\Block\\Plugin\\Banner\\Widget\\Banner": {
+        "name": "Magento\\GoogleTagManager\\Block\\Plugin\\Banner\\Widget\\Banner",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-google-tag-manager",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "beforeToHtml": {
+                "name": "beforeToHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "bannerCollector": {
+                "name": "bannerCollector",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-google-tag-manager",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

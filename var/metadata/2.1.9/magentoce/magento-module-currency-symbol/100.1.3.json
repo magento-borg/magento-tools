@@ -1,0 +1,923 @@
+{
+    "Magento\\CurrencySymbol\\Controller\\Adminhtml\\System\\Currency": {
+        "name": "Magento\\CurrencySymbol\\Controller\\Adminhtml\\System\\Currency",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.9",
+        "package": "magento\/module-currency-symbol",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CurrencySymbol\\Controller\\Adminhtml\\System\\Currencysymbol": {
+        "name": "Magento\\CurrencySymbol\\Controller\\Adminhtml\\System\\Currencysymbol",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.9",
+        "package": "magento\/module-currency-symbol",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\CurrencySymbol\\Controller\\Adminhtml\\System\\Currency\\Index": {
+        "name": "Magento\\CurrencySymbol\\Controller\\Adminhtml\\System\\Currency\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.9",
+        "package": "magento\/module-currency-symbol",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CurrencySymbol\\Controller\\Adminhtml\\System\\Currency\\SaveRates": {
+        "name": "Magento\\CurrencySymbol\\Controller\\Adminhtml\\System\\Currency\\SaveRates",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.9",
+        "package": "magento\/module-currency-symbol",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CurrencySymbol\\Controller\\Adminhtml\\System\\Currency\\FetchRates": {
+        "name": "Magento\\CurrencySymbol\\Controller\\Adminhtml\\System\\Currency\\FetchRates",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.9",
+        "package": "magento\/module-currency-symbol",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CurrencySymbol\\Controller\\Adminhtml\\System\\Currencysymbol\\Index": {
+        "name": "Magento\\CurrencySymbol\\Controller\\Adminhtml\\System\\Currencysymbol\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.9",
+        "package": "magento\/module-currency-symbol",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CurrencySymbol\\Controller\\Adminhtml\\System\\Currencysymbol\\Save": {
+        "name": "Magento\\CurrencySymbol\\Controller\\Adminhtml\\System\\Currencysymbol\\Save",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.9",
+        "package": "magento\/module-currency-symbol",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CurrencySymbol\\Model\\System\\Currencysymbol": {
+        "name": "Magento\\CurrencySymbol\\Model\\System\\Currencysymbol",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.9",
+        "package": "magento\/module-currency-symbol",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getCurrencySymbolsData": {
+                "name": "getCurrencySymbolsData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "setCurrencySymbolsData": {
+                "name": "setCurrencySymbolsData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getCurrencySymbol": {
+                "name": "getCurrencySymbol",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "clearCache": {
+                "name": "clearCache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_unserializeStoreConfig": {
+                "name": "_unserializeStoreConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getAllowedCurrencies": {
+                "name": "getAllowedCurrencies",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_symbolsData": {
+                "name": "_symbolsData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_storeId": {
+                "name": "_storeId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_websiteId": {
+                "name": "_websiteId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_cacheTypes": {
+                "name": "_cacheTypes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_eventManager": {
+                "name": "_eventManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_cacheTypeList": {
+                "name": "_cacheTypeList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_configFactory": {
+                "name": "_configFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_systemStore": {
+                "name": "_systemStore",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "localeResolver": {
+                "name": "localeResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_coreConfig": {
+                "name": "_coreConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_scopeConfig": {
+                "name": "_scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CurrencySymbol\\Observer\\CurrencyDisplayOptions": {
+        "name": "Magento\\CurrencySymbol\\Observer\\CurrencyDisplayOptions",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.9",
+        "package": "magento\/module-currency-symbol",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getCurrencyOptions": {
+                "name": "getCurrencyOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "symbolFactory": {
+                "name": "symbolFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CurrencySymbol\\Block\\Adminhtml\\System\\Currency": {
+        "name": "Magento\\CurrencySymbol\\Block\\Adminhtml\\System\\Currency",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.9",
+        "package": "magento\/module-currency-symbol",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_prepareLayout": {
+                "name": "_prepareLayout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getHeader": {
+                "name": "getHeader",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getSaveButtonHtml": {
+                "name": "getSaveButtonHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getResetButtonHtml": {
+                "name": "getResetButtonHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getImportButtonHtml": {
+                "name": "getImportButtonHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getServicesHtml": {
+                "name": "getServicesHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getRatesMatrixHtml": {
+                "name": "getRatesMatrixHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getImportFormAction": {
+                "name": "getImportFormAction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_template": {
+                "name": "_template",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CurrencySymbol\\Block\\Adminhtml\\System\\Currencysymbol": {
+        "name": "Magento\\CurrencySymbol\\Block\\Adminhtml\\System\\Currencysymbol",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.9",
+        "package": "magento\/module-currency-symbol",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareLayout": {
+                "name": "_prepareLayout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getHeader": {
+                "name": "getHeader",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getFormActionUrl": {
+                "name": "getFormActionUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getWebsiteId": {
+                "name": "getWebsiteId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getStoreId": {
+                "name": "getStoreId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getCurrencySymbolsData": {
+                "name": "getCurrencySymbolsData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getInheritText": {
+                "name": "getInheritText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_symbolSystemFactory": {
+                "name": "_symbolSystemFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_symbolsData": {
+                "name": "_symbolsData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CurrencySymbol\\Block\\Adminhtml\\System\\Currency\\Rate\\Matrix": {
+        "name": "Magento\\CurrencySymbol\\Block\\Adminhtml\\System\\Currency\\Rate\\Matrix",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.9",
+        "package": "magento\/module-currency-symbol",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareLayout": {
+                "name": "_prepareLayout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getRatesFormAction": {
+                "name": "getRatesFormAction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareRates": {
+                "name": "_prepareRates",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_template": {
+                "name": "_template",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_dirCurrencyFactory": {
+                "name": "_dirCurrencyFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CurrencySymbol\\Block\\Adminhtml\\System\\Currency\\Rate\\Services": {
+        "name": "Magento\\CurrencySymbol\\Block\\Adminhtml\\System\\Currency\\Rate\\Services",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.9",
+        "package": "magento\/module-currency-symbol",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareLayout": {
+                "name": "_prepareLayout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_template": {
+                "name": "_template",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_srcCurrencyFactory": {
+                "name": "_srcCurrencyFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.9",
+                "package": "magento\/module-currency-symbol",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

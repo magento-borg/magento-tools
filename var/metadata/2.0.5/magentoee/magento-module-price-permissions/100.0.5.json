@@ -1,0 +1,1371 @@
+{
+    "Magento\\PricePermissions\\Helper\\Data": {
+        "name": "Magento\\PricePermissions\\Helper\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getCanAdminReadProductPrice": {
+                "name": "getCanAdminReadProductPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getCanAdminEditProductPrice": {
+                "name": "getCanAdminEditProductPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getCanAdminEditProductStatus": {
+                "name": "getCanAdminEditProductStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getDefaultProductPriceString": {
+                "name": "getDefaultProductPriceString",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_authorization": {
+                "name": "_authorization",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PricePermissions\\Controller\\Adminhtml\\Product\\Initialization\\Helper\\Plugin\\PricePermissions": {
+        "name": "Magento\\PricePermissions\\Controller\\Adminhtml\\Product\\Initialization\\Helper\\Plugin\\PricePermissions",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "afterInitialize": {
+                "name": "afterInitialize",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "authSession": {
+                "name": "authSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "pricePermData": {
+                "name": "pricePermData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "productHandler": {
+                "name": "productHandler",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PricePermissions\\Controller\\Adminhtml\\Product\\Initialization\\Helper\\Plugin\\Handler\\NewObject": {
+        "name": "Magento\\PricePermissions\\Controller\\Adminhtml\\Product\\Initialization\\Helper\\Plugin\\Handler\\NewObject",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "handle": {
+                "name": "handle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "defaultProductPriceString": {
+                "name": "defaultProductPriceString",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PricePermissions\\Controller\\Adminhtml\\Product\\Initialization\\Helper\\Plugin\\Handler\\CustomOptions": {
+        "name": "Magento\\PricePermissions\\Controller\\Adminhtml\\Product\\Initialization\\Helper\\Plugin\\Handler\\CustomOptions",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "handle": {
+                "name": "handle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\PricePermissions\\Controller\\Adminhtml\\Product\\Initialization\\Helper\\Plugin\\Handler\\ProductType\\Bundle": {
+        "name": "Magento\\PricePermissions\\Controller\\Adminhtml\\Product\\Initialization\\Helper\\Plugin\\Handler\\ProductType\\Bundle",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "handle": {
+                "name": "handle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\PricePermissions\\Controller\\Adminhtml\\Product\\Initialization\\Helper\\Plugin\\Handler\\ProductType\\Downloadable": {
+        "name": "Magento\\PricePermissions\\Controller\\Adminhtml\\Product\\Initialization\\Helper\\Plugin\\Handler\\ProductType\\Downloadable",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "handle": {
+                "name": "handle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\PricePermissions\\Model\\System\\Config\\Backend\\Catalog\\Product\\Price\\DefaultPrice": {
+        "name": "Magento\\PricePermissions\\Model\\System\\Config\\Backend\\Catalog\\Product\\Price\\DefaultPrice",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_afterLoad": {
+                "name": "_afterLoad",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_pricePermData": {
+                "name": "_pricePermData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PricePermissions\\Ui\\Component\\Listing\\Columns\\Price\\Plugin": {
+        "name": "Magento\\PricePermissions\\Ui\\Component\\Listing\\Columns\\Price\\Plugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "aroundPrepare": {
+                "name": "aroundPrepare",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "observerData": {
+                "name": "observerData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PricePermissions\\Observer\\ObserverData": {
+        "name": "Magento\\PricePermissions\\Observer\\ObserverData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "isCanEditProductPrice": {
+                "name": "isCanEditProductPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setCanEditProductPrice": {
+                "name": "setCanEditProductPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isCanReadProductPrice": {
+                "name": "isCanReadProductPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setCanReadProductPrice": {
+                "name": "setCanReadProductPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isCanEditProductStatus": {
+                "name": "isCanEditProductStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setCanEditProductStatus": {
+                "name": "setCanEditProductStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getDefaultProductPriceString": {
+                "name": "getDefaultProductPriceString",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setDefaultProductPriceString": {
+                "name": "setDefaultProductPriceString",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "canEditProductPrice": {
+                "name": "canEditProductPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "canReadProductPrice": {
+                "name": "canReadProductPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "canEditProductStatus": {
+                "name": "canEditProductStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "defaultProductPriceString": {
+                "name": "defaultProductPriceString",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PricePermissions\\Observer\\CatalogProductSaveBeforeObserver": {
+        "name": "Magento\\PricePermissions\\Observer\\CatalogProductSaveBeforeObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_pricePermData": {
+                "name": "_pricePermData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "observerData": {
+                "name": "observerData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PricePermissions\\Observer\\AdminhtmlBlockHtmlBeforeObserver": {
+        "name": "Magento\\PricePermissions\\Observer\\AdminhtmlBlockHtmlBeforeObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_filterByBlockName": {
+                "name": "_filterByBlockName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_removeStatusMassaction": {
+                "name": "_removeStatusMassaction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_removeColumnPrice": {
+                "name": "_removeColumnPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_removeColumnsPriceTotal": {
+                "name": "_removeColumnsPriceTotal",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_setCanReadPriceFalse": {
+                "name": "_setCanReadPriceFalse",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_setCanEditReadPriceFalse": {
+                "name": "_setCanEditReadPriceFalse",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_setOptionsEditReadFalse": {
+                "name": "_setOptionsEditReadFalse",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_setCanEditReadDefaultPrice": {
+                "name": "_setCanEditReadDefaultPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_setCanEditReadChildBlock": {
+                "name": "_setCanEditReadChildBlock",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_hidePriceElements": {
+                "name": "_hidePriceElements",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_removeColumnsFromGrid": {
+                "name": "_removeColumnsFromGrid",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_removeColumnFromGrid": {
+                "name": "_removeColumnFromGrid",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_request": {
+                "name": "_request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_filterRules": {
+                "name": "_filterRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "observerData": {
+                "name": "observerData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PricePermissions\\Observer\\CatalogProductAttributeUpdateBeforeObserver": {
+        "name": "Magento\\PricePermissions\\Observer\\CatalogProductAttributeUpdateBeforeObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "observerData": {
+                "name": "observerData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PricePermissions\\Observer\\AdminhtmlCatalogProductEditPrepareFormObserver": {
+        "name": "Magento\\PricePermissions\\Observer\\AdminhtmlCatalogProductEditPrepareFormObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "observerData": {
+                "name": "observerData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PricePermissions\\Observer\\ViewBlockAbstractToHtmlBeforeObserver": {
+        "name": "Magento\\PricePermissions\\Observer\\ViewBlockAbstractToHtmlBeforeObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "observerData": {
+                "name": "observerData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PricePermissions\\Observer\\AdminhtmlCatalogProductFormPrepareExcludedFieldListObserver": {
+        "name": "Magento\\PricePermissions\\Observer\\AdminhtmlCatalogProductFormPrepareExcludedFieldListObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "observerData": {
+                "name": "observerData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PricePermissions\\Observer\\CatalogProductLoadAfterObserver": {
+        "name": "Magento\\PricePermissions\\Observer\\CatalogProductLoadAfterObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "observerData": {
+                "name": "observerData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PricePermissions\\Observer\\AdminControllerPredispatchObserver": {
+        "name": "Magento\\PricePermissions\\Observer\\AdminControllerPredispatchObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_pricePermData": {
+                "name": "_pricePermData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_authSession": {
+                "name": "_authSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "observerData": {
+                "name": "observerData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PricePermissions\\Block\\Adminhtml\\Catalog\\Product\\Price\\DefaultPrice": {
+        "name": "Magento\\PricePermissions\\Block\\Adminhtml\\Catalog\\Product\\Price\\DefaultPrice",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_getElementHtml": {
+                "name": "_getElementHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_pricePermissionsData": {
+                "name": "_pricePermissionsData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PricePermissions\\Block\\Adminhtml\\ConfigurableProduct\\Product\\Edit\\Tab\\Variations\\Plugin\\Config": {
+        "name": "Magento\\PricePermissions\\Block\\Adminhtml\\ConfigurableProduct\\Product\\Edit\\Tab\\Variations\\Plugin\\Config",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.5",
+        "package": "magento\/module-price-permissions",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "beforeToHtml": {
+                "name": "beforeToHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "authSession": {
+                "name": "authSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "pricePermData": {
+                "name": "pricePermData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.5",
+                "package": "magento\/module-price-permissions",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

@@ -1,0 +1,544 @@
+{
+    "Magento\\CheckoutStaging\\Model\\PreviewQuotaManager": {
+        "name": "Magento\\CheckoutStaging\\Model\\PreviewQuotaManager",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-checkout-staging",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "flushOutdated": {
+                "name": "flushOutdated",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "storesConfig": {
+                "name": "storesConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            },
+            "cartRepository": {
+                "name": "cartRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            },
+            "previewQuotasCollFactory": {
+                "name": "previewQuotasCollFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            },
+            "searchCriteriaBuilder": {
+                "name": "searchCriteriaBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            },
+            "dateTimeFactory": {
+                "name": "dateTimeFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CheckoutStaging\\Model\\PreviewQuota": {
+        "name": "Magento\\CheckoutStaging\\Model\\PreviewQuota",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-checkout-staging",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_eventPrefix": {
+                "name": "_eventPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CheckoutStaging\\Model\\PreviewQuotaRepository": {
+        "name": "Magento\\CheckoutStaging\\Model\\PreviewQuotaRepository",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-checkout-staging",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "save": {
+                "name": "save",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "previewQuotaResource": {
+                "name": "previewQuotaResource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CheckoutStaging\\Model\\ResourceModel\\PreviewQuota": {
+        "name": "Magento\\CheckoutStaging\\Model\\ResourceModel\\PreviewQuota",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-checkout-staging",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "insert": {
+                "name": "insert",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CheckoutStaging\\Model\\ResourceModel\\PreviewQuota\\Collection": {
+        "name": "Magento\\CheckoutStaging\\Model\\ResourceModel\\PreviewQuota\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-checkout-staging",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CheckoutStaging\\Setup\\InstallSchema": {
+        "name": "Magento\\CheckoutStaging\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-checkout-staging",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "connectionName": {
+                "name": "connectionName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CheckoutStaging\\Plugin\\GuestPaymentInformationManagementPlugin": {
+        "name": "Magento\\CheckoutStaging\\Plugin\\GuestPaymentInformationManagementPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-checkout-staging",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "beforeSavePaymentInformationAndPlaceOrder": {
+                "name": "beforeSavePaymentInformationAndPlaceOrder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "versionManager": {
+                "name": "versionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CheckoutStaging\\Plugin\\SavePreviewQuotaPlugin": {
+        "name": "Magento\\CheckoutStaging\\Plugin\\SavePreviewQuotaPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-checkout-staging",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "aroundSave": {
+                "name": "aroundSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "previewQuotaFactory": {
+                "name": "previewQuotaFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            },
+            "versionManager": {
+                "name": "versionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            },
+            "previewQuotaRepository": {
+                "name": "previewQuotaRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CheckoutStaging\\Plugin\\PaymentInformationManagementPlugin": {
+        "name": "Magento\\CheckoutStaging\\Plugin\\PaymentInformationManagementPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-checkout-staging",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "beforeSavePaymentInformationAndPlaceOrder": {
+                "name": "beforeSavePaymentInformationAndPlaceOrder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "versionManager": {
+                "name": "versionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CheckoutStaging\\Plugin\\SaveFakeQuotaPlugin": {
+        "name": "Magento\\CheckoutStaging\\Plugin\\SaveFakeQuotaPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-checkout-staging",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "afterSave": {
+                "name": "afterSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "previewQuotaFactory": {
+                "name": "previewQuotaFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            },
+            "versionManager": {
+                "name": "versionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-checkout-staging",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            }
+        }
+    }
+}

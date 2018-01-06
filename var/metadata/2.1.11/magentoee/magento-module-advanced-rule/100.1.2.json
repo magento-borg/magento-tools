@@ -1,0 +1,668 @@
+{
+    "Magento\\AdvancedRule\\Helper\\Filter": {
+        "name": "Magento\\AdvancedRule\\Helper\\Filter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-advanced-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "logicalAndFilterGroupArray": {
+                "name": "logicalAndFilterGroupArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "logicalAndFilterGroup": {
+                "name": "logicalAndFilterGroup",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterGroupFalse": {
+                "name": "getFilterGroupFalse",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "negateFilter": {
+                "name": "negateFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTrue": {
+                "name": "getFilterTrue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterFalse": {
+                "name": "getFilterFalse",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "copyFilter": {
+                "name": "copyFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "createFilter": {
+                "name": "createFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "filterInterfaceFactory": {
+                "name": "filterInterfaceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "filterGroupInterfaceFactory": {
+                "name": "filterGroupInterfaceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedRule\\Helper\\CombineCondition": {
+        "name": "Magento\\AdvancedRule\\Helper\\CombineCondition",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-advanced-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "hasFilterableCondition": {
+                "name": "hasFilterableCondition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "hasNonFilterableCondition": {
+                "name": "hasNonFilterableCondition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterableConditions": {
+                "name": "getFilterableConditions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "logicalAndConditions": {
+                "name": "logicalAndConditions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "logicalOrConditions": {
+                "name": "logicalOrConditions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "filterHelper": {
+                "name": "filterHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedRule\\Model\\Condition\\Filter": {
+        "name": "Magento\\AdvancedRule\\Model\\Condition\\Filter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-advanced-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilterText": {
+                "name": "getFilterText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "setFilterText": {
+                "name": "setFilterText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getWeight": {
+                "name": "getWeight",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "setWeight": {
+                "name": "setWeight",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextGeneratorClass": {
+                "name": "getFilterTextGeneratorClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "setFilterTextGeneratorClass": {
+                "name": "setFilterTextGeneratorClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextGeneratorArguments": {
+                "name": "getFilterTextGeneratorArguments",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "setFilterTextGeneratorArguments": {
+                "name": "setFilterTextGeneratorArguments",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedRule\\Model\\Condition\\FilterTextGeneratorFactory": {
+        "name": "Magento\\AdvancedRule\\Model\\Condition\\FilterTextGeneratorFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-advanced-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_objectManager": {
+                "name": "_objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedRule\\Model\\Condition\\FilterableConditionInterface": {
+        "name": "Magento\\AdvancedRule\\Model\\Condition\\FilterableConditionInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-advanced-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "isFilterable": {
+                "name": "isFilterable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterGroups": {
+                "name": "getFilterGroups",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedRule\\Model\\Condition\\FilterInterface": {
+        "name": "Magento\\AdvancedRule\\Model\\Condition\\FilterInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-advanced-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilterText": {
+                "name": "getFilterText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "setFilterText": {
+                "name": "setFilterText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getWeight": {
+                "name": "getWeight",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "setWeight": {
+                "name": "setWeight",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextGeneratorClass": {
+                "name": "getFilterTextGeneratorClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "setFilterTextGeneratorClass": {
+                "name": "setFilterTextGeneratorClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextGeneratorArguments": {
+                "name": "getFilterTextGeneratorArguments",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "setFilterTextGeneratorArguments": {
+                "name": "setFilterTextGeneratorArguments",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedRule\\Model\\Condition\\FilterGroupInterface": {
+        "name": "Magento\\AdvancedRule\\Model\\Condition\\FilterGroupInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-advanced-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilters": {
+                "name": "getFilters",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "setFilters": {
+                "name": "setFilters",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedRule\\Model\\Condition\\FilterTextGeneratorInterface": {
+        "name": "Magento\\AdvancedRule\\Model\\Condition\\FilterTextGeneratorInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-advanced-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "generateFilterText": {
+                "name": "generateFilterText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedRule\\Model\\Condition\\FilterGroup": {
+        "name": "Magento\\AdvancedRule\\Model\\Condition\\FilterGroup",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-advanced-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilters": {
+                "name": "getFilters",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "setFilters": {
+                "name": "setFilters",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-advanced-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

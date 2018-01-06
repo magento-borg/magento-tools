@@ -1,0 +1,286 @@
+{
+    "Magento\\RequireJs\\Model\\FileManager": {
+        "name": "Magento\\RequireJs\\Model\\FileManager",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.0",
+        "package": "magento\/module-require-js",
+        "packageVersion": "100.0.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": false
+            },
+            "createRequireJsConfigAsset": {
+                "name": "createRequireJsConfigAsset",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": false
+            },
+            "createMinResolverAsset": {
+                "name": "createMinResolverAsset",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": false
+            },
+            "createRequireJsMixinsAsset": {
+                "name": "createRequireJsMixinsAsset",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": false
+            },
+            "createRequireJsAsset": {
+                "name": "createRequireJsAsset",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": false
+            },
+            "ensureSourceFile": {
+                "name": "ensureSourceFile",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": true
+            },
+            "ensureMinResolverFile": {
+                "name": "ensureMinResolverFile",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": true
+            },
+            "createStaticJsAsset": {
+                "name": "createStaticJsAsset",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": false
+            },
+            "createBundleJsPool": {
+                "name": "createBundleJsPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": false
+            },
+            "clearBundleJsPool": {
+                "name": "clearBundleJsPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": true
+            },
+            "filesystem": {
+                "name": "filesystem",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": true
+            },
+            "appState": {
+                "name": "appState",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": true
+            },
+            "assetRepo": {
+                "name": "assetRepo",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\RequireJs\\Block\\Html\\Head\\Config": {
+        "name": "Magento\\RequireJs\\Block\\Html\\Head\\Config",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.0",
+        "package": "magento\/module-require-js",
+        "packageVersion": "100.0.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": false
+            },
+            "_prepareLayout": {
+                "name": "_prepareLayout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": true
+            },
+            "fileManager": {
+                "name": "fileManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": true
+            },
+            "pageConfig": {
+                "name": "pageConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": false
+            },
+            "minification": {
+                "name": "minification",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.0",
+                "package": "magento\/module-require-js",
+                "packageVersion": "100.0.2",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

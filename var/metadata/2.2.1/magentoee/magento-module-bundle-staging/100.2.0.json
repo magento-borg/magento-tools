@@ -1,0 +1,725 @@
+{
+    "Magento\\BundleStaging\\Model\\EntityManager\\Operation\\Update": {
+        "name": "Magento\\BundleStaging\\Model\\EntityManager\\Operation\\Update",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.1",
+        "package": "magento\/module-bundle-staging",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "isExists": {
+                "name": "isExists",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "typeResolver": {
+                "name": "typeResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "operationPool": {
+                "name": "operationPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\BundleStaging\\Model\\EntityManager\\Operation\\Update\\CheckIfExists": {
+        "name": "Magento\\BundleStaging\\Model\\EntityManager\\Operation\\Update\\CheckIfExists",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.1",
+        "package": "magento\/module-bundle-staging",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "resourceConnection": {
+                "name": "resourceConnection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "hydratorPool": {
+                "name": "hydratorPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "typeResolver": {
+                "name": "typeResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\BundleStaging\\Model\\EntityManager\\Operation\\Update\\Create": {
+        "name": "Magento\\BundleStaging\\Model\\EntityManager\\Operation\\Update\\Create",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.1",
+        "package": "magento\/module-bundle-staging",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "typeResolver": {
+                "name": "typeResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "resourceConnection": {
+                "name": "resourceConnection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "eventManager": {
+                "name": "eventManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "createMain": {
+                "name": "createMain",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "createAttributes": {
+                "name": "createAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "createExtensions": {
+                "name": "createExtensions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\BundleStaging\\Pricing\\Adjustment\\StandardSelectionPriceListProvider": {
+        "name": "Magento\\BundleStaging\\Pricing\\Adjustment\\StandardSelectionPriceListProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.1",
+        "package": "magento\/module-bundle-staging",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getPriceList": {
+                "name": "getPriceList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "isShouldFindMinOption": {
+                "name": "isShouldFindMinOption",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "canSkipOption": {
+                "name": "canSkipOption",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "hasRequiredOption": {
+                "name": "hasRequiredOption",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "getBundleOptions": {
+                "name": "getBundleOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "calculator": {
+                "name": "calculator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\BundleStaging\\Pricing\\Adjustment\\SelectionPriceListProvider": {
+        "name": "Magento\\BundleStaging\\Pricing\\Adjustment\\SelectionPriceListProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.1",
+        "package": "magento\/module-bundle-staging",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getPriceList": {
+                "name": "getPriceList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "versionManager": {
+                "name": "versionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "defaultSelectionPriceListProvider": {
+                "name": "defaultSelectionPriceListProvider",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "standardSelectionPriceListProvider": {
+                "name": "standardSelectionPriceListProvider",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\BundleStaging\\Setup\\UpgradeData": {
+        "name": "Magento\\BundleStaging\\Setup\\UpgradeData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.1",
+        "package": "magento\/module-bundle-staging",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "upgrade": {
+                "name": "upgrade",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\BundleStaging\\Setup\\UpgradeSchema": {
+        "name": "Magento\\BundleStaging\\Setup\\UpgradeSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.1",
+        "package": "magento\/module-bundle-staging",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "upgrade": {
+                "name": "upgrade",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "sequence": {
+                "name": "sequence",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\BundleStaging\\Setup\\InstallSchema": {
+        "name": "Magento\\BundleStaging\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.1",
+        "package": "magento\/module-bundle-staging",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\BundleStaging\\Ui\\DataProvider\\Product\\BundleDataProvider": {
+        "name": "Magento\\BundleStaging\\Ui\\DataProvider\\Product\\BundleDataProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.1",
+        "package": "magento\/module-bundle-staging",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getData": {
+                "name": "getData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "dataHelper": {
+                "name": "dataHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\BundleStaging\\Ui\\DataProvider\\Product\\Form\\Modifier\\Composite": {
+        "name": "Magento\\BundleStaging\\Ui\\DataProvider\\Product\\Form\\Modifier\\Composite",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.1",
+        "package": "magento\/module-bundle-staging",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\BundleStaging\\Ui\\DataProvider\\Product\\Form\\Modifier\\BundlePanel": {
+        "name": "Magento\\BundleStaging\\Ui\\DataProvider\\Product\\Form\\Modifier\\BundlePanel",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.1",
+        "package": "magento\/module-bundle-staging",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getBundleHeader": {
+                "name": "getBundleHeader",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "modifyMeta": {
+                "name": "modifyMeta",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getBundleOptions": {
+                "name": "getBundleOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getModalSet": {
+                "name": "getModalSet",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-bundle-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

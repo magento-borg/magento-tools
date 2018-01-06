@@ -1,0 +1,759 @@
+{
+    "Magento\\ScalableInventory\\Api\\Counter\\ItemInterface": {
+        "name": "Magento\\ScalableInventory\\Api\\Counter\\ItemInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-scalable-inventory",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "setProductId": {
+                "name": "setProductId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getProductId": {
+                "name": "getProductId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setQty": {
+                "name": "setQty",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getQty": {
+                "name": "getQty",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScalableInventory\\Api\\Counter\\ItemsInterface": {
+        "name": "Magento\\ScalableInventory\\Api\\Counter\\ItemsInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-scalable-inventory",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "setItems": {
+                "name": "setItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getItems": {
+                "name": "getItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setWebsiteId": {
+                "name": "setWebsiteId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getWebsiteId": {
+                "name": "getWebsiteId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setOperator": {
+                "name": "setOperator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getOperator": {
+                "name": "getOperator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScalableInventory\\Model\\Merger": {
+        "name": "Magento\\ScalableInventory\\Model\\Merger",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-scalable-inventory",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "merge": {
+                "name": "merge",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "itemsBuilder": {
+                "name": "itemsBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\ScalableInventory\\Model\\ResourceModel\\QtyCounterConsumer": {
+        "name": "Magento\\ScalableInventory\\Model\\ResourceModel\\QtyCounterConsumer",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-scalable-inventory",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "processMessage": {
+                "name": "processMessage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "stockResource": {
+                "name": "stockResource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "numberAttempts": {
+                "name": "numberAttempts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\ScalableInventory\\Model\\ResourceModel\\QtyCounterProxy": {
+        "name": "Magento\\ScalableInventory\\Model\\ResourceModel\\QtyCounterProxy",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-scalable-inventory",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "correctItemsQty": {
+                "name": "correctItemsQty",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isDeferredStockUpdate": {
+                "name": "isDeferredStockUpdate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "getSeparatedItems": {
+                "name": "getSeparatedItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "qtyCounter": {
+                "name": "qtyCounter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "stockResource": {
+                "name": "stockResource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "stockRegistry": {
+                "name": "stockRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\ScalableInventory\\Model\\ResourceModel\\QtyCounter": {
+        "name": "Magento\\ScalableInventory\\Model\\ResourceModel\\QtyCounter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-scalable-inventory",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "correctItemsQty": {
+                "name": "correctItemsQty",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "itemsBuilder": {
+                "name": "itemsBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "publisher": {
+                "name": "publisher",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\ScalableInventory\\Model\\Counter\\Item": {
+        "name": "Magento\\ScalableInventory\\Model\\Counter\\Item",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-scalable-inventory",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "setProductId": {
+                "name": "setProductId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getProductId": {
+                "name": "getProductId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setQty": {
+                "name": "setQty",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getQty": {
+                "name": "getQty",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "productId": {
+                "name": "productId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "qty": {
+                "name": "qty",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\ScalableInventory\\Model\\Counter\\Items": {
+        "name": "Magento\\ScalableInventory\\Model\\Counter\\Items",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-scalable-inventory",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "setItems": {
+                "name": "setItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getItems": {
+                "name": "getItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setWebsiteId": {
+                "name": "setWebsiteId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getWebsiteId": {
+                "name": "getWebsiteId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setOperator": {
+                "name": "setOperator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getOperator": {
+                "name": "getOperator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "items": {
+                "name": "items",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "websiteId": {
+                "name": "websiteId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "operator": {
+                "name": "operator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\ScalableInventory\\Model\\Counter\\ItemsBuilder": {
+        "name": "Magento\\ScalableInventory\\Model\\Counter\\ItemsBuilder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-scalable-inventory",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "itemsFactory": {
+                "name": "itemsFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "itemFactory": {
+                "name": "itemFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\ScalableInventory\\Setup\\InstallSchema": {
+        "name": "Magento\\ScalableInventory\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-scalable-inventory",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-scalable-inventory",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

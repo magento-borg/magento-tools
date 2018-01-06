@@ -1,0 +1,943 @@
+{
+    "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable": {
+        "name": "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "createPage": {
+                "name": "createPage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_initVariable": {
+                "name": "_initVariable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "resultForwardFactory": {
+                "name": "resultForwardFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "resultPageFactory": {
+                "name": "resultPageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "resultJsonFactory": {
+                "name": "resultJsonFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "layoutFactory": {
+                "name": "layoutFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable\\NewAction": {
+        "name": "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable\\NewAction",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable\\Index": {
+        "name": "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable\\Edit": {
+        "name": "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable\\Edit",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable\\WysiwygPlugin": {
+        "name": "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable\\WysiwygPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable\\Delete": {
+        "name": "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable\\Delete",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable\\Save": {
+        "name": "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable\\Save",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable\\Validate": {
+        "name": "Magento\\Variable\\Controller\\Adminhtml\\System\\Variable\\Validate",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Variable\\Model\\Variable": {
+        "name": "Magento\\Variable\\Model\\Variable",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setStoreId": {
+                "name": "setStoreId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getStoreId": {
+                "name": "getStoreId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "loadByCode": {
+                "name": "loadByCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getValue": {
+                "name": "getValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "validate": {
+                "name": "validate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getVariablesOptionArray": {
+                "name": "getVariablesOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_storeId": {
+                "name": "_storeId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_escaper": {
+                "name": "_escaper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Variable\\Model\\Variable\\Config": {
+        "name": "Magento\\Variable\\Model\\Variable\\Config",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getWysiwygPluginSettings": {
+                "name": "getWysiwygPluginSettings",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getWysiwygJsPluginSrc": {
+                "name": "getWysiwygJsPluginSrc",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getVariablesWysiwygActionUrl": {
+                "name": "getVariablesWysiwygActionUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_assetRepo": {
+                "name": "_assetRepo",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_url": {
+                "name": "_url",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Variable\\Model\\ResourceModel\\Variable": {
+        "name": "Magento\\Variable\\Model\\ResourceModel\\Variable",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "loadByCode": {
+                "name": "loadByCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getVariableByCode": {
+                "name": "getVariableByCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_afterSave": {
+                "name": "_afterSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_getLoadSelect": {
+                "name": "_getLoadSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_addValueToSelect": {
+                "name": "_addValueToSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Variable\\Model\\ResourceModel\\Variable\\Collection": {
+        "name": "Magento\\Variable\\Model\\ResourceModel\\Variable\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setStoreId": {
+                "name": "setStoreId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getStoreId": {
+                "name": "getStoreId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "addValuesToResult": {
+                "name": "addValuesToResult",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_storeId": {
+                "name": "_storeId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Variable\\Setup\\InstallSchema": {
+        "name": "Magento\\Variable\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Variable\\Block\\System\\Variable": {
+        "name": "Magento\\Variable\\Block\\System\\Variable",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Variable\\Block\\System\\Variable\\Edit": {
+        "name": "Magento\\Variable\\Block\\System\\Variable\\Edit",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getVariable": {
+                "name": "getVariable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_preparelayout": {
+                "name": "_preparelayout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getFormHtml": {
+                "name": "getFormHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getHeaderText": {
+                "name": "getHeaderText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getValidationUrl": {
+                "name": "getValidationUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSaveUrl": {
+                "name": "getSaveUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSaveAndContinueUrl": {
+                "name": "getSaveAndContinueUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Variable\\Block\\System\\Variable\\Edit\\Form": {
+        "name": "Magento\\Variable\\Block\\System\\Variable\\Edit\\Form",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-variable",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getVariable": {
+                "name": "getVariable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_prepareForm": {
+                "name": "_prepareForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-variable",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

@@ -1,0 +1,4855 @@
+{
+    "Magento\\CustomerCustomAttributes\\Helper\\Address": {
+        "name": "Magento\\CustomerCustomAttributes\\Helper\\Address",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_getEntityTypeCode": {
+                "name": "_getEntityTypeCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getAttributeFormOptions": {
+                "name": "getAttributeFormOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Helper\\Customer": {
+        "name": "Magento\\CustomerCustomAttributes\\Helper\\Customer",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_getEntityTypeCode": {
+                "name": "_getEntityTypeCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getAttributeFormOptions": {
+                "name": "getAttributeFormOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "filterPostData": {
+                "name": "filterPostData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_dataHelper": {
+                "name": "_dataHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_inputValidator": {
+                "name": "_inputValidator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Helper\\Data": {
+        "name": "Magento\\CustomerCustomAttributes\\Helper\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getAttributeFormOptions": {
+                "name": "getAttributeFormOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_getEntityTypeCode": {
+                "name": "_getEntityTypeCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getCustomerAttributeFormOptions": {
+                "name": "getCustomerAttributeFormOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getCustomerAddressAttributeFormOptions": {
+                "name": "getCustomerAddressAttributeFormOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getCustomerUserDefinedAttributeCodes": {
+                "name": "getCustomerUserDefinedAttributeCodes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getCustomerAddressUserDefinedAttributeCodes": {
+                "name": "getCustomerAddressUserDefinedAttributeCodes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerCustomer": {
+                "name": "_customerCustomer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_customerAddress": {
+                "name": "_customerAddress",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Formtype": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Formtype",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_initAction": {
+                "name": "_initAction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_initFormType": {
+                "name": "_initFormType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_formTypeFactory": {
+                "name": "_formTypeFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_fieldsetFactory": {
+                "name": "_fieldsetFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_fieldsetsFactory": {
+                "name": "_fieldsetsFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_elementsFactory": {
+                "name": "_elementsFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Attribute": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Attribute",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_getEntityType": {
+                "name": "_getEntityType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_initAction": {
+                "name": "_initAction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_initAttribute": {
+                "name": "_initAttribute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_entityType": {
+                "name": "_entityType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_eavConfig": {
+                "name": "_eavConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_attrFactory": {
+                "name": "_attrFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_attrSetFactory": {
+                "name": "_attrSetFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "websiteFactory": {
+                "name": "websiteFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Address\\Attribute": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Address\\Attribute",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_getEntityType": {
+                "name": "_getEntityType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_initAction": {
+                "name": "_initAction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_initAttribute": {
+                "name": "_initAttribute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_entityType": {
+                "name": "_entityType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_eavConfig": {
+                "name": "_eavConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_attrFactory": {
+                "name": "_attrFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_attrSetFactory": {
+                "name": "_attrSetFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "websiteFactory": {
+                "name": "websiteFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Address\\Attribute\\NewAction": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Address\\Attribute\\NewAction",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Address\\Attribute\\Index": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Address\\Attribute\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Address\\Attribute\\Edit": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Address\\Attribute\\Edit",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Address\\Attribute\\Delete": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Address\\Attribute\\Delete",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Address\\Attribute\\Save": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Address\\Attribute\\Save",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helperData": {
+                "name": "helperData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "helperAddress": {
+                "name": "helperAddress",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "filterManager": {
+                "name": "filterManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Address\\Attribute\\Validate": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Address\\Attribute\\Validate",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Attribute\\NewAction": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Attribute\\NewAction",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Attribute\\Index": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Attribute\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Attribute\\Edit": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Attribute\\Edit",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Attribute\\Delete": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Attribute\\Delete",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Attribute\\Save": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Attribute\\Save",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helperData": {
+                "name": "helperData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "helperCustomer": {
+                "name": "helperCustomer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "filterManager": {
+                "name": "filterManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Attribute\\Validate": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Attribute\\Validate",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Formtype\\NewAction": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Formtype\\NewAction",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Formtype\\Index": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Formtype\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Formtype\\Edit": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Formtype\\Edit",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Formtype\\Create": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Formtype\\Create",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Formtype\\Delete": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Formtype\\Delete",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Formtype\\Save": {
+        "name": "Magento\\CustomerCustomAttributes\\Controller\\Adminhtml\\Customer\\Formtype\\Save",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_saveTreeData": {
+                "name": "_saveTreeData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Model\\ResourceModel\\Sales\\AbstractSales": {
+        "name": "Magento\\CustomerCustomAttributes\\Model\\ResourceModel\\Sales\\AbstractSales",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_getColumnName": {
+                "name": "_getColumnName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "saveNewAttribute": {
+                "name": "saveNewAttribute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "deleteAttribute": {
+                "name": "deleteAttribute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_getParentResourceModel": {
+                "name": "_getParentResourceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "isEntityExists": {
+                "name": "isEntityExists",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_columnPrefix": {
+                "name": "_columnPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_isPkAutoIncrement": {
+                "name": "_isPkAutoIncrement",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Model\\ResourceModel\\Sales\\Order": {
+        "name": "Magento\\CustomerCustomAttributes\\Model\\ResourceModel\\Sales\\Order",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_getParentResourceModel": {
+                "name": "_getParentResourceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_parentResourceModel": {
+                "name": "_parentResourceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Model\\ResourceModel\\Sales\\Quote": {
+        "name": "Magento\\CustomerCustomAttributes\\Model\\ResourceModel\\Sales\\Quote",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_getParentResourceModel": {
+                "name": "_getParentResourceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_parentResourceModel": {
+                "name": "_parentResourceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Model\\ResourceModel\\Sales\\Address\\AbstractAddress": {
+        "name": "Magento\\CustomerCustomAttributes\\Model\\ResourceModel\\Sales\\Address\\AbstractAddress",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "attachDataToEntities": {
+                "name": "attachDataToEntities",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_columnPrefix": {
+                "name": "_columnPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Model\\ResourceModel\\Sales\\Quote\\Address": {
+        "name": "Magento\\CustomerCustomAttributes\\Model\\ResourceModel\\Sales\\Quote\\Address",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_getParentResourceModel": {
+                "name": "_getParentResourceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_parentResourceModel": {
+                "name": "_parentResourceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Model\\ResourceModel\\Sales\\Order\\Address": {
+        "name": "Magento\\CustomerCustomAttributes\\Model\\ResourceModel\\Sales\\Order\\Address",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_getParentResourceModel": {
+                "name": "_getParentResourceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_parentResourceModel": {
+                "name": "_parentResourceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Model\\Quote\\Address\\CustomAttributeList": {
+        "name": "Magento\\CustomerCustomAttributes\\Model\\Quote\\Address\\CustomAttributeList",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getAttributes": {
+                "name": "getAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "addressMetadata": {
+                "name": "addressMetadata",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "attributes": {
+                "name": "attributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Model\\Sales\\AbstractSales": {
+        "name": "Magento\\CustomerCustomAttributes\\Model\\Sales\\AbstractSales",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "saveNewAttribute": {
+                "name": "saveNewAttribute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "deleteAttribute": {
+                "name": "deleteAttribute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "attachAttributeData": {
+                "name": "attachAttributeData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "saveAttributeData": {
+                "name": "saveAttributeData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Model\\Sales\\Order": {
+        "name": "Magento\\CustomerCustomAttributes\\Model\\Sales\\Order",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Model\\Sales\\Quote": {
+        "name": "Magento\\CustomerCustomAttributes\\Model\\Sales\\Quote",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Model\\Sales\\Address\\AbstractAddress": {
+        "name": "Magento\\CustomerCustomAttributes\\Model\\Sales\\Address\\AbstractAddress",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "attachDataToEntities": {
+                "name": "attachDataToEntities",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Model\\Sales\\Quote\\Address": {
+        "name": "Magento\\CustomerCustomAttributes\\Model\\Sales\\Quote\\Address",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Model\\Sales\\Order\\Address": {
+        "name": "Magento\\CustomerCustomAttributes\\Model\\Sales\\Order\\Address",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Setup\\InstallSchema": {
+        "name": "Magento\\CustomerCustomAttributes\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetSalesConvertQuoteAddressToOrderAddress": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetSalesConvertQuoteAddressToOrderAddress",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\EnterpriseCustomerAddressAttributeDelete": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\EnterpriseCustomerAddressAttributeDelete",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "orderAddressFactory": {
+                "name": "orderAddressFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "quoteAddressFactory": {
+                "name": "quoteAddressFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetSalesCopyOrderShippingAddressToOrder": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetSalesCopyOrderShippingAddressToOrder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\SalesOrderAddressAfterSave": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\SalesOrderAddressAfterSave",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "orderAddressFactory": {
+                "name": "orderAddressFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\SalesQuoteAddressCollectionAfterLoad": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\SalesQuoteAddressCollectionAfterLoad",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "quoteAddressFactory": {
+                "name": "quoteAddressFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\SalesOrderAfterSave": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\SalesOrderAfterSave",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "orderFactory": {
+                "name": "orderFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetSalesCopyOrderBillingAddressToOrder": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetSalesCopyOrderBillingAddressToOrder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetQuoteAddressToCustomerAddress": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetQuoteAddressToCustomerAddress",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetSalesCopyOrderToEdit": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetSalesCopyOrderToEdit",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\SalesQuoteAddressAfterSave": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\SalesQuoteAddressAfterSave",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "quoteAddressFactory": {
+                "name": "quoteAddressFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\SalesOrderAfterLoad": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\SalesOrderAfterLoad",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "orderFactory": {
+                "name": "orderFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetSalesConvertQuoteToOrder": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetSalesConvertQuoteToOrder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetCustomerAddressToQuoteAddress": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetCustomerAddressToQuoteAddress",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\SalesQuoteAfterSave": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\SalesQuoteAfterSave",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "quoteFactory": {
+                "name": "quoteFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\EnterpriseCustomerAddressAttributeSave": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\EnterpriseCustomerAddressAttributeSave",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "orderAddressFactory": {
+                "name": "orderAddressFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "quoteAddressFactory": {
+                "name": "quoteAddressFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\EnterpriseCustomerAttributeBeforeSave": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\EnterpriseCustomerAttributeBeforeSave",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetCheckoutOnepageQuoteToCustomer": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetCheckoutOnepageQuoteToCustomer",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\EnterpriseCustomerAttributeDelete": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\EnterpriseCustomerAttributeDelete",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "orderFactory": {
+                "name": "orderFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "quoteFactory": {
+                "name": "quoteFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\AbstractObserver": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\AbstractObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_copyFieldset": {
+                "name": "_copyFieldset",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerData": {
+                "name": "_customerData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetOrderAddressToCustomerAddress": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetOrderAddressToCustomerAddress",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\SalesOrderAddressAfterLoad": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\SalesOrderAddressAfterLoad",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "orderAddressFactory": {
+                "name": "orderAddressFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\SalesQuoteAfterLoad": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\SalesQuoteAfterLoad",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "quoteFactory": {
+                "name": "quoteFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetCustomerAccountToQuote": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\CoreCopyFieldsetCustomerAccountToQuote",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\SalesOrderAddressCollectionAfterLoad": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\SalesOrderAddressCollectionAfterLoad",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "orderAddressFactory": {
+                "name": "orderAddressFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Observer\\EnterpriseCustomerAttributeSave": {
+        "name": "Magento\\CustomerCustomAttributes\\Observer\\EnterpriseCustomerAttributeSave",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "orderFactory": {
+                "name": "orderFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "quoteFactory": {
+                "name": "quoteFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Form": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Form",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getMetadataForm": {
+                "name": "getMetadataForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getChangePassword": {
+                "name": "getChangePassword",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getEntity": {
+                "name": "getEntity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getCurrentEntityId": {
+                "name": "getCurrentEntityId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_metadataForm": {
+                "name": "_metadataForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_metadataFormFactory": {
+                "name": "_metadataFormFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_xmlBlockName": {
+                "name": "_xmlBlockName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_formModelPath": {
+                "name": "_formModelPath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Checkout\\LayoutProcessor": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Checkout\\LayoutProcessor",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "process": {
+                "name": "process",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "attributeMetadataDataProvider": {
+                "name": "attributeMetadataDataProvider",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "attributeMapper": {
+                "name": "attributeMapper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "merger": {
+                "name": "merger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Formtype": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Formtype",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Address\\Attribute": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Address\\Attribute",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Address\\Attribute\\Edit": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Address\\Attribute\\Edit",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_getAttribute": {
+                "name": "_getAttribute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getHeaderText": {
+                "name": "getHeaderText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getValidationUrl": {
+                "name": "getValidationUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getSaveUrl": {
+                "name": "getSaveUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Address\\Attribute\\Grid": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Address\\Attribute\\Grid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareCollection": {
+                "name": "_prepareCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareColumns": {
+                "name": "_prepareColumns",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_addressesFactory": {
+                "name": "_addressesFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Address\\Attribute\\Edit\\Tabs": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Address\\Attribute\\Edit\\Tabs",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Address\\Attribute\\Edit\\Form": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Address\\Attribute\\Edit\\Form",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_prepareForm": {
+                "name": "_prepareForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Address\\Attribute\\Edit\\Tab\\Options": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Address\\Attribute\\Edit\\Tab\\Options",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getTabLabel": {
+                "name": "getTabLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getTabTitle": {
+                "name": "getTabTitle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "canShowTab": {
+                "name": "canShowTab",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "isHidden": {
+                "name": "isHidden",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Address\\Attribute\\Edit\\Tab\\General": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Address\\Attribute\\Edit\\Tab\\General",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareLayout": {
+                "name": "_prepareLayout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareForm": {
+                "name": "_prepareForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_initFormValues": {
+                "name": "_initFormValues",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getTabLabel": {
+                "name": "getTabLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getTabTitle": {
+                "name": "getTabTitle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "canShowTab": {
+                "name": "canShowTab",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "isHidden": {
+                "name": "isHidden",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerData": {
+                "name": "_customerData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute\\Edit": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute\\Edit",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_getAttribute": {
+                "name": "_getAttribute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getHeaderText": {
+                "name": "getHeaderText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getValidationUrl": {
+                "name": "getValidationUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getSaveUrl": {
+                "name": "getSaveUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute\\Grid": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute\\Grid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareCollection": {
+                "name": "_prepareCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareColumns": {
+                "name": "_prepareColumns",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_attributesFactory": {
+                "name": "_attributesFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute\\Edit\\Js": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute\\Edit\\Js",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getValidateFiltersJson": {
+                "name": "getValidateFiltersJson",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getFilteTypesJson": {
+                "name": "getFilteTypesJson",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getAttributeInputTypes": {
+                "name": "getAttributeInputTypes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerData": {
+                "name": "_customerData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_jsonEncoder": {
+                "name": "_jsonEncoder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute\\Edit\\Tabs": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute\\Edit\\Tabs",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute\\Edit\\Form": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute\\Edit\\Form",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_prepareForm": {
+                "name": "_prepareForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute\\Edit\\Tab\\Options": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute\\Edit\\Tab\\Options",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getTabLabel": {
+                "name": "getTabLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getTabTitle": {
+                "name": "getTabTitle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "canShowTab": {
+                "name": "canShowTab",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "isHidden": {
+                "name": "isHidden",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute\\Edit\\Tab\\Main": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Attribute\\Edit\\Tab\\Main",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareLayout": {
+                "name": "_prepareLayout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareForm": {
+                "name": "_prepareForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_initFormValues": {
+                "name": "_initFormValues",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getTabLabel": {
+                "name": "getTabLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getTabTitle": {
+                "name": "getTabTitle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "canShowTab": {
+                "name": "canShowTab",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "isHidden": {
+                "name": "isHidden",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerData": {
+                "name": "_customerData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Formtype\\Edit": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Formtype\\Edit",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_getFormType": {
+                "name": "_getFormType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Formtype\\Grid": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Formtype\\Grid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareCollection": {
+                "name": "_prepareCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareColumns": {
+                "name": "_prepareColumns",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getRowUrl": {
+                "name": "getRowUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_formTypesFactory": {
+                "name": "_formTypesFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_themeLabelFactory": {
+                "name": "_themeLabelFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Formtype\\Edit\\Tabs": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Formtype\\Edit\\Tabs",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Formtype\\Edit\\Form": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Formtype\\Edit\\Form",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_getFormType": {
+                "name": "_getFormType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareForm": {
+                "name": "_prepareForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_themeLabelFactory": {
+                "name": "_themeLabelFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_systemStore": {
+                "name": "_systemStore",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Formtype\\Edit\\Tab\\Tree": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Formtype\\Edit\\Tab\\Tree",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_getFormType": {
+                "name": "_getFormType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getTreeButtonsHtml": {
+                "name": "getTreeButtonsHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getFieldsetButtonsHtml": {
+                "name": "getFieldsetButtonsHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getStores": {
+                "name": "getStores",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getStoresJson": {
+                "name": "getStoresJson",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getAttributesJson": {
+                "name": "getAttributesJson",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getTabLabel": {
+                "name": "getTabLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getTabTitle": {
+                "name": "getTabTitle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "canShowTab": {
+                "name": "canShowTab",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "isHidden": {
+                "name": "isHidden",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_fieldsetFactory": {
+                "name": "_fieldsetFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_elementsFactory": {
+                "name": "_elementsFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_jsonEncoder": {
+                "name": "_jsonEncoder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Formtype\\Edit\\Tab\\General": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Customer\\Formtype\\Edit\\Tab\\General",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_prepareForm": {
+                "name": "_prepareForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getTabLabel": {
+                "name": "getTabLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "getTabTitle": {
+                "name": "getTabTitle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "canShowTab": {
+                "name": "canShowTab",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "isHidden": {
+                "name": "isHidden",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_themeLabelFactory": {
+                "name": "_themeLabelFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            },
+            "_systemStore": {
+                "name": "_systemStore",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.2",
+                "package": "magento\/module-customer-custom-attributes",
+                "packageVersion": "100.0.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Form\\Renderer\\Fieldset\\Element": {
+        "name": "Magento\\CustomerCustomAttributes\\Block\\Adminhtml\\Form\\Renderer\\Fieldset\\Element",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.2",
+        "package": "magento\/module-customer-custom-attributes",
+        "packageVersion": "100.0.3",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    }
+}

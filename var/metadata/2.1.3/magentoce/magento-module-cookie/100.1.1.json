@@ -1,0 +1,366 @@
+{
+    "Magento\\Cookie\\Helper\\Cookie": {
+        "name": "Magento\\Cookie\\Helper\\Cookie",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.3",
+        "package": "magento\/module-cookie",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "isUserNotAllowSaveCookie": {
+                "name": "isUserNotAllowSaveCookie",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getAcceptedSaveCookiesWebsiteIds": {
+                "name": "getAcceptedSaveCookiesWebsiteIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_getAcceptedSaveCookiesWebsites": {
+                "name": "_getAcceptedSaveCookiesWebsites",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getCookieRestrictionLifetime": {
+                "name": "getCookieRestrictionLifetime",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_currentStore": {
+                "name": "_currentStore",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_website": {
+                "name": "_website",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Cookie\\Controller\\Index\\NoCookies": {
+        "name": "Magento\\Cookie\\Controller\\Index\\NoCookies",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.3",
+        "package": "magento\/module-cookie",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Cookie\\Model\\Config\\Backend\\Lifetime": {
+        "name": "Magento\\Cookie\\Model\\Config\\Backend\\Lifetime",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.3",
+        "package": "magento\/module-cookie",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "configValidator": {
+                "name": "configValidator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Cookie\\Model\\Config\\Backend\\Path": {
+        "name": "Magento\\Cookie\\Model\\Config\\Backend\\Path",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.3",
+        "package": "magento\/module-cookie",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "configValidator": {
+                "name": "configValidator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Cookie\\Model\\Config\\Backend\\Domain": {
+        "name": "Magento\\Cookie\\Model\\Config\\Backend\\Domain",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.3",
+        "package": "magento\/module-cookie",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "configValidator": {
+                "name": "configValidator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Cookie\\Model\\Config\\Backend\\Cookie": {
+        "name": "Magento\\Cookie\\Model\\Config\\Backend\\Cookie",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.3",
+        "package": "magento\/module-cookie",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": {
+            "_eventPrefix": {
+                "name": "_eventPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Cookie\\Block\\RequireCookie": {
+        "name": "Magento\\Cookie\\Block\\RequireCookie",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.3",
+        "package": "magento\/module-cookie",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getScriptOptions": {
+                "name": "getScriptOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Cookie\\Block\\Html\\Notices": {
+        "name": "Magento\\Cookie\\Block\\Html\\Notices",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.3",
+        "package": "magento\/module-cookie",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getPrivacyPolicyLink": {
+                "name": "getPrivacyPolicyLink",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.3",
+                "package": "magento\/module-cookie",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

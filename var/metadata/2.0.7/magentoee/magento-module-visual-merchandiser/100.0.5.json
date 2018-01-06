@@ -1,0 +1,4476 @@
+{
+    "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Position": {
+        "name": "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Position",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "resultJsonFactory": {
+                "name": "resultJsonFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "cache": {
+                "name": "cache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Position\\Index": {
+        "name": "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Position\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Position\\Get": {
+        "name": "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Position\\Get",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Position\\Save": {
+        "name": "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Position\\Save",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Category\\Tile": {
+        "name": "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Category\\Tile",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": {
+            "blockClass": {
+                "name": "blockClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "blockName": {
+                "name": "blockName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Category\\AbstractGrid": {
+        "name": "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Category\\AbstractGrid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "blockClass": {
+                "name": "blockClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "blockName": {
+                "name": "blockName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Category\\Grid": {
+        "name": "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Category\\Grid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": {
+            "blockClass": {
+                "name": "blockClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "blockName": {
+                "name": "blockName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Category\\AddProduct": {
+        "name": "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Category\\AddProduct",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "resultPageFactory": {
+                "name": "resultPageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Products\\MassAssign": {
+        "name": "Magento\\VisualMerchandiser\\Controller\\Adminhtml\\Products\\MassAssign",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "add": {
+                "name": "add",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "remove": {
+                "name": "remove",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "productRepository": {
+                "name": "productRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "cache": {
+                "name": "cache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "resultJsonFactory": {
+                "name": "resultJsonFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "layoutFactory": {
+                "name": "layoutFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "cacheKey": {
+                "name": "cacheKey",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSortingOptions": {
+                "name": "getSortingOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSortingInstance": {
+                "name": "getSortingInstance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "applySorting": {
+                "name": "applySorting",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "sortClasses": {
+                "name": "sortClasses",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "factory": {
+                "name": "factory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "sortInstances": {
+                "name": "sortInstances",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Model\\Rules": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Rules",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "validateData": {
+                "name": "validateData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getMode": {
+                "name": "getMode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getAvailableAttributes": {
+                "name": "getAvailableAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "addStaticOptions": {
+                "name": "addStaticOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLogicVariants": {
+                "name": "getLogicVariants",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getProductCollection": {
+                "name": "getProductCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "loadByCategory": {
+                "name": "loadByCategory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getConditions": {
+                "name": "getConditions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "applyAllRules": {
+                "name": "applyAllRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "applyConditions": {
+                "name": "applyConditions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "notices": {
+                "name": "notices",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_productCollectionFactory": {
+                "name": "_productCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_messageManager": {
+                "name": "_messageManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_scopeConfig": {
+                "name": "_scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "attribute": {
+                "name": "attribute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "ruleFactory": {
+                "name": "ruleFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "fetcher": {
+                "name": "fetcher",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Model\\Position\\Cache": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Position\\Cache",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "saveData": {
+                "name": "saveData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getFromCache": {
+                "name": "getFromCache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "getPositions": {
+                "name": "getPositions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSortOrder": {
+                "name": "getSortOrder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "prependPositions": {
+                "name": "prependPositions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "reorderPositions": {
+                "name": "reorderPositions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "cache": {
+                "name": "cache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "backendConfig": {
+                "name": "backendConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "cachedData": {
+                "name": "cachedData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Model\\Config\\Source\\InsertMode": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Config\\Source\\InsertMode",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Config\\Source\\AllowedAttributes": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Config\\Source\\AllowedAttributes",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "attribute": {
+                "name": "attribute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "type": {
+                "name": "type",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "options": {
+                "name": "options",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Model\\Rules\\RuleInterface": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Rules\\RuleInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "applyToCollection": {
+                "name": "applyToCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "get": {
+                "name": "get",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getNotices": {
+                "name": "getNotices",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "hasNotices": {
+                "name": "hasNotices",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Rules\\Rule": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Rules\\Rule",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getNotices": {
+                "name": "getNotices",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "hasNotices": {
+                "name": "hasNotices",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getOperators": {
+                "name": "getOperators",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getOperatorExpression": {
+                "name": "getOperatorExpression",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isOperatorAllowed": {
+                "name": "isOperatorAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "toMappedOptions": {
+                "name": "toMappedOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "get": {
+                "name": "get",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_rule": {
+                "name": "_rule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_attribute": {
+                "name": "_attribute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "notices": {
+                "name": "notices",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Model\\Rules\\Factory": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Rules\\Factory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "classCase": {
+                "name": "classCase",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isBool": {
+                "name": "isBool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "objectManager": {
+                "name": "objectManager",
+                "isDeprecated": true,
+                "deprecatedSince": "",
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "attribute": {
+                "name": "attribute",
+                "isDeprecated": true,
+                "deprecatedSince": "100.2.0",
+                "see": true,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\DaysAgo": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\DaysAgo",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "applyToCollection": {
+                "name": "applyToCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getOperatorForRule": {
+                "name": "getOperatorForRule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getOperators": {
+                "name": "getOperators",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "operatorMap": {
+                "name": "operatorMap",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\CategoryId": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\CategoryId",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "applyToCollection": {
+                "name": "applyToCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getOperators": {
+                "name": "getOperators",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "categoryRepository": {
+                "name": "categoryRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\CreatedAt": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\CreatedAt",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\UpdatedAt": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\UpdatedAt",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\Boolean": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\Boolean",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "applyToCollection": {
+                "name": "applyToCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\QuantityAndStockStatus": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\QuantityAndStockStatus",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "applyToCollection": {
+                "name": "applyToCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getStockId": {
+                "name": "getStockId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\Source": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\Source",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "applyToCollection": {
+                "name": "applyToCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\Literal": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\Literal",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "applyToCollection": {
+                "name": "applyToCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\Collection\\Fetcher": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Rules\\Rule\\Collection\\Fetcher",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "fetchIds": {
+                "name": "fetchIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Category\\Builder": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Category\\Builder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getRuleTable": {
+                "name": "getRuleTable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "rebuildCategory": {
+                "name": "rebuildCategory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "productCollectionFactory": {
+                "name": "productCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "sorting": {
+                "name": "sorting",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Model\\Category\\Products": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Category\\Products",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setCacheKey": {
+                "name": "setCacheKey",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getFactory": {
+                "name": "getFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getCollectionForGrid": {
+                "name": "getCollectionForGrid",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getStockId": {
+                "name": "getStockId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "applyCachedChanges": {
+                "name": "applyCachedChanges",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "savePositionsToCache": {
+                "name": "savePositionsToCache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_productFactory": {
+                "name": "_productFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_moduleManager": {
+                "name": "_moduleManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_cache": {
+                "name": "_cache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_cacheKey": {
+                "name": "_cacheKey",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "sorting": {
+                "name": "sorting",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Model\\ResourceModel\\Rules": {
+        "name": "Magento\\VisualMerchandiser\\Model\\ResourceModel\\Rules",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\ResourceModel\\Rules\\Collection": {
+        "name": "Magento\\VisualMerchandiser\\Model\\ResourceModel\\Rules\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\SortColor": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\SortColor",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "sort": {
+                "name": "sort",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLabel": {
+                "name": "getLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\LowStockTop": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\LowStockTop",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "sort": {
+                "name": "sort",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLabel": {
+                "name": "getLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\UserDefined": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\UserDefined",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "sort": {
+                "name": "sort",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLabel": {
+                "name": "getLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\SpecialPriceTop": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\SpecialPriceTop",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "sort": {
+                "name": "sort",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLabel": {
+                "name": "getLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\PriceAbstract": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\PriceAbstract",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getSortDirection": {
+                "name": "getSortDirection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "sort": {
+                "name": "sort",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\NewestTop": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\NewestTop",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getSortField": {
+                "name": "getSortField",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSortDirection": {
+                "name": "getSortDirection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLabel": {
+                "name": "getLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\AttributeAbstract": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\AttributeAbstract",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getSortDirection": {
+                "name": "getSortDirection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSortField": {
+                "name": "getSortField",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "sort": {
+                "name": "sort",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\SortInterface": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\SortInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "sort": {
+                "name": "sort",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLabel": {
+                "name": "getLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\SortAbstract": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\SortAbstract",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getStockId": {
+                "name": "getStockId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "ascOrder": {
+                "name": "ascOrder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "descOrder": {
+                "name": "descOrder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "addPriceData": {
+                "name": "addPriceData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "moduleManager": {
+                "name": "moduleManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\SpecialPriceBottom": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\SpecialPriceBottom",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "sort": {
+                "name": "sort",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLabel": {
+                "name": "getLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\OutStockBottom": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\OutStockBottom",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "sort": {
+                "name": "sort",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLabel": {
+                "name": "getLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\Factory": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\Factory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_objectManager": {
+                "name": "_objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\Price\\LowToHigh": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\Price\\LowToHigh",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getSortDirection": {
+                "name": "getSortDirection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLabel": {
+                "name": "getLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\Price\\HighToLow": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\Price\\HighToLow",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getSortDirection": {
+                "name": "getSortDirection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLabel": {
+                "name": "getLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\Name\\Ascending": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\Name\\Ascending",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getSortField": {
+                "name": "getSortField",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSortDirection": {
+                "name": "getSortDirection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLabel": {
+                "name": "getLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\Name\\Descending": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\Name\\Descending",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getSortField": {
+                "name": "getSortField",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSortDirection": {
+                "name": "getSortDirection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLabel": {
+                "name": "getLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\Sku\\Ascending": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\Sku\\Ascending",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getSortField": {
+                "name": "getSortField",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSortDirection": {
+                "name": "getSortDirection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLabel": {
+                "name": "getLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Sorting\\Sku\\Descending": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Sorting\\Sku\\Descending",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getSortField": {
+                "name": "getSortField",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSortDirection": {
+                "name": "getSortDirection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLabel": {
+                "name": "getLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Model\\Product\\DataProvider": {
+        "name": "Magento\\VisualMerchandiser\\Model\\Product\\DataProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "addFilter": {
+                "name": "addFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "prepareUpdateUrl": {
+                "name": "prepareUpdateUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "addPositionData": {
+                "name": "addPositionData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getData": {
+                "name": "getData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "collectionFactory": {
+                "name": "collectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "positionCacheKey": {
+                "name": "positionCacheKey",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "cache": {
+                "name": "cache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Setup\\InstallData": {
+        "name": "Magento\\VisualMerchandiser\\Setup\\InstallData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "eavSetupFactory": {
+                "name": "eavSetupFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Setup\\InstallSchema": {
+        "name": "Magento\\VisualMerchandiser\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Plugin\\Catalog\\Controller\\Adminhtml\\Category\\EditPlugin": {
+        "name": "Magento\\VisualMerchandiser\\Plugin\\Catalog\\Controller\\Adminhtml\\Category\\EditPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "beforeExecute": {
+                "name": "beforeExecute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "cache": {
+                "name": "cache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "registry": {
+                "name": "registry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Observer\\CatalogCategorySaveBefore": {
+        "name": "Magento\\VisualMerchandiser\\Observer\\CatalogCategorySaveBefore",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "categoryBuilder": {
+                "name": "categoryBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_rules": {
+                "name": "_rules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Observer\\CategorySaveMerchandiserData": {
+        "name": "Magento\\VisualMerchandiser\\Observer\\CategorySaveMerchandiserData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_cache": {
+                "name": "_cache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_rules": {
+                "name": "_rules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "categoryRepository": {
+                "name": "categoryRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Select": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Select",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSelectOptions": {
+                "name": "getSelectOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSelectValue": {
+                "name": "getSelectValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_rules": {
+                "name": "_rules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_sorting": {
+                "name": "_sorting",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_registry": {
+                "name": "_registry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\SmartCategorySwitch": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\SmartCategorySwitch",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "smartCategoryEnabled": {
+                "name": "smartCategoryEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "registry": {
+                "name": "registry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "rules": {
+                "name": "rules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Grid\\Column\\Renderer\\Position": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Grid\\Column\\Renderer\\Position",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "render": {
+                "name": "render",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Tile\\Attribute\\Renderer": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Tile\\Attribute\\Renderer",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "render": {
+                "name": "render",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "escaper": {
+                "name": "escaper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Tile\\Attribute\\Factory": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Tile\\Attribute\\Factory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_prepareAttributeRenderers": {
+                "name": "_prepareAttributeRenderers",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "objectManager": {
+                "name": "objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Tile\\Attribute\\Renderer\\Name": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Tile\\Attribute\\Renderer\\Name",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "render": {
+                "name": "render",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Tile\\Attribute\\Renderer\\Stock": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Tile\\Attribute\\Renderer\\Stock",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getValue": {
+                "name": "getValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Tile\\Attribute\\Renderer\\Price": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Tile\\Attribute\\Renderer\\Price",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "render": {
+                "name": "render",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Select\\SortOrderSelect": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Select\\SortOrderSelect",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getSelectOptions": {
+                "name": "getSelectOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Select\\OperatorSelect": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Select\\OperatorSelect",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getSelectOptions": {
+                "name": "getSelectOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Select\\AttributeSelect": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Select\\AttributeSelect",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getSelectOptions": {
+                "name": "getSelectOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Select\\LogicSelect": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Select\\LogicSelect",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getSelectOptions": {
+                "name": "getSelectOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Select\\AutomaticSortingSelect": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Widget\\Select\\AutomaticSortingSelect",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getSelectOptions": {
+                "name": "getSelectOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSelectValue": {
+                "name": "getSelectValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Category\\SmartCategoryRules": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Category\\SmartCategoryRules",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSmartCategoryRules": {
+                "name": "getSmartCategoryRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isSmartCategoryVisible": {
+                "name": "isSmartCategoryVisible",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_rules": {
+                "name": "_rules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Category\\Plugin": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Category\\Plugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "beforeToHtml": {
+                "name": "beforeToHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Category\\AddProduct\\Tabs": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Category\\AddProduct\\Tabs",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_prepareLayout": {
+                "name": "_prepareLayout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Category\\AddProduct\\Tabs\\SkuTab": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Category\\AddProduct\\Tabs\\SkuTab",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getPositionCacheKey": {
+                "name": "getPositionCacheKey",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getMassAssignUrl": {
+                "name": "getMassAssignUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "registry": {
+                "name": "registry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Category\\Tab\\Merchandiser": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Category\\Tab\\Merchandiser",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getDialogUrl": {
+                "name": "getDialogUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSavePositionsUrl": {
+                "name": "getSavePositionsUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getProductsPositionsUrl": {
+                "name": "getProductsPositionsUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getCategoryId": {
+                "name": "getCategoryId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getPositionCacheKey": {
+                "name": "getPositionCacheKey",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getPositionCacheKeyName": {
+                "name": "getPositionCacheKeyName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getPositionDataJson": {
+                "name": "getPositionDataJson",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_positionCache": {
+                "name": "_positionCache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Category\\Tab\\Merchandiser\\Tile": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Category\\Tab\\Merchandiser\\Tile",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getImageHelper": {
+                "name": "getImageHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getImageUrl": {
+                "name": "getImageUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_prepareGrid": {
+                "name": "_prepareGrid",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_getPositionCacheKey": {
+                "name": "_getPositionCacheKey",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_prepareCollection": {
+                "name": "_prepareCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setCollection": {
+                "name": "setCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getCollection": {
+                "name": "getCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getColumn": {
+                "name": "getColumn",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getColumns": {
+                "name": "getColumns",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_setFilterValues": {
+                "name": "_setFilterValues",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getCategory": {
+                "name": "getCategory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getGridUrl": {
+                "name": "getGridUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getUsableAttributes": {
+                "name": "getUsableAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getAttributesToDisplay": {
+                "name": "getAttributesToDisplay",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_template": {
+                "name": "_template",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_collection": {
+                "name": "_collection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_catalogImage": {
+                "name": "_catalogImage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_products": {
+                "name": "_products",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "usableAttributes": {
+                "name": "usableAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "attributeFactory": {
+                "name": "attributeFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Category\\Tab\\Merchandiser\\Grid": {
+        "name": "Magento\\VisualMerchandiser\\Block\\Adminhtml\\Category\\Tab\\Merchandiser\\Grid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-visual-merchandiser",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_prepareColumns": {
+                "name": "_prepareColumns",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_getPositionCacheKey": {
+                "name": "_getPositionCacheKey",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_prepareCollection": {
+                "name": "_prepareCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getGridUrl": {
+                "name": "getGridUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_products": {
+                "name": "_products",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-visual-merchandiser",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

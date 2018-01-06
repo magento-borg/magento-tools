@@ -1,0 +1,322 @@
+{
+    "Magento\\Robots\\Controller\\Router": {
+        "name": "Magento\\Robots\\Controller\\Router",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-robots",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "match": {
+                "name": "match",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "actionFactory": {
+                "name": "actionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": true
+            },
+            "actionList": {
+                "name": "actionList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": true
+            },
+            "routeConfig": {
+                "name": "routeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Robots\\Controller\\Index\\Index": {
+        "name": "Magento\\Robots\\Controller\\Index\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-robots",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "resultPageFactory": {
+                "name": "resultPageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Robots\\Model\\Robots": {
+        "name": "Magento\\Robots\\Model\\Robots",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-robots",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getData": {
+                "name": "getData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Robots\\Model\\Config\\Value": {
+        "name": "Magento\\Robots\\Model\\Config\\Value",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-robots",
+        "packageVersion": "100.1.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": true,
+                "private": false
+            },
+            "getIdentities": {
+                "name": "getIdentities",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "_cacheTag": {
+                "name": "_cacheTag",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.2.0",
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": true,
+                "private": false
+            },
+            "storeResolver": {
+                "name": "storeResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": true,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Robots\\Block\\Data": {
+        "name": "Magento\\Robots\\Block\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-robots",
+        "packageVersion": "100.1.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": true,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": true,
+                "private": false
+            },
+            "getIdentities": {
+                "name": "getIdentities",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "robots": {
+                "name": "robots",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": true,
+                "private": true
+            },
+            "storeResolver": {
+                "name": "storeResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-robots",
+                "packageVersion": "100.1.0",
+                "api": true,
+                "private": true
+            }
+        }
+    }
+}

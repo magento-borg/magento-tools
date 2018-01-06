@@ -1,0 +1,2973 @@
+{
+    "Magento\\AsynchronousOperations\\Cron\\BulkCleanup": {
+        "name": "Magento\\AsynchronousOperations\\Cron\\BulkCleanup",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "dateTime": {
+                "name": "dateTime",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "resourceConnection": {
+                "name": "resourceConnection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "date": {
+                "name": "date",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Api\\Data\\BulkSummaryInterface": {
+        "name": "Magento\\AsynchronousOperations\\Api\\Data\\BulkSummaryInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.2.0",
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "getExtensionAttributes": {
+                "name": "getExtensionAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.2.0",
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "setExtensionAttributes": {
+                "name": "setExtensionAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.2.0",
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Api\\Data\\OperationInterface": {
+        "name": "Magento\\AsynchronousOperations\\Api\\Data\\OperationInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.2.0",
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "getExtensionAttributes": {
+                "name": "getExtensionAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.2.0",
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "setExtensionAttributes": {
+                "name": "setExtensionAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.2.0",
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Api\\Data\\OperationListInterface": {
+        "name": "Magento\\AsynchronousOperations\\Api\\Data\\OperationListInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.2.0",
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "getItems": {
+                "name": "getItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.2.0",
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Controller\\Adminhtml\\Index\\Index": {
+        "name": "Magento\\AsynchronousOperations\\Controller\\Adminhtml\\Index\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "resultPageFactory": {
+                "name": "resultPageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Controller\\Adminhtml\\Notification\\Dismiss": {
+        "name": "Magento\\AsynchronousOperations\\Controller\\Adminhtml\\Notification\\Dismiss",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "notificationManagement": {
+                "name": "notificationManagement",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Controller\\Adminhtml\\Bulk\\Retry": {
+        "name": "Magento\\AsynchronousOperations\\Controller\\Adminhtml\\Bulk\\Retry",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "bulkManagement": {
+                "name": "bulkManagement",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "notificationManagement": {
+                "name": "notificationManagement",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "accessValidator": {
+                "name": "accessValidator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Controller\\Adminhtml\\Bulk\\Details": {
+        "name": "Magento\\AsynchronousOperations\\Controller\\Adminhtml\\Bulk\\Details",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "resultPageFactory": {
+                "name": "resultPageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "accessValidator": {
+                "name": "accessValidator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Model\\AccessValidator": {
+        "name": "Magento\\AsynchronousOperations\\Model\\AccessValidator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "isAllowed": {
+                "name": "isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "userContext": {
+                "name": "userContext",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "entityManager": {
+                "name": "entityManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "bulkSummaryFactory": {
+                "name": "bulkSummaryFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Model\\BulkManagement": {
+        "name": "Magento\\AsynchronousOperations\\Model\\BulkManagement",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "scheduleBulk": {
+                "name": "scheduleBulk",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "retryBulk": {
+                "name": "retryBulk",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "publishOperations": {
+                "name": "publishOperations",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "deleteBulk": {
+                "name": "deleteBulk",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "entityManager": {
+                "name": "entityManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "bulkSummaryFactory": {
+                "name": "bulkSummaryFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "operationCollectionFactory": {
+                "name": "operationCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "publisher": {
+                "name": "publisher",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "resourceConnection": {
+                "name": "resourceConnection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Model\\BulkStatus": {
+        "name": "Magento\\AsynchronousOperations\\Model\\BulkStatus",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getFailedOperationsByBulkId": {
+                "name": "getFailedOperationsByBulkId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getOperationsCountByBulkIdAndStatus": {
+                "name": "getOperationsCountByBulkIdAndStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getBulksByUser": {
+                "name": "getBulksByUser",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getBulkStatus": {
+                "name": "getBulkStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getOperationCount": {
+                "name": "getOperationCount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "bulkCollectionFactory": {
+                "name": "bulkCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "operationCollectionFactory": {
+                "name": "operationCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "resourceConnection": {
+                "name": "resourceConnection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "calculatedStatusSql": {
+                "name": "calculatedStatusSql",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Model\\BulkNotificationManagement": {
+        "name": "Magento\\AsynchronousOperations\\Model\\BulkNotificationManagement",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "acknowledgeBulks": {
+                "name": "acknowledgeBulks",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "ignoreBulks": {
+                "name": "ignoreBulks",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getAcknowledgedBulksByUser": {
+                "name": "getAcknowledgedBulksByUser",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getIgnoredBulksByUser": {
+                "name": "getIgnoredBulksByUser",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "resourceConnection": {
+                "name": "resourceConnection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "bulkCollectionFactory": {
+                "name": "bulkCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Model\\OperationManagement": {
+        "name": "Magento\\AsynchronousOperations\\Model\\OperationManagement",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "changeOperationStatus": {
+                "name": "changeOperationStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "entityManager": {
+                "name": "entityManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "operationFactory": {
+                "name": "operationFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Model\\Operation": {
+        "name": "Magento\\AsynchronousOperations\\Model\\Operation",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getId": {
+                "name": "getId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "setId": {
+                "name": "setId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getBulkUuid": {
+                "name": "getBulkUuid",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "setBulkUuid": {
+                "name": "setBulkUuid",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getTopicName": {
+                "name": "getTopicName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "setTopicName": {
+                "name": "setTopicName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getSerializedData": {
+                "name": "getSerializedData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "setSerializedData": {
+                "name": "setSerializedData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getStatus": {
+                "name": "getStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "setStatus": {
+                "name": "setStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getResultMessage": {
+                "name": "getResultMessage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "setResultMessage": {
+                "name": "setResultMessage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getErrorCode": {
+                "name": "getErrorCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "setErrorCode": {
+                "name": "setErrorCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getExtensionAttributes": {
+                "name": "getExtensionAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "setExtensionAttributes": {
+                "name": "setExtensionAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Model\\StatusMapper": {
+        "name": "Magento\\AsynchronousOperations\\Model\\StatusMapper",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "operationStatusToBulkSummaryStatus": {
+                "name": "operationStatusToBulkSummaryStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "bulkSummaryStatusToOperationStatus": {
+                "name": "bulkSummaryStatusToOperationStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Model\\BulkSummary": {
+        "name": "Magento\\AsynchronousOperations\\Model\\BulkSummary",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getBulkId": {
+                "name": "getBulkId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "setBulkId": {
+                "name": "setBulkId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getDescription": {
+                "name": "getDescription",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "setDescription": {
+                "name": "setDescription",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getStartTime": {
+                "name": "getStartTime",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "setStartTime": {
+                "name": "setStartTime",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getUserId": {
+                "name": "getUserId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "setUserId": {
+                "name": "setUserId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getOperationCount": {
+                "name": "getOperationCount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "setOperationCount": {
+                "name": "setOperationCount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getExtensionAttributes": {
+                "name": "getExtensionAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "setExtensionAttributes": {
+                "name": "setExtensionAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Model\\OperationList": {
+        "name": "Magento\\AsynchronousOperations\\Model\\OperationList",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getItems": {
+                "name": "getItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "items": {
+                "name": "items",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Model\\BulkStatus\\CalculatedStatusSql": {
+        "name": "Magento\\AsynchronousOperations\\Model\\BulkStatus\\CalculatedStatusSql",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "get": {
+                "name": "get",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Model\\BulkStatus\\Options": {
+        "name": "Magento\\AsynchronousOperations\\Model\\BulkStatus\\Options",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Model\\Entity\\BulkSummaryMapper": {
+        "name": "Magento\\AsynchronousOperations\\Model\\Entity\\BulkSummaryMapper",
+        "isDeprecated": true,
+        "deprecatedSince": "100.2.0",
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "entityToDatabase": {
+                "name": "entityToDatabase",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "databaseToEntity": {
+                "name": "databaseToEntity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "resourceConnection": {
+                "name": "resourceConnection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Model\\Operation\\Details": {
+        "name": "Magento\\AsynchronousOperations\\Model\\Operation\\Details",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getDetails": {
+                "name": "getDetails",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "operationCache": {
+                "name": "operationCache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "bulkStatus": {
+                "name": "bulkStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "statusMap": {
+                "name": "statusMap",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Model\\ResourceModel\\Operation": {
+        "name": "Magento\\AsynchronousOperations\\Model\\ResourceModel\\Operation",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Model\\ResourceModel\\Bulk": {
+        "name": "Magento\\AsynchronousOperations\\Model\\ResourceModel\\Bulk",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Model\\ResourceModel\\Operation\\CheckIfExists": {
+        "name": "Magento\\AsynchronousOperations\\Model\\ResourceModel\\Operation\\CheckIfExists",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Model\\ResourceModel\\Operation\\Create": {
+        "name": "Magento\\AsynchronousOperations\\Model\\ResourceModel\\Operation\\Create",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "typeResolver": {
+                "name": "typeResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "resourceConnection": {
+                "name": "resourceConnection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Model\\ResourceModel\\Operation\\Collection": {
+        "name": "Magento\\AsynchronousOperations\\Model\\ResourceModel\\Operation\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Model\\ResourceModel\\Bulk\\Collection": {
+        "name": "Magento\\AsynchronousOperations\\Model\\ResourceModel\\Bulk\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Model\\ResourceModel\\System\\Message\\Collection\\Synchronized\\Plugin": {
+        "name": "Magento\\AsynchronousOperations\\Model\\ResourceModel\\System\\Message\\Collection\\Synchronized\\Plugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "afterToArray": {
+                "name": "afterToArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getText": {
+                "name": "getText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "getAcknowledgedBulksUuid": {
+                "name": "getAcknowledgedBulksUuid",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "messageFactory": {
+                "name": "messageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "bulkStatus": {
+                "name": "bulkStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "userContext": {
+                "name": "userContext",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "operationDetails": {
+                "name": "operationDetails",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "bulkNotificationManagement": {
+                "name": "bulkNotificationManagement",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "authorization": {
+                "name": "authorization",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "statusMapper": {
+                "name": "statusMapper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Model\\BulkDescription\\Options": {
+        "name": "Magento\\AsynchronousOperations\\Model\\BulkDescription\\Options",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "bulkCollectionFactory": {
+                "name": "bulkCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "userContext": {
+                "name": "userContext",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Setup\\InstallSchema": {
+        "name": "Magento\\AsynchronousOperations\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Ui\\Component\\Operation\\DataProvider": {
+        "name": "Magento\\AsynchronousOperations\\Ui\\Component\\Operation\\DataProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getSummaryReport": {
+                "name": "getSummaryReport",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "getData": {
+                "name": "getData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "prepareMeta": {
+                "name": "prepareMeta",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "collection": {
+                "name": "collection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "operationDetails": {
+                "name": "operationDetails",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Ui\\Component\\DataProvider\\SearchResult": {
+        "name": "Magento\\AsynchronousOperations\\Ui\\Component\\DataProvider\\SearchResult",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_initSelect": {
+                "name": "_initSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_afterLoad": {
+                "name": "_afterLoad",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "addFieldToFilter": {
+                "name": "addFieldToFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getSelectCountSql": {
+                "name": "getSelectCountSql",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "userContext": {
+                "name": "userContext",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "statusMapper": {
+                "name": "statusMapper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "operationStatus": {
+                "name": "operationStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "calculatedStatusSql": {
+                "name": "calculatedStatusSql",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Ui\\Component\\DataProvider\\Operation\\Failed\\SearchResult": {
+        "name": "Magento\\AsynchronousOperations\\Ui\\Component\\DataProvider\\Operation\\Failed\\SearchResult",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_initSelect": {
+                "name": "_initSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_afterLoad": {
+                "name": "_afterLoad",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "provideMetaInfo": {
+                "name": "provideMetaInfo",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "getLink": {
+                "name": "getLink",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "getEntityId": {
+                "name": "getEntityId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "identifierResolver": {
+                "name": "identifierResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "jsonHelper": {
+                "name": "jsonHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Ui\\Component\\DataProvider\\Operation\\Retriable\\SearchResult": {
+        "name": "Magento\\AsynchronousOperations\\Ui\\Component\\DataProvider\\Operation\\Retriable\\SearchResult",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_initSelect": {
+                "name": "_initSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "identifierResolver": {
+                "name": "identifierResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Ui\\Component\\DataProvider\\Bulk\\IdentifierResolver": {
+        "name": "Magento\\AsynchronousOperations\\Ui\\Component\\DataProvider\\Bulk\\IdentifierResolver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Ui\\Component\\AdminNotification\\Plugin": {
+        "name": "Magento\\AsynchronousOperations\\Ui\\Component\\AdminNotification\\Plugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "afterGetMeta": {
+                "name": "afterGetMeta",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "authorization": {
+                "name": "authorization",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "isAllowed": {
+                "name": "isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Ui\\Component\\Listing\\Column\\NotificationActions": {
+        "name": "Magento\\AsynchronousOperations\\Ui\\Component\\Listing\\Column\\NotificationActions",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "prepareDataSource": {
+                "name": "prepareDataSource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Ui\\Component\\Listing\\Column\\NotificationDismissActions": {
+        "name": "Magento\\AsynchronousOperations\\Ui\\Component\\Listing\\Column\\NotificationDismissActions",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "prepareDataSource": {
+                "name": "prepareDataSource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Ui\\Component\\Listing\\Column\\Actions": {
+        "name": "Magento\\AsynchronousOperations\\Ui\\Component\\Listing\\Column\\Actions",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "prepareDataSource": {
+                "name": "prepareDataSource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AsynchronousOperations\\Block\\Adminhtml\\Bulk\\Details\\DoneButton": {
+        "name": "Magento\\AsynchronousOperations\\Block\\Adminhtml\\Bulk\\Details\\DoneButton",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getButtonData": {
+                "name": "getButtonData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "bulkStatus": {
+                "name": "bulkStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Block\\Adminhtml\\Bulk\\Details\\BackButton": {
+        "name": "Magento\\AsynchronousOperations\\Block\\Adminhtml\\Bulk\\Details\\BackButton",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getButtonData": {
+                "name": "getButtonData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "urlBuilder": {
+                "name": "urlBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AsynchronousOperations\\Block\\Adminhtml\\Bulk\\Details\\RetryButton": {
+        "name": "Magento\\AsynchronousOperations\\Block\\Adminhtml\\Bulk\\Details\\RetryButton",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-asynchronous-operations",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getButtonData": {
+                "name": "getButtonData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "details": {
+                "name": "details",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "targetName": {
+                "name": "targetName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-asynchronous-operations",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    }
+}

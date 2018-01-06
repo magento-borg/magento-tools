@@ -1,0 +1,374 @@
+{
+    "Magento\\BundleSharedCatalog\\Ui\\DataProvider\\Modifier\\Bundle": {
+        "name": "Magento\\BundleSharedCatalog\\Ui\\DataProvider\\Modifier\\Bundle",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-bundle-shared-catalog",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "modifyData": {
+                "name": "modifyData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "getBundleOptions": {
+                "name": "getBundleOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "getPriceForOption": {
+                "name": "getPriceForOption",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "modifyMeta": {
+                "name": "modifyMeta",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "getStorage": {
+                "name": "getStorage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "productRepository": {
+                "name": "productRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "storageFactory": {
+                "name": "storageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "storage": {
+                "name": "storage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "priceCalculator": {
+                "name": "priceCalculator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "productType": {
+                "name": "productType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\BundleSharedCatalog\\Ui\\DataProvider\\Modifier\\TierPriceBundle": {
+        "name": "Magento\\BundleSharedCatalog\\Ui\\DataProvider\\Modifier\\TierPriceBundle",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-bundle-shared-catalog",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "modifyData": {
+                "name": "modifyData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "modifyMeta": {
+                "name": "modifyMeta",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "productRepository": {
+                "name": "productRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "arrayManager": {
+                "name": "arrayManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\BundleSharedCatalog\\Plugin\\Bundle\\Model\\ResourceModel\\Selection\\CollectionPlugin": {
+        "name": "Magento\\BundleSharedCatalog\\Plugin\\Bundle\\Model\\ResourceModel\\Selection\\CollectionPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-bundle-shared-catalog",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "afterGetItems": {
+                "name": "afterGetItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "coreRegistry": {
+                "name": "coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "customerGroupManagement": {
+                "name": "customerGroupManagement",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "productLoader": {
+                "name": "productLoader",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "customerRepository": {
+                "name": "customerRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-bundle-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        }
+    }
+}

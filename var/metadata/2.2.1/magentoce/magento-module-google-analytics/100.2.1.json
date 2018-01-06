@@ -1,0 +1,301 @@
+{
+    "Magento\\GoogleAnalytics\\Helper\\Data": {
+        "name": "Magento\\GoogleAnalytics\\Helper\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.0.2",
+        "release": "2.2.1",
+        "package": "magento\/module-google-analytics",
+        "packageVersion": "100.2.1",
+        "api": true,
+        "private": false,
+        "methods": {
+            "isGoogleAnalyticsAvailable": {
+                "name": "isGoogleAnalyticsAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "isAnonymizedIpActive": {
+                "name": "isAnonymizedIpActive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.2.0",
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GoogleAnalytics\\Observer\\SetGoogleAnalyticsOnOrderSuccessPageViewObserver": {
+        "name": "Magento\\GoogleAnalytics\\Observer\\SetGoogleAnalyticsOnOrderSuccessPageViewObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.1",
+        "package": "magento\/module-google-analytics",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_googleAnalyticsData": {
+                "name": "_googleAnalyticsData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "_layout": {
+                "name": "_layout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleAnalytics\\Block\\Ga": {
+        "name": "Magento\\GoogleAnalytics\\Block\\Ga",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.0.2",
+        "release": "2.2.1",
+        "package": "magento\/module-google-analytics",
+        "packageVersion": "100.2.1",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "getConfig": {
+                "name": "getConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "getPageName": {
+                "name": "getPageName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "getPageTrackingCode": {
+                "name": "getPageTrackingCode",
+                "isDeprecated": true,
+                "deprecatedSince": "100.2.0",
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "getOrdersTrackingCode": {
+                "name": "getOrdersTrackingCode",
+                "isDeprecated": true,
+                "deprecatedSince": "100.2.0",
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "isCookieRestrictionModeEnabled": {
+                "name": "isCookieRestrictionModeEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.2.0",
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "getCurrentWebsiteId": {
+                "name": "getCurrentWebsiteId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.2.0",
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "getPageTrackingData": {
+                "name": "getPageTrackingData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.2.0",
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "getOrdersTrackingData": {
+                "name": "getOrdersTrackingData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.2.0",
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "getOptPageUrl": {
+                "name": "getOptPageUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": true
+            }
+        },
+        "properties": {
+            "_googleAnalyticsData": {
+                "name": "_googleAnalyticsData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "_salesOrderCollection": {
+                "name": "_salesOrderCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "cookieHelper": {
+                "name": "cookieHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-analytics",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": true
+            }
+        }
+    }
+}

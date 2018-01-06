@@ -1,0 +1,2363 @@
+{
+    "Magento\\ScheduledImportExport\\Cron\\ScheduledLogClean": {
+        "name": "Magento\\ScheduledImportExport\\Cron\\ScheduledLogClean",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_getDirectoryList": {
+                "name": "_getDirectoryList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_sendEmailNotification": {
+                "name": "_sendEmailNotification",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_scopeConfig": {
+                "name": "_scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_transportBuilder": {
+                "name": "_transportBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_logDirectory": {
+                "name": "_logDirectory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Helper\\Data": {
+        "name": "Magento\\ScheduledImportExport\\Helper\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getOperationHeaderText": {
+                "name": "getOperationHeaderText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getSuccessSaveMessage": {
+                "name": "getSuccessSaveMessage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getSuccessDeleteMessage": {
+                "name": "getSuccessDeleteMessage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getConfirmationDeleteMessage": {
+                "name": "getConfirmationDeleteMessage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getNoticeMessage": {
+                "name": "getNoticeMessage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation": {
+        "name": "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "createPage": {
+                "name": "createPage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "coreRegistry": {
+                "name": "coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\NewAction": {
+        "name": "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\NewAction",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\Index": {
+        "name": "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\LogClean": {
+        "name": "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\LogClean",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\Edit": {
+        "name": "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\Edit",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\MassChangeStatus": {
+        "name": "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\MassChangeStatus",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\GetFilter": {
+        "name": "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\GetFilter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\Grid": {
+        "name": "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\Grid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\Delete": {
+        "name": "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\Delete",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\Cron": {
+        "name": "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\Cron",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\MassDelete": {
+        "name": "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\MassDelete",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\Save": {
+        "name": "Magento\\ScheduledImportExport\\Controller\\Adminhtml\\Scheduled\\Operation\\Save",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "operationFactory": {
+                "name": "operationFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "dataHelper": {
+                "name": "dataHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Model\\Import": {
+        "name": "Magento\\ScheduledImportExport\\Model\\Import",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "runSchedule": {
+                "name": "runSchedule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "initialize": {
+                "name": "initialize",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Model\\Export": {
+        "name": "Magento\\ScheduledImportExport\\Model\\Export",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "runSchedule": {
+                "name": "runSchedule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "initialize": {
+                "name": "initialize",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getScheduledFileName": {
+                "name": "getScheduledFileName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_dateModel": {
+                "name": "_dateModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Model\\Observer": {
+        "name": "Magento\\ScheduledImportExport\\Model\\Observer",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "processScheduledOperation": {
+                "name": "processScheduledOperation",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_operationFactory": {
+                "name": "_operationFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Model\\Scheduled\\Operation": {
+        "name": "Magento\\ScheduledImportExport\\Model\\Scheduled\\Operation",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "sendEmailNotification": {
+                "name": "sendEmailNotification",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_afterLoad": {
+                "name": "_afterLoad",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "afterSave": {
+                "name": "afterSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "afterDelete": {
+                "name": "afterDelete",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_addCronTask": {
+                "name": "_addCronTask",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_dropCronTask": {
+                "name": "_dropCronTask",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getExprConfigPath": {
+                "name": "getExprConfigPath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getModelConfigPath": {
+                "name": "getModelConfigPath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "loadByJobCode": {
+                "name": "loadByJobCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "run": {
+                "name": "run",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getFileSource": {
+                "name": "getFileSource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "saveFileSource": {
+                "name": "saveFileSource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "writeData": {
+                "name": "writeData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "validateAdapterType": {
+                "name": "validateAdapterType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "readData": {
+                "name": "readData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getInstance": {
+                "name": "getInstance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_prepareIoConfiguration": {
+                "name": "_prepareIoConfiguration",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_saveOperationHistory": {
+                "name": "_saveOperationHistory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getHistoryFilePath": {
+                "name": "getHistoryFilePath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_getRunTime": {
+                "name": "_getRunTime",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_dateModel": {
+                "name": "_dateModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_scopeConfig": {
+                "name": "_scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_configValueFactory": {
+                "name": "_configValueFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_operationFactory": {
+                "name": "_operationFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_schedOperFactory": {
+                "name": "_schedOperFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "string": {
+                "name": "string",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "filesystem": {
+                "name": "filesystem",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_transportBuilder": {
+                "name": "_transportBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "ftpAdapter": {
+                "name": "ftpAdapter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Model\\Scheduled\\Operation\\Data": {
+        "name": "Magento\\ScheduledImportExport\\Model\\Scheduled\\Operation\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getStatusesOptionArray": {
+                "name": "getStatusesOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getOperationsOptionArray": {
+                "name": "getOperationsOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getFrequencyOptionArray": {
+                "name": "getFrequencyOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getServerTypesOptionArray": {
+                "name": "getServerTypesOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getFileModesOptionArray": {
+                "name": "getFileModesOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getForcedImportOptionArray": {
+                "name": "getForcedImportOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getResultOptionArray": {
+                "name": "getResultOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getEntitiesOptionArray": {
+                "name": "getEntitiesOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_importConfig": {
+                "name": "_importConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_exportConfig": {
+                "name": "_exportConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Model\\Scheduled\\Operation\\OperationInterface": {
+        "name": "Magento\\ScheduledImportExport\\Model\\Scheduled\\Operation\\OperationInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "runSchedule": {
+                "name": "runSchedule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "initialize": {
+                "name": "initialize",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "addLogComment": {
+                "name": "addLogComment",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getFormatedLogTrace": {
+                "name": "getFormatedLogTrace",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Model\\Scheduled\\Operation\\GenericFactory": {
+        "name": "Magento\\ScheduledImportExport\\Model\\Scheduled\\Operation\\GenericFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_objectManager": {
+                "name": "_objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Model\\ResourceModel\\Scheduled\\Operation": {
+        "name": "Magento\\ScheduledImportExport\\Model\\ResourceModel\\Scheduled\\Operation",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Model\\ResourceModel\\Scheduled\\Operation\\Collection": {
+        "name": "Magento\\ScheduledImportExport\\Model\\ResourceModel\\Scheduled\\Operation\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_afterLoad": {
+                "name": "_afterLoad",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Model\\ResourceModel\\Scheduled\\Operation\\Options\\Frequency": {
+        "name": "Magento\\ScheduledImportExport\\Model\\ResourceModel\\Scheduled\\Operation\\Options\\Frequency",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_modelData": {
+                "name": "_modelData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Model\\ResourceModel\\Scheduled\\Operation\\Options\\Result": {
+        "name": "Magento\\ScheduledImportExport\\Model\\ResourceModel\\Scheduled\\Operation\\Options\\Result",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_modelData": {
+                "name": "_modelData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Model\\ResourceModel\\Scheduled\\Operation\\Options\\Statuses": {
+        "name": "Magento\\ScheduledImportExport\\Model\\ResourceModel\\Scheduled\\Operation\\Options\\Statuses",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_modelData": {
+                "name": "_modelData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Model\\ResourceModel\\Scheduled\\Operation\\Options\\Operations": {
+        "name": "Magento\\ScheduledImportExport\\Model\\ResourceModel\\Scheduled\\Operation\\Options\\Operations",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_modelData": {
+                "name": "_modelData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Model\\ResourceModel\\Scheduled\\Operation\\Options\\Entities": {
+        "name": "Magento\\ScheduledImportExport\\Model\\ResourceModel\\Scheduled\\Operation\\Options\\Entities",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_modelData": {
+                "name": "_modelData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Model\\System\\Config\\Backend\\Logclean\\Cron": {
+        "name": "Magento\\ScheduledImportExport\\Model\\System\\Config\\Backend\\Logclean\\Cron",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "afterSave": {
+                "name": "afterSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_configValueFactory": {
+                "name": "_configValueFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Setup\\InstallSchema": {
+        "name": "Magento\\ScheduledImportExport\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Block\\Adminhtml\\Scheduled\\Operation": {
+        "name": "Magento\\ScheduledImportExport\\Block\\Adminhtml\\Scheduled\\Operation",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getCreateUrl": {
+                "name": "getCreateUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Block\\Adminhtml\\Scheduled\\Operation\\Edit": {
+        "name": "Magento\\ScheduledImportExport\\Block\\Adminhtml\\Scheduled\\Operation\\Edit",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_prepareLayout": {
+                "name": "_prepareLayout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getDeleteUrl": {
+                "name": "getDeleteUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getHeaderText": {
+                "name": "getHeaderText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_importExportData": {
+                "name": "_importExportData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_operationFactory": {
+                "name": "_operationFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Block\\Adminhtml\\Scheduled\\Operation\\Edit\\Form": {
+        "name": "Magento\\ScheduledImportExport\\Block\\Adminhtml\\Scheduled\\Operation\\Edit\\Form",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_prepareForm": {
+                "name": "_prepareForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_addGeneralSettings": {
+                "name": "_addGeneralSettings",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_addFileSettings": {
+                "name": "_addFileSettings",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_addEmailSettings": {
+                "name": "_addEmailSettings",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_setFormValues": {
+                "name": "_setFormValues",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_operationData": {
+                "name": "_operationData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_sourceYesno": {
+                "name": "_sourceYesno",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_emailIdentity": {
+                "name": "_emailIdentity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_emailMethod": {
+                "name": "_emailMethod",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_optionArrayPool": {
+                "name": "_optionArrayPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "string": {
+                "name": "string",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Block\\Adminhtml\\Scheduled\\Operation\\Edit\\Form\\Import": {
+        "name": "Magento\\ScheduledImportExport\\Block\\Adminhtml\\Scheduled\\Operation\\Edit\\Form\\Import",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_prepareForm": {
+                "name": "_prepareForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_importModel": {
+                "name": "_importModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_templateFactory": {
+                "name": "_templateFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Block\\Adminhtml\\Scheduled\\Operation\\Edit\\Form\\Export": {
+        "name": "Magento\\ScheduledImportExport\\Block\\Adminhtml\\Scheduled\\Operation\\Edit\\Form\\Export",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_prepareForm": {
+                "name": "_prepareForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_getFilterBlock": {
+                "name": "_getFilterBlock",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_sourceExportFormat": {
+                "name": "_sourceExportFormat",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_templateFactory": {
+                "name": "_templateFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_exportConfig": {
+                "name": "_exportConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\ScheduledImportExport\\Block\\Adminhtml\\Export\\Filter": {
+        "name": "Magento\\ScheduledImportExport\\Block\\Adminhtml\\Export\\Filter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getAbsoluteGridUrl": {
+                "name": "getAbsoluteGridUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "getGridUrl": {
+                "name": "getGridUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScheduledImportExport\\Block\\Adminhtml\\System\\Config\\Clean": {
+        "name": "Magento\\ScheduledImportExport\\Block\\Adminhtml\\System\\Config\\Clean",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-scheduled-import-export",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "render": {
+                "name": "render",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "_getElementHtml": {
+                "name": "_getElementHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-scheduled-import-export",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

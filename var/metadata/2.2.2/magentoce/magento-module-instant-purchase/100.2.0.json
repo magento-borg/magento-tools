@@ -1,0 +1,2591 @@
+{
+    "Magento\\InstantPurchase\\Controller\\Button\\PlaceOrder": {
+        "name": "Magento\\InstantPurchase\\Controller\\Button\\PlaceOrder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "createGenericErrorMessage": {
+                "name": "createGenericErrorMessage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "doesRequestContainAllKnowParams": {
+                "name": "doesRequestContainAllKnowParams",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "getRequestUnknownParams": {
+                "name": "getRequestUnknownParams",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "createResponse": {
+                "name": "createResponse",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "knownRequestParams": {
+                "name": "knownRequestParams",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "customerSession": {
+                "name": "customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "formKeyValidator": {
+                "name": "formKeyValidator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "instantPurchaseOptionLoadingFactory": {
+                "name": "instantPurchaseOptionLoadingFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "productRepository": {
+                "name": "productRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "placeOrder": {
+                "name": "placeOrder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "orderRepository": {
+                "name": "orderRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\CustomerData\\InstantPurchase": {
+        "name": "Magento\\InstantPurchase\\CustomerData\\InstantPurchase",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getSectionData": {
+                "name": "getSectionData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "customerSession": {
+                "name": "customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "instantPurchase": {
+                "name": "instantPurchase",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "paymentTokenFormatter": {
+                "name": "paymentTokenFormatter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "customerAddressesFormatter": {
+                "name": "customerAddressesFormatter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "shippingMethodFormatter": {
+                "name": "shippingMethodFormatter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\PaymentMethodIntegration\\PaymentAdditionalInformationProviderInterface": {
+        "name": "Magento\\InstantPurchase\\PaymentMethodIntegration\\PaymentAdditionalInformationProviderInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "getAdditionalInformation": {
+                "name": "getAdditionalInformation",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\InstantPurchase\\PaymentMethodIntegration\\Integration": {
+        "name": "Magento\\InstantPurchase\\PaymentMethodIntegration\\Integration",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getVaultCode": {
+                "name": "getVaultCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getVaultProviderCode": {
+                "name": "getVaultProviderCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getPaymentMethod": {
+                "name": "getPaymentMethod",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "isAvailable": {
+                "name": "isAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "formatPaymentToken": {
+                "name": "formatPaymentToken",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getAdditionalInformation": {
+                "name": "getAdditionalInformation",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "vaultPaymentMethod": {
+                "name": "vaultPaymentMethod",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "availabilityChecker": {
+                "name": "availabilityChecker",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "paymentTokenFormatter": {
+                "name": "paymentTokenFormatter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "paymentAdditionalInformationProvider": {
+                "name": "paymentAdditionalInformationProvider",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\PaymentMethodIntegration\\SimplePaymentTokenFormatter": {
+        "name": "Magento\\InstantPurchase\\PaymentMethodIntegration\\SimplePaymentTokenFormatter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "formatPaymentToken": {
+                "name": "formatPaymentToken",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "integrationsManager": {
+                "name": "integrationsManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\PaymentMethodIntegration\\StaticAdditionalInformationProvider": {
+        "name": "Magento\\InstantPurchase\\PaymentMethodIntegration\\StaticAdditionalInformationProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getAdditionalInformation": {
+                "name": "getAdditionalInformation",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "value": {
+                "name": "value",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\PaymentMethodIntegration\\PaymentTokenFormatterInterface": {
+        "name": "Magento\\InstantPurchase\\PaymentMethodIntegration\\PaymentTokenFormatterInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "formatPaymentToken": {
+                "name": "formatPaymentToken",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\InstantPurchase\\PaymentMethodIntegration\\IntegrationsManager": {
+        "name": "Magento\\InstantPurchase\\PaymentMethodIntegration\\IntegrationsManager",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getList": {
+                "name": "getList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getByToken": {
+                "name": "getByToken",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getListForCurrentStore": {
+                "name": "getListForCurrentStore",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getByTokenForCurrentStore": {
+                "name": "getByTokenForCurrentStore",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "findIntegrations": {
+                "name": "findIntegrations",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "isIntegrationAvailable": {
+                "name": "isIntegrationAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "paymentMethodList": {
+                "name": "paymentMethodList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "integrationFactory": {
+                "name": "integrationFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "integrations": {
+                "name": "integrations",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\PaymentMethodIntegration\\AvailabilityCheckerInterface": {
+        "name": "Magento\\InstantPurchase\\PaymentMethodIntegration\\AvailabilityCheckerInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "isAvailable": {
+                "name": "isAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\InstantPurchase\\PaymentMethodIntegration\\StaticAvailabilityChecker": {
+        "name": "Magento\\InstantPurchase\\PaymentMethodIntegration\\StaticAvailabilityChecker",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "isAvailable": {
+                "name": "isAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "value": {
+                "name": "value",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\PaymentMethodIntegration\\IntegrationFactory": {
+        "name": "Magento\\InstantPurchase\\PaymentMethodIntegration\\IntegrationFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "extractFromConfig": {
+                "name": "extractFromConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "objectManager": {
+                "name": "objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\InstantPurchaseOptionFactory": {
+        "name": "Magento\\InstantPurchase\\Model\\InstantPurchaseOptionFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "createDisabledOption": {
+                "name": "createDisabledOption",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "objectManager": {
+                "name": "objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\InstantPurchaseInterface": {
+        "name": "Magento\\InstantPurchase\\Model\\InstantPurchaseInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "getOption": {
+                "name": "getOption",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\InstantPurchase\\Model\\InstantPurchaseChooser": {
+        "name": "Magento\\InstantPurchase\\Model\\InstantPurchaseChooser",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getOption": {
+                "name": "getOption",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "isInstantPurchaseButtonEnabled": {
+                "name": "isInstantPurchaseButtonEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "instantPurchaseOptionFactory": {
+                "name": "instantPurchaseOptionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "paymentTokenChooser": {
+                "name": "paymentTokenChooser",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "shippingAddressChooser": {
+                "name": "shippingAddressChooser",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "billingAddressChooser": {
+                "name": "billingAddressChooser",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "shippingMethodChooser": {
+                "name": "shippingMethodChooser",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\PlaceOrder": {
+        "name": "Magento\\InstantPurchase\\Model\\PlaceOrder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "placeOrder": {
+                "name": "placeOrder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "quoteRepository": {
+                "name": "quoteRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            },
+            "quoteCreation": {
+                "name": "quoteCreation",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            },
+            "quoteFilling": {
+                "name": "quoteFilling",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            },
+            "shippingConfiguration": {
+                "name": "shippingConfiguration",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            },
+            "paymentConfiguration": {
+                "name": "paymentConfiguration",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            },
+            "purchase": {
+                "name": "purchase",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\InstantPurchaseOptionLoadingFactory": {
+        "name": "Magento\\InstantPurchase\\Model\\InstantPurchaseOptionLoadingFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getAddress": {
+                "name": "getAddress",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "instantPurchaseOptionFactory": {
+                "name": "instantPurchaseOptionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "paymentTokenManagement": {
+                "name": "paymentTokenManagement",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "addressRepository": {
+                "name": "addressRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "addressFactory": {
+                "name": "addressFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "shippingMethodFactory": {
+                "name": "shippingMethodFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\InstantPurchaseOption": {
+        "name": "Magento\\InstantPurchase\\Model\\InstantPurchaseOption",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "isAvailable": {
+                "name": "isAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getPaymentToken": {
+                "name": "getPaymentToken",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getShippingAddress": {
+                "name": "getShippingAddress",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getBillingAddress": {
+                "name": "getBillingAddress",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getShippingMethod": {
+                "name": "getShippingMethod",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "paymentToken": {
+                "name": "paymentToken",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            },
+            "shippingAddress": {
+                "name": "shippingAddress",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            },
+            "billingAddress": {
+                "name": "billingAddress",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            },
+            "shippingMethod": {
+                "name": "shippingMethod",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\Config": {
+        "name": "Magento\\InstantPurchase\\Model\\Config",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "isModuleEnabled": {
+                "name": "isModuleEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getButtonText": {
+                "name": "getButtonText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getValue": {
+                "name": "getValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "isSetFlag": {
+                "name": "isSetFlag",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\ShippingAddressChoose\\DefaultShippingAddressChooser": {
+        "name": "Magento\\InstantPurchase\\Model\\ShippingAddressChoose\\DefaultShippingAddressChooser",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "choose": {
+                "name": "choose",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\InstantPurchase\\Model\\ShippingAddressChoose\\ShippingAddressChooserInterface": {
+        "name": "Magento\\InstantPurchase\\Model\\ShippingAddressChoose\\ShippingAddressChooserInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "choose": {
+                "name": "choose",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\InstantPurchase\\Model\\BillingAddressChoose\\DefaultBillingAddressChooser": {
+        "name": "Magento\\InstantPurchase\\Model\\BillingAddressChoose\\DefaultBillingAddressChooser",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "choose": {
+                "name": "choose",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\InstantPurchase\\Model\\BillingAddressChoose\\BillingAddressChooserInterface": {
+        "name": "Magento\\InstantPurchase\\Model\\BillingAddressChoose\\BillingAddressChooserInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "choose": {
+                "name": "choose",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\InstantPurchase\\Model\\PaymentMethodChoose\\PaymentTokenChooserInterface": {
+        "name": "Magento\\InstantPurchase\\Model\\PaymentMethodChoose\\PaymentTokenChooserInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "choose": {
+                "name": "choose",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\InstantPurchase\\Model\\PaymentMethodChoose\\LastCreatedPaymentTokenChooser": {
+        "name": "Magento\\InstantPurchase\\Model\\PaymentMethodChoose\\LastCreatedPaymentTokenChooser",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "choose": {
+                "name": "choose",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "buildSearchCriteria": {
+                "name": "buildSearchCriteria",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "getSupportedPaymentMethodCodes": {
+                "name": "getSupportedPaymentMethodCodes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "paymentTokenRepository": {
+                "name": "paymentTokenRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "integrationsManager": {
+                "name": "integrationsManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "sortOrderBuilder": {
+                "name": "sortOrderBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "searchCriteriaBuilder": {
+                "name": "searchCriteriaBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "dateTimeFactory": {
+                "name": "dateTimeFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\QuoteManagement\\ShippingConfiguration": {
+        "name": "Magento\\InstantPurchase\\Model\\QuoteManagement\\ShippingConfiguration",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "configureShippingMethod": {
+                "name": "configureShippingMethod",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getShippingMethodCodeToUse": {
+                "name": "getShippingMethodCodeToUse",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            },
+            "getCorrespondingShippingRateCode": {
+                "name": "getCorrespondingShippingRateCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            },
+            "resolveDeferredShippingMethodChoose": {
+                "name": "resolveDeferredShippingMethodChoose",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            }
+        },
+        "properties": {
+            "deferredShippingMethodChooserPool": {
+                "name": "deferredShippingMethodChooserPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\QuoteManagement\\QuoteCreation": {
+        "name": "Magento\\InstantPurchase\\Model\\QuoteManagement\\QuoteCreation",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "createQuote": {
+                "name": "createQuote",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "quoteFactory": {
+                "name": "quoteFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\QuoteManagement\\Purchase": {
+        "name": "Magento\\InstantPurchase\\Model\\QuoteManagement\\Purchase",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "purchase": {
+                "name": "purchase",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "quoteRepository": {
+                "name": "quoteRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            },
+            "quoteManagement": {
+                "name": "quoteManagement",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\QuoteManagement\\QuoteFilling": {
+        "name": "Magento\\InstantPurchase\\Model\\QuoteManagement\\QuoteFilling",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "fillQuote": {
+                "name": "fillQuote",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\InstantPurchase\\Model\\QuoteManagement\\PaymentConfiguration": {
+        "name": "Magento\\InstantPurchase\\Model\\QuoteManagement\\PaymentConfiguration",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "configurePayment": {
+                "name": "configurePayment",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getVaultPaymentMethodCode": {
+                "name": "getVaultPaymentMethodCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            },
+            "buildPaymentAdditionalInformation": {
+                "name": "buildPaymentAdditionalInformation",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            }
+        },
+        "properties": {
+            "integrationManager": {
+                "name": "integrationManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\ShippingMethodChoose\\DeferredShippingMethodChooserInterface": {
+        "name": "Magento\\InstantPurchase\\Model\\ShippingMethodChoose\\DeferredShippingMethodChooserInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "choose": {
+                "name": "choose",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\InstantPurchase\\Model\\ShippingMethodChoose\\CarrierFinder": {
+        "name": "Magento\\InstantPurchase\\Model\\ShippingMethodChoose\\CarrierFinder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getCarriersForCustomerAddress": {
+                "name": "getCarriersForCustomerAddress",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "carriersConfig": {
+                "name": "carriersConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\ShippingMethodChoose\\CheapestMethodChooser": {
+        "name": "Magento\\InstantPurchase\\Model\\ShippingMethodChoose\\CheapestMethodChooser",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "choose": {
+                "name": "choose",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "areShippingMethodsAvailable": {
+                "name": "areShippingMethodsAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "shippingMethodFactory": {
+                "name": "shippingMethodFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "carrierFinder": {
+                "name": "carrierFinder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\ShippingMethodChoose\\ShippingMethodChooserInterface": {
+        "name": "Magento\\InstantPurchase\\Model\\ShippingMethodChoose\\ShippingMethodChooserInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "choose": {
+                "name": "choose",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\InstantPurchase\\Model\\ShippingMethodChoose\\CheapestMethodDeferredChooser": {
+        "name": "Magento\\InstantPurchase\\Model\\ShippingMethodChoose\\CheapestMethodDeferredChooser",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "choose": {
+                "name": "choose",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "selectCheapestRate": {
+                "name": "selectCheapestRate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": []
+    },
+    "Magento\\InstantPurchase\\Model\\ShippingMethodChoose\\DeferredShippingMethodChooserPool": {
+        "name": "Magento\\InstantPurchase\\Model\\ShippingMethodChoose\\DeferredShippingMethodChooserPool",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "get": {
+                "name": "get",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "choosers": {
+                "name": "choosers",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\Ui\\CustomerAddressesFormatter": {
+        "name": "Magento\\InstantPurchase\\Model\\Ui\\CustomerAddressesFormatter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "format": {
+                "name": "format",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\InstantPurchase\\Model\\Ui\\PaymentTokenFormatter": {
+        "name": "Magento\\InstantPurchase\\Model\\Ui\\PaymentTokenFormatter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "format": {
+                "name": "format",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "integrationsManager": {
+                "name": "integrationsManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            }
+        }
+    },
+    "Magento\\InstantPurchase\\Model\\Ui\\ShippingMethodFormatter": {
+        "name": "Magento\\InstantPurchase\\Model\\Ui\\ShippingMethodFormatter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "format": {
+                "name": "format",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\InstantPurchase\\Block\\Button": {
+        "name": "Magento\\InstantPurchase\\Block\\Button",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-instant-purchase",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "isEnabled": {
+                "name": "isEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getJsLayout": {
+                "name": "getJsLayout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getCurrentStoreId": {
+                "name": "getCurrentStoreId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            }
+        },
+        "properties": {
+            "instantPurchaseConfig": {
+                "name": "instantPurchaseConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-instant-purchase",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": true
+            }
+        }
+    }
+}
