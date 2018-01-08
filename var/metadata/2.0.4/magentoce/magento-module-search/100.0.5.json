@@ -1,0 +1,2873 @@
+{
+    "Magento\\Search\\Helper\\Data": {
+        "name": "Magento\\Search\\Helper\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isMinQueryLength": {
+                "name": "isMinQueryLength",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getEscapedQueryText": {
+                "name": "getEscapedQueryText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getResultUrl": {
+                "name": "getResultUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSuggestUrl": {
+                "name": "getSuggestUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSearchTermUrl": {
+                "name": "getSearchTermUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getMinQueryLength": {
+                "name": "getMinQueryLength",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getMaxQueryLength": {
+                "name": "getMaxQueryLength",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "addNoteMessage": {
+                "name": "addNoteMessage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setNoteMessages": {
+                "name": "setNoteMessages",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getNoteMessages": {
+                "name": "getNoteMessages",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "checkNotes": {
+                "name": "checkNotes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getQueryParamName": {
+                "name": "getQueryParamName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_suggestData": {
+                "name": "_suggestData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_query": {
+                "name": "_query",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_queryText": {
+                "name": "_queryText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_messages": {
+                "name": "_messages",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "string": {
+                "name": "string",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_scopeConfig": {
+                "name": "_scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_queryFactory": {
+                "name": "_queryFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_escaper": {
+                "name": "_escaper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Search\\Api\\SearchInterface": {
+        "name": "Magento\\Search\\Api\\SearchInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\Search\\Controller\\Term\\Popular": {
+        "name": "Magento\\Search\\Controller\\Term\\Popular",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "dispatch": {
+                "name": "dispatch",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Search\\Controller\\Ajax\\Suggest": {
+        "name": "Magento\\Search\\Controller\\Ajax\\Suggest",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "autocomplete": {
+                "name": "autocomplete",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Search\\Controller\\Adminhtml\\Term": {
+        "name": "Magento\\Search\\Controller\\Adminhtml\\Term",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "createPage": {
+                "name": "createPage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Controller\\Adminhtml\\Term\\NewAction": {
+        "name": "Magento\\Search\\Controller\\Adminhtml\\Term\\NewAction",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Controller\\Adminhtml\\Term\\Index": {
+        "name": "Magento\\Search\\Controller\\Adminhtml\\Term\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Controller\\Adminhtml\\Term\\Report": {
+        "name": "Magento\\Search\\Controller\\Adminhtml\\Term\\Report",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Controller\\Adminhtml\\Term\\Edit": {
+        "name": "Magento\\Search\\Controller\\Adminhtml\\Term\\Edit",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "coreRegistry": {
+                "name": "coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Search\\Controller\\Adminhtml\\Term\\ExportSearchExcel": {
+        "name": "Magento\\Search\\Controller\\Adminhtml\\Term\\ExportSearchExcel",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "fileFactory": {
+                "name": "fileFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Search\\Controller\\Adminhtml\\Term\\ExportSearchCsv": {
+        "name": "Magento\\Search\\Controller\\Adminhtml\\Term\\ExportSearchCsv",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "fileFactory": {
+                "name": "fileFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Search\\Controller\\Adminhtml\\Term\\Delete": {
+        "name": "Magento\\Search\\Controller\\Adminhtml\\Term\\Delete",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Controller\\Adminhtml\\Term\\MassDelete": {
+        "name": "Magento\\Search\\Controller\\Adminhtml\\Term\\MassDelete",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Controller\\Adminhtml\\Term\\Save": {
+        "name": "Magento\\Search\\Controller\\Adminhtml\\Term\\Save",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "loadQuery": {
+                "name": "loadQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "proceedToEdit": {
+                "name": "proceedToEdit",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "queryFactory": {
+                "name": "queryFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Search\\Model\\QueryResult": {
+        "name": "Magento\\Search\\Model\\QueryResult",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getQueryText": {
+                "name": "getQueryText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getResultsCount": {
+                "name": "getResultsCount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "queryText": {
+                "name": "queryText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "resultsCount": {
+                "name": "resultsCount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Search\\Model\\SearchCollectionInterface": {
+        "name": "Magento\\Search\\Model\\SearchCollectionInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "addSearchFilter": {
+                "name": "addSearchFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Model\\Query": {
+        "name": "Magento\\Search\\Model\\Query",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSearchCollection": {
+                "name": "getSearchCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSuggestCollection": {
+                "name": "getSuggestCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "loadByQuery": {
+                "name": "loadByQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "loadByQueryText": {
+                "name": "loadByQueryText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setStoreId": {
+                "name": "setStoreId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getStoreId": {
+                "name": "getStoreId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "prepare": {
+                "name": "prepare",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "saveIncrementalPopularity": {
+                "name": "saveIncrementalPopularity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "saveNumResults": {
+                "name": "saveNumResults",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getMinQueryLength": {
+                "name": "getMinQueryLength",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getMaxQueryLength": {
+                "name": "getMaxQueryLength",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getQueryText": {
+                "name": "getQueryText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isQueryTextExceeded": {
+                "name": "isQueryTextExceeded",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_eventPrefix": {
+                "name": "_eventPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_eventObject": {
+                "name": "_eventObject",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_scopeConfig": {
+                "name": "_scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_searchCollectionFactory": {
+                "name": "_searchCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_queryCollectionFactory": {
+                "name": "_queryCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Search\\Model\\AdapterFactory": {
+        "name": "Magento\\Search\\Model\\AdapterFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "objectManager": {
+                "name": "objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "path": {
+                "name": "path",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "scope": {
+                "name": "scope",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "adapterPool": {
+                "name": "adapterPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Search\\Model\\SearchEngine": {
+        "name": "Magento\\Search\\Model\\SearchEngine",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "search": {
+                "name": "search",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getConnection": {
+                "name": "getConnection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "adapter": {
+                "name": "adapter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "adapterFactory": {
+                "name": "adapterFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Search\\Model\\Search": {
+        "name": "Magento\\Search\\Model\\Search",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\Search\\Model\\QueryFactory": {
+        "name": "Magento\\Search\\Model\\QueryFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "get": {
+                "name": "get",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getRawQueryText": {
+                "name": "getRawQueryText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "getPreparedQueryText": {
+                "name": "getPreparedQueryText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "getMaxQueryLength": {
+                "name": "getMaxQueryLength",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "isQueryTooLong": {
+                "name": "isQueryTooLong",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "query": {
+                "name": "query",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "objectManager": {
+                "name": "objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "string": {
+                "name": "string",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Search\\Model\\Autocomplete": {
+        "name": "Magento\\Search\\Model\\Autocomplete",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getItems": {
+                "name": "getItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "dataProviders": {
+                "name": "dataProviders",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Search\\Model\\SearchCollectionFactory": {
+        "name": "Magento\\Search\\Model\\SearchCollectionFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_objectManager": {
+                "name": "_objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_instanceName": {
+                "name": "_instanceName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Search\\Model\\QueryFactoryInterface": {
+        "name": "Magento\\Search\\Model\\QueryFactoryInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "get": {
+                "name": "get",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Model\\QueryInterface": {
+        "name": "Magento\\Search\\Model\\QueryInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getQueryText": {
+                "name": "getQueryText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Model\\AutocompleteInterface": {
+        "name": "Magento\\Search\\Model\\AutocompleteInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getItems": {
+                "name": "getItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Model\\ResourceModel\\Query": {
+        "name": "Magento\\Search\\Model\\ResourceModel\\Query",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "loadByQueryText": {
+                "name": "loadByQueryText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "load": {
+                "name": "load",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "loadByQuery": {
+                "name": "loadByQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getQuerySelect": {
+                "name": "getQuerySelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "_beforeSave": {
+                "name": "_beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "saveIncrementalPopularity": {
+                "name": "saveIncrementalPopularity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "saveNumResults": {
+                "name": "saveNumResults",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_date": {
+                "name": "_date",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "dateTime": {
+                "name": "dateTime",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Search\\Model\\ResourceModel\\Query\\Collection": {
+        "name": "Magento\\Search\\Model\\ResourceModel\\Query\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setStoreId": {
+                "name": "setStoreId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getStoreId": {
+                "name": "getStoreId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setQueryFilter": {
+                "name": "setQueryFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setPopularQueryFilter": {
+                "name": "setPopularQueryFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setRecentQueryFilter": {
+                "name": "setRecentQueryFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "addStoreFilter": {
+                "name": "addStoreFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_storeId": {
+                "name": "_storeId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_resourceHelper": {
+                "name": "_resourceHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Search\\Model\\Autocomplete\\ItemInterface": {
+        "name": "Magento\\Search\\Model\\Autocomplete\\ItemInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getTitle": {
+                "name": "getTitle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "toArray": {
+                "name": "toArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Model\\Autocomplete\\Item": {
+        "name": "Magento\\Search\\Model\\Autocomplete\\Item",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getTitle": {
+                "name": "getTitle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Model\\Autocomplete\\DataProviderInterface": {
+        "name": "Magento\\Search\\Model\\Autocomplete\\DataProviderInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getItems": {
+                "name": "getItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Model\\Autocomplete\\ItemFactory": {
+        "name": "Magento\\Search\\Model\\Autocomplete\\ItemFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "objectManager": {
+                "name": "objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Search\\Model\\Adminhtml\\System\\Config\\Source\\Engine": {
+        "name": "Magento\\Search\\Model\\Adminhtml\\System\\Config\\Source\\Engine",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "engines": {
+                "name": "engines",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Search\\Setup\\UpgradeSchema": {
+        "name": "Magento\\Search\\Setup\\UpgradeSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "upgrade": {
+                "name": "upgrade",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Setup\\InstallSchema": {
+        "name": "Magento\\Search\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Block\\Term": {
+        "name": "Magento\\Search\\Block\\Term",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_loadTerms": {
+                "name": "_loadTerms",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getTerms": {
+                "name": "getTerms",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSearchUrl": {
+                "name": "getSearchUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getMaxPopularity": {
+                "name": "getMaxPopularity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getMinPopularity": {
+                "name": "getMinPopularity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_terms": {
+                "name": "_terms",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_minPopularity": {
+                "name": "_minPopularity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_maxPopularity": {
+                "name": "_maxPopularity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_urlFactory": {
+                "name": "_urlFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_queryCollectionFactory": {
+                "name": "_queryCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Search\\Block\\Adminhtml\\Term": {
+        "name": "Magento\\Search\\Block\\Adminhtml\\Term",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Block\\Adminhtml\\Reports\\Search": {
+        "name": "Magento\\Search\\Block\\Adminhtml\\Reports\\Search",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Search\\Block\\Adminhtml\\Term\\Edit": {
+        "name": "Magento\\Search\\Block\\Adminhtml\\Term\\Edit",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getHeaderText": {
+                "name": "getHeaderText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "coreRegistry": {
+                "name": "coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Search\\Block\\Adminhtml\\Term\\Edit\\Form": {
+        "name": "Magento\\Search\\Block\\Adminhtml\\Term\\Edit\\Form",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_prepareForm": {
+                "name": "_prepareForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_systemStore": {
+                "name": "_systemStore",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Search\\Block\\Adminhtml\\Dashboard\\Last": {
+        "name": "Magento\\Search\\Block\\Adminhtml\\Dashboard\\Last",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_prepareCollection": {
+                "name": "_prepareCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_prepareColumns": {
+                "name": "_prepareColumns",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getRowUrl": {
+                "name": "getRowUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_collection": {
+                "name": "_collection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_queriesFactory": {
+                "name": "_queriesFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_moduleManager": {
+                "name": "_moduleManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_template": {
+                "name": "_template",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Search\\Block\\Adminhtml\\Dashboard\\Top": {
+        "name": "Magento\\Search\\Block\\Adminhtml\\Dashboard\\Top",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-search",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_prepareCollection": {
+                "name": "_prepareCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_prepareColumns": {
+                "name": "_prepareColumns",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getRowUrl": {
+                "name": "getRowUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_collection": {
+                "name": "_collection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_queriesFactory": {
+                "name": "_queriesFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_moduleManager": {
+                "name": "_moduleManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_template": {
+                "name": "_template",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-search",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

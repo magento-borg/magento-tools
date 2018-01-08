@@ -1,0 +1,650 @@
+{
+    "Magento\\GoogleAdwords\\Helper\\Data": {
+        "name": "Magento\\GoogleAdwords\\Helper\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.0.2",
+        "release": "2.2.1",
+        "package": "magento\/module-google-adwords",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "isGoogleAdwordsActive": {
+                "name": "isGoogleAdwordsActive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getLanguageCodes": {
+                "name": "getLanguageCodes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "convertLanguageCodeToLocaleCode": {
+                "name": "convertLanguageCodeToLocaleCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getConversionJsSrc": {
+                "name": "getConversionJsSrc",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getConversionImgSrc": {
+                "name": "getConversionImgSrc",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getConversionId": {
+                "name": "getConversionId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getConversionLanguage": {
+                "name": "getConversionLanguage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getConversionFormat": {
+                "name": "getConversionFormat",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getConversionColor": {
+                "name": "getConversionColor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getConversionLabel": {
+                "name": "getConversionLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getConversionValueType": {
+                "name": "getConversionValueType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "isDynamicConversionValue": {
+                "name": "isDynamicConversionValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getConversionValueConstant": {
+                "name": "getConversionValueConstant",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getConversionValue": {
+                "name": "getConversionValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "_registry": {
+                "name": "_registry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleAdwords\\Model\\Validator\\Factory": {
+        "name": "Magento\\GoogleAdwords\\Model\\Validator\\Factory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.0.2",
+        "release": "2.2.1",
+        "package": "magento\/module-google-adwords",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "createColorValidator": {
+                "name": "createColorValidator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "createConversionIdValidator": {
+                "name": "createConversionIdValidator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "_validatorBuilderFactory": {
+                "name": "_validatorBuilderFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleAdwords\\Model\\Config\\Source\\ValueType": {
+        "name": "Magento\\GoogleAdwords\\Model\\Config\\Source\\ValueType",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.0.2",
+        "release": "2.2.1",
+        "package": "magento\/module-google-adwords",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GoogleAdwords\\Model\\Config\\Source\\Language": {
+        "name": "Magento\\GoogleAdwords\\Model\\Config\\Source\\Language",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.0.2",
+        "release": "2.2.1",
+        "package": "magento\/module-google-adwords",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "_helper": {
+                "name": "_helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "_uppercaseFilter": {
+                "name": "_uppercaseFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleAdwords\\Model\\Config\\Backend\\AbstractConversion": {
+        "name": "Magento\\GoogleAdwords\\Model\\Config\\Backend\\AbstractConversion",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.0.2",
+        "release": "2.2.1",
+        "package": "magento\/module-google-adwords",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "_validatorComposite": {
+                "name": "_validatorComposite",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "_validatorFactory": {
+                "name": "_validatorFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleAdwords\\Model\\Config\\Backend\\Color": {
+        "name": "Magento\\GoogleAdwords\\Model\\Config\\Backend\\Color",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.0.2",
+        "release": "2.2.1",
+        "package": "magento\/module-google-adwords",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "_getValidationRulesBeforeSave": {
+                "name": "_getValidationRulesBeforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getConversionColor": {
+                "name": "getConversionColor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GoogleAdwords\\Model\\Config\\Backend\\ConversionId": {
+        "name": "Magento\\GoogleAdwords\\Model\\Config\\Backend\\ConversionId",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.0.2",
+        "release": "2.2.1",
+        "package": "magento\/module-google-adwords",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "_getValidationRulesBeforeSave": {
+                "name": "_getValidationRulesBeforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getConversionId": {
+                "name": "getConversionId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GoogleAdwords\\Model\\Filter\\UppercaseTitle": {
+        "name": "Magento\\GoogleAdwords\\Model\\Filter\\UppercaseTitle",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.0.2",
+        "release": "2.2.1",
+        "package": "magento\/module-google-adwords",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "filter": {
+                "name": "filter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GoogleAdwords\\Observer\\SetConversionValueObserver": {
+        "name": "Magento\\GoogleAdwords\\Observer\\SetConversionValueObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.1",
+        "package": "magento\/module-google-adwords",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_helper": {
+                "name": "_helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_collection": {
+                "name": "_collection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GoogleAdwords\\Block\\Code": {
+        "name": "Magento\\GoogleAdwords\\Block\\Code",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.0.2",
+        "release": "2.2.1",
+        "package": "magento\/module-google-adwords",
+        "packageVersion": "100.2.0",
+        "api": true,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            },
+            "getHelper": {
+                "name": "getHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": {
+            "_googleAdwordsData": {
+                "name": "_googleAdwordsData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.1",
+                "package": "magento\/module-google-adwords",
+                "packageVersion": "100.2.0",
+                "api": true,
+                "private": false
+            }
+        }
+    }
+}

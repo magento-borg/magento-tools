@@ -1,0 +1,1583 @@
+{
+    "Magento\\OfflineShipping\\Controller\\Adminhtml\\System\\Config\\ExportTablerates": {
+        "name": "Magento\\OfflineShipping\\Controller\\Adminhtml\\System\\Config\\ExportTablerates",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_fileFactory": {
+                "name": "_fileFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\OfflineShipping\\Model\\Config\\Source\\Flatrate": {
+        "name": "Magento\\OfflineShipping\\Model\\Config\\Source\\Flatrate",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\OfflineShipping\\Model\\Config\\Source\\Tablerate": {
+        "name": "Magento\\OfflineShipping\\Model\\Config\\Source\\Tablerate",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_carrierTablerate": {
+                "name": "_carrierTablerate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\OfflineShipping\\Model\\Config\\Backend\\Tablerate": {
+        "name": "Magento\\OfflineShipping\\Model\\Config\\Backend\\Tablerate",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "afterSave": {
+                "name": "afterSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_tablerateFactory": {
+                "name": "_tablerateFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\OfflineShipping\\Model\\SalesRule\\Calculator": {
+        "name": "Magento\\OfflineShipping\\Model\\SalesRule\\Calculator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "processFreeShipping": {
+                "name": "processFreeShipping",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\OfflineShipping\\Model\\SalesRule\\Rule": {
+        "name": "Magento\\OfflineShipping\\Model\\SalesRule\\Rule",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\OfflineShipping\\Model\\ResourceModel\\Carrier\\Tablerate": {
+        "name": "Magento\\OfflineShipping\\Model\\ResourceModel\\Carrier\\Tablerate",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getRate": {
+                "name": "getRate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "uploadAndImport": {
+                "name": "uploadAndImport",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": true,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_loadDirectoryCountries": {
+                "name": "_loadDirectoryCountries",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_loadDirectoryRegions": {
+                "name": "_loadDirectoryRegions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_getConditionFullName": {
+                "name": "_getConditionFullName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_getImportRow": {
+                "name": "_getImportRow",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_saveImportData": {
+                "name": "_saveImportData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_parseDecimalValue": {
+                "name": "_parseDecimalValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_importWebsiteId": {
+                "name": "_importWebsiteId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_importErrors": {
+                "name": "_importErrors",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_importedRows": {
+                "name": "_importedRows",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_importUniqueHash": {
+                "name": "_importUniqueHash",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_importIso2Countries": {
+                "name": "_importIso2Countries",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_importIso3Countries": {
+                "name": "_importIso3Countries",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_importRegions": {
+                "name": "_importRegions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_importConditionName": {
+                "name": "_importConditionName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_conditionFullNames": {
+                "name": "_conditionFullNames",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_coreConfig": {
+                "name": "_coreConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_logger": {
+                "name": "_logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_carrierTablerate": {
+                "name": "_carrierTablerate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_countryCollectionFactory": {
+                "name": "_countryCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_regionCollectionFactory": {
+                "name": "_regionCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_filesystem": {
+                "name": "_filesystem",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\OfflineShipping\\Model\\ResourceModel\\Carrier\\Tablerate\\Collection": {
+        "name": "Magento\\OfflineShipping\\Model\\ResourceModel\\Carrier\\Tablerate\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_initSelect": {
+                "name": "_initSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "setWebsiteFilter": {
+                "name": "setWebsiteFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "setConditionFilter": {
+                "name": "setConditionFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "setCountryFilter": {
+                "name": "setCountryFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_countryTable": {
+                "name": "_countryTable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_regionTable": {
+                "name": "_regionTable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\OfflineShipping\\Model\\Quote\\Address\\FreeShipping": {
+        "name": "Magento\\OfflineShipping\\Model\\Quote\\Address\\FreeShipping",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "isFreeShipping": {
+                "name": "isFreeShipping",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "applyToChildren": {
+                "name": "applyToChildren",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "calculator": {
+                "name": "calculator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\OfflineShipping\\Model\\Plugin\\Checkout\\Block\\Cart\\Shipping": {
+        "name": "Magento\\OfflineShipping\\Model\\Plugin\\Checkout\\Block\\Cart\\Shipping",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "afterIsStateActive": {
+                "name": "afterIsStateActive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_scopeConfig": {
+                "name": "_scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\OfflineShipping\\Model\\Carrier\\Freeshipping": {
+        "name": "Magento\\OfflineShipping\\Model\\Carrier\\Freeshipping",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "collectRates": {
+                "name": "collectRates",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_updateFreeMethodQuote": {
+                "name": "_updateFreeMethodQuote",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getAllowedMethods": {
+                "name": "getAllowedMethods",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_code": {
+                "name": "_code",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_isFixed": {
+                "name": "_isFixed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_rateResultFactory": {
+                "name": "_rateResultFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_rateMethodFactory": {
+                "name": "_rateMethodFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\OfflineShipping\\Model\\Carrier\\Flatrate": {
+        "name": "Magento\\OfflineShipping\\Model\\Carrier\\Flatrate",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "collectRates": {
+                "name": "collectRates",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getAllowedMethods": {
+                "name": "getAllowedMethods",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_code": {
+                "name": "_code",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_isFixed": {
+                "name": "_isFixed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_rateResultFactory": {
+                "name": "_rateResultFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_rateMethodFactory": {
+                "name": "_rateMethodFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\OfflineShipping\\Model\\Carrier\\Tablerate": {
+        "name": "Magento\\OfflineShipping\\Model\\Carrier\\Tablerate",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "collectRates": {
+                "name": "collectRates",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getRate": {
+                "name": "getRate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getCode": {
+                "name": "getCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getAllowedMethods": {
+                "name": "getAllowedMethods",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "createShippingMethod": {
+                "name": "createShippingMethod",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "_code": {
+                "name": "_code",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_isFixed": {
+                "name": "_isFixed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_defaultConditionName": {
+                "name": "_defaultConditionName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_conditionNames": {
+                "name": "_conditionNames",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_rateResultFactory": {
+                "name": "_rateResultFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_resultMethodFactory": {
+                "name": "_resultMethodFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_tablerateFactory": {
+                "name": "_tablerateFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\OfflineShipping\\Model\\Carrier\\Pickup": {
+        "name": "Magento\\OfflineShipping\\Model\\Carrier\\Pickup",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "collectRates": {
+                "name": "collectRates",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getAllowedMethods": {
+                "name": "getAllowedMethods",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_code": {
+                "name": "_code",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_isFixed": {
+                "name": "_isFixed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_rateResultFactory": {
+                "name": "_rateResultFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_rateMethodFactory": {
+                "name": "_rateMethodFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\OfflineShipping\\Setup\\InstallSchema": {
+        "name": "Magento\\OfflineShipping\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\OfflineShipping\\Observer\\SalesRule\\ActionsTabPrepareFormObserver": {
+        "name": "Magento\\OfflineShipping\\Observer\\SalesRule\\ActionsTabPrepareFormObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\OfflineShipping\\Block\\Adminhtml\\Form\\Field\\Import": {
+        "name": "Magento\\OfflineShipping\\Block\\Adminhtml\\Form\\Field\\Import",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getElementHtml": {
+                "name": "getElementHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\OfflineShipping\\Block\\Adminhtml\\Form\\Field\\Export": {
+        "name": "Magento\\OfflineShipping\\Block\\Adminhtml\\Form\\Field\\Export",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getElementHtml": {
+                "name": "getElementHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_backendUrl": {
+                "name": "_backendUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\OfflineShipping\\Block\\Adminhtml\\Carrier\\Tablerate\\Grid": {
+        "name": "Magento\\OfflineShipping\\Block\\Adminhtml\\Carrier\\Tablerate\\Grid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-offline-shipping",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "setWebsiteId": {
+                "name": "setWebsiteId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getWebsiteId": {
+                "name": "getWebsiteId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "setConditionName": {
+                "name": "setConditionName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getConditionName": {
+                "name": "getConditionName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_prepareCollection": {
+                "name": "_prepareCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_prepareColumns": {
+                "name": "_prepareColumns",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_websiteId": {
+                "name": "_websiteId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_conditionName": {
+                "name": "_conditionName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_tablerate": {
+                "name": "_tablerate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_collectionFactory": {
+                "name": "_collectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-offline-shipping",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

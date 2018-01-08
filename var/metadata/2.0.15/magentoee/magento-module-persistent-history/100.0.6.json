@@ -1,0 +1,1343 @@
+{
+    "Magento\\PersistentHistory\\Helper\\Data": {
+        "name": "Magento\\PersistentHistory\\Helper\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getPersistentConfigFilePath": {
+                "name": "getPersistentConfigFilePath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isWishlistPersist": {
+                "name": "isWishlistPersist",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isOrderedItemsPersist": {
+                "name": "isOrderedItemsPersist",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isCompareProductsPersist": {
+                "name": "isCompareProductsPersist",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isComparedProductsPersist": {
+                "name": "isComparedProductsPersist",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isViewedProductsPersist": {
+                "name": "isViewedProductsPersist",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isCustomerAndSegmentsPersist": {
+                "name": "isCustomerAndSegmentsPersist",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_configFileName": {
+                "name": "_configFileName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_modulesReader": {
+                "name": "_modulesReader",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Model\\CustomerEmulator": {
+        "name": "Magento\\PersistentHistory\\Model\\CustomerEmulator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "emulate": {
+                "name": "emulate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_customerFactory": {
+                "name": "_customerFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_wishlistData": {
+                "name": "_wishlistData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_ePersistentData": {
+                "name": "_ePersistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "customerRepository": {
+                "name": "customerRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Model\\WishlistAuthenticationState": {
+        "name": "Magento\\PersistentHistory\\Model\\WishlistAuthenticationState",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isEnabled": {
+                "name": "isEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "phHelper": {
+                "name": "phHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "persistentSession": {
+                "name": "persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Model\\Observer": {
+        "name": "Magento\\PersistentHistory\\Model\\Observer",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "initReorderSidebar": {
+                "name": "initReorderSidebar",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "emulateViewedProductsBlock": {
+                "name": "emulateViewedProductsBlock",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "emulateComparedProductsBlock": {
+                "name": "emulateComparedProductsBlock",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "emulateCompareProductsBlock": {
+                "name": "emulateCompareProductsBlock",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "emulateCompareProductsListBlock": {
+                "name": "emulateCompareProductsListBlock",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_getCustomerId": {
+                "name": "_getCustomerId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_ePersistentData": {
+                "name": "_ePersistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Model\\Adminhtml\\System\\Config\\Customer": {
+        "name": "Magento\\PersistentHistory\\Model\\Adminhtml\\System\\Config\\Customer",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_eventPrefix": {
+                "name": "_eventPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Model\\Adminhtml\\System\\Config\\Cart": {
+        "name": "Magento\\PersistentHistory\\Model\\Adminhtml\\System\\Config\\Cart",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": {
+            "_eventPrefix": {
+                "name": "_eventPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Plugin\\CleanExpiredQuotesPlugin": {
+        "name": "Magento\\PersistentHistory\\Plugin\\CleanExpiredQuotesPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "beforeExecute": {
+                "name": "beforeExecute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\PersistentHistory\\Observer\\ApplyPersistentDataObserver": {
+        "name": "Magento\\PersistentHistory\\Observer\\ApplyPersistentDataObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_configFactory": {
+                "name": "_configFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_ePersistentData": {
+                "name": "_ePersistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_mPersistentData": {
+                "name": "_mPersistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Observer\\QuotePersistentPreventFlag": {
+        "name": "Magento\\PersistentHistory\\Observer\\QuotePersistentPreventFlag",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "setValue": {
+                "name": "setValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getValue": {
+                "name": "getValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_quotePersistent": {
+                "name": "_quotePersistent",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Observer\\EmulateCustomerObserver": {
+        "name": "Magento\\PersistentHistory\\Observer\\EmulateCustomerObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "persistentSession": {
+                "name": "persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "customerSession": {
+                "name": "customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "ePersistentData": {
+                "name": "ePersistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "mPersistentData": {
+                "name": "mPersistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "customerEmulator": {
+                "name": "customerEmulator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Observer\\ApplyBlockPersistentDataObserver": {
+        "name": "Magento\\PersistentHistory\\Observer\\ApplyBlockPersistentDataObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_observer": {
+                "name": "_observer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_ePersistentData": {
+                "name": "_ePersistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Observer\\SetQuotePersistentDataObserver": {
+        "name": "Magento\\PersistentHistory\\Observer\\SetQuotePersistentDataObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_ePersistentData": {
+                "name": "_ePersistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_mPersistentData": {
+                "name": "_mPersistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "quotePersistent": {
+                "name": "quotePersistent",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Observer\\SkipWebsiteRestrictionObserver": {
+        "name": "Magento\\PersistentHistory\\Observer\\SkipWebsiteRestrictionObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Observer\\ApplyCustomerIdObserver": {
+        "name": "Magento\\PersistentHistory\\Observer\\ApplyCustomerIdObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_mPersistentData": {
+                "name": "_mPersistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_ePersistentData": {
+                "name": "_ePersistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Observer\\UpdateOptionCustomerSegmentationObserver": {
+        "name": "Magento\\PersistentHistory\\Observer\\UpdateOptionCustomerSegmentationObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_valueFactory": {
+                "name": "_valueFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Observer\\ExpireSidebarsObserver": {
+        "name": "Magento\\PersistentHistory\\Observer\\ExpireSidebarsObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_expireCompareProducts": {
+                "name": "_expireCompareProducts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": true
+            },
+            "_expireComparedProducts": {
+                "name": "_expireComparedProducts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": true
+            },
+            "_expireViewedProducts": {
+                "name": "_expireViewedProducts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "_ePersistentData": {
+                "name": "_ePersistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_compareItem": {
+                "name": "_compareItem",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_comparedFactory": {
+                "name": "_comparedFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_viewedFactory": {
+                "name": "_viewedFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Observer\\PreventSettingQuoteObserver": {
+        "name": "Magento\\PersistentHistory\\Observer\\PreventSettingQuoteObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": true,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "quotePersistent": {
+                "name": "quotePersistent",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PersistentHistory\\Block\\Adminhtml\\System\\Config\\Customer": {
+        "name": "Magento\\PersistentHistory\\Block\\Adminhtml\\System\\Config\\Customer",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-persistent-history",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "render": {
+                "name": "render",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-persistent-history",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

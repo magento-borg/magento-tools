@@ -1,0 +1,106 @@
+{
+    "Magento\\CatalogImportExportStaging\\Model\\Import\\ProductPlugin": {
+        "name": "Magento\\CatalogImportExportStaging\\Model\\Import\\ProductPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-catalog-import-export-staging",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-catalog-import-export-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "beforeSaveProductEntity": {
+                "name": "beforeSaveProductEntity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-catalog-import-export-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-catalog-import-export-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CatalogImportExportStaging\\Observer\\DeleteSequenceObserver": {
+        "name": "Magento\\CatalogImportExportStaging\\Observer\\DeleteSequenceObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-catalog-import-export-staging",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-catalog-import-export-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-catalog-import-export-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "productSequenceCollection": {
+                "name": "productSequenceCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-catalog-import-export-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    }
+}

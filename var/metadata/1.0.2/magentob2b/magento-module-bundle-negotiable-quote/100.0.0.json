@@ -1,0 +1,41 @@
+{
+    "Magento\\BundleNegotiableQuote\\Model\\ProductOptionsProvider": {
+        "name": "Magento\\BundleNegotiableQuote\\Model\\ProductOptionsProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.2",
+        "package": "magento\/module-bundle-negotiable-quote",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getProductType": {
+                "name": "getProductType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.2",
+                "package": "magento\/module-bundle-negotiable-quote",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "getOptions": {
+                "name": "getOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.2",
+                "package": "magento\/module-bundle-negotiable-quote",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

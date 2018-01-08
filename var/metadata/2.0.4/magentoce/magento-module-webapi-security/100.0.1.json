@@ -1,0 +1,130 @@
+{
+    "Magento\\WebapiSecurity\\Model\\Plugin\\AnonymousResourceSecurity": {
+        "name": "Magento\\WebapiSecurity\\Model\\Plugin\\AnonymousResourceSecurity",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-webapi-security",
+        "packageVersion": "100.0.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-webapi-security",
+                "packageVersion": "100.0.1",
+                "api": false,
+                "private": false
+            },
+            "afterConvert": {
+                "name": "afterConvert",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-webapi-security",
+                "packageVersion": "100.0.1",
+                "api": false,
+                "private": false
+            },
+            "getNode": {
+                "name": "getNode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-webapi-security",
+                "packageVersion": "100.0.1",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-webapi-security",
+                "packageVersion": "100.0.1",
+                "api": false,
+                "private": false
+            },
+            "resources": {
+                "name": "resources",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-webapi-security",
+                "packageVersion": "100.0.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\WebapiSecurity\\Model\\Plugin\\CacheInvalidator": {
+        "name": "Magento\\WebapiSecurity\\Model\\Plugin\\CacheInvalidator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-webapi-security",
+        "packageVersion": "100.0.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-webapi-security",
+                "packageVersion": "100.0.1",
+                "api": false,
+                "private": false
+            },
+            "afterAfterSave": {
+                "name": "afterAfterSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-webapi-security",
+                "packageVersion": "100.0.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "cacheTypeList": {
+                "name": "cacheTypeList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-webapi-security",
+                "packageVersion": "100.0.1",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

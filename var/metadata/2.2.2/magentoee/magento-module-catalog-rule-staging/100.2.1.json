@@ -1,0 +1,1317 @@
+{
+    "Magento\\CatalogRuleStaging\\Api\\CatalogRuleStagingInterface": {
+        "name": "Magento\\CatalogRuleStaging\\Api\\CatalogRuleStagingInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.1.0",
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": true,
+        "private": false,
+        "methods": {
+            "schedule": {
+                "name": "schedule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.1.0",
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "unschedule": {
+                "name": "unschedule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.1.0",
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CatalogRuleStaging\\Controller\\Adminhtml\\Update\\Delete": {
+        "name": "Magento\\CatalogRuleStaging\\Controller\\Adminhtml\\Update\\Delete",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "stagingUpdateDelete": {
+                "name": "stagingUpdateDelete",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CatalogRuleStaging\\Controller\\Adminhtml\\Update\\Save": {
+        "name": "Magento\\CatalogRuleStaging\\Controller\\Adminhtml\\Update\\Save",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "stagingUpdateSave": {
+                "name": "stagingUpdateSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CatalogRuleStaging\\Model\\CatalogRuleApplier": {
+        "name": "Magento\\CatalogRuleStaging\\Model\\CatalogRuleApplier",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "ruleProductProcessor": {
+                "name": "ruleProductProcessor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            },
+            "indexerRegistry": {
+                "name": "indexerRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CatalogRuleStaging\\Model\\CatalogRuleStaging": {
+        "name": "Magento\\CatalogRuleStaging\\Model\\CatalogRuleStaging",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "schedule": {
+                "name": "schedule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "unschedule": {
+                "name": "unschedule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "entityManager": {
+                "name": "entityManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            },
+            "campaignValidator": {
+                "name": "campaignValidator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CatalogRuleStaging\\Model\\Operation\\Create": {
+        "name": "Magento\\CatalogRuleStaging\\Model\\Operation\\Create",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getUpdateVersion": {
+                "name": "getUpdateVersion",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            },
+            "createUpdate": {
+                "name": "createUpdate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "versionManager": {
+                "name": "versionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "updateRepository": {
+                "name": "updateRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "operationUpdate": {
+                "name": "operationUpdate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "updateFactory": {
+                "name": "updateFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "operationCreate": {
+                "name": "operationCreate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CatalogRuleStaging\\Model\\Rule\\Hydrator": {
+        "name": "Magento\\CatalogRuleStaging\\Model\\Rule\\Hydrator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "hydrate": {
+                "name": "hydrate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "context": {
+                "name": "context",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "ruleFactory": {
+                "name": "ruleFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "entityRetriever": {
+                "name": "entityRetriever",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CatalogRuleStaging\\Model\\Rule\\DataProvider": {
+        "name": "Magento\\CatalogRuleStaging\\Model\\Rule\\DataProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CatalogRuleStaging\\Model\\Rule\\Retriever": {
+        "name": "Magento\\CatalogRuleStaging\\Model\\Rule\\Retriever",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getEntity": {
+                "name": "getEntity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "ruleRepository": {
+                "name": "ruleRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CatalogRuleStaging\\Model\\Rule\\Identifier\\DataProvider": {
+        "name": "Magento\\CatalogRuleStaging\\Model\\Rule\\Identifier\\DataProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getData": {
+                "name": "getData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getMetadata": {
+                "name": "getMetadata",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CatalogRuleStaging\\Model\\Staging\\Updates\\DataProvider": {
+        "name": "Magento\\CatalogRuleStaging\\Model\\Staging\\Updates\\DataProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getData": {
+                "name": "getData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CatalogRuleStaging\\Model\\Plugin\\ConditionFieldsetIdResolver": {
+        "name": "Magento\\CatalogRuleStaging\\Model\\Plugin\\ConditionFieldsetIdResolver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "aroundGetConditionsFieldSetId": {
+                "name": "aroundGetConditionsFieldSetId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CatalogRuleStaging\\Model\\Plugin\\DateResolverPlugin": {
+        "name": "Magento\\CatalogRuleStaging\\Model\\Plugin\\DateResolverPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "beforeGetFromDate": {
+                "name": "beforeGetFromDate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "beforeGetToDate": {
+                "name": "beforeGetToDate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "resolveDate": {
+                "name": "resolveDate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "updateRepository": {
+                "name": "updateRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CatalogRuleStaging\\Pricing\\Price\\CatalogRulePrice": {
+        "name": "Magento\\CatalogRuleStaging\\Pricing\\Price\\CatalogRulePrice",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getValue": {
+                "name": "getValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getActiveRules": {
+                "name": "getActiveRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "calculateRuleProductPrice": {
+                "name": "calculateRuleProductPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "versionManager": {
+                "name": "versionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "ruleCollectionFactory": {
+                "name": "ruleCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "productRepository": {
+                "name": "productRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CatalogRuleStaging\\Setup\\CatalogRuleSetup": {
+        "name": "Magento\\CatalogRuleStaging\\Setup\\CatalogRuleSetup",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "migrateRules": {
+                "name": "migrateRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "updateRules": {
+                "name": "updateRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "ruleFactory": {
+                "name": "ruleFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            },
+            "versionManagerFactory": {
+                "name": "versionManagerFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            },
+            "state": {
+                "name": "state",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CatalogRuleStaging\\Setup\\InstallData": {
+        "name": "Magento\\CatalogRuleStaging\\Setup\\InstallData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "catalogRuleSetupFactory": {
+                "name": "catalogRuleSetupFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CatalogRuleStaging\\Setup\\UpgradeSchema": {
+        "name": "Magento\\CatalogRuleStaging\\Setup\\UpgradeSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "upgrade": {
+                "name": "upgrade",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CatalogRuleStaging\\Setup\\InstallSchema": {
+        "name": "Magento\\CatalogRuleStaging\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "basicSetup": {
+                "name": "basicSetup",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CatalogRuleStaging\\Block\\Adminhtml\\Update\\Provider": {
+        "name": "Magento\\CatalogRuleStaging\\Block\\Adminhtml\\Update\\Provider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getId": {
+                "name": "getId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getUrl": {
+                "name": "getUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "ruleRepository": {
+                "name": "ruleRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CatalogRuleStaging\\Block\\Adminhtml\\Promo\\Catalog\\Plugin": {
+        "name": "Magento\\CatalogRuleStaging\\Block\\Adminhtml\\Promo\\Catalog\\Plugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "beforeCanRender": {
+                "name": "beforeCanRender",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CatalogRuleStaging\\Block\\Adminhtml\\Promo\\Catalog\\Edit\\Tab\\Conditions": {
+        "name": "Magento\\CatalogRuleStaging\\Block\\Adminhtml\\Promo\\Catalog\\Edit\\Tab\\Conditions",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-catalog-rule-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "_prepareForm": {
+                "name": "_prepareForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "ruleRepository": {
+                "name": "ruleRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "updateRepository": {
+                "name": "updateRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "versionManager": {
+                "name": "versionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-catalog-rule-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

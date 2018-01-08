@@ -1,0 +1,3111 @@
+{
+    "Magento\\Captcha\\Cron\\DeleteExpiredImages": {
+        "name": "Magento\\Captcha\\Cron\\DeleteExpiredImages",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_deleteExpiredImagesForWebsite": {
+                "name": "_deleteExpiredImagesForWebsite",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_helper": {
+                "name": "_helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_adminHelper": {
+                "name": "_adminHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_mediaDirectory": {
+                "name": "_mediaDirectory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Cron\\DeleteOldAttempts": {
+        "name": "Magento\\Captcha\\Cron\\DeleteOldAttempts",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "resLogFactory": {
+                "name": "resLogFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Helper\\Data": {
+        "name": "Magento\\Captcha\\Helper\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getCaptcha": {
+                "name": "getCaptcha",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getConfig": {
+                "name": "getConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getFonts": {
+                "name": "getFonts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getImgDir": {
+                "name": "getImgDir",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_getWebsiteCode": {
+                "name": "_getWebsiteCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getImgUrl": {
+                "name": "getImgUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_captcha": {
+                "name": "_captcha",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_filesystem": {
+                "name": "_filesystem",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_factory": {
+                "name": "_factory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Helper\\Adminhtml\\Data": {
+        "name": "Magento\\Captcha\\Helper\\Adminhtml\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getConfig": {
+                "name": "getConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_getWebsiteCode": {
+                "name": "_getWebsiteCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_backendConfig": {
+                "name": "_backendConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Controller\\Adminhtml\\Refresh\\Refresh": {
+        "name": "Magento\\Captcha\\Controller\\Adminhtml\\Refresh\\Refresh",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Captcha\\Controller\\Refresh\\Index": {
+        "name": "Magento\\Captcha\\Controller\\Refresh\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "captchaHelper": {
+                "name": "captchaHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Model\\DefaultModel": {
+        "name": "Magento\\Captcha\\Model\\DefaultModel",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_getFormIdKey": {
+                "name": "_getFormIdKey",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getBlockName": {
+                "name": "getBlockName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "isRequired": {
+                "name": "isRequired",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "isShownToLoggedInUser": {
+                "name": "isShownToLoggedInUser",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_isOverLimitAttempts": {
+                "name": "_isOverLimitAttempts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_getAllowedAttemptsForSameLogin": {
+                "name": "_getAllowedAttemptsForSameLogin",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_getAllowedAttemptsFromSameIp": {
+                "name": "_getAllowedAttemptsFromSameIp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_isOverLimitIpAttempt": {
+                "name": "_isOverLimitIpAttempt",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_isOverLimitLoginAttempts": {
+                "name": "_isOverLimitLoginAttempts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_isUserAuth": {
+                "name": "_isUserAuth",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "isCaseSensitive": {
+                "name": "isCaseSensitive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getFont": {
+                "name": "getFont",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getExpiration": {
+                "name": "getExpiration",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getTimeout": {
+                "name": "getTimeout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getImgDir": {
+                "name": "getImgDir",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getImgUrl": {
+                "name": "getImgUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "isCorrect": {
+                "name": "isCorrect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getImgSrc": {
+                "name": "getImgSrc",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "logAttempt": {
+                "name": "logAttempt",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "setShowCaptchaInSession": {
+                "name": "setShowCaptchaInSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_generateWord": {
+                "name": "_generateWord",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_getSymbols": {
+                "name": "_getSymbols",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_getWordLen": {
+                "name": "_getWordLen",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_isShowAlways": {
+                "name": "_isShowAlways",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_isEnabled": {
+                "name": "_isEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_getTargetForms": {
+                "name": "_getTargetForms",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getWord": {
+                "name": "getWord",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_setWord": {
+                "name": "_setWord",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_clearWord": {
+                "name": "_clearWord",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_randomSize": {
+                "name": "_randomSize",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": true,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_gc": {
+                "name": "_gc",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": true,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_getResourceModel": {
+                "name": "_getResourceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_captchaData": {
+                "name": "_captchaData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_expiration": {
+                "name": "_expiration",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_fsize": {
+                "name": "_fsize",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_formId": {
+                "name": "_formId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_resLogFactory": {
+                "name": "_resLogFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_keepSession": {
+                "name": "_keepSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_session": {
+                "name": "_session",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Model\\CaptchaFactory": {
+        "name": "Magento\\Captcha\\Model\\CaptchaFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_objectManager": {
+                "name": "_objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Model\\CaptchaInterface": {
+        "name": "Magento\\Captcha\\Model\\CaptchaInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": true,
+        "private": false,
+        "methods": {
+            "generate": {
+                "name": "generate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": true,
+                "private": false
+            },
+            "isCorrect": {
+                "name": "isCorrect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": true,
+                "private": false
+            },
+            "getBlockName": {
+                "name": "getBlockName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Captcha\\Model\\Config\\Mode": {
+        "name": "Magento\\Captcha\\Model\\Config\\Mode",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Captcha\\Model\\Config\\Font": {
+        "name": "Magento\\Captcha\\Model\\Config\\Font",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_captchaData": {
+                "name": "_captchaData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Model\\Config\\Form\\Backend": {
+        "name": "Magento\\Captcha\\Model\\Config\\Form\\Backend",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": {
+            "_configPath": {
+                "name": "_configPath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Model\\Config\\Form\\AbstractForm": {
+        "name": "Magento\\Captcha\\Model\\Config\\Form\\AbstractForm",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_configPath": {
+                "name": "_configPath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Model\\Config\\Form\\Frontend": {
+        "name": "Magento\\Captcha\\Model\\Config\\Form\\Frontend",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": {
+            "_configPath": {
+                "name": "_configPath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Model\\ResourceModel\\Log": {
+        "name": "Magento\\Captcha\\Model\\ResourceModel\\Log",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "logAttempt": {
+                "name": "logAttempt",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "deleteUserAttempts": {
+                "name": "deleteUserAttempts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "countAttemptsByRemoteAddress": {
+                "name": "countAttemptsByRemoteAddress",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "countAttemptsByUserLogin": {
+                "name": "countAttemptsByUserLogin",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "deleteOldAttempts": {
+                "name": "deleteOldAttempts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreDate": {
+                "name": "_coreDate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_remoteAddress": {
+                "name": "_remoteAddress",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Model\\Cart\\ConfigPlugin": {
+        "name": "Magento\\Captcha\\Model\\Cart\\ConfigPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "afterGetConfig": {
+                "name": "afterGetConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "configProvider": {
+                "name": "configProvider",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Model\\Checkout\\ConfigProvider": {
+        "name": "Magento\\Captcha\\Model\\Checkout\\ConfigProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getConfig": {
+                "name": "getConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "isCaseSensitive": {
+                "name": "isCaseSensitive",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getImageHeight": {
+                "name": "getImageHeight",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getImageSrc": {
+                "name": "getImageSrc",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getRefreshUrl": {
+                "name": "getRefreshUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "isRequired": {
+                "name": "isRequired",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getCaptchaModel": {
+                "name": "getCaptchaModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "captchaData": {
+                "name": "captchaData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "formIds": {
+                "name": "formIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Model\\Customer\\Plugin\\AjaxLogin": {
+        "name": "Magento\\Captcha\\Model\\Customer\\Plugin\\AjaxLogin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "aroundExecute": {
+                "name": "aroundExecute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "sessionManager": {
+                "name": "sessionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "resultJsonFactory": {
+                "name": "resultJsonFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "formIds": {
+                "name": "formIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Setup\\InstallSchema": {
+        "name": "Magento\\Captcha\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Captcha\\Observer\\ResetAttemptForFrontendObserver": {
+        "name": "Magento\\Captcha\\Observer\\ResetAttemptForFrontendObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "resLogFactory": {
+                "name": "resLogFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Observer\\CheckGuestCheckoutObserver": {
+        "name": "Magento\\Captcha\\Observer\\CheckGuestCheckoutObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_helper": {
+                "name": "_helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_actionFlag": {
+                "name": "_actionFlag",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "captchaStringResolver": {
+                "name": "captchaStringResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_typeOnepage": {
+                "name": "_typeOnepage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "jsonHelper": {
+                "name": "jsonHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Observer\\CaptchaStringResolver": {
+        "name": "Magento\\Captcha\\Observer\\CaptchaStringResolver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "resolve": {
+                "name": "resolve",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Captcha\\Observer\\CheckForgotpasswordObserver": {
+        "name": "Magento\\Captcha\\Observer\\CheckForgotpasswordObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_helper": {
+                "name": "_helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_actionFlag": {
+                "name": "_actionFlag",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "messageManager": {
+                "name": "messageManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "redirect": {
+                "name": "redirect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "captchaStringResolver": {
+                "name": "captchaStringResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Observer\\CheckContactUsFormObserver": {
+        "name": "Magento\\Captcha\\Observer\\CheckContactUsFormObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getDataPersistor": {
+                "name": "getDataPersistor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "_helper": {
+                "name": "_helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_actionFlag": {
+                "name": "_actionFlag",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "messageManager": {
+                "name": "messageManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "redirect": {
+                "name": "redirect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "captchaStringResolver": {
+                "name": "captchaStringResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "dataPersistor": {
+                "name": "dataPersistor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Captcha\\Observer\\ResetAttemptForFrontendAccountEditObserver": {
+        "name": "Magento\\Captcha\\Observer\\ResetAttemptForFrontendAccountEditObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "resLogFactory": {
+                "name": "resLogFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Observer\\CheckUserLoginObserver": {
+        "name": "Magento\\Captcha\\Observer\\CheckUserLoginObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getCustomerRepository": {
+                "name": "getCustomerRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            },
+            "getAuthentication": {
+                "name": "getAuthentication",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_helper": {
+                "name": "_helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_actionFlag": {
+                "name": "_actionFlag",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "messageManager": {
+                "name": "messageManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_session": {
+                "name": "_session",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "captchaStringResolver": {
+                "name": "captchaStringResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_customerUrl": {
+                "name": "_customerUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "customerRepository": {
+                "name": "customerRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "authentication": {
+                "name": "authentication",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Observer\\CheckUserEditObserver": {
+        "name": "Magento\\Captcha\\Observer\\CheckUserEditObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "actionFlag": {
+                "name": "actionFlag",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "messageManager": {
+                "name": "messageManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "redirect": {
+                "name": "redirect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "captchaStringResolver": {
+                "name": "captchaStringResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "authentication": {
+                "name": "authentication",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "customerSession": {
+                "name": "customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Observer\\CheckUserForgotPasswordBackendObserver": {
+        "name": "Magento\\Captcha\\Observer\\CheckUserForgotPasswordBackendObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_helper": {
+                "name": "_helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "captchaStringResolver": {
+                "name": "captchaStringResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_session": {
+                "name": "_session",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_actionFlag": {
+                "name": "_actionFlag",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "messageManager": {
+                "name": "messageManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Observer\\ResetAttemptForBackendObserver": {
+        "name": "Magento\\Captcha\\Observer\\ResetAttemptForBackendObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "resLogFactory": {
+                "name": "resLogFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Observer\\CheckUserLoginBackendObserver": {
+        "name": "Magento\\Captcha\\Observer\\CheckUserLoginBackendObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_helper": {
+                "name": "_helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "captchaStringResolver": {
+                "name": "captchaStringResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_request": {
+                "name": "_request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Observer\\CheckUserCreateObserver": {
+        "name": "Magento\\Captcha\\Observer\\CheckUserCreateObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_helper": {
+                "name": "_helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_actionFlag": {
+                "name": "_actionFlag",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "messageManager": {
+                "name": "messageManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_session": {
+                "name": "_session",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_urlManager": {
+                "name": "_urlManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "captchaStringResolver": {
+                "name": "captchaStringResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "redirect": {
+                "name": "redirect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Observer\\CheckRegisterCheckoutObserver": {
+        "name": "Magento\\Captcha\\Observer\\CheckRegisterCheckoutObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_helper": {
+                "name": "_helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_actionFlag": {
+                "name": "_actionFlag",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "captchaStringResolver": {
+                "name": "captchaStringResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_typeOnepage": {
+                "name": "_typeOnepage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "jsonHelper": {
+                "name": "jsonHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Block\\Captcha": {
+        "name": "Magento\\Captcha\\Block\\Captcha",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_captchaData": {
+                "name": "_captchaData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Block\\Captcha\\DefaultCaptcha": {
+        "name": "Magento\\Captcha\\Block\\Captcha\\DefaultCaptcha",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getTemplate": {
+                "name": "getTemplate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getRefreshUrl": {
+                "name": "getRefreshUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getCaptchaModel": {
+                "name": "getCaptchaModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_template": {
+                "name": "_template",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_captcha": {
+                "name": "_captcha",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_captchaData": {
+                "name": "_captchaData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Captcha\\Block\\Adminhtml\\Captcha\\DefaultCaptcha": {
+        "name": "Magento\\Captcha\\Block\\Adminhtml\\Captcha\\DefaultCaptcha",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-captcha",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getRefreshUrl": {
+                "name": "getRefreshUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_url": {
+                "name": "_url",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_config": {
+                "name": "_config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-captcha",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

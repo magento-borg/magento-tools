@@ -1,0 +1,189 @@
+{
+    "Magento\\ScalableOms\\Console\\Command\\SplitSales": {
+        "name": "Magento\\ScalableOms\\Console\\Command\\SplitSales",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-scalable-oms",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getCommandName": {
+                "name": "getCommandName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-scalable-oms",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getCommandDescription": {
+                "name": "getCommandDescription",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-scalable-oms",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getCommandDefinition": {
+                "name": "getCommandDefinition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-scalable-oms",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\ScalableOms\\Model\\SequenceTableIterator": {
+        "name": "Magento\\ScalableOms\\Model\\SequenceTableIterator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-scalable-oms",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-scalable-oms",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getInnerIterator": {
+                "name": "getInnerIterator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-scalable-oms",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "current": {
+                "name": "current",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-scalable-oms",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "next": {
+                "name": "next",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-scalable-oms",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "key": {
+                "name": "key",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-scalable-oms",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "valid": {
+                "name": "valid",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-scalable-oms",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "rewind": {
+                "name": "rewind",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-scalable-oms",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "resourceConnection": {
+                "name": "resourceConnection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-scalable-oms",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "internalIterator": {
+                "name": "internalIterator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-scalable-oms",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "connectionName": {
+                "name": "connectionName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-scalable-oms",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    }
+}

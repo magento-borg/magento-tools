@@ -1,0 +1,666 @@
+{
+    "Magento\\PromotionPermissions\\Helper\\Data": {
+        "name": "Magento\\PromotionPermissions\\Helper\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-promotion-permissions",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getCanAdminEditCatalogRules": {
+                "name": "getCanAdminEditCatalogRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getCanAdminEditSalesRules": {
+                "name": "getCanAdminEditSalesRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getCanAdminEditReminderRules": {
+                "name": "getCanAdminEditReminderRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_authorization": {
+                "name": "_authorization",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PromotionPermissions\\Observer\\AdminhtmlBlockHtmlBeforeObserver": {
+        "name": "Magento\\PromotionPermissions\\Observer\\AdminhtmlBlockHtmlBeforeObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-promotion-permissions",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_canEditCatalogRules": {
+                "name": "_canEditCatalogRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_canEditSalesRules": {
+                "name": "_canEditSalesRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_canEditReminderRules": {
+                "name": "_canEditReminderRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_isEnterpriseBannerEnabled": {
+                "name": "_isEnterpriseBannerEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_isEnterpriseReminderEnabled": {
+                "name": "_isEnterpriseReminderEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_bannerCollection": {
+                "name": "_bannerCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PromotionPermissions\\Observer\\ViewBlockAbstractToHtmlBeforeObserver": {
+        "name": "Magento\\PromotionPermissions\\Observer\\ViewBlockAbstractToHtmlBeforeObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-promotion-permissions",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_canEditReminderRules": {
+                "name": "_canEditReminderRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PromotionPermissions\\Observer\\ControllerActionPredispatchObserver": {
+        "name": "Magento\\PromotionPermissions\\Observer\\ControllerActionPredispatchObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-promotion-permissions",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_forward": {
+                "name": "_forward",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_request": {
+                "name": "_request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_canEditCatalogRules": {
+                "name": "_canEditCatalogRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_canEditSalesRules": {
+                "name": "_canEditSalesRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_canEditReminderRules": {
+                "name": "_canEditReminderRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "_isEnterpriseReminderEnabled": {
+                "name": "_isEnterpriseReminderEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PromotionPermissions\\Block\\Adminhtml\\Reminder\\Plugin": {
+        "name": "Magento\\PromotionPermissions\\Block\\Adminhtml\\Reminder\\Plugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-promotion-permissions",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "afterCanRender": {
+                "name": "afterCanRender",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "dataHelper": {
+                "name": "dataHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\PromotionPermissions\\Block\\Adminhtml\\Reminder\\Edit\\Plugin": {
+        "name": "Magento\\PromotionPermissions\\Block\\Adminhtml\\Reminder\\Edit\\Plugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-promotion-permissions",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "afterCanRender": {
+                "name": "afterCanRender",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "dataHelper": {
+                "name": "dataHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\PromotionPermissions\\Block\\Adminhtml\\Promo\\Quote\\Plugin": {
+        "name": "Magento\\PromotionPermissions\\Block\\Adminhtml\\Promo\\Quote\\Plugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-promotion-permissions",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "afterCanRender": {
+                "name": "afterCanRender",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "dataHelper": {
+                "name": "dataHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\PromotionPermissions\\Block\\Adminhtml\\Promo\\Quote\\Edit\\GenericButton\\Plugin": {
+        "name": "Magento\\PromotionPermissions\\Block\\Adminhtml\\Promo\\Quote\\Edit\\GenericButton\\Plugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-promotion-permissions",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "afterCanRender": {
+                "name": "afterCanRender",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "restrictedButtons": {
+                "name": "restrictedButtons",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\PromotionPermissions\\Block\\Adminhtml\\Promo\\Catalog\\Plugin": {
+        "name": "Magento\\PromotionPermissions\\Block\\Adminhtml\\Promo\\Catalog\\Plugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-promotion-permissions",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "afterCanRender": {
+                "name": "afterCanRender",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "dataHelper": {
+                "name": "dataHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\PromotionPermissions\\Block\\Adminhtml\\Promo\\Catalog\\Edit\\GenericButton\\Plugin": {
+        "name": "Magento\\PromotionPermissions\\Block\\Adminhtml\\Promo\\Catalog\\Edit\\GenericButton\\Plugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-promotion-permissions",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "afterCanRender": {
+                "name": "afterCanRender",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "restrictedButtons": {
+                "name": "restrictedButtons",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-promotion-permissions",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

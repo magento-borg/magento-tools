@@ -1,0 +1,43 @@
+{
+    "Magento\\ConfigurableProductStaging\\Controller\\Adminhtml\\Product\\Wizard": {
+        "name": "Magento\\ConfigurableProductStaging\\Controller\\Adminhtml\\Product\\Wizard",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-configurable-product-staging",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\ConfigurableProductStaging\\Setup\\InstallSchema": {
+        "name": "Magento\\ConfigurableProductStaging\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.0",
+        "package": "magento\/module-configurable-product-staging",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.0",
+                "package": "magento\/module-configurable-product-staging",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

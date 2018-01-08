@@ -1,0 +1,2243 @@
+{
+    "Magento\\AdvancedSalesRule\\Model\\Indexer\\SalesRule": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Indexer\\SalesRule",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "executeFull": {
+                "name": "executeFull",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "executeList": {
+                "name": "executeList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "executeRow": {
+                "name": "executeRow",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "executeAction": {
+                "name": "executeAction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "fullActionFactory": {
+                "name": "fullActionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "rowsActionFactory": {
+                "name": "rowsActionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Indexer\\SalesRule\\Processor": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Indexer\\SalesRule\\Processor",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Indexer\\SalesRule\\AbstractAction": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Indexer\\SalesRule\\AbstractAction",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "reindex": {
+                "name": "reindex",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "setActionIds": {
+                "name": "setActionIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "saveFilters": {
+                "name": "saveFilters",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getTruePlaceHolder": {
+                "name": "getTruePlaceHolder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "ruleFactory": {
+                "name": "ruleFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "ruleCollection": {
+                "name": "ruleCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "filterResourceModel": {
+                "name": "filterResourceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "actionIds": {
+                "name": "actionIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Indexer\\SalesRule\\Action\\Full": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Indexer\\SalesRule\\Action\\Full",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Indexer\\SalesRule\\Action\\Rows": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Indexer\\SalesRule\\Action\\Rows",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\Filter": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\Filter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\Address": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\Address",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isFilterable": {
+                "name": "isFilterable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterGroups": {
+                "name": "getFilterGroups",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "concreteConditionFactory": {
+                "name": "concreteConditionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "concreteCondition": {
+                "name": "concreteCondition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\Product": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\Product",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isFilterable": {
+                "name": "isFilterable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterGroups": {
+                "name": "getFilterGroups",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "concreteConditionFactory": {
+                "name": "concreteConditionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "concreteCondition": {
+                "name": "concreteCondition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\Combine": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\Combine",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isFilterable": {
+                "name": "isFilterable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterGroups": {
+                "name": "getFilterGroups",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "conditionHelper": {
+                "name": "conditionHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Address\\CountryId": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Address\\CountryId",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilterTextPrefix": {
+                "name": "getFilterTextPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Address\\PaymentMethod": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Address\\PaymentMethod",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilterTextPrefix": {
+                "name": "getFilterTextPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Address\\RegionId": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Address\\RegionId",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilterTextPrefix": {
+                "name": "getFilterTextPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Address\\Postcode": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Address\\Postcode",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilterTextPrefix": {
+                "name": "getFilterTextPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Address\\Region": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Address\\Region",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilterTextPrefix": {
+                "name": "getFilterTextPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Address\\ShippingMethod": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Address\\ShippingMethod",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilterTextPrefix": {
+                "name": "getFilterTextPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Address\\AbstractFilterGenerator": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Address\\AbstractFilterGenerator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "generateFilterText": {
+                "name": "generateFilterText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextPrefix": {
+                "name": "getFilterTextPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "attribute": {
+                "name": "attribute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Product\\Attribute": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Product\\Attribute",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "generateFilterText": {
+                "name": "generateFilterText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "attributeCode": {
+                "name": "attributeCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Product\\Category": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\FilterTextGenerator\\Product\\Category",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "generateFilterText": {
+                "name": "generateFilterText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\DefaultCondition": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\DefaultCondition",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "isFilterable": {
+                "name": "isFilterable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterGroups": {
+                "name": "getFilterGroups",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\AbstractFilterableCondition": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\AbstractFilterableCondition",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isFilterable": {
+                "name": "isFilterable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isOperatorFilterable": {
+                "name": "isOperatorFilterable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isAttributeTypeFilterable": {
+                "name": "isAttributeTypeFilterable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterGroups": {
+                "name": "getFilterGroups",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextPrefix": {
+                "name": "getFilterTextPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextGeneratorClass": {
+                "name": "getFilterTextGeneratorClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "operator": {
+                "name": "operator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "attribute": {
+                "name": "attribute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "attributeValue": {
+                "name": "attributeValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "condition": {
+                "name": "condition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "filterHelper": {
+                "name": "filterHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "filterGroupFactory": {
+                "name": "filterGroupFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "filterGroups": {
+                "name": "filterGroups",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Address\\CountryId": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Address\\CountryId",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilterTextPrefix": {
+                "name": "getFilterTextPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextGeneratorClass": {
+                "name": "getFilterTextGeneratorClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Address\\PaymentMethod": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Address\\PaymentMethod",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilterTextPrefix": {
+                "name": "getFilterTextPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextGeneratorClass": {
+                "name": "getFilterTextGeneratorClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Address\\RegionId": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Address\\RegionId",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilterTextPrefix": {
+                "name": "getFilterTextPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextGeneratorClass": {
+                "name": "getFilterTextGeneratorClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Address\\Postcode": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Address\\Postcode",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilterTextPrefix": {
+                "name": "getFilterTextPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextGeneratorClass": {
+                "name": "getFilterTextGeneratorClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Address\\Region": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Address\\Region",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilterTextPrefix": {
+                "name": "getFilterTextPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextGeneratorClass": {
+                "name": "getFilterTextGeneratorClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Address\\ShippingMethod": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Address\\ShippingMethod",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFilterTextPrefix": {
+                "name": "getFilterTextPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextGeneratorClass": {
+                "name": "getFilterTextGeneratorClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Address\\Factory": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Address\\Factory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "objectManager": {
+                "name": "objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "filterableAttributes": {
+                "name": "filterableAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Product\\Categories": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Product\\Categories",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isFilterable": {
+                "name": "isFilterable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterGroups": {
+                "name": "getFilterGroups",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "operator": {
+                "name": "operator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "categories": {
+                "name": "categories",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "filterHelper": {
+                "name": "filterHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "filterGroupFactory": {
+                "name": "filterGroupFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "filterGroups": {
+                "name": "filterGroups",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Product\\Attribute": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Product\\Attribute",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "isOperatorFilterable": {
+                "name": "isOperatorFilterable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextPrefix": {
+                "name": "getFilterTextPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextGeneratorClass": {
+                "name": "getFilterTextGeneratorClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Product\\Factory": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\ConcreteCondition\\Product\\Factory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "objectManager": {
+                "name": "objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\Product\\Subselect": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\Product\\Subselect",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isFilterable": {
+                "name": "isFilterable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isConditionRequireProductFound": {
+                "name": "isConditionRequireProductFound",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterGroups": {
+                "name": "getFilterGroups",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "conditionHelper": {
+                "name": "conditionHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\Product\\Found": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\Product\\Found",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isFilterable": {
+                "name": "isFilterable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterGroups": {
+                "name": "getFilterGroups",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "conditionHelper": {
+                "name": "conditionHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\Product\\Combine": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Rule\\Condition\\Product\\Combine",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isFilterable": {
+                "name": "isFilterable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterGroups": {
+                "name": "getFilterGroups",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "conditionHelper": {
+                "name": "conditionHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Model\\ResourceModel\\Rule\\Condition\\Filter": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\ResourceModel\\Rule\\Condition\\Filter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilterTextGenerators": {
+                "name": "getFilterTextGenerators",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "filterRules": {
+                "name": "filterRules",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "deleteRuleFilters": {
+                "name": "deleteRuleFilters",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "insertFilters": {
+                "name": "insertFilters",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\ResourceModel\\Rule\\Condition\\Filter\\Collection": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\ResourceModel\\Rule\\Condition\\Filter\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Model\\ResourceModel\\Plugin\\Rule\\Collection": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\ResourceModel\\Plugin\\Rule\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "aroundSetValidationFilter": {
+                "name": "aroundSetValidationFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getFilteredRuleIds": {
+                "name": "getFilteredRuleIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "filterResourceFactory": {
+                "name": "filterResourceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "filterTextGeneratorFactory": {
+                "name": "filterTextGeneratorFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Model\\Plugin\\Rule": {
+        "name": "Magento\\AdvancedSalesRule\\Model\\Plugin\\Rule",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "aroundSave": {
+                "name": "aroundSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "isRuleConditionChanged": {
+                "name": "isRuleConditionChanged",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "indexerProcessor": {
+                "name": "indexerProcessor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Setup\\InstallData": {
+        "name": "Magento\\AdvancedSalesRule\\Setup\\InstallData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "indexerProcessor": {
+                "name": "indexerProcessor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Setup\\InstallSchema": {
+        "name": "Magento\\AdvancedSalesRule\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSalesRule\\Setup\\Recurring": {
+        "name": "Magento\\AdvancedSalesRule\\Setup\\Recurring",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "externalFKSetup": {
+                "name": "externalFKSetup",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSalesRule\\Observer\\ReindexSalesRule": {
+        "name": "Magento\\AdvancedSalesRule\\Observer\\ReindexSalesRule",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.8",
+        "package": "magento\/module-advanced-sales-rule",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "indexerProcessor": {
+                "name": "indexerProcessor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.8",
+                "package": "magento\/module-advanced-sales-rule",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

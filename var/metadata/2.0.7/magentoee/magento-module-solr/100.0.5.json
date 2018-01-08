@@ -1,0 +1,4447 @@
+{
+    "Magento\\Solr\\Helper\\Data": {
+        "name": "Magento\\Solr\\Helper\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSolrConfigData": {
+                "name": "getSolrConfigData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSearchConfigData": {
+                "name": "getSearchConfigData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isSolrEnabled": {
+                "name": "isSolrEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isActiveEngine": {
+                "name": "isActiveEngine",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isThirdPartyEngineAvailable": {
+                "name": "isThirdPartyEngineAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "prepareClientOptions": {
+                "name": "prepareClientOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_isThirdPartyEngineAvailable": {
+                "name": "_isThirdPartyEngineAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "adapterFactory": {
+                "name": "adapterFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\Helper\\ClientOptionsInterface": {
+        "name": "Magento\\Solr\\Helper\\ClientOptionsInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "prepareClientOptions": {
+                "name": "prepareClientOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Solr\\Controller\\Adminhtml\\Search\\RelatedGrid": {
+        "name": "Magento\\Solr\\Controller\\Adminhtml\\Search\\RelatedGrid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_queryFactory": {
+                "name": "_queryFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Solr\\Controller\\Adminhtml\\Search\\System\\Config\\TestConnection\\Ping": {
+        "name": "Magento\\Solr\\Controller\\Adminhtml\\Search\\System\\Config\\TestConnection\\Ping",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "validateParams": {
+                "name": "validateParams",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "clientFactory": {
+                "name": "clientFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "clientHelper": {
+                "name": "clientHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "resultJsonFactory": {
+                "name": "resultJsonFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\Adapter": {
+        "name": "Magento\\Solr\\SearchAdapter\\Adapter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "query": {
+                "name": "query",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "mapper": {
+                "name": "mapper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "responseFactory": {
+                "name": "responseFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "statisticsBuilder": {
+                "name": "statisticsBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "connectionManager": {
+                "name": "connectionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "aggregationBuilder": {
+                "name": "aggregationBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\Dimensions": {
+        "name": "Magento\\Solr\\SearchAdapter\\Dimensions",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "addFilterToQuery": {
+                "name": "addFilterToQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "scopeResolver": {
+                "name": "scopeResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "fieldMapper": {
+                "name": "fieldMapper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\AccessPointMapperInterface": {
+        "name": "Magento\\Solr\\SearchAdapter\\AccessPointMapperInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getHandler": {
+                "name": "getHandler",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Solr\\SearchAdapter\\FieldMapperInterface": {
+        "name": "Magento\\Solr\\SearchAdapter\\FieldMapperInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFieldName": {
+                "name": "getFieldName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Solr\\SearchAdapter\\AccessPointMapper": {
+        "name": "Magento\\Solr\\SearchAdapter\\AccessPointMapper",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getHandler": {
+                "name": "getHandler",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "fieldMapper": {
+                "name": "fieldMapper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\Mapper": {
+        "name": "Magento\\Solr\\SearchAdapter\\Mapper",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "buildQuery": {
+                "name": "buildQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "processQuery": {
+                "name": "processQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "processBoolQuery": {
+                "name": "processBoolQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "processBoolQueryCondition": {
+                "name": "processBoolQueryCondition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "processFilterQuery": {
+                "name": "processFilterQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "matchQueryBuilder": {
+                "name": "matchQueryBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "filterBuilder": {
+                "name": "filterBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "queryFactory": {
+                "name": "queryFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "dimensionsBuilder": {
+                "name": "dimensionsBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "conditionManager": {
+                "name": "conditionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\ResponseFactory": {
+        "name": "Magento\\Solr\\SearchAdapter\\ResponseFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "objectManager": {
+                "name": "objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "documentFactory": {
+                "name": "documentFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "aggregationFactory": {
+                "name": "aggregationFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\QueryFactory": {
+        "name": "Magento\\Solr\\SearchAdapter\\QueryFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_objectManager": {
+                "name": "_objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_instanceName": {
+                "name": "_instanceName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\DocumentFactory": {
+        "name": "Magento\\Solr\\SearchAdapter\\DocumentFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "objectManager": {
+                "name": "objectManager",
+                "isDeprecated": true,
+                "deprecatedSince": "100.1.0",
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "entityMetadata": {
+                "name": "entityMetadata",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\AggregationFactory": {
+        "name": "Magento\\Solr\\SearchAdapter\\AggregationFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "prepareValues": {
+                "name": "prepareValues",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "objectManager": {
+                "name": "objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\ConnectionManager": {
+        "name": "Magento\\Solr\\SearchAdapter\\ConnectionManager",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getConnection": {
+                "name": "getConnection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "connect": {
+                "name": "connect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "client": {
+                "name": "client",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "clientFactory": {
+                "name": "clientFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "clientHelper": {
+                "name": "clientHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\ConditionManager": {
+        "name": "Magento\\Solr\\SearchAdapter\\ConditionManager",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "wrapBrackets": {
+                "name": "wrapBrackets",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "combineQueries": {
+                "name": "combineQueries",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "generateCondition": {
+                "name": "generateCondition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "addNegation": {
+                "name": "addNegation",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Solr\\SearchAdapter\\Aggregation\\Interval": {
+        "name": "Magento\\Solr\\SearchAdapter\\Aggregation\\Interval",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "load": {
+                "name": "load",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "loadPrevious": {
+                "name": "loadPrevious",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "loadNext": {
+                "name": "loadNext",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "arrayValuesToFloat": {
+                "name": "arrayValuesToFloat",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "query": {
+                "name": "query",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "fieldName": {
+                "name": "fieldName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "connectionManager": {
+                "name": "connectionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\Aggregation\\StatisticsBuilder": {
+        "name": "Magento\\Solr\\SearchAdapter\\Aggregation\\StatisticsBuilder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "buildBucket": {
+                "name": "buildBucket",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "fieldMapper": {
+                "name": "fieldMapper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\Aggregation\\Builder": {
+        "name": "Magento\\Solr\\SearchAdapter\\Aggregation\\Builder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "dataProviderContainer": {
+                "name": "dataProviderContainer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "aggregationContainer": {
+                "name": "aggregationContainer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\Aggregation\\Builder\\Range": {
+        "name": "Magento\\Solr\\SearchAdapter\\Aggregation\\Builder\\Range",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Solr\\SearchAdapter\\Aggregation\\Builder\\Term": {
+        "name": "Magento\\Solr\\SearchAdapter\\Aggregation\\Builder\\Term",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Solr\\SearchAdapter\\Aggregation\\Builder\\Dynamic": {
+        "name": "Magento\\Solr\\SearchAdapter\\Aggregation\\Builder\\Dynamic",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getEntityStorage": {
+                "name": "getEntityStorage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "prepareData": {
+                "name": "prepareData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "algorithmRepository": {
+                "name": "algorithmRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "entityStorageFactory": {
+                "name": "entityStorageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\Aggregation\\Builder\\BucketBuilderInterface": {
+        "name": "Magento\\Solr\\SearchAdapter\\Aggregation\\Builder\\BucketBuilderInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Solr\\SearchAdapter\\Query\\Builder\\Match": {
+        "name": "Magento\\Solr\\SearchAdapter\\Query\\Builder\\Match",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "buildCondition": {
+                "name": "buildCondition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "buildQuery": {
+                "name": "buildQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "prepareQuery": {
+                "name": "prepareQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_escape": {
+                "name": "_escape",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "conditionManager": {
+                "name": "conditionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "mapper": {
+                "name": "mapper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\Query\\Builder\\QueryInterface": {
+        "name": "Magento\\Solr\\SearchAdapter\\Query\\Builder\\QueryInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Solr\\SearchAdapter\\Filter\\BuilderInterface": {
+        "name": "Magento\\Solr\\SearchAdapter\\Filter\\BuilderInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Solr\\SearchAdapter\\Filter\\Builder": {
+        "name": "Magento\\Solr\\SearchAdapter\\Filter\\Builder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "processFilter": {
+                "name": "processFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "processBoolFilter": {
+                "name": "processBoolFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "buildFilters": {
+                "name": "buildFilters",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "isNegation": {
+                "name": "isNegation",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "conditionManager": {
+                "name": "conditionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "filters": {
+                "name": "filters",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\Filter\\Builder\\Range": {
+        "name": "Magento\\Solr\\SearchAdapter\\Filter\\Builder\\Range",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "buildFilter": {
+                "name": "buildFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "mapper": {
+                "name": "mapper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\Filter\\Builder\\Wildcard": {
+        "name": "Magento\\Solr\\SearchAdapter\\Filter\\Builder\\Wildcard",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "buildFilter": {
+                "name": "buildFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "mapper": {
+                "name": "mapper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\Filter\\Builder\\Term": {
+        "name": "Magento\\Solr\\SearchAdapter\\Filter\\Builder\\Term",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "buildFilter": {
+                "name": "buildFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "mapper": {
+                "name": "mapper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\SearchAdapter\\Filter\\Builder\\FilterInterface": {
+        "name": "Magento\\Solr\\SearchAdapter\\Filter\\Builder\\FilterInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "buildFilter": {
+                "name": "buildFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Solr\\SearchAdapter\\Dynamic\\DataProvider": {
+        "name": "Magento\\Solr\\SearchAdapter\\Dynamic\\DataProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getRange": {
+                "name": "getRange",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getAggregations": {
+                "name": "getAggregations",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getInterval": {
+                "name": "getInterval",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getAggregation": {
+                "name": "getAggregation",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "prepareData": {
+                "name": "prepareData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "connectionManager": {
+                "name": "connectionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "queryFactory": {
+                "name": "queryFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "fieldMapper": {
+                "name": "fieldMapper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "range": {
+                "name": "range",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "intervalFactory": {
+                "name": "intervalFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "dimensionsBuilder": {
+                "name": "dimensionsBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\SolariumFactory": {
+        "name": "Magento\\Solr\\Model\\SolariumFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "createAdapter": {
+                "name": "createAdapter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_objectManager": {
+                "name": "_objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\AdapterFactoryInterface": {
+        "name": "Magento\\Solr\\Model\\AdapterFactoryInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "createAdapter": {
+                "name": "createAdapter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Solr\\Model\\QueryFactory": {
+        "name": "Magento\\Solr\\Model\\QueryFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "instanceName": {
+                "name": "instanceName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\Observer": {
+        "name": "Magento\\Solr\\Model\\Observer",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "storeSearchableAttributes": {
+                "name": "storeSearchableAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_eavEntityAttributeOptionCollectionFactory": {
+                "name": "_eavEntityAttributeOptionCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_searchData": {
+                "name": "_searchData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\DataProvider\\Suggestions": {
+        "name": "Magento\\Solr\\Model\\DataProvider\\Suggestions",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getItems": {
+                "name": "getItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isResultsCountEnabled": {
+                "name": "isResultsCountEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSuggestions": {
+                "name": "getSuggestions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "createQuery": {
+                "name": "createQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "fetchQuery": {
+                "name": "fetchQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "getSearchSuggestionsCount": {
+                "name": "getSearchSuggestionsCount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "isSuggestionsAllowed": {
+                "name": "isSuggestionsAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "searchData": {
+                "name": "searchData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "queryResultFactory": {
+                "name": "queryResultFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "connectionManager": {
+                "name": "connectionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "queryFactory": {
+                "name": "queryFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "accessPointMapper": {
+                "name": "accessPointMapper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "requestBuilder": {
+                "name": "requestBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "searchEngine": {
+                "name": "searchEngine",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\Indexer\\IndexerHandler": {
+        "name": "Magento\\Solr\\Model\\Indexer\\IndexerHandler",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getCommitMode": {
+                "name": "getCommitMode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "commitChanges": {
+                "name": "commitChanges",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "setCommitMode": {
+                "name": "setCommitMode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "saveIndex": {
+                "name": "saveIndex",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "deleteIndex": {
+                "name": "deleteIndex",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "cleanIndex": {
+                "name": "cleanIndex",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isAvailable": {
+                "name": "isAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getStoreIdByDimension": {
+                "name": "getStoreIdByDimension",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "adapter": {
+                "name": "adapter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "data": {
+                "name": "data",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "batch": {
+                "name": "batch",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "batchSize": {
+                "name": "batchSize",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\Indexer\\Fulltext\\Plugin\\CustomerGroup": {
+        "name": "Magento\\Solr\\Model\\Indexer\\Fulltext\\Plugin\\CustomerGroup",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "aroundSave": {
+                "name": "aroundSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "helper": {
+                "name": "helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\ResourceModel\\Index": {
+        "name": "Magento\\Solr\\Model\\ResourceModel\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_getCatalogProductPriceData": {
+                "name": "_getCatalogProductPriceData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getPriceIndexData": {
+                "name": "getPriceIndexData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getCategoryProductIndexData": {
+                "name": "getCategoryProductIndexData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getMovedCategoryProductIds": {
+                "name": "getMovedCategoryProductIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\ResourceModel\\Engine": {
+        "name": "Magento\\Solr\\Model\\ResourceModel\\Engine",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getAllowedVisibility": {
+                "name": "getAllowedVisibility",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "allowAdvancedIndex": {
+                "name": "allowAdvancedIndex",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "processAttributeValue": {
+                "name": "processAttributeValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "prepareEntityIndex": {
+                "name": "prepareEntityIndex",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isAvailable": {
+                "name": "isAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "catalogProductVisibility": {
+                "name": "catalogProductVisibility",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "indexScopeResolver": {
+                "name": "indexScopeResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\Adapter\\DocumentDataMapper": {
+        "name": "Magento\\Solr\\Model\\Adapter\\DocumentDataMapper",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "map": {
+                "name": "map",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isAttributeUsedInAdvancedSearch": {
+                "name": "isAttributeUsedInAdvancedSearch",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "formatDate": {
+                "name": "formatDate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSearchEngineFieldName": {
+                "name": "getSearchEngineFieldName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getAdvancedTextFieldName": {
+                "name": "getAdvancedTextFieldName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "implodeIndexData": {
+                "name": "implodeIndexData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getProductPriceData": {
+                "name": "getProductPriceData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getProductCategoryData": {
+                "name": "getProductCategoryData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getPriceFieldName": {
+                "name": "getPriceFieldName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "textFieldTypes": {
+                "name": "textFieldTypes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "dateFormats": {
+                "name": "dateFormats",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "builder": {
+                "name": "builder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "attributeContainer": {
+                "name": "attributeContainer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "fieldMapper": {
+                "name": "fieldMapper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "dateTime": {
+                "name": "dateTime",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "localeDate": {
+                "name": "localeDate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\Adapter\\FieldMapper": {
+        "name": "Magento\\Solr\\Model\\Adapter\\FieldMapper",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getLanguageSuffix": {
+                "name": "getLanguageSuffix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getFieldName": {
+                "name": "getFieldName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getPositionFiledName": {
+                "name": "getPositionFiledName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "getPriceFieldName": {
+                "name": "getPriceFieldName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "getFieldType": {
+                "name": "getFieldType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "coreRegistry": {
+                "name": "coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "eavConfig": {
+                "name": "eavConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "localeResolver": {
+                "name": "localeResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "localesMapping": {
+                "name": "localesMapping",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "supportedLang": {
+                "name": "supportedLang",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "customerSession": {
+                "name": "customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\Adapter\\AbstractAdapter": {
+        "name": "Magento\\Solr\\Model\\Adapter\\AbstractAdapter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "connect": {
+                "name": "connect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "prepareDocsPerStore": {
+                "name": "prepareDocsPerStore",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isAvailableInIndex": {
+                "name": "isAvailableInIndex",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "addDocs": {
+                "name": "addDocs",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "commit": {
+                "name": "commit",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "rollback": {
+                "name": "rollback",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "beforeCommit": {
+                "name": "beforeCommit",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "afterCommit": {
+                "name": "afterCommit",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "deleteDocs": {
+                "name": "deleteDocs",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "optimize": {
+                "name": "optimize",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "beforeOptimize": {
+                "name": "beforeOptimize",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "afterOptimize": {
+                "name": "afterOptimize",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getUniqueKey": {
+                "name": "getUniqueKey",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "ping": {
+                "name": "ping",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "holdCommit": {
+                "name": "holdCommit",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "allowCommit": {
+                "name": "allowCommit",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getIndexNeedsOptimization": {
+                "name": "getIndexNeedsOptimization",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setIndexNeedsOptimization": {
+                "name": "setIndexNeedsOptimization",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "resourceIndex": {
+                "name": "resourceIndex",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "client": {
+                "name": "client",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "holdCommit": {
+                "name": "holdCommit",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "indexNeedsOptimization": {
+                "name": "indexNeedsOptimization",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "attributeContainer": {
+                "name": "attributeContainer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "documentDataMapper": {
+                "name": "documentDataMapper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "ping": {
+                "name": "ping",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "clientFactory": {
+                "name": "clientFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "clientHelper": {
+                "name": "clientHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\Adapter\\Solarium": {
+        "name": "Magento\\Solr\\Model\\Adapter\\Solarium",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "deleteByQueries": {
+                "name": "deleteByQueries",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "addDocuments": {
+                "name": "addDocuments",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "optimize": {
+                "name": "optimize",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Solr\\Model\\Adapter\\Document\\Factory": {
+        "name": "Magento\\Solr\\Model\\Adapter\\Document\\Factory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "instanceName": {
+                "name": "instanceName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\Adapter\\Document\\Builder": {
+        "name": "Magento\\Solr\\Model\\Adapter\\Document\\Builder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "addFieldToDocument": {
+                "name": "addFieldToDocument",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "clear": {
+                "name": "clear",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "addField": {
+                "name": "addField",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "addFields": {
+                "name": "addFields",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "fields": {
+                "name": "fields",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "documentFactory": {
+                "name": "documentFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\Adapter\\Container\\Attribute": {
+        "name": "Magento\\Solr\\Model\\Adapter\\Container\\Attribute",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getAttributeCodeById": {
+                "name": "getAttributeCodeById",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getAttributeIdByCode": {
+                "name": "getAttributeIdByCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSearchableAttribute": {
+                "name": "getSearchableAttribute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getSearchableAttributes": {
+                "name": "getSearchableAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "idToCodeMap": {
+                "name": "idToCodeMap",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "attributeCollection": {
+                "name": "attributeCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "searchableAttributes": {
+                "name": "searchableAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\Adminhtml\\Source\\IndexationMode": {
+        "name": "Magento\\Solr\\Model\\Adminhtml\\Source\\IndexationMode",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Solr\\Model\\Client\\FactoryInterface": {
+        "name": "Magento\\Solr\\Model\\Client\\FactoryInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Solr\\Model\\Client\\SolariumFactory": {
+        "name": "Magento\\Solr\\Model\\Client\\SolariumFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_objectManager": {
+                "name": "_objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Solr\\Model\\Client\\Solarium": {
+        "name": "Magento\\Solr\\Model\\Client\\Solarium",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "ping": {
+                "name": "ping",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "query": {
+                "name": "query",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "deleteByQueries": {
+                "name": "deleteByQueries",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "addDocuments": {
+                "name": "addDocuments",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "optimize": {
+                "name": "optimize",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "commit": {
+                "name": "commit",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "rollback": {
+                "name": "rollback",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_client": {
+                "name": "_client",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Solr\\Block\\Adminhtml\\System\\Config\\TestConnection": {
+        "name": "Magento\\Solr\\Block\\Adminhtml\\System\\Config\\TestConnection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-solr",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_prepareLayout": {
+                "name": "_prepareLayout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "render": {
+                "name": "render",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_getElementHtml": {
+                "name": "_getElementHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-solr",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

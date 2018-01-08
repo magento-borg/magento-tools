@@ -1,0 +1,66 @@
+{
+    "Magento\\Swagger\\Controller\\Index\\Index": {
+        "name": "Magento\\Swagger\\Controller\\Index\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.4",
+        "package": "magento\/module-swagger",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-swagger",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-swagger",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "pageConfig": {
+                "name": "pageConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-swagger",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "pageFactory": {
+                "name": "pageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.4",
+                "package": "magento\/module-swagger",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    }
+}

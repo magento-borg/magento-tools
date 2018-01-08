@@ -1,0 +1,53 @@
+{
+    "Magento\\ScalableCheckout\\Console\\Command\\SplitQuote": {
+        "name": "Magento\\ScalableCheckout\\Console\\Command\\SplitQuote",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.3",
+        "package": "magento\/module-scalable-checkout",
+        "packageVersion": "100.0.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getCommandName": {
+                "name": "getCommandName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.3",
+                "package": "magento\/module-scalable-checkout",
+                "packageVersion": "100.0.4",
+                "api": false,
+                "private": false
+            },
+            "getCommandDescription": {
+                "name": "getCommandDescription",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.3",
+                "package": "magento\/module-scalable-checkout",
+                "packageVersion": "100.0.4",
+                "api": false,
+                "private": false
+            },
+            "getCommandDefinition": {
+                "name": "getCommandDefinition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.3",
+                "package": "magento\/module-scalable-checkout",
+                "packageVersion": "100.0.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

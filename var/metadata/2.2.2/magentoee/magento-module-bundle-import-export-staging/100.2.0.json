@@ -1,0 +1,114 @@
+{
+    "Magento\\BundleImportExportStaging\\Plugin\\BundleImportExport\\Model\\Import\\Product\\Type\\Bundle\\RelationsDataSaver": {
+        "name": "Magento\\BundleImportExportStaging\\Plugin\\BundleImportExport\\Model\\Import\\Product\\Type\\Bundle\\RelationsDataSaver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-bundle-import-export-staging",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-bundle-import-export-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "beforeSaveOptions": {
+                "name": "beforeSaveOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-bundle-import-export-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "beforeSaveSelections": {
+                "name": "beforeSaveSelections",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-bundle-import-export-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "isIdentifierExists": {
+                "name": "isIdentifierExists",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-bundle-import-export-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-bundle-import-export-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "sequenceManager": {
+                "name": "sequenceManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-bundle-import-export-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "sequenceRegistry": {
+                "name": "sequenceRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-bundle-import-export-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "resourceConnection": {
+                "name": "resourceConnection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-bundle-import-export-staging",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    }
+}
