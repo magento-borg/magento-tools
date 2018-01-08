@@ -10,7 +10,7 @@ use Composer\Autoload\ClassLoader;
 use Magento\DeprecationTool\AppConfig;
 use Magento\DeprecationTool\PackagesListReader;
 
-abstract class AbstractUpdater extends \Thread
+abstract class AbstractUpdater
 {
     /**
      * @var ClassLoader
@@ -46,7 +46,7 @@ abstract class AbstractUpdater extends \Thread
         $this->classLoader->register();
 
         $logger = new \Zend_Log();
-        $infoWriter = new \Zend_Log_Writer_Stream('php://output');
+        $infoWriter = new \Zend_Log_Writer_Stream($this->appConfig->getLogPath('code-updater.log'));
         $infoWriter->setFormatter(new \Zend_Log_Formatter_Simple('%timestamp% ' . $this->getLogType() . ' %priorityName%: %message%'));
 
         $errorWriter = new \Zend_Log_Writer_Stream($this->appConfig->getLogPath('error.log'));

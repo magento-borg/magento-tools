@@ -7,7 +7,7 @@
 
 namespace Magento\DeprecationTool;
 
-interface CheckoutStrategyInterface
+interface ProjectStrategyInterface
 {
     /**
      * @param string $release
@@ -15,4 +15,11 @@ interface CheckoutStrategyInterface
      * @return void
      */
     public function checkout($release, $commit);
+
+    /**
+     * @param string $release
+     * @param string $message
+     * @return mixed
+     */
+    public function deploy($release, $message);
 }

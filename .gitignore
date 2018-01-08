@@ -5,5 +5,5 @@ config.ini
 /var/*
 !/var/master/.gitkeep
 !/var/releases/.gitkeep
-!var/metadata/.gitkeep
+!var/metadata
 !var/changelog/.gitkeep

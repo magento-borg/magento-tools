@@ -9,7 +9,7 @@ namespace Magento\DeprecationTool;
 
 use Composer\Autoload\ClassLoader;
 
-class MetadataGeneratorThread extends \Thread
+class MetadataGeneratorWorker
 {
     private $files;
     private $autoloader;
@@ -52,7 +52,6 @@ class MetadataGeneratorThread extends \Thread
         $this->data = $data;
     }
 
-
     public function run()
     {
         $logger = new \Zend_Log();
@@ -68,14 +67,14 @@ class MetadataGeneratorThread extends \Thread
 
     /**
      * @param $files
-     * @param $autoloader
+     * @param ClassLoader $classLoader
      * @param $config
      */
-    private function processFiles($files, $autoloader, $config, \Zend_Log $logger)
+    private function processFiles($files, ClassLoader $classLoader, $config, \Zend_Log $logger)
     {
         $metadata = [];
         foreach ($files as $file) {
-            foreach ($this->classReader->read($file, $autoloader, $config, $logger) as $meta) {
+            foreach ($this->classReader->read($file, $classLoader, $config, $logger) as $meta) {
                 $metadata[$meta->getName()] = $meta;
             }
         }
@@ -85,11 +84,21 @@ class MetadataGeneratorThread extends \Thread
             },
             $metadata
         );
-        $artifactDirectory = $this->appConfig->getMetadataPath($config['name'], $config['version'], false);
+        $artifactDirectory = MetadataRegistry::getPackageMetadataPath(
+            $config['edition'],
+            $config['release'],
+            $config['name']
+        );
         if (!file_exists($artifactDirectory)) {
             $this->appConfig->createFolder($artifactDirectory);
         }
-        $artifactPath = $this->appConfig->getMetadataPath($config['name'], $config['version']);
+        $artifactPath = MetadataRegistry::getPackageVersionMetadataPath(
+            $config['edition'],
+            $config['release'],
+            $config['name'],
+            $config['version']
+        );
+
         file_put_contents($artifactPath, json_encode($dataArray, JSON_PRETTY_PRINT));
         unset($metadata);
         unset($dataArray);

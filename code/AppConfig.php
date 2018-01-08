@@ -36,6 +36,17 @@ class AppConfig
     }
 
     /**
+     * @param $edition
+     * @param array $tags
+     */
+    public function setTags($edition, array $tags)
+    {
+        foreach ($tags as $tag) {
+            $this->config[$edition . '_tags']['release'][] = $tag;
+        }
+    }
+
+    /**
      * @param string $edition
      * @return string[]
      */
@@ -57,6 +68,15 @@ class AppConfig
 
     /**
      * @param string $edition
+     * @param string $release
+     */
+    public function setLatestRelease($edition, $release)
+    {
+        $this->config[$edition . '_latest']['release'] = $release;
+    }
+
+    /**
+     * @param string $edition
      * @return string
      */
     public function getLatestRelease($edition)
@@ -66,11 +86,28 @@ class AppConfig
 
     /**
      * @param string $edition
+     * @param string $commit
+     */
+    public function setLatestCommit($edition, $commit)
+    {
+        $this->config[$edition . '_latest']['commit'] = $commit;
+    }
+
+    /**
+     * @param string $edition
      * @return string
      */
     public function getLatestCommit($edition)
     {
         return $this->config[$edition . '_latest']['commit'];
+    }
+
+    /**
+     * @param array $editions
+     */
+    public function setEditions(array $editions)
+    {
+        $this->config['editions']['edition'] = $editions;
     }
 
     /**
@@ -89,6 +126,16 @@ class AppConfig
     public function getSourceCodePath($edition, $release)
     {
         $path = BP . '/var/releases/' . $release . '/magento2' . $edition;
+        return $path;
+    }
+
+    /**
+     * @param $release
+     * @return string
+     */
+    public function getReleaseFolderPath($release)
+    {
+        $path = BP . '/var/releases/' . $release;
         return $path;
     }
 
@@ -129,7 +176,6 @@ class AppConfig
         } else {
             return BP . '/var/releases/' . $release . '/magento2' . $edition . '/magento2' . $edition;
         }
-
     }
 
     /**
@@ -184,10 +230,26 @@ class AppConfig
     }
 
     /**
-     * @return int
+     * @return string
      */
-    public function getThreadsCount()
+    public function getCommitMessage()
     {
-        return isset($this->config['threads']) ? intval($this->config['threads']) : 10;
+        return str_replace('\n', PHP_EOL, $this->config['commit_message']);
+    }
+
+    /**
+     * @return string
+     */
+    public function getGitUserName()
+    {
+        return $this->config['git_user_name'];
+    }
+
+    /**
+     * @return string
+     */
+    public function getGitUserEmail()
+    {
+        return $this->config['git_user_email'];
     }
 }

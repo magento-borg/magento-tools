@@ -34,12 +34,13 @@ class DataStructureFactory
 
         foreach (array_keys($packages) as $packageName) {
             $versions = $this->getVersions($packageName);
-            $latestVersion = array_shift($versions);
-            $artifactPath = $this->appConfig->getMetadataPath($packageName, $latestVersion);
-            $data = json_decode(file_get_contents($artifactPath), true);
-            $structure = new DataStructure($data, $latestVersion, $packageName, $edition);
-            $this->populateStructure($structure, $versions, $packageName, $edition);
-            $output[$packageName] = $structure;
+            if (!empty($versions)) {
+                $latestVersion = array_shift($versions);
+                $data = json_decode(file_get_contents($latestVersion['artifactPath']), true);
+                $structure = new DataStructure($data, $latestVersion['version'], $packageName, $edition);
+                $this->populateStructure($structure, $versions, $packageName, $edition);
+                $output[$packageName] = $structure;
+            }
         }
 
         return $output;
@@ -47,11 +48,23 @@ class DataStructureFactory
 
     private function getVersions($packageName)
     {
-        $artifactDirectory = $this->appConfig->getMetadataPath($packageName, null, false);
-        $files = glob($artifactDirectory . '/*.json');
-        $files = array_map('basename', $files);
-        $versions = array_map(function ($item) { return substr($item, 0, -5); }, $files);
-        usort($versions, 'version_compare');
+        $files = [];
+        foreach ($this->appConfig->getEditions() as $edition) {
+            foreach ($this->appConfig->getTags($edition) as $release) {
+                $packageMetadataPath = MetadataRegistry::getPackageMetadataPath($edition, $release, $packageName);
+                $versionFiles = glob($packageMetadataPath . '/*.json');
+                $files = array_merge($files, $versionFiles);
+            }
+        }
+        $versions = [];
+        foreach ($files as $versionFilePath) {
+            $version = substr(basename($versionFilePath), 0, -5);
+            $versions[$version] = [
+                'artifactPath' => $versionFilePath,
+                'version' => $version
+            ];
+        }
+        uksort($versions, 'version_compare');
         $versions = array_reverse($versions);
         return $versions;
     }
@@ -67,9 +80,8 @@ class DataStructureFactory
         if (!$version) {
             return;
         }
-        $artifactPath = $this->appConfig->getMetadataPath($packageName, $version);
-        $data = json_decode(file_get_contents($artifactPath), true);
-        $structure->setPrevious(new DataStructure($data, $version, $packageName, $edition));
+        $data = json_decode(file_get_contents($version['artifactPath']), true);
+        $structure->setPrevious(new DataStructure($data, $version['version'], $packageName, $edition));
         if (next($versions)) {
             $this->populateStructure($structure->getPrevious(), $versions, $packageName, $edition);
         }

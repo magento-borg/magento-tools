@@ -19,16 +19,13 @@ class ClassReader
 {
     /**
      * @param $filePath
-     * @param $autoloaderPath
+     * @param ClassLoader $classLoader
      * @param $package
      * @param \Zend_Log $logger
      * @return AbstractMetadata[]
      */
-    public function read($filePath, $autoloaderPath, $package, \Zend_Log $logger)
+    public function read($filePath, ClassLoader $classLoader, $package, \Zend_Log $logger)
     {
-        /** @var ClassLoader $classLoader */
-        $classLoader = require $autoloaderPath;
-        $classLoader->register(false);
         $classes = AnnotationsParser::parsePhp(file_get_contents($filePath));
         $reflector = new ClassReflector(new ComposerSourceLocator($classLoader));
         $output = [];
@@ -44,7 +41,7 @@ class ClassReader
             $isAPI = !empty($api);
 
             $methods = $this->readMethods($reflectionClass, $package, $isAPI, $logger);
-            $properties = $this->readProperties($reflectionClass, $package, $isAPI, $logger);
+            $properties = $this->readProperties($reflectionClass, $package, $isAPI, $logger, $classLoader);
 
             $class = new ClassMetadata();
             $class->setName($reflectionClass->getName());
@@ -62,7 +59,7 @@ class ClassReader
 
             $output[] = $class;
         }
-        $classLoader->unregister();
+
         return $output;
     }
 
@@ -140,7 +137,7 @@ class ClassReader
      * @param $isApi
      * @return array
      */
-    private function readProperties(ReflectionClass $reflectionClass, $package, $isApi, \Zend_Log $logger)
+    private function readProperties(ReflectionClass $reflectionClass, $package, $isApi, \Zend_Log $logger, ClassLoader $classLoader)
     {
         $properties = [];
         foreach ($reflectionClass->getProperties() as $property) {
@@ -150,7 +147,9 @@ class ClassReader
                     //take only immediate properties
                     continue;
                 }
+                $classLoader->register(true);
                 $originProperty = new \ReflectionProperty($reflectionClass->getName(), $property->getName());
+                $classLoader->unregister();
                 $docBlock = new DocBlock($originProperty->getDocComment());
                 $deprecated = $docBlock->getTagsByName('deprecated');
                 $see = $docBlock->getTagsByName('see');

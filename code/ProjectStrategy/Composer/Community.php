@@ -5,12 +5,12 @@
  * See COPYING.txt for license details.
  */
 
-namespace Magento\DeprecationTool\CheckoutStrategy\Git;
+namespace Magento\DeprecationTool\ProjectStrategy\Composer;
 
-use \Magento\DeprecationTool\CheckoutStrategyInterface;
+use \Magento\DeprecationTool\ProjectStrategyInterface;
 use \Magento\DeprecationTool\AppConfig;
 
-class Community implements CheckoutStrategyInterface
+class Community implements ProjectStrategyInterface
 {
     /**
      * @var AppConfig
@@ -36,9 +36,17 @@ class Community implements CheckoutStrategyInterface
         $path = $this->config->getSourceCodePath(AppConfig::CE_EDITION, $release);
         if (!file_exists($path . '/composer.json')) {
             $this->config->createFolder($path);
-            exec('cp -r ' . $this->config->getMasterSourceCodePath(AppConfig::CE_EDITION) . '/ ' . $path . '/');
-            exec('cd ' . $path . '; git checkout ' . $commit);
-            exec('cd ' . $path . '; composer install');
+            exec('cd ' . $path . '; /usr/local/bin/composer create-project magento/project-community-edition=' . $release . ' --repository-url=https://repo.magento.com ./');
         }
+    }
+
+    /**
+     * @param string $release
+     * @param string $message
+     * @return mixed
+     */
+    public function deploy($release, $message)
+    {
+        // TODO: Implement deploy() method.
     }
 }

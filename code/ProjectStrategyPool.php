@@ -7,17 +7,17 @@
 
 namespace Magento\DeprecationTool;
 
-class CheckoutStrategyPool
+class ProjectStrategyPool
 {
     /**
-     * @var CheckoutStrategyInterface[]
+     * @var ProjectStrategyInterface[]
      */
     private $pool;
 
     /**
      * Initialize dependencies.
      *
-     * @param CheckoutStrategyInterface[] $strategies
+     * @param ProjectStrategyInterface[] $strategies
      */
     public function __construct(array $strategies)
     {
@@ -26,7 +26,7 @@ class CheckoutStrategyPool
 
     /**
      * @param string $edition
-     * @return CheckoutStrategyInterface
+     * @return ProjectStrategyInterface
      */
     public function getStrategy($edition)
     {
