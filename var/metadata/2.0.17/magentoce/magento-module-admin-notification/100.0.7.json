@@ -1,0 +1,2570 @@
+{
+    "Magento\\AdminNotification\\Controller\\Adminhtml\\Notification": {
+        "name": "Magento\\AdminNotification\\Controller\\Adminhtml\\Notification",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Controller\\Adminhtml\\Notification\\AjaxMarkAsRead": {
+        "name": "Magento\\AdminNotification\\Controller\\Adminhtml\\Notification\\AjaxMarkAsRead",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Controller\\Adminhtml\\Notification\\Index": {
+        "name": "Magento\\AdminNotification\\Controller\\Adminhtml\\Notification\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Controller\\Adminhtml\\Notification\\MassMarkAsRead": {
+        "name": "Magento\\AdminNotification\\Controller\\Adminhtml\\Notification\\MassMarkAsRead",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Controller\\Adminhtml\\Notification\\Remove": {
+        "name": "Magento\\AdminNotification\\Controller\\Adminhtml\\Notification\\Remove",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Controller\\Adminhtml\\Notification\\MassRemove": {
+        "name": "Magento\\AdminNotification\\Controller\\Adminhtml\\Notification\\MassRemove",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Controller\\Adminhtml\\Notification\\MarkAsRead": {
+        "name": "Magento\\AdminNotification\\Controller\\Adminhtml\\Notification\\MarkAsRead",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Controller\\Adminhtml\\System\\Message\\ListAction": {
+        "name": "Magento\\AdminNotification\\Controller\\Adminhtml\\System\\Message\\ListAction",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "jsonHelper": {
+                "name": "jsonHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "messageCollection": {
+                "name": "messageCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Model\\Inbox": {
+        "name": "Magento\\AdminNotification\\Model\\Inbox",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getSeverities": {
+                "name": "getSeverities",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "loadLatestNotice": {
+                "name": "loadLatestNotice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getNoticeStatus": {
+                "name": "getNoticeStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "parse": {
+                "name": "parse",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "add": {
+                "name": "add",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "addCritical": {
+                "name": "addCritical",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "addMajor": {
+                "name": "addMajor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "addMinor": {
+                "name": "addMinor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "addNotice": {
+                "name": "addNotice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Model\\InboxInterface": {
+        "name": "Magento\\AdminNotification\\Model\\InboxInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getSeverities": {
+                "name": "getSeverities",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "loadLatestNotice": {
+                "name": "loadLatestNotice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getNoticeStatus": {
+                "name": "getNoticeStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Model\\Feed": {
+        "name": "Magento\\AdminNotification\\Model\\Feed",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getFeedUrl": {
+                "name": "getFeedUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "checkUpdate": {
+                "name": "checkUpdate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getFrequency": {
+                "name": "getFrequency",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getLastUpdate": {
+                "name": "getLastUpdate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "setLastUpdate": {
+                "name": "setLastUpdate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getFeedData": {
+                "name": "getFeedData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getFeedXml": {
+                "name": "getFeedXml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "escapeString": {
+                "name": "escapeString",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "_feedUrl": {
+                "name": "_feedUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_backendConfig": {
+                "name": "_backendConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_inboxFactory": {
+                "name": "_inboxFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "curlFactory": {
+                "name": "curlFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_deploymentConfig": {
+                "name": "_deploymentConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "productMetadata": {
+                "name": "productMetadata",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "urlBuilder": {
+                "name": "urlBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Model\\NotificationService": {
+        "name": "Magento\\AdminNotification\\Model\\NotificationService",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "markAsRead": {
+                "name": "markAsRead",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_notificationFactory": {
+                "name": "_notificationFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Model\\Config\\Source\\Frequency": {
+        "name": "Magento\\AdminNotification\\Model\\Config\\Source\\Frequency",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Model\\ResourceModel\\Inbox": {
+        "name": "Magento\\AdminNotification\\Model\\ResourceModel\\Inbox",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "loadLatestNotice": {
+                "name": "loadLatestNotice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getNoticeStatus": {
+                "name": "getNoticeStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "parse": {
+                "name": "parse",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Model\\ResourceModel\\Grid\\Collection": {
+        "name": "Magento\\AdminNotification\\Model\\ResourceModel\\Grid\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_initSelect": {
+                "name": "_initSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Model\\ResourceModel\\Inbox\\Collection": {
+        "name": "Magento\\AdminNotification\\Model\\ResourceModel\\Inbox\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "addRemoveFilter": {
+                "name": "addRemoveFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Model\\ResourceModel\\Inbox\\Collection\\Critical": {
+        "name": "Magento\\AdminNotification\\Model\\ResourceModel\\Inbox\\Collection\\Critical",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_initSelect": {
+                "name": "_initSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Model\\ResourceModel\\Inbox\\Collection\\Unread": {
+        "name": "Magento\\AdminNotification\\Model\\ResourceModel\\Inbox\\Collection\\Unread",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_initSelect": {
+                "name": "_initSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Model\\ResourceModel\\System\\Message": {
+        "name": "Magento\\AdminNotification\\Model\\ResourceModel\\System\\Message",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_isPkAutoIncrement": {
+                "name": "_isPkAutoIncrement",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Model\\ResourceModel\\System\\Message\\Collection": {
+        "name": "Magento\\AdminNotification\\Model\\ResourceModel\\System\\Message\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_initSelect": {
+                "name": "_initSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_afterLoad": {
+                "name": "_afterLoad",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "setSeverity": {
+                "name": "setSeverity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getCountBySeverity": {
+                "name": "getCountBySeverity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_messageList": {
+                "name": "_messageList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_countBySeverity": {
+                "name": "_countBySeverity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Model\\ResourceModel\\System\\Message\\Collection\\Synchronized": {
+        "name": "Magento\\AdminNotification\\Model\\ResourceModel\\System\\Message\\Collection\\Synchronized",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_afterLoad": {
+                "name": "_afterLoad",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getUnread": {
+                "name": "getUnread",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_unreadMessages": {
+                "name": "_unreadMessages",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Model\\System\\Message": {
+        "name": "Magento\\AdminNotification\\Model\\System\\Message",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "isDisplayed": {
+                "name": "isDisplayed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getText": {
+                "name": "getText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getSeverity": {
+                "name": "getSeverity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getIdentity": {
+                "name": "getIdentity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Model\\System\\Message\\Security": {
+        "name": "Magento\\AdminNotification\\Model\\System\\Message\\Security",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_canShowNotification": {
+                "name": "_canShowNotification",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": true
+            },
+            "_isFileAccessible": {
+                "name": "_isFileAccessible",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": true
+            },
+            "getIdentity": {
+                "name": "getIdentity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "isDisplayed": {
+                "name": "isDisplayed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getText": {
+                "name": "getText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getSeverity": {
+                "name": "getSeverity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_filePath": {
+                "name": "_filePath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": true
+            },
+            "_verificationTimeOut": {
+                "name": "_verificationTimeOut",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": true
+            },
+            "_cache": {
+                "name": "_cache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_backendConfig": {
+                "name": "_backendConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_config": {
+                "name": "_config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_curlFactory": {
+                "name": "_curlFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Model\\System\\Message\\Baseurl": {
+        "name": "Magento\\AdminNotification\\Model\\System\\Message\\Baseurl",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_getConfigUrl": {
+                "name": "_getConfigUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getIdentity": {
+                "name": "getIdentity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "isDisplayed": {
+                "name": "isDisplayed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getText": {
+                "name": "getText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getSeverity": {
+                "name": "getSeverity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_urlBuilder": {
+                "name": "_urlBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_config": {
+                "name": "_config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_configValueFactory": {
+                "name": "_configValueFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Model\\System\\Message\\CacheOutdated": {
+        "name": "Magento\\AdminNotification\\Model\\System\\Message\\CacheOutdated",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_getCacheTypesForRefresh": {
+                "name": "_getCacheTypesForRefresh",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getIdentity": {
+                "name": "getIdentity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "isDisplayed": {
+                "name": "isDisplayed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getText": {
+                "name": "getText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getLink": {
+                "name": "getLink",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getSeverity": {
+                "name": "getSeverity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_urlBuilder": {
+                "name": "_urlBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_authorization": {
+                "name": "_authorization",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_cacheTypeList": {
+                "name": "_cacheTypeList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Model\\System\\Message\\Media\\AbstractSynchronization": {
+        "name": "Magento\\AdminNotification\\Model\\System\\Message\\Media\\AbstractSynchronization",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_shouldBeDisplayed": {
+                "name": "_shouldBeDisplayed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getIdentity": {
+                "name": "getIdentity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "isDisplayed": {
+                "name": "isDisplayed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getSeverity": {
+                "name": "getSeverity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_syncFlag": {
+                "name": "_syncFlag",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_identity": {
+                "name": "_identity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_isDisplayed": {
+                "name": "_isDisplayed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Model\\System\\Message\\Media\\Synchronization\\Success": {
+        "name": "Magento\\AdminNotification\\Model\\System\\Message\\Media\\Synchronization\\Success",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_shouldBeDisplayed": {
+                "name": "_shouldBeDisplayed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getText": {
+                "name": "getText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_identity": {
+                "name": "_identity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Model\\System\\Message\\Media\\Synchronization\\Error": {
+        "name": "Magento\\AdminNotification\\Model\\System\\Message\\Media\\Synchronization\\Error",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_shouldBeDisplayed": {
+                "name": "_shouldBeDisplayed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getText": {
+                "name": "getText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_identity": {
+                "name": "_identity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Setup\\InstallSchema": {
+        "name": "Magento\\AdminNotification\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Observer\\PredispatchAdminActionControllerObserver": {
+        "name": "Magento\\AdminNotification\\Observer\\PredispatchAdminActionControllerObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_feedFactory": {
+                "name": "_feedFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_backendAuthSession": {
+                "name": "_backendAuthSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Block\\Inbox": {
+        "name": "Magento\\AdminNotification\\Block\\Inbox",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Block\\Window": {
+        "name": "Magento\\AdminNotification\\Block\\Window",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_getLatestItem": {
+                "name": "_getLatestItem",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "canShow": {
+                "name": "canShow",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_severityIconsUrl": {
+                "name": "_severityIconsUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_authSession": {
+                "name": "_authSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_criticalCollection": {
+                "name": "_criticalCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_latestItem": {
+                "name": "_latestItem",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_isScopePrivate": {
+                "name": "_isScopePrivate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Block\\ToolbarEntry": {
+        "name": "Magento\\AdminNotification\\Block\\ToolbarEntry",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getNotificationDescriptionLength": {
+                "name": "getNotificationDescriptionLength",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getNotificationCounterMax": {
+                "name": "getNotificationCounterMax",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getUnreadNotificationCount": {
+                "name": "getUnreadNotificationCount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getLatestUnreadNotifications": {
+                "name": "getLatestUnreadNotifications",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "formatNotificationDate": {
+                "name": "formatNotificationDate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_notificationList": {
+                "name": "_notificationList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Block\\Grid\\Renderer\\Severity": {
+        "name": "Magento\\AdminNotification\\Block\\Grid\\Renderer\\Severity",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "render": {
+                "name": "render",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_notice": {
+                "name": "_notice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Block\\Grid\\Renderer\\Notice": {
+        "name": "Magento\\AdminNotification\\Block\\Grid\\Renderer\\Notice",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "render": {
+                "name": "render",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdminNotification\\Block\\Grid\\Renderer\\Actions": {
+        "name": "Magento\\AdminNotification\\Block\\Grid\\Renderer\\Actions",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "render": {
+                "name": "render",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_urlHelper": {
+                "name": "_urlHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Block\\System\\Messages": {
+        "name": "Magento\\AdminNotification\\Block\\System\\Messages",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getLastCritical": {
+                "name": "getLastCritical",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getCriticalCount": {
+                "name": "getCriticalCount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getMajorCount": {
+                "name": "getMajorCount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "hasMessages": {
+                "name": "hasMessages",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_getMessagesUrl": {
+                "name": "_getMessagesUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getSystemMessageDialogJson": {
+                "name": "getSystemMessageDialogJson",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_messages": {
+                "name": "_messages",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "jsonHelper": {
+                "name": "jsonHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdminNotification\\Block\\System\\Messages\\UnreadMessagePopup": {
+        "name": "Magento\\AdminNotification\\Block\\System\\Messages\\UnreadMessagePopup",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.17",
+        "package": "magento\/module-admin-notification",
+        "packageVersion": "100.0.7",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getUnreadMessages": {
+                "name": "getUnreadMessages",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getPopupTitle": {
+                "name": "getPopupTitle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "getItemClass": {
+                "name": "getItemClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_itemClasses": {
+                "name": "_itemClasses",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            },
+            "_messages": {
+                "name": "_messages",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.17",
+                "package": "magento\/module-admin-notification",
+                "packageVersion": "100.0.7",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

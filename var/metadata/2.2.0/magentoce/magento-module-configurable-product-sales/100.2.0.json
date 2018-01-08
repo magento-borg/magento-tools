@@ -1,0 +1,90 @@
+{
+    "Magento\\ConfigurableProductSales\\Model\\Order\\Reorder\\OrderedProductAvailabilityChecker": {
+        "name": "Magento\\ConfigurableProductSales\\Model\\Order\\Reorder\\OrderedProductAvailabilityChecker",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.0",
+        "package": "magento\/module-configurable-product-sales",
+        "packageVersion": "100.2.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-configurable-product-sales",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "isAvailable": {
+                "name": "isAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-configurable-product-sales",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": false
+            },
+            "getConnection": {
+                "name": "getConnection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-configurable-product-sales",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "getMetadata": {
+                "name": "getMetadata",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-configurable-product-sales",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "resourceConnection": {
+                "name": "resourceConnection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-configurable-product-sales",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            },
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.0",
+                "package": "magento\/module-configurable-product-sales",
+                "packageVersion": "100.2.0",
+                "api": false,
+                "private": true
+            }
+        }
+    }
+}

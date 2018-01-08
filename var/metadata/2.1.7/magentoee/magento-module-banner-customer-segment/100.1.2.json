@@ -1,0 +1,424 @@
+{
+    "Magento\\BannerCustomerSegment\\Model\\ResourceModel\\BannerSegmentLink": {
+        "name": "Magento\\BannerCustomerSegment\\Model\\ResourceModel\\BannerSegmentLink",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-banner-customer-segment",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "loadBannerSegments": {
+                "name": "loadBannerSegments",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "saveBannerSegments": {
+                "name": "saveBannerSegments",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "addBannerSegmentFilter": {
+                "name": "addBannerSegmentFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\BannerCustomerSegment\\Setup\\InstallSchema": {
+        "name": "Magento\\BannerCustomerSegment\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-banner-customer-segment",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\BannerCustomerSegment\\Observer\\SaveCustomerSegmentRelations": {
+        "name": "Magento\\BannerCustomerSegment\\Observer\\SaveCustomerSegmentRelations",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-banner-customer-segment",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "segmentHelper": {
+                "name": "segmentHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": true
+            },
+            "bannerSegmentLink": {
+                "name": "bannerSegmentLink",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\BannerCustomerSegment\\Observer\\LoadCustomerSegmentRelations": {
+        "name": "Magento\\BannerCustomerSegment\\Observer\\LoadCustomerSegmentRelations",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-banner-customer-segment",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "segmentHelper": {
+                "name": "segmentHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": true
+            },
+            "bannerSegmentLink": {
+                "name": "bannerSegmentLink",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\BannerCustomerSegment\\Observer\\AddCustomerSegmentFilterToCollection": {
+        "name": "Magento\\BannerCustomerSegment\\Observer\\AddCustomerSegmentFilterToCollection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-banner-customer-segment",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "segmentHelper": {
+                "name": "segmentHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": true
+            },
+            "bannerSegmentLink": {
+                "name": "bannerSegmentLink",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": true
+            },
+            "segmentCustomer": {
+                "name": "segmentCustomer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\BannerCustomerSegment\\Observer\\AddCustomerSegmentFilterToSelect": {
+        "name": "Magento\\BannerCustomerSegment\\Observer\\AddCustomerSegmentFilterToSelect",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-banner-customer-segment",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "segmentHelper": {
+                "name": "segmentHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": true
+            },
+            "bannerSegmentLink": {
+                "name": "bannerSegmentLink",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": true
+            },
+            "segmentCustomer": {
+                "name": "segmentCustomer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\BannerCustomerSegment\\Observer\\AddFieldsToBannerForm": {
+        "name": "Magento\\BannerCustomerSegment\\Observer\\AddFieldsToBannerForm",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-banner-customer-segment",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "segmentHelper": {
+                "name": "segmentHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-banner-customer-segment",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": true
+            }
+        }
+    }
+}

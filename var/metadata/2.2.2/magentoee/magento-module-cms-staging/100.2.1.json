@@ -1,0 +1,1772 @@
+{
+    "Magento\\CmsStaging\\Api\\PageStagingInterface": {
+        "name": "Magento\\CmsStaging\\Api\\PageStagingInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.1.0",
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": true,
+        "private": false,
+        "methods": {
+            "schedule": {
+                "name": "schedule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.1.0",
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "unschedule": {
+                "name": "unschedule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.1.0",
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CmsStaging\\Api\\BlockStagingInterface": {
+        "name": "Magento\\CmsStaging\\Api\\BlockStagingInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": "100.1.0",
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": true,
+        "private": false,
+        "methods": {
+            "schedule": {
+                "name": "schedule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.1.0",
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            },
+            "unschedule": {
+                "name": "unschedule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.1.0",
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CmsStaging\\Controller\\Adminhtml\\Page\\Update\\Delete": {
+        "name": "Magento\\CmsStaging\\Controller\\Adminhtml\\Page\\Update\\Delete",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "stagingUpdateDelete": {
+                "name": "stagingUpdateDelete",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Controller\\Adminhtml\\Page\\Update\\Save": {
+        "name": "Magento\\CmsStaging\\Controller\\Adminhtml\\Page\\Update\\Save",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "stagingUpdateSave": {
+                "name": "stagingUpdateSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Controller\\Adminhtml\\Page\\Update\\Save\\Plugin": {
+        "name": "Magento\\CmsStaging\\Controller\\Adminhtml\\Page\\Update\\Save\\Plugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "beforeExecute": {
+                "name": "beforeExecute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "isValidCustomTheme": {
+                "name": "isValidCustomTheme",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "updateRepository": {
+                "name": "updateRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Controller\\Adminhtml\\Page\\Save\\Plugin": {
+        "name": "Magento\\CmsStaging\\Controller\\Adminhtml\\Page\\Save\\Plugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "beforeExecute": {
+                "name": "beforeExecute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "isValidCustomTheme": {
+                "name": "isValidCustomTheme",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Controller\\Adminhtml\\Block\\Update\\Delete": {
+        "name": "Magento\\CmsStaging\\Controller\\Adminhtml\\Block\\Update\\Delete",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "stagingUpdateDelete": {
+                "name": "stagingUpdateDelete",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Controller\\Adminhtml\\Block\\Update\\Save": {
+        "name": "Magento\\CmsStaging\\Controller\\Adminhtml\\Block\\Update\\Save",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "stagingUpdateSave": {
+                "name": "stagingUpdateSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Model\\BlockStaging": {
+        "name": "Magento\\CmsStaging\\Model\\BlockStaging",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "schedule": {
+                "name": "schedule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "unschedule": {
+                "name": "unschedule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "entityManager": {
+                "name": "entityManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            },
+            "campaignValidator": {
+                "name": "campaignValidator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Model\\PageApplier": {
+        "name": "Magento\\CmsStaging\\Model\\PageApplier",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "cacheContext": {
+                "name": "cacheContext",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Model\\PageStaging": {
+        "name": "Magento\\CmsStaging\\Model\\PageStaging",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "schedule": {
+                "name": "schedule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "unschedule": {
+                "name": "unschedule",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "entityManager": {
+                "name": "entityManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            },
+            "campaignValidator": {
+                "name": "campaignValidator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Model\\ResourceModel\\Grid\\Collection\\UpdatePlugin": {
+        "name": "Magento\\CmsStaging\\Model\\ResourceModel\\Grid\\Collection\\UpdatePlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "beforeGetItems": {
+                "name": "beforeGetItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "updateRepository": {
+                "name": "updateRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Model\\Page\\Hydrator": {
+        "name": "Magento\\CmsStaging\\Model\\Page\\Hydrator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "hydrate": {
+                "name": "hydrate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "context": {
+                "name": "context",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            },
+            "postDataProcessor": {
+                "name": "postDataProcessor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "entityRetriever": {
+                "name": "entityRetriever",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Model\\Page\\DataProvider": {
+        "name": "Magento\\CmsStaging\\Model\\Page\\DataProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CmsStaging\\Model\\Page\\Retriever": {
+        "name": "Magento\\CmsStaging\\Model\\Page\\Retriever",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getEntity": {
+                "name": "getEntity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "pageFactory": {
+                "name": "pageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Model\\Page\\Identifier\\DataProvider": {
+        "name": "Magento\\CmsStaging\\Model\\Page\\Identifier\\DataProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getData": {
+                "name": "getData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CmsStaging\\Model\\Block\\Hydrator": {
+        "name": "Magento\\CmsStaging\\Model\\Block\\Hydrator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "hydrate": {
+                "name": "hydrate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "messageManager": {
+                "name": "messageManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "entityRetriever": {
+                "name": "entityRetriever",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Model\\Block\\DataProvider": {
+        "name": "Magento\\CmsStaging\\Model\\Block\\DataProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CmsStaging\\Model\\Block\\Retriever": {
+        "name": "Magento\\CmsStaging\\Model\\Block\\Retriever",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getEntity": {
+                "name": "getEntity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "blockFactory": {
+                "name": "blockFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Model\\Block\\Identifier\\DataProvider": {
+        "name": "Magento\\CmsStaging\\Model\\Block\\Identifier\\DataProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getData": {
+                "name": "getData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CmsStaging\\Setup\\CmsSetup": {
+        "name": "Magento\\CmsStaging\\Setup\\CmsSetup",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "process": {
+                "name": "process",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "loadCmsPages": {
+                "name": "loadCmsPages",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "initList": {
+                "name": "initList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getTimestamp": {
+                "name": "getTimestamp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "generateUpdates": {
+                "name": "generateUpdates",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "updatePage": {
+                "name": "updatePage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "resetOriginPage": {
+                "name": "resetOriginPage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "createUpdate": {
+                "name": "createUpdate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "versionManager": {
+                "name": "versionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "updateRepository": {
+                "name": "updateRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "updateFactory": {
+                "name": "updateFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "pageRepository": {
+                "name": "pageRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "state": {
+                "name": "state",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "setup": {
+                "name": "setup",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "pages": {
+                "name": "pages",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Setup\\InstallData": {
+        "name": "Magento\\CmsStaging\\Setup\\InstallData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "cmsSetupFactory": {
+                "name": "cmsSetupFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Setup\\InstallSchema": {
+        "name": "Magento\\CmsStaging\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "basicSetup": {
+                "name": "basicSetup",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Ui\\Component\\DataProvider\\UpdatePlugin": {
+        "name": "Magento\\CmsStaging\\Ui\\Component\\DataProvider\\UpdatePlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "beforeGetSearchResult": {
+                "name": "beforeGetSearchResult",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "updateRepository": {
+                "name": "updateRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "filterBuilder": {
+                "name": "filterBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Ui\\Component\\Listing\\Column\\Page\\PreviewProvider": {
+        "name": "Magento\\CmsStaging\\Ui\\Component\\Listing\\Column\\Page\\PreviewProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getUrl": {
+                "name": "getUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "frontendUrlBuilder": {
+                "name": "frontendUrlBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Block\\Adminhtml\\Page\\Update\\Provider": {
+        "name": "Magento\\CmsStaging\\Block\\Adminhtml\\Page\\Update\\Provider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getPage": {
+                "name": "getPage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getId": {
+                "name": "getId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getUrl": {
+                "name": "getUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "pageRepository": {
+                "name": "pageRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "versionManager": {
+                "name": "versionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "previewProvider": {
+                "name": "previewProvider",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsStaging\\Block\\Adminhtml\\Block\\Update\\Provider": {
+        "name": "Magento\\CmsStaging\\Block\\Adminhtml\\Block\\Update\\Provider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.2.2",
+        "package": "magento\/module-cms-staging",
+        "packageVersion": "100.2.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getId": {
+                "name": "getId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "getUrl": {
+                "name": "getUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "blockRepository": {
+                "name": "blockRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            },
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.2.2",
+                "package": "magento\/module-cms-staging",
+                "packageVersion": "100.2.1",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

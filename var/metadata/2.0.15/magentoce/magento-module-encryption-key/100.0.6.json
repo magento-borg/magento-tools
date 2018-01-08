@@ -1,0 +1,383 @@
+{
+    "Magento\\EncryptionKey\\Controller\\Adminhtml\\Crypt\\Key": {
+        "name": "Magento\\EncryptionKey\\Controller\\Adminhtml\\Crypt\\Key",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-encryption-key",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\EncryptionKey\\Controller\\Adminhtml\\Crypt\\Key\\Index": {
+        "name": "Magento\\EncryptionKey\\Controller\\Adminhtml\\Crypt\\Key\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-encryption-key",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\EncryptionKey\\Controller\\Adminhtml\\Crypt\\Key\\Save": {
+        "name": "Magento\\EncryptionKey\\Controller\\Adminhtml\\Crypt\\Key\\Save",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-encryption-key",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "encryptor": {
+                "name": "encryptor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "change": {
+                "name": "change",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "cache": {
+                "name": "cache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\EncryptionKey\\Model\\ResourceModel\\Key\\Change": {
+        "name": "Magento\\EncryptionKey\\Model\\ResourceModel\\Key\\Change",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-encryption-key",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "changeEncryptionKey": {
+                "name": "changeEncryptionKey",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getRandom": {
+                "name": "getRandom",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "setRandom": {
+                "name": "setRandom",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_reEncryptSystemConfigurationValues": {
+                "name": "_reEncryptSystemConfigurationValues",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_reEncryptCreditCardNumbers": {
+                "name": "_reEncryptCreditCardNumbers",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "encryptor": {
+                "name": "encryptor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "directory": {
+                "name": "directory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "structure": {
+                "name": "structure",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "writer": {
+                "name": "writer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "random": {
+                "name": "random",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": "100.0.4",
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\EncryptionKey\\Block\\Adminhtml\\Crypt\\Key\\Edit": {
+        "name": "Magento\\EncryptionKey\\Block\\Adminhtml\\Crypt\\Key\\Edit",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-encryption-key",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getHeaderText": {
+                "name": "getHeaderText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_blockGroup": {
+                "name": "_blockGroup",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_controller": {
+                "name": "_controller",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\EncryptionKey\\Block\\Adminhtml\\Crypt\\Key\\Form": {
+        "name": "Magento\\EncryptionKey\\Block\\Adminhtml\\Crypt\\Key\\Form",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.15",
+        "package": "magento\/module-encryption-key",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_prepareForm": {
+                "name": "_prepareForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.15",
+                "package": "magento\/module-encryption-key",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

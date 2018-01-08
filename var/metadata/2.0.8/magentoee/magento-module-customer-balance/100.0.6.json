@@ -1,0 +1,4243 @@
+{
+    "Magento\\CustomerBalance\\Helper\\Data": {
+        "name": "Magento\\CustomerBalance\\Helper\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "isEnabled": {
+                "name": "isEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isAutoRefundEnabled": {
+                "name": "isAutoRefundEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Api\\BalanceManagementInterface": {
+        "name": "Magento\\CustomerBalance\\Api\\BalanceManagementInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": true,
+        "private": false,
+        "methods": {
+            "apply": {
+                "name": "apply",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Controller\\Info\\Index": {
+        "name": "Magento\\CustomerBalance\\Controller\\Info\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "dispatch": {
+                "name": "dispatch",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Controller\\Cart\\Remove": {
+        "name": "Magento\\CustomerBalance\\Controller\\Cart\\Remove",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "dispatch": {
+                "name": "dispatch",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Controller\\Adminhtml\\Customerbalance": {
+        "name": "Magento\\CustomerBalance\\Controller\\Adminhtml\\Customerbalance",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "dispatch": {
+                "name": "dispatch",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "initCurrentCustomer": {
+                "name": "initCurrentCustomer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_customerFactory": {
+                "name": "_customerFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_balance": {
+                "name": "_balance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Controller\\Adminhtml\\Customerbalance\\GridHistory": {
+        "name": "Magento\\CustomerBalance\\Controller\\Adminhtml\\Customerbalance\\GridHistory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Controller\\Adminhtml\\Customerbalance\\DeleteOrphanBalances": {
+        "name": "Magento\\CustomerBalance\\Controller\\Adminhtml\\Customerbalance\\DeleteOrphanBalances",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Controller\\Adminhtml\\Customerbalance\\Form": {
+        "name": "Magento\\CustomerBalance\\Controller\\Adminhtml\\Customerbalance\\Form",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Model\\Balance": {
+        "name": "Magento\\CustomerBalance\\Model\\Balance",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getAmount": {
+                "name": "getAmount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "loadByCustomer": {
+                "name": "loadByCustomer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getWebsiteId": {
+                "name": "getWebsiteId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "setNotifyByEmail": {
+                "name": "setNotifyByEmail",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "afterSave": {
+                "name": "afterSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_ensureCustomer": {
+                "name": "_ensureCustomer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_prepareAmountDelta": {
+                "name": "_prepareAmountDelta",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isFullAmountCovered": {
+                "name": "isFullAmountCovered",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "setCustomersBalanceCurrencyTo": {
+                "name": "setCustomersBalanceCurrencyTo",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "deleteBalancesByCustomerId": {
+                "name": "deleteBalancesByCustomerId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getOrphanBalancesCount": {
+                "name": "getOrphanBalancesCount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "afterLoad": {
+                "name": "afterLoad",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customer": {
+                "name": "_customer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_eventPrefix": {
+                "name": "_eventPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_eventObject": {
+                "name": "_eventObject",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_customerFactory": {
+                "name": "_customerFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_historyFactory": {
+                "name": "_historyFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Model\\ConfigProvider": {
+        "name": "Magento\\CustomerBalance\\Model\\ConfigProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getConfig": {
+                "name": "getConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isAvailable": {
+                "name": "isAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getBalanceModel": {
+                "name": "getBalanceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getBalance": {
+                "name": "getBalance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getQuote": {
+                "name": "getQuote",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getRemoveUrl": {
+                "name": "getRemoveUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "customerSession": {
+                "name": "customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "balance": {
+                "name": "balance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "balanceFactory": {
+                "name": "balanceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "checkoutSession": {
+                "name": "checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "quote": {
+                "name": "quote",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "urlBuilder": {
+                "name": "urlBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Model\\BalanceManagement": {
+        "name": "Magento\\CustomerBalance\\Model\\BalanceManagement",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "apply": {
+                "name": "apply",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "cartRepository": {
+                "name": "cartRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Model\\Balance\\History": {
+        "name": "Magento\\CustomerBalance\\Model\\Balance\\History",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getActionNamesArray": {
+                "name": "getActionNamesArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "afterSave": {
+                "name": "afterSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_checkBalanceModelOrder": {
+                "name": "_checkBalanceModelOrder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getHistoryData": {
+                "name": "getHistoryData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_design": {
+                "name": "_design",
+                "isDeprecated": true,
+                "deprecatedSince": "100.1.0",
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_scopeConfig": {
+                "name": "_scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_transportBuilder": {
+                "name": "_transportBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_customerHelperView": {
+                "name": "_customerHelperView",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "customerRegistry": {
+                "name": "customerRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Model\\Total\\Invoice\\Customerbalance": {
+        "name": "Magento\\CustomerBalance\\Model\\Total\\Invoice\\Customerbalance",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "collect": {
+                "name": "collect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerBalanceData": {
+                "name": "_customerBalanceData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Model\\Total\\Quote\\Customerbalance": {
+        "name": "Magento\\CustomerBalance\\Model\\Total\\Quote\\Customerbalance",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "collect": {
+                "name": "collect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "fetch": {
+                "name": "fetch",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerBalanceData": {
+                "name": "_customerBalanceData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_balanceFactory": {
+                "name": "_balanceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "priceCurrency": {
+                "name": "priceCurrency",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Model\\Total\\Creditmemo\\Customerbalance": {
+        "name": "Magento\\CustomerBalance\\Model\\Total\\Creditmemo\\Customerbalance",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "collect": {
+                "name": "collect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerBalanceData": {
+                "name": "_customerBalanceData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Model\\ResourceModel\\Balance": {
+        "name": "Magento\\CustomerBalance\\Model\\ResourceModel\\Balance",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "loadByCustomerAndWebsiteIds": {
+                "name": "loadByCustomerAndWebsiteIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "setCustomersBalanceCurrencyTo": {
+                "name": "setCustomersBalanceCurrencyTo",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "deleteBalancesByCustomerId": {
+                "name": "deleteBalancesByCustomerId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getOrphanBalancesCount": {
+                "name": "getOrphanBalancesCount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Model\\ResourceModel\\Balance\\History": {
+        "name": "Magento\\CustomerBalance\\Model\\ResourceModel\\Balance\\History",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_beforeSave": {
+                "name": "_beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "markAsSent": {
+                "name": "markAsSent",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "dateTime": {
+                "name": "dateTime",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Model\\ResourceModel\\Balance\\Collection": {
+        "name": "Magento\\CustomerBalance\\Model\\ResourceModel\\Balance\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "addWebsitesFilter": {
+                "name": "addWebsitesFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_afterLoad": {
+                "name": "_afterLoad",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Model\\ResourceModel\\Balance\\History\\Collection": {
+        "name": "Magento\\CustomerBalance\\Model\\ResourceModel\\Balance\\History\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_initSelect": {
+                "name": "_initSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "addWebsitesFilter": {
+                "name": "addWebsitesFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "loadHistoryData": {
+                "name": "loadHistoryData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Model\\Cart\\SalesModel\\Order": {
+        "name": "Magento\\CustomerBalance\\Model\\Cart\\SalesModel\\Order",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getDataUsingMethod": {
+                "name": "getDataUsingMethod",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Model\\Cart\\SalesModel\\Quote": {
+        "name": "Magento\\CustomerBalance\\Model\\Cart\\SalesModel\\Quote",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getDataUsingMethod": {
+                "name": "getDataUsingMethod",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Model\\Adminhtml\\Balance": {
+        "name": "Magento\\CustomerBalance\\Model\\Adminhtml\\Balance",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getWebsiteId": {
+                "name": "getWebsiteId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Model\\Adminhtml\\Balance\\History": {
+        "name": "Magento\\CustomerBalance\\Model\\Adminhtml\\Balance\\History",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_authSession": {
+                "name": "_authSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Setup\\InstallData": {
+        "name": "Magento\\CustomerBalance\\Setup\\InstallData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "salesSetupFactory": {
+                "name": "salesSetupFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "quoteSetupFactory": {
+                "name": "quoteSetupFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "resource": {
+                "name": "resource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Setup\\InstallSchema": {
+        "name": "Magento\\CustomerBalance\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Observer\\AddPaymentCustomerBalanceItemObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\AddPaymentCustomerBalanceItemObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Observer\\CreditmemoSaveAfterObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\CreditmemoSaveAfterObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerBalanceData": {
+                "name": "_customerBalanceData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_balanceFactory": {
+                "name": "_balanceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Observer\\IncreaseOrderInvoicedAmountObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\IncreaseOrderInvoicedAmountObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Observer\\ExtendSalesAmountExpressionObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\ExtendSalesAmountExpressionObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Observer\\TogglePaymentMethodsObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\TogglePaymentMethodsObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerBalanceData": {
+                "name": "_customerBalanceData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Observer\\RevertStoreCreditForOrder": {
+        "name": "Magento\\CustomerBalance\\Observer\\RevertStoreCreditForOrder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_balanceFactory": {
+                "name": "_balanceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Observer\\SalesOrderLoadAfterObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\SalesOrderLoadAfterObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Observer\\QuoteMergeAfterObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\QuoteMergeAfterObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Observer\\RevertStoreCreditForAllOrdersObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\RevertStoreCreditForAllOrdersObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "revertStoreCreditForOrder": {
+                "name": "revertStoreCreditForOrder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Observer\\ProcessBeforeOrderPlaceObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\ProcessBeforeOrderPlaceObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerBalanceData": {
+                "name": "_customerBalanceData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "checkStoreCreditBalance": {
+                "name": "checkStoreCreditBalance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Observer\\ProcessOrderCreationDataObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\ProcessOrderCreationDataObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_importPaymentData": {
+                "name": "_importPaymentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerBalanceData": {
+                "name": "_customerBalanceData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_balanceFactory": {
+                "name": "_balanceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Observer\\PredispatchPrepareLoggingObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\PredispatchPrepareLoggingObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_request": {
+                "name": "_request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Observer\\CustomerSaveAfterObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\CustomerSaveAfterObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerBalanceData": {
+                "name": "_customerBalanceData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_balanceFactory": {
+                "name": "_balanceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Observer\\ModifyRewardedAmountOnRefundObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\ModifyRewardedAmountOnRefundObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Observer\\SetCustomersBalanceCurrencyToWebsiteBaseCurrencyObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\SetCustomersBalanceCurrencyToWebsiteBaseCurrencyObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_balanceFactory": {
+                "name": "_balanceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Observer\\CheckStoreCreditBalance": {
+        "name": "Magento\\CustomerBalance\\Observer\\CheckStoreCreditBalance",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_balanceFactory": {
+                "name": "_balanceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_onePageCheckout": {
+                "name": "_onePageCheckout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Observer\\RefundObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\RefundObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Observer\\ProcessOrderPlaceObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\ProcessOrderPlaceObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerBalanceData": {
+                "name": "_customerBalanceData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_balanceFactory": {
+                "name": "_balanceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "checkStoreCreditBalance": {
+                "name": "checkStoreCreditBalance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Observer\\RevertStoreCreditObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\RevertStoreCreditObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "revertStoreCreditForOrder": {
+                "name": "revertStoreCreditForOrder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Observer\\CreditmemoDataImportObserver": {
+        "name": "Magento\\CustomerBalance\\Observer\\CreditmemoDataImportObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "priceCurrency": {
+                "name": "priceCurrency",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Block\\Account": {
+        "name": "Magento\\CustomerBalance\\Block\\Account",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Block\\Account\\Balance": {
+        "name": "Magento\\CustomerBalance\\Block\\Account\\Balance",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getBalance": {
+                "name": "getBalance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_balanceFactory": {
+                "name": "_balanceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "currentCustomer": {
+                "name": "currentCustomer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Block\\Account\\History": {
+        "name": "Magento\\CustomerBalance\\Block\\Account\\History",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "canShow": {
+                "name": "canShow",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getEvents": {
+                "name": "getEvents",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getActionNames": {
+                "name": "getActionNames",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getActionLabel": {
+                "name": "getActionLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_actionNames": {
+                "name": "_actionNames",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "currentCustomer": {
+                "name": "currentCustomer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_historyFactory": {
+                "name": "_historyFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Block\\Checkout\\Total": {
+        "name": "Magento\\CustomerBalance\\Block\\Checkout\\Total",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_template": {
+                "name": "_template",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Block\\Checkout\\Onepage\\Payment\\Additional": {
+        "name": "Magento\\CustomerBalance\\Block\\Checkout\\Onepage\\Payment\\Additional",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_getQuote": {
+                "name": "_getQuote",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getQuote": {
+                "name": "getQuote",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_getBalanceModel": {
+                "name": "_getBalanceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_getCustomer": {
+                "name": "_getCustomer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isDisplayContainer": {
+                "name": "isDisplayContainer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isAllowed": {
+                "name": "isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getBalance": {
+                "name": "getBalance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getAmountToCharge": {
+                "name": "getAmountToCharge",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isCustomerBalanceUsed": {
+                "name": "isCustomerBalanceUsed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isFullyPaidAfterApplication": {
+                "name": "isFullyPaidAfterApplication",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_balanceModel": {
+                "name": "_balanceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_checkoutSession": {
+                "name": "_checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_balanceFactory": {
+                "name": "_balanceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Block\\Sales\\Order\\Customerbalance": {
+        "name": "Magento\\CustomerBalance\\Block\\Sales\\Order\\Customerbalance",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getOrder": {
+                "name": "getOrder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getSource": {
+                "name": "getSource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "initTotals": {
+                "name": "initTotals",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getLabelProperties": {
+                "name": "getLabelProperties",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getValueProperties": {
+                "name": "getValueProperties",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CustomerBalance\\Block\\Adminhtml\\Widget\\Grid\\Column\\Renderer\\Currency": {
+        "name": "Magento\\CustomerBalance\\Block\\Adminhtml\\Widget\\Grid\\Column\\Renderer\\Currency",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_getCurrencyCode": {
+                "name": "_getCurrencyCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_getRate": {
+                "name": "_getRate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "renderCss": {
+                "name": "renderCss",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_websiteBaseCurrencyCodes": {
+                "name": "_websiteBaseCurrencyCodes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Block\\Adminhtml\\Sales\\Order\\Create\\Payment": {
+        "name": "Magento\\CustomerBalance\\Block\\Adminhtml\\Sales\\Order\\Create\\Payment",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_getOrderCreateModel": {
+                "name": "_getOrderCreateModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_getStoreManagerModel": {
+                "name": "_getStoreManagerModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "formatPrice": {
+                "name": "formatPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getBalance": {
+                "name": "getBalance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getUseCustomerBalance": {
+                "name": "getUseCustomerBalance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isFullyPaid": {
+                "name": "isFullyPaid",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isUsed": {
+                "name": "isUsed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_getBalanceInstance": {
+                "name": "_getBalanceInstance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "canUseCustomerBalance": {
+                "name": "canUseCustomerBalance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_balanceInstance": {
+                "name": "_balanceInstance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_orderCreate": {
+                "name": "_orderCreate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_sessionQuote": {
+                "name": "_sessionQuote",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_balanceFactory": {
+                "name": "_balanceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_customerBalanceHelper": {
+                "name": "_customerBalanceHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "priceCurrency": {
+                "name": "priceCurrency",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Block\\Adminhtml\\Sales\\Order\\Creditmemo\\Controls": {
+        "name": "Magento\\CustomerBalance\\Block\\Adminhtml\\Sales\\Order\\Creditmemo\\Controls",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "canRefundToCustomerBalance": {
+                "name": "canRefundToCustomerBalance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "canRefundMoneyToCustomerBalance": {
+                "name": "canRefundMoneyToCustomerBalance",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getReturnValue": {
+                "name": "getReturnValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Block\\Adminhtml\\Customer\\Edit\\Tab\\Customerbalance": {
+        "name": "Magento\\CustomerBalance\\Block\\Adminhtml\\Customer\\Edit\\Tab\\Customerbalance",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getTabLabel": {
+                "name": "getTabLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getTabTitle": {
+                "name": "getTabTitle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "canShowTab": {
+                "name": "canShowTab",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isHidden": {
+                "name": "isHidden",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getTabClass": {
+                "name": "getTabClass",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getSkipGenerateContent": {
+                "name": "getSkipGenerateContent",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getAfter": {
+                "name": "getAfter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getTabUrl": {
+                "name": "getTabUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isAjaxLoaded": {
+                "name": "isAjaxLoaded",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Block\\Adminhtml\\Customer\\Edit\\Tab\\Customerbalance\\Balance": {
+        "name": "Magento\\CustomerBalance\\Block\\Adminhtml\\Customer\\Edit\\Tab\\Customerbalance\\Balance",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getDeleteOrphanBalancesButton": {
+                "name": "getDeleteOrphanBalancesButton",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getDeleteOrphanBalancesUrl": {
+                "name": "getDeleteOrphanBalancesUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_balanceFactory": {
+                "name": "_balanceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Block\\Adminhtml\\Customer\\Edit\\Tab\\Customerbalance\\Js": {
+        "name": "Magento\\CustomerBalance\\Block\\Adminhtml\\Customer\\Edit\\Tab\\Customerbalance\\Js",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getCustomerWebsite": {
+                "name": "getCustomerWebsite",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getWebsitesJson": {
+                "name": "getWebsitesJson",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_jsonEncoder": {
+                "name": "_jsonEncoder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "customerRepository": {
+                "name": "customerRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Block\\Adminhtml\\Customer\\Edit\\Tab\\Customerbalance\\Form": {
+        "name": "Magento\\CustomerBalance\\Block\\Adminhtml\\Customer\\Edit\\Tab\\Customerbalance\\Form",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_prepareForm": {
+                "name": "_prepareForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_afterToHtml": {
+                "name": "_afterToHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_systemStore": {
+                "name": "_systemStore",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_customerFactory": {
+                "name": "_customerFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Block\\Adminhtml\\Customer\\Edit\\Tab\\Customerbalance\\Balance\\History": {
+        "name": "Magento\\CustomerBalance\\Block\\Adminhtml\\Customer\\Edit\\Tab\\Customerbalance\\Balance\\History",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_prepareLayout": {
+                "name": "_prepareLayout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_template": {
+                "name": "_template",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Block\\Adminhtml\\Customer\\Edit\\Tab\\Customerbalance\\Balance\\Grid": {
+        "name": "Magento\\CustomerBalance\\Block\\Adminhtml\\Customer\\Edit\\Tab\\Customerbalance\\Balance\\Grid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_prepareCollection": {
+                "name": "_prepareCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_balanceFactory": {
+                "name": "_balanceFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CustomerBalance\\Block\\Adminhtml\\Customer\\Edit\\Tab\\Customerbalance\\Balance\\History\\Grid": {
+        "name": "Magento\\CustomerBalance\\Block\\Adminhtml\\Customer\\Edit\\Tab\\Customerbalance\\Balance\\History\\Grid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-customer-balance",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_prepareCollection": {
+                "name": "_prepareCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_prepareColumns": {
+                "name": "_prepareColumns",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getGridUrl": {
+                "name": "getGridUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_collection": {
+                "name": "_collection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_history": {
+                "name": "_history",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_historyFactory": {
+                "name": "_historyFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_systemStore": {
+                "name": "_systemStore",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-customer-balance",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "Magento\\CatalogUrlRewriteStaging\\Plugin\\Catalog\\Model\\Category\\Remove": {
+        "name": "Magento\\CatalogUrlRewriteStaging\\Plugin\\Catalog\\Model\\Category\\Remove",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-catalog-url-rewrite-staging",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-catalog-url-rewrite-staging",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "aroundDelete": {
+                "name": "aroundDelete",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-catalog-url-rewrite-staging",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            },
+            "isUpdateRemoval": {
+                "name": "isUpdateRemoval",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-catalog-url-rewrite-staging",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "versionManager": {
+                "name": "versionManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-catalog-url-rewrite-staging",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CatalogUrlRewriteStaging\\Plugin\\Catalog\\Block\\Adminhtml\\Category\\Tab\\Attributes": {
+        "name": "Magento\\CatalogUrlRewriteStaging\\Plugin\\Catalog\\Block\\Adminhtml\\Category\\Tab\\Attributes",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.1",
+        "package": "magento\/module-catalog-url-rewrite-staging",
+        "packageVersion": "100.1.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "afterGetAttributesMeta": {
+                "name": "afterGetAttributesMeta",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.1",
+                "package": "magento\/module-catalog-url-rewrite-staging",
+                "packageVersion": "100.1.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

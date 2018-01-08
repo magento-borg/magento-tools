@@ -1,0 +1,342 @@
+{
+    "Magento\\CmsUrlRewrite\\Model\\CmsPageUrlPathGenerator": {
+        "name": "Magento\\CmsUrlRewrite\\Model\\CmsPageUrlPathGenerator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-cms-url-rewrite",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getUrlPath": {
+                "name": "getUrlPath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getCanonicalUrlPath": {
+                "name": "getCanonicalUrlPath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "generateUrlKey": {
+                "name": "generateUrlKey",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "filterManager": {
+                "name": "filterManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsUrlRewrite\\Model\\CmsPageUrlRewriteGenerator": {
+        "name": "Magento\\CmsUrlRewrite\\Model\\CmsPageUrlRewriteGenerator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-cms-url-rewrite",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "generate": {
+                "name": "generate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "generateForAllStores": {
+                "name": "generateForAllStores",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "generateForSpecificStores": {
+                "name": "generateForSpecificStores",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "createUrlRewrite": {
+                "name": "createUrlRewrite",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "urlRewriteFactory": {
+                "name": "urlRewriteFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "cmsPageUrlPathGenerator": {
+                "name": "cmsPageUrlPathGenerator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "cmsPage": {
+                "name": "cmsPage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsUrlRewrite\\Plugin\\Cms\\Model\\ResourceModel\\Page": {
+        "name": "Magento\\CmsUrlRewrite\\Plugin\\Cms\\Model\\ResourceModel\\Page",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-cms-url-rewrite",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "aroundDelete": {
+                "name": "aroundDelete",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "cmsPageUrlPathGenerator": {
+                "name": "cmsPageUrlPathGenerator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "urlPersist": {
+                "name": "urlPersist",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CmsUrlRewrite\\Observer\\ProcessUrlRewriteSavingObserver": {
+        "name": "Magento\\CmsUrlRewrite\\Observer\\ProcessUrlRewriteSavingObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.6",
+        "package": "magento\/module-cms-url-rewrite",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "cmsPageUrlRewriteGenerator": {
+                "name": "cmsPageUrlRewriteGenerator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "urlPersist": {
+                "name": "urlPersist",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.6",
+                "package": "magento\/module-cms-url-rewrite",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

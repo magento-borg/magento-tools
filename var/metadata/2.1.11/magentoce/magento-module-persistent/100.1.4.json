@@ -1,0 +1,4007 @@
+{
+    "Magento\\Persistent\\Helper\\Data": {
+        "name": "Magento\\Persistent\\Helper\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "isEnabled": {
+                "name": "isEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "isRememberMeEnabled": {
+                "name": "isRememberMeEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "isRememberMeCheckedDefault": {
+                "name": "isRememberMeCheckedDefault",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "isShoppingCartPersist": {
+                "name": "isShoppingCartPersist",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "getLifeTime": {
+                "name": "getLifeTime",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "getClearOnLogout": {
+                "name": "getClearOnLogout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "getUnsetCookieUrl": {
+                "name": "getUnsetCookieUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "getPersistentConfigFilePath": {
+                "name": "getPersistentConfigFilePath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "canProcess": {
+                "name": "canProcess",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_configFileName": {
+                "name": "_configFileName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_escaper": {
+                "name": "_escaper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_modulesReader": {
+                "name": "_modulesReader",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Helper\\Session": {
+        "name": "Magento\\Persistent\\Helper\\Session",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "getSession": {
+                "name": "getSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "setSession": {
+                "name": "setSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "isPersistent": {
+                "name": "isPersistent",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "isRememberMeChecked": {
+                "name": "isRememberMeChecked",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "setRememberMeChecked": {
+                "name": "setRememberMeChecked",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_sessionModel": {
+                "name": "_sessionModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_isRememberMeChecked": {
+                "name": "_isRememberMeChecked",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_sessionFactory": {
+                "name": "_sessionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_checkoutSession": {
+                "name": "_checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Controller\\Index": {
+        "name": "Magento\\Persistent\\Controller\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "setClearCheckoutSession": {
+                "name": "setClearCheckoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "quoteManager": {
+                "name": "quoteManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "checkoutSession": {
+                "name": "checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "customerSession": {
+                "name": "customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "sessionHelper": {
+                "name": "sessionHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "clearCheckoutSession": {
+                "name": "clearCheckoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Controller\\Index\\ExpressCheckout": {
+        "name": "Magento\\Persistent\\Controller\\Index\\ExpressCheckout",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Persistent\\Controller\\Index\\SaveMethod": {
+        "name": "Magento\\Persistent\\Controller\\Index\\SaveMethod",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Persistent\\Controller\\Index\\UnsetCookie": {
+        "name": "Magento\\Persistent\\Controller\\Index\\UnsetCookie",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "cleanup": {
+                "name": "cleanup",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Persistent\\Model\\QuoteManager": {
+        "name": "Magento\\Persistent\\Model\\QuoteManager",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "setGuest": {
+                "name": "setGuest",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "convertCustomerCartToGuest": {
+                "name": "convertCustomerCartToGuest",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "expire": {
+                "name": "expire",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "isPersistent": {
+                "name": "isPersistent",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "persistentSession": {
+                "name": "persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "checkoutSession": {
+                "name": "checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "persistentData": {
+                "name": "persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_setQuotePersistent": {
+                "name": "_setQuotePersistent",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "quoteRepository": {
+                "name": "quoteRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Model\\Session": {
+        "name": "Magento\\Persistent\\Model\\Session",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "setLoadExpired": {
+                "name": "setLoadExpired",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "getLoadExpired": {
+                "name": "getLoadExpired",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "getExpiredBefore": {
+                "name": "getExpiredBefore",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_afterLoad": {
+                "name": "_afterLoad",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "loadByCookieKey": {
+                "name": "loadByCookieKey",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "loadByCustomerId": {
+                "name": "loadByCustomerId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "deleteByCustomerId": {
+                "name": "deleteByCustomerId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "removePersistentCookie": {
+                "name": "removePersistentCookie",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "setPersistentCookie": {
+                "name": "setPersistentCookie",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "renewPersistentCookie": {
+                "name": "renewPersistentCookie",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "deleteExpired": {
+                "name": "deleteExpired",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "afterDeleteCommit": {
+                "name": "afterDeleteCommit",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "setCookie": {
+                "name": "setCookie",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "getRequest": {
+                "name": "getRequest",
+                "isDeprecated": true,
+                "deprecatedSince": "",
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "save": {
+                "name": "save",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_unserializableFields": {
+                "name": "_unserializableFields",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_loadExpired": {
+                "name": "_loadExpired",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "jsonHelper": {
+                "name": "jsonHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_coreConfig": {
+                "name": "_coreConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_cookieManager": {
+                "name": "_cookieManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_cookieMetadataFactory": {
+                "name": "_cookieMetadataFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "mathRandom": {
+                "name": "mathRandom",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "sessionConfig": {
+                "name": "sessionConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Persistent\\Model\\CheckoutConfigProvider": {
+        "name": "Magento\\Persistent\\Model\\CheckoutConfigProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "getConfig": {
+                "name": "getConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "persistentHelper": {
+                "name": "persistentHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Persistent\\Model\\Factory": {
+        "name": "Magento\\Persistent\\Model\\Factory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_objectManager": {
+                "name": "_objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Model\\Observer": {
+        "name": "Magento\\Persistent\\Model\\Observer",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "emulateWelcomeBlock": {
+                "name": "emulateWelcomeBlock",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_applyAccountLinksPersistentData": {
+                "name": "_applyAccountLinksPersistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "emulateTopLinks": {
+                "name": "emulateTopLinks",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_layout": {
+                "name": "_layout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_url": {
+                "name": "_url",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_escaper": {
+                "name": "_escaper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_customerViewHelper": {
+                "name": "_customerViewHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "customerRepository": {
+                "name": "customerRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Model\\Persistent\\Config": {
+        "name": "Magento\\Persistent\\Model\\Persistent\\Config",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "setConfigFilePath": {
+                "name": "setConfigFilePath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_getConfigDomXPath": {
+                "name": "_getConfigDomXPath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "getBlockConfigInfo": {
+                "name": "getBlockConfigInfo",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "collectInstancesToEmulate": {
+                "name": "collectInstancesToEmulate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_convertBlocksToArray": {
+                "name": "_convertBlocksToArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "fire": {
+                "name": "fire",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "fireOne": {
+                "name": "fireOne",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_configFilePath": {
+                "name": "_configFilePath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_domFactory": {
+                "name": "_domFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_moduleReader": {
+                "name": "_moduleReader",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_configDomXPath": {
+                "name": "_configDomXPath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_layout": {
+                "name": "_layout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_appState": {
+                "name": "_appState",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentFactory": {
+                "name": "_persistentFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "readFactory": {
+                "name": "readFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Model\\Layout\\DepersonalizePlugin": {
+        "name": "Magento\\Persistent\\Model\\Layout\\DepersonalizePlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "afterGenerateXml": {
+                "name": "afterGenerateXml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "depersonalizeChecker": {
+                "name": "depersonalizeChecker",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "persistentSession": {
+                "name": "persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Model\\ResourceModel\\Session": {
+        "name": "Magento\\Persistent\\Model\\ResourceModel\\Session",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_getLoadSelect": {
+                "name": "_getLoadSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "deleteByCustomerId": {
+                "name": "deleteByCustomerId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "isKeyAllowed": {
+                "name": "isKeyAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "deleteExpired": {
+                "name": "deleteExpired",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_useIsObjectNew": {
+                "name": "_useIsObjectNew",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_sessionFactory": {
+                "name": "_sessionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Model\\Checkout\\GuestPaymentInformationManagementPlugin": {
+        "name": "Magento\\Persistent\\Model\\Checkout\\GuestPaymentInformationManagementPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "beforeSavePaymentInformationAndPlaceOrder": {
+                "name": "beforeSavePaymentInformationAndPlaceOrder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "persistenceSessionHelper": {
+                "name": "persistenceSessionHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "persistenceDataHelper": {
+                "name": "persistenceDataHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "customerSession": {
+                "name": "customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "checkoutSession": {
+                "name": "checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "quoteManager": {
+                "name": "quoteManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "cartRepository": {
+                "name": "cartRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Persistent\\Model\\Checkout\\AddressDataProcessorPlugin": {
+        "name": "Magento\\Persistent\\Model\\Checkout\\AddressDataProcessorPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "beforeProcess": {
+                "name": "beforeProcess",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "persistentSession": {
+                "name": "persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "persistentHelper": {
+                "name": "persistentHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "checkoutSession": {
+                "name": "checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Persistent\\Model\\Checkout\\ConfigProviderPlugin": {
+        "name": "Magento\\Persistent\\Model\\Checkout\\ConfigProviderPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "afterGetConfig": {
+                "name": "afterGetConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "persistentSession": {
+                "name": "persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "persistentHelper": {
+                "name": "persistentHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "checkoutSession": {
+                "name": "checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "quoteIdMaskFactory": {
+                "name": "quoteIdMaskFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "customerSession": {
+                "name": "customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Persistent\\Model\\Plugin\\CustomerData": {
+        "name": "Magento\\Persistent\\Model\\Plugin\\CustomerData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "aroundGetSectionData": {
+                "name": "aroundGetSectionData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "persistentData": {
+                "name": "persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "customerSession": {
+                "name": "customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "persistentSession": {
+                "name": "persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Setup\\InstallSchema": {
+        "name": "Magento\\Persistent\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "connectionName": {
+                "name": "connectionName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\PreventClearCheckoutSessionObserver": {
+        "name": "Magento\\Persistent\\Observer\\PreventClearCheckoutSessionObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\SetLoadPersistentQuoteObserver": {
+        "name": "Magento\\Persistent\\Observer\\SetLoadPersistentQuoteObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_checkoutSession": {
+                "name": "_checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\SetRememberMeStatusForAjaxLoginObserver": {
+        "name": "Magento\\Persistent\\Observer\\SetRememberMeStatusForAjaxLoginObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\CustomerAuthenticatedEventObserver": {
+        "name": "Magento\\Persistent\\Observer\\CustomerAuthenticatedEventObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_requestHttp": {
+                "name": "_requestHttp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "quoteManager": {
+                "name": "quoteManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\SynchronizePersistentOnLogoutObserver": {
+        "name": "Magento\\Persistent\\Observer\\SynchronizePersistentOnLogoutObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_sessionFactory": {
+                "name": "_sessionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\ApplyPersistentDataObserver": {
+        "name": "Magento\\Persistent\\Observer\\ApplyPersistentDataObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentConfigFactory": {
+                "name": "_persistentConfigFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\EmulateCustomerObserver": {
+        "name": "Magento\\Persistent\\Observer\\EmulateCustomerObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "customerRepository": {
+                "name": "customerRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "addressRepository": {
+                "name": "addressRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\ClearExpiredCronJobObserver": {
+        "name": "Magento\\Persistent\\Observer\\ClearExpiredCronJobObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_websiteCollectionFactory": {
+                "name": "_websiteCollectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_sessionFactory": {
+                "name": "_sessionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\ApplyBlockPersistentDataObserver": {
+        "name": "Magento\\Persistent\\Observer\\ApplyBlockPersistentDataObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_persistentConfigFactory": {
+                "name": "_persistentConfigFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\SetQuotePersistentDataObserver": {
+        "name": "Magento\\Persistent\\Observer\\SetQuotePersistentDataObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "quoteManager": {
+                "name": "quoteManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\MakePersistentQuoteGuestObserver": {
+        "name": "Magento\\Persistent\\Observer\\MakePersistentQuoteGuestObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "quoteManager": {
+                "name": "quoteManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\PreventExpressCheckoutObserver": {
+        "name": "Magento\\Persistent\\Observer\\PreventExpressCheckoutObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "messageManager": {
+                "name": "messageManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_url": {
+                "name": "_url",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_expressRedirectHelper": {
+                "name": "_expressRedirectHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\UpdateCustomerCookiesObserver": {
+        "name": "Magento\\Persistent\\Observer\\UpdateCustomerCookiesObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "customerRepository": {
+                "name": "customerRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\RenewCookieObserver": {
+        "name": "Magento\\Persistent\\Observer\\RenewCookieObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_sessionFactory": {
+                "name": "_sessionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\CheckExpirePersistentQuoteObserver": {
+        "name": "Magento\\Persistent\\Observer\\CheckExpirePersistentQuoteObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_checkoutSession": {
+                "name": "_checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_eventManager": {
+                "name": "_eventManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "quoteManager": {
+                "name": "quoteManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\EmulateQuoteObserver": {
+        "name": "Magento\\Persistent\\Observer\\EmulateQuoteObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "customerRepository": {
+                "name": "customerRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_checkoutSession": {
+                "name": "_checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\SetRememberMeCheckedStatusObserver": {
+        "name": "Magento\\Persistent\\Observer\\SetRememberMeCheckedStatusObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_checkoutSession": {
+                "name": "_checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\RemovePersistentCookieOnRegisterObserver": {
+        "name": "Magento\\Persistent\\Observer\\RemovePersistentCookieOnRegisterObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "quoteManager": {
+                "name": "quoteManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\SynchronizePersistentOnLoginObserver": {
+        "name": "Magento\\Persistent\\Observer\\SynchronizePersistentOnLoginObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_sessionFactory": {
+                "name": "_sessionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\SynchronizePersistentInfoObserver": {
+        "name": "Magento\\Persistent\\Observer\\SynchronizePersistentInfoObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": true,
+                "deprecatedSince": "",
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_persistentSession": {
+                "name": "_persistentSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Observer\\RemoveGuestPersistenceOnEmptyCartObserver": {
+        "name": "Magento\\Persistent\\Observer\\RemoveGuestPersistenceOnEmptyCartObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "customerSession": {
+                "name": "customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "persistenceSessionHelper": {
+                "name": "persistenceSessionHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "quoteManager": {
+                "name": "quoteManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "persistenceDataHelper": {
+                "name": "persistenceDataHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "cartRepository": {
+                "name": "cartRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Persistent\\Block\\Header\\Additional": {
+        "name": "Magento\\Persistent\\Block\\Header\\Additional",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "getHref": {
+                "name": "getHref",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_customerViewHelper": {
+                "name": "_customerViewHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_persistentSessionHelper": {
+                "name": "_persistentSessionHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "customerRepository": {
+                "name": "customerRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Persistent\\Block\\Form\\Remember": {
+        "name": "Magento\\Persistent\\Block\\Form\\Remember",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-persistent",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "isRememberMeChecked": {
+                "name": "isRememberMeChecked",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "getRandomString": {
+                "name": "getRandomString",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_persistentData": {
+                "name": "_persistentData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "mathRandom": {
+                "name": "mathRandom",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-persistent",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

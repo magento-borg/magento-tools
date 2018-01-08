@@ -1,0 +1,479 @@
+{
+    "Magento\\TaxImportExport\\Controller\\Adminhtml\\Rate": {
+        "name": "Magento\\TaxImportExport\\Controller\\Adminhtml\\Rate",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-tax-import-export",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "fileFactory": {
+                "name": "fileFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\TaxImportExport\\Controller\\Adminhtml\\Rate\\ExportCsv": {
+        "name": "Magento\\TaxImportExport\\Controller\\Adminhtml\\Rate\\ExportCsv",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-tax-import-export",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\TaxImportExport\\Controller\\Adminhtml\\Rate\\ImportPost": {
+        "name": "Magento\\TaxImportExport\\Controller\\Adminhtml\\Rate\\ImportPost",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-tax-import-export",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\TaxImportExport\\Controller\\Adminhtml\\Rate\\ExportPost": {
+        "name": "Magento\\TaxImportExport\\Controller\\Adminhtml\\Rate\\ExportPost",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-tax-import-export",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\TaxImportExport\\Controller\\Adminhtml\\Rate\\ExportXml": {
+        "name": "Magento\\TaxImportExport\\Controller\\Adminhtml\\Rate\\ExportXml",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-tax-import-export",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\TaxImportExport\\Controller\\Adminhtml\\Rate\\ImportExport": {
+        "name": "Magento\\TaxImportExport\\Controller\\Adminhtml\\Rate\\ImportExport",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-tax-import-export",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\TaxImportExport\\Model\\Rate\\CsvImportHandler": {
+        "name": "Magento\\TaxImportExport\\Model\\Rate\\CsvImportHandler",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-tax-import-export",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getRequiredCsvFields": {
+                "name": "getRequiredCsvFields",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "importFromCsvFile": {
+                "name": "importFromCsvFile",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_filterFileFields": {
+                "name": "_filterFileFields",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_filterRateData": {
+                "name": "_filterRateData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_composeStoreCache": {
+                "name": "_composeStoreCache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_isStoreCodeValid": {
+                "name": "_isStoreCodeValid",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_importRate": {
+                "name": "_importRate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_addCountryRegionsToCache": {
+                "name": "_addCountryRegionsToCache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_publicStores": {
+                "name": "_publicStores",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_regionCollection": {
+                "name": "_regionCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_countryFactory": {
+                "name": "_countryFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_taxRateFactory": {
+                "name": "_taxRateFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "csvProcessor": {
+                "name": "csvProcessor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\TaxImportExport\\Block\\Adminhtml\\Rate\\ImportExport": {
+        "name": "Magento\\TaxImportExport\\Block\\Adminhtml\\Rate\\ImportExport",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-tax-import-export",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_template": {
+                "name": "_template",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\TaxImportExport\\Block\\Adminhtml\\Rate\\ImportExportHeader": {
+        "name": "Magento\\TaxImportExport\\Block\\Adminhtml\\Rate\\ImportExportHeader",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-tax-import-export",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": {
+            "_template": {
+                "name": "_template",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\TaxImportExport\\Block\\Adminhtml\\Rate\\Grid\\Renderer\\Country": {
+        "name": "Magento\\TaxImportExport\\Block\\Adminhtml\\Rate\\Grid\\Renderer\\Country",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-tax-import-export",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "renderExport": {
+                "name": "renderExport",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-tax-import-export",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

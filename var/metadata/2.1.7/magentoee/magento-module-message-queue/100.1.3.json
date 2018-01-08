@@ -1,0 +1,459 @@
+{
+    "Magento\\MessageQueue\\Console\\ConsumerListCommand": {
+        "name": "Magento\\MessageQueue\\Console\\ConsumerListCommand",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-message-queue",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "configure": {
+                "name": "configure",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getConsumers": {
+                "name": "getConsumers",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "queueConfig": {
+                "name": "queueConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\MessageQueue\\Console\\StartConsumerCommand": {
+        "name": "Magento\\MessageQueue\\Console\\StartConsumerCommand",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-message-queue",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "configure": {
+                "name": "configure",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "consumerFactory": {
+                "name": "consumerFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            },
+            "appState": {
+                "name": "appState",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\MessageQueue\\Model\\ConsumerRunner": {
+        "name": "Magento\\MessageQueue\\Model\\ConsumerRunner",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-message-queue",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "__call": {
+                "name": "__call",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "consumerFactory": {
+                "name": "consumerFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\MessageQueue\\Model\\Lock": {
+        "name": "Magento\\MessageQueue\\Model\\Lock",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-message-queue",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getMessageCode": {
+                "name": "getMessageCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "setMessageCode": {
+                "name": "setMessageCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "getCreatedAt": {
+                "name": "getCreatedAt",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "setCreatedAt": {
+                "name": "setCreatedAt",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\MessageQueue\\Model\\ResourceModel\\Lock": {
+        "name": "Magento\\MessageQueue\\Model\\ResourceModel\\Lock",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-message-queue",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "read": {
+                "name": "read",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "saveLock": {
+                "name": "saveLock",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "releaseOutdatedLocks": {
+                "name": "releaseOutdatedLocks",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "dateTime": {
+                "name": "dateTime",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            },
+            "lockFactory": {
+                "name": "lockFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            },
+            "interval": {
+                "name": "interval",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\MessageQueue\\Setup\\UpgradeSchema": {
+        "name": "Magento\\MessageQueue\\Setup\\UpgradeSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-message-queue",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "upgrade": {
+                "name": "upgrade",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            },
+            "createQueueLockTable": {
+                "name": "createQueueLockTable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\MessageQueue\\Setup\\InstallSchema": {
+        "name": "Magento\\MessageQueue\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-message-queue",
+        "packageVersion": "100.1.3",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-message-queue",
+                "packageVersion": "100.1.3",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

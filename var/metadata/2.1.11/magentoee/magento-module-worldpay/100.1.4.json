@@ -1,0 +1,1423 @@
+{
+    "Magento\\Worldpay\\Api\\GuestPaymentInformationManagementProxyInterface": {
+        "name": "Magento\\Worldpay\\Api\\GuestPaymentInformationManagementProxyInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": true,
+        "private": false,
+        "methods": {
+            "savePaymentInformationAndPlaceOrder": {
+                "name": "savePaymentInformationAndPlaceOrder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Worldpay\\Controller\\HtmlRedirect\\Response": {
+        "name": "Magento\\Worldpay\\Controller\\HtmlRedirect\\Response",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "command": {
+                "name": "command",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "layoutFactory": {
+                "name": "layoutFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Worldpay\\Controller\\HtmlRedirect\\GetTransactionData": {
+        "name": "Magento\\Worldpay\\Controller\\HtmlRedirect\\GetTransactionData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "placeTransactionService": {
+                "name": "placeTransactionService",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "session": {
+                "name": "session",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Worldpay\\Model\\GuestPaymentInformationManagementProxy": {
+        "name": "Magento\\Worldpay\\Model\\GuestPaymentInformationManagementProxy",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "savePaymentInformationAndPlaceOrder": {
+                "name": "savePaymentInformationAndPlaceOrder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "guestPaymentInformationManagement": {
+                "name": "guestPaymentInformationManagement",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Worldpay\\Model\\Api\\PlaceTransactionService": {
+        "name": "Magento\\Worldpay\\Model\\Api\\PlaceTransactionService",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "placeTransaction": {
+                "name": "placeTransaction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "orderRepository": {
+                "name": "orderRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "command": {
+                "name": "command",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "paymentDataObjectFactory": {
+                "name": "paymentDataObjectFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Worldpay\\Model\\Adminhtml\\Source\\PaymentAction": {
+        "name": "Magento\\Worldpay\\Model\\Adminhtml\\Source\\PaymentAction",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Worldpay\\Model\\Adminhtml\\Source\\TestAction": {
+        "name": "Magento\\Worldpay\\Model\\Adminhtml\\Source\\TestAction",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Worldpay\\Model\\Adminhtml\\Source\\FraudCase": {
+        "name": "Magento\\Worldpay\\Model\\Adminhtml\\Source\\FraudCase",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Worldpay\\Model\\Ui\\ConfigProvider": {
+        "name": "Magento\\Worldpay\\Model\\Ui\\ConfigProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "getConfig": {
+                "name": "getConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "urlBuilder": {
+                "name": "urlBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Worldpay\\Gateway\\Validator\\ResponseValidator": {
+        "name": "Magento\\Worldpay\\Gateway\\Validator\\ResponseValidator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "validate": {
+                "name": "validate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "orderRepository": {
+                "name": "orderRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "remoteAddress": {
+                "name": "remoteAddress",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Worldpay\\Gateway\\Validator\\AcceptValidator": {
+        "name": "Magento\\Worldpay\\Gateway\\Validator\\AcceptValidator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "validate": {
+                "name": "validate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Worldpay\\Gateway\\Validator\\RemoteAdminValidator": {
+        "name": "Magento\\Worldpay\\Gateway\\Validator\\RemoteAdminValidator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "validate": {
+                "name": "validate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Worldpay\\Gateway\\Request\\RemoteAdmin\\TransactionDataBuilder": {
+        "name": "Magento\\Worldpay\\Gateway\\Request\\RemoteAdmin\\TransactionDataBuilder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Worldpay\\Gateway\\Request\\RemoteAdmin\\RefundDataBuilder": {
+        "name": "Magento\\Worldpay\\Gateway\\Request\\RemoteAdmin\\RefundDataBuilder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Worldpay\\Gateway\\Request\\RemoteAdmin\\CaptureDataBuilder": {
+        "name": "Magento\\Worldpay\\Gateway\\Request\\RemoteAdmin\\CaptureDataBuilder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Worldpay\\Gateway\\Request\\HtmlRedirect\\OrderDataBuilder": {
+        "name": "Magento\\Worldpay\\Gateway\\Request\\HtmlRedirect\\OrderDataBuilder",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "getName": {
+                "name": "getName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "getSignature": {
+                "name": "getSignature",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "urlHelper": {
+                "name": "urlHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "localeResolver": {
+                "name": "localeResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Worldpay\\Gateway\\Response\\CvvHandler": {
+        "name": "Magento\\Worldpay\\Gateway\\Response\\CvvHandler",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": {
+            "codesPosition": {
+                "name": "codesPosition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Worldpay\\Gateway\\Response\\WafMessageHandler": {
+        "name": "Magento\\Worldpay\\Gateway\\Response\\WafMessageHandler",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "handle": {
+                "name": "handle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Worldpay\\Gateway\\Response\\PaymentDetailsHandler": {
+        "name": "Magento\\Worldpay\\Gateway\\Response\\PaymentDetailsHandler",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "handle": {
+                "name": "handle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Worldpay\\Gateway\\Response\\AvsHandler": {
+        "name": "Magento\\Worldpay\\Gateway\\Response\\AvsHandler",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "handle": {
+                "name": "handle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "codesPosition": {
+                "name": "codesPosition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Worldpay\\Gateway\\Command\\ResponseCommand": {
+        "name": "Magento\\Worldpay\\Gateway\\Command\\ResponseCommand",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "commandsMap": {
+                "name": "commandsMap",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "commandPool": {
+                "name": "commandPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "validator": {
+                "name": "validator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "orderRepository": {
+                "name": "orderRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "paymentDataObjectFactory": {
+                "name": "paymentDataObjectFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Worldpay\\Gateway\\Command\\CaptureCommand": {
+        "name": "Magento\\Worldpay\\Gateway\\Command\\CaptureCommand",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Worldpay\\Gateway\\Command\\InitializeCommand": {
+        "name": "Magento\\Worldpay\\Gateway\\Command\\InitializeCommand",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Worldpay\\Gateway\\Command\\Response\\AcceptCommand": {
+        "name": "Magento\\Worldpay\\Gateway\\Command\\Response\\AcceptCommand",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "validator": {
+                "name": "validator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "handler": {
+                "name": "handler",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Worldpay\\Gateway\\Command\\Response\\CancelCommand": {
+        "name": "Magento\\Worldpay\\Gateway\\Command\\Response\\CancelCommand",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "checkoutSession": {
+                "name": "checkoutSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "orderManagementInterface": {
+                "name": "orderManagementInterface",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Worldpay\\Gateway\\Command\\Form\\BuildCommand": {
+        "name": "Magento\\Worldpay\\Gateway\\Command\\Form\\BuildCommand",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "builder": {
+                "name": "builder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "arrayResultFactory": {
+                "name": "arrayResultFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Worldpay\\Gateway\\Http\\TransferFactory": {
+        "name": "Magento\\Worldpay\\Gateway\\Http\\TransferFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            },
+            "transferBuilder": {
+                "name": "transferBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Worldpay\\Gateway\\Http\\Converter\\StringToMap": {
+        "name": "Magento\\Worldpay\\Gateway\\Http\\Converter\\StringToMap",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "convert": {
+                "name": "convert",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Worldpay\\Block\\Info": {
+        "name": "Magento\\Worldpay\\Block\\Info",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.11",
+        "package": "magento\/module-worldpay",
+        "packageVersion": "100.1.4",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getLabel": {
+                "name": "getLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            },
+            "getValueView": {
+                "name": "getValueView",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.11",
+                "package": "magento\/module-worldpay",
+                "packageVersion": "100.1.4",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

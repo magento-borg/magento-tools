@@ -1,0 +1,150 @@
+{
+    "Magento\\GroupedSharedCatalog\\Ui\\DataProvider\\Modifier\\Grouped": {
+        "name": "Magento\\GroupedSharedCatalog\\Ui\\DataProvider\\Modifier\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-grouped-shared-catalog",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-grouped-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "modifyData": {
+                "name": "modifyData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-grouped-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "modifyMeta": {
+                "name": "modifyMeta",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-grouped-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "getStorage": {
+                "name": "getStorage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-grouped-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "metadataPool": {
+                "name": "metadataPool",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-grouped-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "productRepository": {
+                "name": "productRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-grouped-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "productType": {
+                "name": "productType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-grouped-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "storageFactory": {
+                "name": "storageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-grouped-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "request": {
+                "name": "request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-grouped-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "storage": {
+                "name": "storage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-grouped-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "priceCalculator": {
+                "name": "priceCalculator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-grouped-shared-catalog",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        }
+    }
+}

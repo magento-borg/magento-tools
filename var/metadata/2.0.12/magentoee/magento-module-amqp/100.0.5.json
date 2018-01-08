@@ -1,0 +1,641 @@
+{
+    "Magento\\Amqp\\Model\\Queue": {
+        "name": "Magento\\Amqp\\Model\\Queue",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.12",
+        "package": "magento\/module-amqp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "dequeue": {
+                "name": "dequeue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "acknowledge": {
+                "name": "acknowledge",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "subscribe": {
+                "name": "subscribe",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "reject": {
+                "name": "reject",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "amqpConfig": {
+                "name": "amqpConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "queueName": {
+                "name": "queueName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "envelopeFactory": {
+                "name": "envelopeFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Amqp\\Model\\Topology": {
+        "name": "Magento\\Amqp\\Model\\Topology",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.12",
+        "package": "magento\/module-amqp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "declareQueue": {
+                "name": "declareQueue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "declareExchange": {
+                "name": "declareExchange",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "bindQueue": {
+                "name": "bindQueue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "getChannel": {
+                "name": "getChannel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "getQueuesList": {
+                "name": "getQueuesList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "getExchangesList": {
+                "name": "getExchangesList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "getQueueConfigData": {
+                "name": "getQueueConfigData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "amqpConfig": {
+                "name": "amqpConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "queueConfig": {
+                "name": "queueConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "queueConfigData": {
+                "name": "queueConfigData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Amqp\\Model\\Exchange": {
+        "name": "Magento\\Amqp\\Model\\Exchange",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.12",
+        "package": "magento\/module-amqp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "enqueue": {
+                "name": "enqueue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "amqpConfig": {
+                "name": "amqpConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "queueConfig": {
+                "name": "queueConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Amqp\\Model\\Config": {
+        "name": "Magento\\Amqp\\Model\\Config",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.12",
+        "package": "magento\/module-amqp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "__destruct": {
+                "name": "__destruct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getValue": {
+                "name": "getValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getChannel": {
+                "name": "getChannel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "load": {
+                "name": "load",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "closeConnection": {
+                "name": "closeConnection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "deploymentConfig": {
+                "name": "deploymentConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "connection": {
+                "name": "connection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "channel": {
+                "name": "channel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            },
+            "data": {
+                "name": "data",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Amqp\\Setup\\InstallData": {
+        "name": "Magento\\Amqp\\Setup\\InstallData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.12",
+        "package": "magento\/module-amqp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "topology": {
+                "name": "topology",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Amqp\\Setup\\ConnectionValidator": {
+        "name": "Magento\\Amqp\\Setup\\ConnectionValidator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.12",
+        "package": "magento\/module-amqp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "isConnectionValid": {
+                "name": "isConnectionValid",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Amqp\\Setup\\ConfigOptionsList": {
+        "name": "Magento\\Amqp\\Setup\\ConfigOptionsList",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.12",
+        "package": "magento\/module-amqp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getOptions": {
+                "name": "getOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "createConfig": {
+                "name": "createConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "validate": {
+                "name": "validate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "connectionValidator": {
+                "name": "connectionValidator",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-amqp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    }
+}

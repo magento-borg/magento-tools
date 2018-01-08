@@ -1,0 +1,54 @@
+{
+    "Magento\\GiftCardRequisitionList\\Model\\AddToCartProcessor": {
+        "name": "Magento\\GiftCardRequisitionList\\Model\\AddToCartProcessor",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.2",
+        "package": "magento\/module-gift-card-requisition-list",
+        "packageVersion": "100.0.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.2",
+                "package": "magento\/module-gift-card-requisition-list",
+                "packageVersion": "100.0.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.2",
+                "package": "magento\/module-gift-card-requisition-list",
+                "packageVersion": "100.0.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "cartItemOptionProcessor": {
+                "name": "cartItemOptionProcessor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.2",
+                "package": "magento\/module-gift-card-requisition-list",
+                "packageVersion": "100.0.1",
+                "api": false,
+                "private": true
+            }
+        }
+    }
+}

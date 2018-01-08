@@ -1,0 +1,1840 @@
+{
+    "Magento\\GroupedProduct\\Helper\\Product\\Configuration\\Plugin\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Helper\\Product\\Configuration\\Plugin\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "aroundGetOptions": {
+                "name": "aroundGetOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Controller\\Adminhtml\\Edit\\Popup": {
+        "name": "Magento\\GroupedProduct\\Controller\\Adminhtml\\Edit\\Popup",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_isAllowed": {
+                "name": "_isAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "registry": {
+                "name": "registry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "factory": {
+                "name": "factory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GroupedProduct\\CustomerData\\GroupedItem": {
+        "name": "Magento\\GroupedProduct\\CustomerData\\GroupedItem",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getProductForThumbnail": {
+                "name": "getProductForThumbnail",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getGroupedProduct": {
+                "name": "getGroupedProduct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_scopeConfig": {
+                "name": "_scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GroupedProduct\\Model\\ResourceModel\\Indexer\\Stock\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Model\\ResourceModel\\Indexer\\Stock\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_getStockStatusSelect": {
+                "name": "_getStockStatusSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Model\\ResourceModel\\Product\\Link": {
+        "name": "Magento\\GroupedProduct\\Model\\ResourceModel\\Product\\Link",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "saveGroupedLinks": {
+                "name": "saveGroupedLinks",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getChildrenIds": {
+                "name": "getChildrenIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Model\\ResourceModel\\Product\\Indexer\\Price\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Model\\ResourceModel\\Product\\Indexer\\Price\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "reindexAll": {
+                "name": "reindexAll",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "reindexEntity": {
+                "name": "reindexEntity",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_prepareGroupedProductPriceData": {
+                "name": "_prepareGroupedProductPriceData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Model\\ResourceModel\\Product\\Type\\Grouped\\AssociatedProductsCollection": {
+        "name": "Magento\\GroupedProduct\\Model\\ResourceModel\\Product\\Type\\Grouped\\AssociatedProductsCollection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_getProduct": {
+                "name": "_getProduct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_initSelect": {
+                "name": "_initSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_config": {
+                "name": "_config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GroupedProduct\\Model\\Sales\\AdminOrder\\Product\\Quote\\Plugin\\Initializer": {
+        "name": "Magento\\GroupedProduct\\Model\\Sales\\AdminOrder\\Product\\Quote\\Plugin\\Initializer",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "aroundInit": {
+                "name": "aroundInit",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Model\\Order\\Pdf\\Items\\Invoice\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Model\\Order\\Pdf\\Items\\Invoice\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "draw": {
+                "name": "draw",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Model\\Order\\Pdf\\Items\\Creditmemo\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Model\\Order\\Pdf\\Items\\Creditmemo\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "draw": {
+                "name": "draw",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Model\\Product\\CatalogPrice": {
+        "name": "Magento\\GroupedProduct\\Model\\Product\\CatalogPrice",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getCatalogPrice": {
+                "name": "getCatalogPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getCatalogRegularPrice": {
+                "name": "getCatalogRegularPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "commonPriceModel": {
+                "name": "commonPriceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GroupedProduct\\Model\\Product\\Initialization\\Helper\\ProductLinks\\Plugin\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Model\\Product\\Initialization\\Helper\\ProductLinks\\Plugin\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "beforeInitializeLinks": {
+                "name": "beforeInitializeLinks",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Model\\Product\\Link\\CollectionProvider\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Model\\Product\\Link\\CollectionProvider\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getLinkedProducts": {
+                "name": "getLinkedProducts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Model\\Product\\Link\\ProductEntity\\Converter": {
+        "name": "Magento\\GroupedProduct\\Model\\Product\\Link\\ProductEntity\\Converter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "convert": {
+                "name": "convert",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Model\\Product\\CopyConstructor\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Model\\Product\\CopyConstructor\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_getGroupedLinkCollection": {
+                "name": "_getGroupedLinkCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "build": {
+                "name": "build",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Model\\Product\\Cart\\Configuration\\Plugin\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Model\\Product\\Cart\\Configuration\\Plugin\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "aroundIsProductConfigured": {
+                "name": "aroundIsProductConfigured",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Model\\Product\\Type\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Model\\Product\\Type\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getRelationInfo": {
+                "name": "getRelationInfo",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getChildrenIds": {
+                "name": "getChildrenIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getParentIdsByChild": {
+                "name": "getParentIdsByChild",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getAssociatedProducts": {
+                "name": "getAssociatedProducts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "addStatusFilter": {
+                "name": "addStatusFilter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setSaleableStatus": {
+                "name": "setSaleableStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getStatusFilters": {
+                "name": "getStatusFilters",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getAssociatedProductIds": {
+                "name": "getAssociatedProductIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getAssociatedProductCollection": {
+                "name": "getAssociatedProductCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "save": {
+                "name": "save",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getProductInfo": {
+                "name": "getProductInfo",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_prepareProduct": {
+                "name": "_prepareProduct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getProductsToPurchaseByReqGroups": {
+                "name": "getProductsToPurchaseByReqGroups",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "processBuyRequest": {
+                "name": "processBuyRequest",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "hasWeight": {
+                "name": "hasWeight",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "deleteTypeSpecificData": {
+                "name": "deleteTypeSpecificData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getChildrenMsrp": {
+                "name": "getChildrenMsrp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_keyAssociatedProducts": {
+                "name": "_keyAssociatedProducts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_keyAssociatedProductIds": {
+                "name": "_keyAssociatedProductIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_keyStatusFilters": {
+                "name": "_keyStatusFilters",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_isComposite": {
+                "name": "_isComposite",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_canConfigure": {
+                "name": "_canConfigure",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_catalogProductStatus": {
+                "name": "_catalogProductStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_storeManager": {
+                "name": "_storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "productLinks": {
+                "name": "productLinks",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_appState": {
+                "name": "_appState",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "msrpData": {
+                "name": "msrpData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GroupedProduct\\Model\\Product\\Type\\Plugin": {
+        "name": "Magento\\GroupedProduct\\Model\\Product\\Type\\Plugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "afterGetOptionArray": {
+                "name": "afterGetOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "moduleManager": {
+                "name": "moduleManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GroupedProduct\\Model\\Product\\Type\\Grouped\\Backend": {
+        "name": "Magento\\GroupedProduct\\Model\\Product\\Type\\Grouped\\Backend",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "setSaleableStatus": {
+                "name": "setSaleableStatus",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Model\\Product\\Type\\Grouped\\Price": {
+        "name": "Magento\\GroupedProduct\\Model\\Product\\Type\\Grouped\\Price",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getFinalPrice": {
+                "name": "getFinalPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Pricing\\Price\\FinalPrice": {
+        "name": "Magento\\GroupedProduct\\Pricing\\Price\\FinalPrice",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getValue": {
+                "name": "getValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getMinProduct": {
+                "name": "getMinProduct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "minProduct": {
+                "name": "minProduct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GroupedProduct\\Pricing\\Price\\ConfiguredPrice": {
+        "name": "Magento\\GroupedProduct\\Pricing\\Price\\ConfiguredPrice",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "setItem": {
+                "name": "setItem",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getAmount": {
+                "name": "getAmount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "calculatePrice": {
+                "name": "calculatePrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getValue": {
+                "name": "getValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "item": {
+                "name": "item",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GroupedProduct\\Setup\\InstallData": {
+        "name": "Magento\\GroupedProduct\\Setup\\InstallData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "eavSetupFactory": {
+                "name": "eavSetupFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\GroupedProduct\\Block\\Stockqty\\Type\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Block\\Stockqty\\Type\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_getChildProducts": {
+                "name": "_getChildProducts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getIdentities": {
+                "name": "getIdentities",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Block\\Cart\\Item\\Renderer\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Block\\Cart\\Item\\Renderer\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getGroupedProduct": {
+                "name": "getGroupedProduct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getProductForThumbnail": {
+                "name": "getProductForThumbnail",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getIdentities": {
+                "name": "getIdentities",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Block\\Adminhtml\\Items\\Column\\Name\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Block\\Adminhtml\\Items\\Column\\Name\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Block\\Adminhtml\\Order\\Create\\Sidebar": {
+        "name": "Magento\\GroupedProduct\\Block\\Adminhtml\\Order\\Create\\Sidebar",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "aroundGetItemQty": {
+                "name": "aroundGetItemQty",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "aroundIsConfigurationRequired": {
+                "name": "aroundIsConfigurationRequired",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Block\\Adminhtml\\Product\\Composite\\Fieldset\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Block\\Adminhtml\\Product\\Composite\\Fieldset\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getProduct": {
+                "name": "getProduct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getAssociatedProducts": {
+                "name": "getAssociatedProducts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setPreconfiguredValue": {
+                "name": "setPreconfiguredValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getCanShowProductPrice": {
+                "name": "getCanShowProductPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getIsLastFieldset": {
+                "name": "getIsLastFieldset",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getCurrencyPrice": {
+                "name": "getCurrencyPrice",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "pricingHelper": {
+                "name": "pricingHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\GroupedProduct\\Block\\Order\\Email\\Items\\Order\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Block\\Order\\Email\\Items\\Order\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Block\\Order\\Item\\Renderer\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Block\\Order\\Item\\Renderer\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Block\\Product\\View\\Type\\Grouped": {
+        "name": "Magento\\GroupedProduct\\Block\\Product\\View\\Type\\Grouped",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getAssociatedProducts": {
+                "name": "getAssociatedProducts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setPreconfiguredValue": {
+                "name": "setPreconfiguredValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Block\\Product\\Grouped\\AssociatedProducts": {
+        "name": "Magento\\GroupedProduct\\Block\\Product\\Grouped\\AssociatedProducts",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getTabLabel": {
+                "name": "getTabLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getParentTab": {
+                "name": "getParentTab",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isHidden": {
+                "name": "isHidden",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_prepareLayout": {
+                "name": "_prepareLayout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\GroupedProduct\\Block\\Product\\Grouped\\AssociatedProducts\\ListAssociatedProducts": {
+        "name": "Magento\\GroupedProduct\\Block\\Product\\Grouped\\AssociatedProducts\\ListAssociatedProducts",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.7",
+        "package": "magento\/module-grouped-product",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getAssociatedProducts": {
+                "name": "getAssociatedProducts",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_registry": {
+                "name": "_registry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "priceCurrency": {
+                "name": "priceCurrency",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.7",
+                "package": "magento\/module-grouped-product",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

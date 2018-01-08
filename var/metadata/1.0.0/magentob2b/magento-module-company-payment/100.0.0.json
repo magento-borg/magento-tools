@@ -1,0 +1,1315 @@
+{
+    "Magento\\CompanyPayment\\Model\\CompanyPaymentMethod": {
+        "name": "Magento\\CompanyPayment\\Model\\CompanyPaymentMethod",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "setCompanyId": {
+                "name": "setCompanyId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "getCompanyId": {
+                "name": "getCompanyId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "setApplicablePaymentMethod": {
+                "name": "setApplicablePaymentMethod",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "getApplicablePaymentMethod": {
+                "name": "getApplicablePaymentMethod",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "setAvailablePaymentMethods": {
+                "name": "setAvailablePaymentMethods",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "getAvailablePaymentMethods": {
+                "name": "getAvailablePaymentMethods",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "setUseConfigSettings": {
+                "name": "setUseConfigSettings",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "getUseConfigValue": {
+                "name": "getUseConfigValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "_afterLoad": {
+                "name": "_afterLoad",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_idFieldName": {
+                "name": "_idFieldName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "applicablePaymentMethod": {
+                "name": "applicablePaymentMethod",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "availablePaymentMethods": {
+                "name": "availablePaymentMethods",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "useConfigSettings": {
+                "name": "useConfigSettings",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CompanyPayment\\Model\\Config": {
+        "name": "Magento\\CompanyPayment\\Model\\Config",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "getApplicablePaymentMethod": {
+                "name": "getApplicablePaymentMethod",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "getAvailablePaymentMethods": {
+                "name": "getAvailablePaymentMethods",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "isSpecificApplicableMethodApplied": {
+                "name": "isSpecificApplicableMethodApplied",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "xmlPathApplicablePaymentMethod": {
+                "name": "xmlPathApplicablePaymentMethod",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "xmlPathAvailablePaymentMethods": {
+                "name": "xmlPathAvailablePaymentMethods",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "specificApplicableMethodValue": {
+                "name": "specificApplicableMethodValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CompanyPayment\\Model\\Company\\SaveHandler\\AvailablePaymentMethods": {
+        "name": "Magento\\CompanyPayment\\Model\\Company\\SaveHandler\\AvailablePaymentMethods",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "savePaymentSettings": {
+                "name": "savePaymentSettings",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "erasePaymentSettingsData": {
+                "name": "erasePaymentSettingsData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "companyPaymentMethodResource": {
+                "name": "companyPaymentMethodResource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "companyPaymentMethodFactory": {
+                "name": "companyPaymentMethodFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "companyPaymentSettings": {
+                "name": "companyPaymentSettings",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CompanyPayment\\Model\\Payment\\AvailabilityChecker": {
+        "name": "Magento\\CompanyPayment\\Model\\Payment\\AvailabilityChecker",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "isAvailableForCompany": {
+                "name": "isAvailableForCompany",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "isAvailableInB2bConfig": {
+                "name": "isAvailableInB2bConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "isMethodAvailable": {
+                "name": "isMethodAvailable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "useBtob": {
+                "name": "useBtob",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "useAll": {
+                "name": "useAll",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "useSpecific": {
+                "name": "useSpecific",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CompanyPayment\\Model\\Payment\\Checks\\CanUseForCompany": {
+        "name": "Magento\\CompanyPayment\\Model\\Payment\\Checks\\CanUseForCompany",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "isApplicable": {
+                "name": "isApplicable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "companyManagement": {
+                "name": "companyManagement",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "availabilityChecker": {
+                "name": "availabilityChecker",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CompanyPayment\\Model\\Source\\CompanyApplicablePaymentMethod": {
+        "name": "Magento\\CompanyPayment\\Model\\Source\\CompanyApplicablePaymentMethod",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CompanyPayment\\Model\\Source\\PaymentMethod": {
+        "name": "Magento\\CompanyPayment\\Model\\Source\\PaymentMethod",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "paymentMethodList": {
+                "name": "paymentMethodList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "storeResolver": {
+                "name": "storeResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "appState": {
+                "name": "appState",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CompanyPayment\\Model\\Source\\ApplicablePaymentMethod": {
+        "name": "Magento\\CompanyPayment\\Model\\Source\\ApplicablePaymentMethod",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CompanyPayment\\Model\\ResourceModel\\CompanyPaymentMethod": {
+        "name": "Magento\\CompanyPayment\\Model\\ResourceModel\\CompanyPaymentMethod",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_useIsObjectNew": {
+                "name": "_useIsObjectNew",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "_isPkAutoIncrement": {
+                "name": "_isPkAutoIncrement",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "companyPaymentTable": {
+                "name": "companyPaymentTable",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CompanyPayment\\Setup\\InstallSchema": {
+        "name": "Magento\\CompanyPayment\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CompanyPayment\\Ui\\Component\\Form\\Field\\PaymentMethod": {
+        "name": "Magento\\CompanyPayment\\Ui\\Component\\Form\\Field\\PaymentMethod",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "prepare": {
+                "name": "prepare",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CompanyPayment\\Plugin\\Company\\CompanyRepositoryPlugin": {
+        "name": "Magento\\CompanyPayment\\Plugin\\Company\\CompanyRepositoryPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "afterGet": {
+                "name": "afterGet",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "companyPaymentMethodResource": {
+                "name": "companyPaymentMethodResource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "companyPaymentMethodFactory": {
+                "name": "companyPaymentMethodFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "companyExtensionFactory": {
+                "name": "companyExtensionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CompanyPayment\\Plugin\\Company\\DataProviderPlugin": {
+        "name": "Magento\\CompanyPayment\\Plugin\\Company\\DataProviderPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "aroundGetSettingsData": {
+                "name": "aroundGetSettingsData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CompanyPayment\\Plugin\\Company\\Model\\Customer\\CompanyPlugin": {
+        "name": "Magento\\CompanyPayment\\Plugin\\Company\\Model\\Customer\\CompanyPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "afterCreateCompany": {
+                "name": "afterCreateCompany",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "companyPaymentMethodResource": {
+                "name": "companyPaymentMethodResource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "companyPaymentMethodFactory": {
+                "name": "companyPaymentMethodFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "btobPaymentSettingsDefaultValue": {
+                "name": "btobPaymentSettingsDefaultValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "useConfigSettingsDefaultValue": {
+                "name": "useConfigSettingsDefaultValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CompanyPayment\\Plugin\\Quote\\PaymentMethodManagementPlugin": {
+        "name": "Magento\\CompanyPayment\\Plugin\\Quote\\PaymentMethodManagementPlugin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "aroundGetList": {
+                "name": "aroundGetList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "companyCheck": {
+                "name": "companyCheck",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "quoteRepository": {
+                "name": "quoteRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "methodSpecificationFactory": {
+                "name": "methodSpecificationFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CompanyPayment\\Block\\Company\\Profile\\PaymentMethod": {
+        "name": "Magento\\CompanyPayment\\Block\\Company\\Profile\\PaymentMethod",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "getPaymentMethods": {
+                "name": "getPaymentMethods",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "hasPaymentMethods": {
+                "name": "hasPaymentMethods",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "storeResolver": {
+                "name": "storeResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "paymentMethodList": {
+                "name": "paymentMethodList",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "userContext": {
+                "name": "userContext",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "availabilityChecker": {
+                "name": "availabilityChecker",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "companyManagement": {
+                "name": "companyManagement",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "paymentMethods": {
+                "name": "paymentMethods",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            },
+            "authorization": {
+                "name": "authorization",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CompanyPayment\\Block\\System\\Config\\PaymentMethods": {
+        "name": "Magento\\CompanyPayment\\Block\\System\\Config\\PaymentMethods",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CompanyPayment\\Block\\System\\Config\\Form\\PaymentMethodsFieldset": {
+        "name": "Magento\\CompanyPayment\\Block\\System\\Config\\Form\\PaymentMethodsFieldset",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "1.0.0",
+        "package": "magento\/module-company-payment",
+        "packageVersion": "100.0.0",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_getFooterHtml": {
+                "name": "_getFooterHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "1.0.0",
+                "package": "magento\/module-company-payment",
+                "packageVersion": "100.0.0",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    }
+}

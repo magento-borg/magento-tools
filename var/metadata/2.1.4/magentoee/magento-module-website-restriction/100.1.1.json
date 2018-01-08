@@ -1,0 +1,1131 @@
+{
+    "Magento\\WebsiteRestriction\\Controller\\Index\\Stub": {
+        "name": "Magento\\WebsiteRestriction\\Controller\\Index\\Stub",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_stubPageIdentifier": {
+                "name": "_stubPageIdentifier",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_configCacheType": {
+                "name": "_configCacheType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_cacheKey": {
+                "name": "_cacheKey",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_cacheKeyPrefix": {
+                "name": "_cacheKeyPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_website": {
+                "name": "_website",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_pageFactory": {
+                "name": "_pageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_scopeConfig": {
+                "name": "_scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_localeDate": {
+                "name": "_localeDate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\WebsiteRestriction\\Model\\Mode": {
+        "name": "Magento\\WebsiteRestriction\\Model\\Mode",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\WebsiteRestriction\\Model\\Restrictor": {
+        "name": "Magento\\WebsiteRestriction\\Model\\Restrictor",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "restrict": {
+                "name": "restrict",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_config": {
+                "name": "_config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_urlFactory": {
+                "name": "_urlFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_actionFlag": {
+                "name": "_actionFlag",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "registration": {
+                "name": "registration",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_session": {
+                "name": "_session",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_scopeConfig": {
+                "name": "_scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "customerUrl": {
+                "name": "customerUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_customerSession": {
+                "name": "_customerSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\WebsiteRestriction\\Model\\Config": {
+        "name": "Magento\\WebsiteRestriction\\Model\\Config",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getGenericActions": {
+                "name": "getGenericActions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getRegisterActions": {
+                "name": "getRegisterActions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "isRestrictionEnabled": {
+                "name": "isRestrictionEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getMode": {
+                "name": "getMode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getHTTPStatusCode": {
+                "name": "getHTTPStatusCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getHTTPRedirectCode": {
+                "name": "getHTTPRedirectCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getLandingPageCode": {
+                "name": "getLandingPageCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_scopeConfig": {
+                "name": "_scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_scopePriorityScheme": {
+                "name": "_scopePriorityScheme",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\WebsiteRestriction\\Model\\ConfigInterface": {
+        "name": "Magento\\WebsiteRestriction\\Model\\ConfigInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": true,
+        "private": false,
+        "methods": {
+            "getGenericActions": {
+                "name": "getGenericActions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": true,
+                "private": false
+            },
+            "getRegisterActions": {
+                "name": "getRegisterActions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": true,
+                "private": false
+            },
+            "isRestrictionEnabled": {
+                "name": "isRestrictionEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": true,
+                "private": false
+            },
+            "getMode": {
+                "name": "getMode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": true,
+                "private": false
+            },
+            "getHTTPStatusCode": {
+                "name": "getHTTPStatusCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": true,
+                "private": false
+            },
+            "getHTTPRedirectCode": {
+                "name": "getHTTPRedirectCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": true,
+                "private": false
+            },
+            "getLandingPageCode": {
+                "name": "getLandingPageCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": true,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\WebsiteRestriction\\Model\\Config\\Converter": {
+        "name": "Magento\\WebsiteRestriction\\Model\\Config\\Converter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "convert": {
+                "name": "convert",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\WebsiteRestriction\\Model\\Config\\SchemaLocator": {
+        "name": "Magento\\WebsiteRestriction\\Model\\Config\\SchemaLocator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getSchema": {
+                "name": "getSchema",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getPerFileSchema": {
+                "name": "getPerFileSchema",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_schema": {
+                "name": "_schema",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_perFileSchema": {
+                "name": "_perFileSchema",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\WebsiteRestriction\\Model\\Config\\Reader": {
+        "name": "Magento\\WebsiteRestriction\\Model\\Config\\Reader",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_idAttributes": {
+                "name": "_idAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\WebsiteRestriction\\Model\\Plugin\\CustomerRegistration": {
+        "name": "Magento\\WebsiteRestriction\\Model\\Plugin\\CustomerRegistration",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "afterIsAllowed": {
+                "name": "afterIsAllowed",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_restrictionConfig": {
+                "name": "_restrictionConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\WebsiteRestriction\\Model\\System\\Config\\Source\\Modes": {
+        "name": "Magento\\WebsiteRestriction\\Model\\System\\Config\\Source\\Modes",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\WebsiteRestriction\\Model\\System\\Config\\Source\\Redirect": {
+        "name": "Magento\\WebsiteRestriction\\Model\\System\\Config\\Source\\Redirect",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\WebsiteRestriction\\Model\\System\\Config\\Source\\Http": {
+        "name": "Magento\\WebsiteRestriction\\Model\\System\\Config\\Source\\Http",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\WebsiteRestriction\\Model\\System\\Config\\Backend\\Active": {
+        "name": "Magento\\WebsiteRestriction\\Model\\System\\Config\\Backend\\Active",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "afterSave": {
+                "name": "afterSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_eventPrefix": {
+                "name": "_eventPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\WebsiteRestriction\\Setup\\InstallData": {
+        "name": "Magento\\WebsiteRestriction\\Setup\\InstallData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_pageFactory": {
+                "name": "_pageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\WebsiteRestriction\\Observer\\RestrictWebsite": {
+        "name": "Magento\\WebsiteRestriction\\Observer\\RestrictWebsite",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "eventManager": {
+                "name": "eventManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "restrictor": {
+                "name": "restrictor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "objectFactory": {
+                "name": "objectFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "response": {
+                "name": "response",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\WebsiteRestriction\\Observer\\AddPrivateSalesLayoutUpdate": {
+        "name": "Magento\\WebsiteRestriction\\Observer\\AddPrivateSalesLayoutUpdate",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_config": {
+                "name": "_config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "allowedTypes": {
+                "name": "allowedTypes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\WebsiteRestriction\\Block\\Cms\\Stub": {
+        "name": "Magento\\WebsiteRestriction\\Block\\Cms\\Stub",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-website-restriction",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getPage": {
+                "name": "getPage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_prepareLayout": {
+                "name": "_prepareLayout",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-website-restriction",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

@@ -1,0 +1,233 @@
+{
+    "Magento\\CacheInvalidate\\Model\\PurgeCache": {
+        "name": "Magento\\CacheInvalidate\\Model\\PurgeCache",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.12",
+        "package": "magento\/module-cache-invalidate",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-cache-invalidate",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "sendPurgeRequest": {
+                "name": "sendPurgeRequest",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-cache-invalidate",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "cacheServer": {
+                "name": "cacheServer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-cache-invalidate",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "socketAdapterFactory": {
+                "name": "socketAdapterFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-cache-invalidate",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "logger": {
+                "name": "logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-cache-invalidate",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\CacheInvalidate\\Model\\SocketFactory": {
+        "name": "Magento\\CacheInvalidate\\Model\\SocketFactory",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.12",
+        "package": "magento\/module-cache-invalidate",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "create": {
+                "name": "create",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-cache-invalidate",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\CacheInvalidate\\Observer\\FlushAllCacheObserver": {
+        "name": "Magento\\CacheInvalidate\\Observer\\FlushAllCacheObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.12",
+        "package": "magento\/module-cache-invalidate",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-cache-invalidate",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-cache-invalidate",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-cache-invalidate",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "purgeCache": {
+                "name": "purgeCache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-cache-invalidate",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\CacheInvalidate\\Observer\\InvalidateVarnishObserver": {
+        "name": "Magento\\CacheInvalidate\\Observer\\InvalidateVarnishObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.12",
+        "package": "magento\/module-cache-invalidate",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-cache-invalidate",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-cache-invalidate",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-cache-invalidate",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "purgeCache": {
+                "name": "purgeCache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.12",
+                "package": "magento\/module-cache-invalidate",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

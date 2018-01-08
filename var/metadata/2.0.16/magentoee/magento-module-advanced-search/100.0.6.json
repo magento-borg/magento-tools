@@ -1,0 +1,889 @@
+{
+    "Magento\\AdvancedSearch\\Model\\SuggestedQueries": {
+        "name": "Magento\\AdvancedSearch\\Model\\SuggestedQueries",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.16",
+        "package": "magento\/module-advanced-search",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "isResultsCountEnabled": {
+                "name": "isResultsCountEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getItems": {
+                "name": "getItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSearch\\Model\\SuggestedQueriesInterface": {
+        "name": "Magento\\AdvancedSearch\\Model\\SuggestedQueriesInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.16",
+        "package": "magento\/module-advanced-search",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getItems": {
+                "name": "getItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isResultsCountEnabled": {
+                "name": "isResultsCountEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSearch\\Model\\ResourceModel\\Recommendations": {
+        "name": "Magento\\AdvancedSearch\\Model\\ResourceModel\\Recommendations",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.16",
+        "package": "magento\/module-advanced-search",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "saveRelatedQueries": {
+                "name": "saveRelatedQueries",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getRelatedQueries": {
+                "name": "getRelatedQueries",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getRecommendationsByQuery": {
+                "name": "getRecommendationsByQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "loadByQuery": {
+                "name": "loadByQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_searchQueryModel": {
+                "name": "_searchQueryModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSearch\\Model\\ResourceModel\\Search\\Grid\\Collection": {
+        "name": "Magento\\AdvancedSearch\\Model\\ResourceModel\\Search\\Grid\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.16",
+        "package": "magento\/module-advanced-search",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_initSelect": {
+                "name": "_initSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getQuery": {
+                "name": "getQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_registryManager": {
+                "name": "_registryManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSearch\\Model\\Recommendations\\SaveSearchQueryRelationsObserver": {
+        "name": "Magento\\AdvancedSearch\\Model\\Recommendations\\SaveSearchQueryRelationsObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.16",
+        "package": "magento\/module-advanced-search",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "recommendationsFactory": {
+                "name": "recommendationsFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AdvancedSearch\\Model\\Recommendations\\DataProvider": {
+        "name": "Magento\\AdvancedSearch\\Model\\Recommendations\\DataProvider",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.16",
+        "package": "magento\/module-advanced-search",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isResultsCountEnabled": {
+                "name": "isResultsCountEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getItems": {
+                "name": "getItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getSearchRecommendations": {
+                "name": "getSearchRecommendations",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": true
+            },
+            "isSearchRecommendationsEnabled": {
+                "name": "isSearchRecommendationsEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": true
+            },
+            "getSearchRecommendationsCount": {
+                "name": "getSearchRecommendationsCount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": true
+            }
+        },
+        "properties": {
+            "queryResultFactory": {
+                "name": "queryResultFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": true
+            },
+            "searchLayer": {
+                "name": "searchLayer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": true
+            },
+            "recommendationsFactory": {
+                "name": "recommendationsFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\AdvancedSearch\\Model\\Adminhtml\\Search\\Grid\\Options": {
+        "name": "Magento\\AdvancedSearch\\Model\\Adminhtml\\Search\\Grid\\Options",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.16",
+        "package": "magento\/module-advanced-search",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_request": {
+                "name": "_request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_registryManager": {
+                "name": "_registryManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_searchResourceModel": {
+                "name": "_searchResourceModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSearch\\Setup\\InstallSchema": {
+        "name": "Magento\\AdvancedSearch\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.16",
+        "package": "magento\/module-advanced-search",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSearch\\Block\\Suggestions": {
+        "name": "Magento\\AdvancedSearch\\Block\\Suggestions",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.16",
+        "package": "magento\/module-advanced-search",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\AdvancedSearch\\Block\\SearchDataInterface": {
+        "name": "Magento\\AdvancedSearch\\Block\\SearchDataInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.16",
+        "package": "magento\/module-advanced-search",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getItems": {
+                "name": "getItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isShowResultsCount": {
+                "name": "isShowResultsCount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getLink": {
+                "name": "getLink",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getTitle": {
+                "name": "getTitle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSearch\\Block\\SearchData": {
+        "name": "Magento\\AdvancedSearch\\Block\\SearchData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.16",
+        "package": "magento\/module-advanced-search",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getItems": {
+                "name": "getItems",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "isShowResultsCount": {
+                "name": "isShowResultsCount",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getLink": {
+                "name": "getLink",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getTitle": {
+                "name": "getTitle",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "query": {
+                "name": "query",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": true
+            },
+            "title": {
+                "name": "title",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "searchDataProvider": {
+                "name": "searchDataProvider",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": true
+            },
+            "_template": {
+                "name": "_template",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\AdvancedSearch\\Block\\Recommendations": {
+        "name": "Magento\\AdvancedSearch\\Block\\Recommendations",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.16",
+        "package": "magento\/module-advanced-search",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\AdvancedSearch\\Block\\Adminhtml\\Search\\Edit": {
+        "name": "Magento\\AdvancedSearch\\Block\\Adminhtml\\Search\\Edit",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.16",
+        "package": "magento\/module-advanced-search",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\AdvancedSearch\\Block\\Adminhtml\\Search\\Grid": {
+        "name": "Magento\\AdvancedSearch\\Block\\Adminhtml\\Search\\Grid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.16",
+        "package": "magento\/module-advanced-search",
+        "packageVersion": "100.0.6",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getQuery": {
+                "name": "getQuery",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_addColumnFilterToCollection": {
+                "name": "_addColumnFilterToCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getSelectedQueries": {
+                "name": "getSelectedQueries",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "getQueriesJson": {
+                "name": "getQueriesJson",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_options": {
+                "name": "_options",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "_registryManager": {
+                "name": "_registryManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            },
+            "jsonHelper": {
+                "name": "jsonHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.16",
+                "package": "magento\/module-advanced-search",
+                "packageVersion": "100.0.6",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

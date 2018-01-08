@@ -1,0 +1,1219 @@
+{
+    "Magento\\Msrp\\Helper\\Data": {
+        "name": "Magento\\Msrp\\Helper\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "canApplyMsrp": {
+                "name": "canApplyMsrp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getMsrpPriceMessage": {
+                "name": "getMsrpPriceMessage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isShowPriceOnGesture": {
+                "name": "isShowPriceOnGesture",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isShowBeforeOrderConfirm": {
+                "name": "isShowBeforeOrderConfirm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isMinimalPriceLessMsrp": {
+                "name": "isMinimalPriceLessMsrp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "productOptions": {
+                "name": "productOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "priceCurrency": {
+                "name": "priceCurrency",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "productRepository": {
+                "name": "productRepository",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Msrp\\Model\\Msrp": {
+        "name": "Magento\\Msrp\\Model\\Msrp",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "canApplyToProduct": {
+                "name": "canApplyToProduct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "mapApplyToProductType": {
+                "name": "mapApplyToProductType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "eavAttributeFactory": {
+                "name": "eavAttributeFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Msrp\\Model\\Config": {
+        "name": "Magento\\Msrp\\Model\\Config",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "setStoreId": {
+                "name": "setStoreId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isEnabled": {
+                "name": "isEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getDisplayActualPriceType": {
+                "name": "getDisplayActualPriceType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getExplanationMessage": {
+                "name": "getExplanationMessage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getExplanationMessageWhatsThis": {
+                "name": "getExplanationMessageWhatsThis",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "scopeConfig": {
+                "name": "scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "storeManager": {
+                "name": "storeManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "escaper": {
+                "name": "escaper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "storeId": {
+                "name": "storeId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Msrp\\Model\\Quote\\Msrp": {
+        "name": "Magento\\Msrp\\Model\\Quote\\Msrp",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "setCanApplyMsrp": {
+                "name": "setCanApplyMsrp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getCanApplyMsrp": {
+                "name": "getCanApplyMsrp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "canApplyMsrpData": {
+                "name": "canApplyMsrpData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Msrp\\Model\\Quote\\Address\\CanApplyMsrp": {
+        "name": "Magento\\Msrp\\Model\\Quote\\Address\\CanApplyMsrp",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isCanApplyMsrp": {
+                "name": "isCanApplyMsrp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "msrpHelper": {
+                "name": "msrpHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Msrp\\Model\\Product\\Options": {
+        "name": "Magento\\Msrp\\Model\\Product\\Options",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isEnabled": {
+                "name": "isEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getVisibilities": {
+                "name": "getVisibilities",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "msrpData": {
+                "name": "msrpData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Msrp\\Model\\Product\\Attribute\\Source\\Type": {
+        "name": "Magento\\Msrp\\Model\\Product\\Attribute\\Source\\Type",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getAllOptions": {
+                "name": "getAllOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Msrp\\Model\\Product\\Attribute\\Source\\Type\\Price": {
+        "name": "Magento\\Msrp\\Model\\Product\\Attribute\\Source\\Type\\Price",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getAllOptions": {
+                "name": "getAllOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getFlatColumns": {
+                "name": "getFlatColumns",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getFlatUpdateSelect": {
+                "name": "getFlatUpdateSelect",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "entityAttributeFactory": {
+                "name": "entityAttributeFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "eavResourceHelper": {
+                "name": "eavResourceHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Msrp\\Pricing\\Price\\MsrpPriceInterface": {
+        "name": "Magento\\Msrp\\Pricing\\Price\\MsrpPriceInterface",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "isShowPriceOnGesture": {
+                "name": "isShowPriceOnGesture",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getMsrpPriceMessage": {
+                "name": "getMsrpPriceMessage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isMsrpEnabled": {
+                "name": "isMsrpEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "canApplyMsrp": {
+                "name": "canApplyMsrp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Msrp\\Pricing\\Price\\MsrpPrice": {
+        "name": "Magento\\Msrp\\Pricing\\Price\\MsrpPrice",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isShowPriceOnGesture": {
+                "name": "isShowPriceOnGesture",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getMsrpPriceMessage": {
+                "name": "getMsrpPriceMessage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isMsrpEnabled": {
+                "name": "isMsrpEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "canApplyMsrp": {
+                "name": "canApplyMsrp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isMinimalPriceLessMsrp": {
+                "name": "isMinimalPriceLessMsrp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "msrpData": {
+                "name": "msrpData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Msrp\\Setup\\InstallData": {
+        "name": "Magento\\Msrp\\Setup\\InstallData",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "eavSetupFactory": {
+                "name": "eavSetupFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": true
+            }
+        }
+    },
+    "Magento\\Msrp\\Plugin\\Bundle\\Block\\Adminhtml\\Catalog\\Product\\Edit\\Tab\\Attributes": {
+        "name": "Magento\\Msrp\\Plugin\\Bundle\\Block\\Adminhtml\\Catalog\\Product\\Edit\\Tab\\Attributes",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "afterSetForm": {
+                "name": "afterSetForm",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Msrp\\Observer\\Frontend\\Quote\\SetCanApplyMsrpObserver": {
+        "name": "Magento\\Msrp\\Observer\\Frontend\\Quote\\SetCanApplyMsrpObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "canApplyMsrp": {
+                "name": "canApplyMsrp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "msrp": {
+                "name": "msrp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Msrp\\Block\\Popup": {
+        "name": "Magento\\Msrp\\Block\\Popup",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "isEnabled": {
+                "name": "isEnabled",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getExplanationMessage": {
+                "name": "getExplanationMessage",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "getExplanationMessageWhatsThis": {
+                "name": "getExplanationMessageWhatsThis",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Msrp\\Block\\Total": {
+        "name": "Magento\\Msrp\\Block\\Total",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "_toHtml": {
+                "name": "_toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "msrp": {
+                "name": "msrp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Msrp\\Block\\Adminhtml\\Product\\Helper\\Form\\Type": {
+        "name": "Magento\\Msrp\\Block\\Adminhtml\\Product\\Helper\\Form\\Type",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "toHtml": {
+                "name": "toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Msrp\\Block\\Adminhtml\\Product\\Helper\\Form\\Type\\Price": {
+        "name": "Magento\\Msrp\\Block\\Adminhtml\\Product\\Helper\\Form\\Type\\Price",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.0.8",
+        "package": "magento\/module-msrp",
+        "packageVersion": "100.0.5",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            },
+            "toHtml": {
+                "name": "toHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "config": {
+                "name": "config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.0.8",
+                "package": "magento\/module-msrp",
+                "packageVersion": "100.0.5",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

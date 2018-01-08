@@ -1,0 +1,522 @@
+{
+    "Magento\\Marketplace\\Helper\\Cache": {
+        "name": "Magento\\Marketplace\\Helper\\Cache",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-marketplace",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "loadPartnersFromCache": {
+                "name": "loadPartnersFromCache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "savePartnersToCache": {
+                "name": "savePartnersToCache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getCache": {
+                "name": "getCache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "pathToCacheFile": {
+                "name": "pathToCacheFile",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "cache": {
+                "name": "cache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Marketplace\\Controller\\Adminhtml\\Index": {
+        "name": "Magento\\Marketplace\\Controller\\Adminhtml\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-marketplace",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\Marketplace\\Controller\\Adminhtml\\Partners": {
+        "name": "Magento\\Marketplace\\Controller\\Adminhtml\\Partners",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-marketplace",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\Marketplace\\Controller\\Adminhtml\\Partners\\Index": {
+        "name": "Magento\\Marketplace\\Controller\\Adminhtml\\Partners\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-marketplace",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getLayoutFactory": {
+                "name": "getLayoutFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "resultPageFactory": {
+                "name": "resultPageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "layoutFactory": {
+                "name": "layoutFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Marketplace\\Controller\\Adminhtml\\Index\\Index": {
+        "name": "Magento\\Marketplace\\Controller\\Adminhtml\\Index\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-marketplace",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getResultPageFactory": {
+                "name": "getResultPageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "resultPageFactory": {
+                "name": "resultPageFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Marketplace\\Model\\Partners": {
+        "name": "Magento\\Marketplace\\Model\\Partners",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-marketplace",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getApiUrl": {
+                "name": "getApiUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getPartners": {
+                "name": "getPartners",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getCurlClient": {
+                "name": "getCurlClient",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getCache": {
+                "name": "getCache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getReferer": {
+                "name": "getReferer",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "curlClient": {
+                "name": "curlClient",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "urlPrefix": {
+                "name": "urlPrefix",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "apiUrl": {
+                "name": "apiUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "cache": {
+                "name": "cache",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Marketplace\\Block\\Index": {
+        "name": "Magento\\Marketplace\\Block\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-marketplace",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getUrl": {
+                "name": "getUrl",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_urlBuilder": {
+                "name": "_urlBuilder",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Marketplace\\Block\\Partners": {
+        "name": "Magento\\Marketplace\\Block\\Partners",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.7",
+        "package": "magento\/module-marketplace",
+        "packageVersion": "100.1.2",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getPartners": {
+                "name": "getPartners",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "getPartnersModel": {
+                "name": "getPartnersModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "partnersModel": {
+                "name": "partnersModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            },
+            "_template": {
+                "name": "_template",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.7",
+                "package": "magento\/module-marketplace",
+                "packageVersion": "100.1.2",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}

@@ -1,0 +1,3914 @@
+{
+    "Magento\\Logging\\Cron\\RotateLogs": {
+        "name": "Magento\\Logging\\Cron\\RotateLogs",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreConfig": {
+                "name": "_coreConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_flagFactory": {
+                "name": "_flagFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "eventFactory": {
+                "name": "eventFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Helper\\Data": {
+        "name": "Magento\\Logging\\Helper\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "implodeValues": {
+                "name": "implodeValues",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getLoggingActionTranslatedLabel": {
+                "name": "getLoggingActionTranslatedLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_config": {
+                "name": "_config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Controller\\Adminhtml\\Logging": {
+        "name": "Magento\\Logging\\Controller\\Adminhtml\\Logging",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_eventFactory": {
+                "name": "_eventFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_archiveFactory": {
+                "name": "_archiveFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_fileFactory": {
+                "name": "_fileFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Controller\\Adminhtml\\Logging\\Index": {
+        "name": "Magento\\Logging\\Controller\\Adminhtml\\Logging\\Index",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Controller\\Adminhtml\\Logging\\ArchiveGrid": {
+        "name": "Magento\\Logging\\Controller\\Adminhtml\\Logging\\ArchiveGrid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Controller\\Adminhtml\\Logging\\ExportCsv": {
+        "name": "Magento\\Logging\\Controller\\Adminhtml\\Logging\\ExportCsv",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Controller\\Adminhtml\\Logging\\ExportXml": {
+        "name": "Magento\\Logging\\Controller\\Adminhtml\\Logging\\ExportXml",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Controller\\Adminhtml\\Logging\\Grid": {
+        "name": "Magento\\Logging\\Controller\\Adminhtml\\Logging\\Grid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Controller\\Adminhtml\\Logging\\Download": {
+        "name": "Magento\\Logging\\Controller\\Adminhtml\\Logging\\Download",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Controller\\Adminhtml\\Logging\\Archive": {
+        "name": "Magento\\Logging\\Controller\\Adminhtml\\Logging\\Archive",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Controller\\Adminhtml\\Logging\\Details": {
+        "name": "Magento\\Logging\\Controller\\Adminhtml\\Logging\\Details",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Model\\Flag": {
+        "name": "Magento\\Logging\\Model\\Flag",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": {
+            "_flagCode": {
+                "name": "_flagCode",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Model\\Processor": {
+        "name": "Magento\\Logging\\Model\\Processor",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "initAction": {
+                "name": "initAction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "modelActionAfter": {
+                "name": "modelActionAfter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "logAction": {
+                "name": "logAction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_initLoggingEvent": {
+                "name": "_initLoggingEvent",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": true
+            },
+            "_callPostdispatchCallback": {
+                "name": "_callPostdispatchCallback",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": true
+            },
+            "_saveEventChanges": {
+                "name": "_saveEventChanges",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": true
+            },
+            "logDeniedAction": {
+                "name": "logDeniedAction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "collectId": {
+                "name": "collectId",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getCollectedIds": {
+                "name": "getCollectedIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "collectAdditionalData": {
+                "name": "collectAdditionalData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getCollectedAdditionalData": {
+                "name": "getCollectedAdditionalData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "addEventChanges": {
+                "name": "addEventChanges",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "createChanges": {
+                "name": "createChanges",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_config": {
+                "name": "_config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_eventConfig": {
+                "name": "_eventConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_controllersHandler": {
+                "name": "_controllersHandler",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_modelsHandler": {
+                "name": "_modelsHandler",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_actionName": {
+                "name": "_actionName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_lastAction": {
+                "name": "_lastAction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_initAction": {
+                "name": "_initAction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_skipNextAction": {
+                "name": "_skipNextAction",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_eventChanges": {
+                "name": "_eventChanges",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_collectedIds": {
+                "name": "_collectedIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_additionalData": {
+                "name": "_additionalData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_authSession": {
+                "name": "_authSession",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "messageManager": {
+                "name": "messageManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_objectManager": {
+                "name": "_objectManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_logger": {
+                "name": "_logger",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_eventFactory": {
+                "name": "_eventFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_request": {
+                "name": "_request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_remoteAddress": {
+                "name": "_remoteAddress",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "changesFactory": {
+                "name": "changesFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Model\\Event": {
+        "name": "Magento\\Logging\\Model\\Event",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "hasChanges": {
+                "name": "hasChanges",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_userFactory": {
+                "name": "_userFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Model\\Config": {
+        "name": "Magento\\Logging\\Model\\Config",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getSystemConfigValues": {
+                "name": "getSystemConfigValues",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "hasSystemConfigValue": {
+                "name": "hasSystemConfigValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "isEventGroupLogged": {
+                "name": "isEventGroupLogged",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getLabels": {
+                "name": "getLabels",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getActionLabel": {
+                "name": "getActionLabel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getEventByFullActionName": {
+                "name": "getEventByFullActionName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getEventGroupConfig": {
+                "name": "getEventGroupConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_initSystemConfigValues": {
+                "name": "_initSystemConfigValues",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_xmlConfig": {
+                "name": "_xmlConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_labels": {
+                "name": "_labels",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_systemConfigValues": {
+                "name": "_systemConfigValues",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_scopeConfig": {
+                "name": "_scopeConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Model\\Archive": {
+        "name": "Magento\\Logging\\Model\\Archive",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getBasePath": {
+                "name": "getBasePath",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_validateBaseName": {
+                "name": "_validateBaseName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "loadByBaseName": {
+                "name": "loadByBaseName",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "generateFilename": {
+                "name": "generateFilename",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getFilename": {
+                "name": "getFilename",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getContents": {
+                "name": "getContents",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getMimeType": {
+                "name": "getMimeType",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "createNew": {
+                "name": "createNew",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "file": {
+                "name": "file",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "directory": {
+                "name": "directory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Model\\Archive\\Collection": {
+        "name": "Magento\\Logging\\Model\\Archive\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_generateRow": {
+                "name": "_generateRow",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "filterCallbackIsMoreThan": {
+                "name": "filterCallbackIsMoreThan",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": true,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "filterCallbackIsLessThan": {
+                "name": "filterCallbackIsLessThan",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": true,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_allowedFilesMask": {
+                "name": "_allowedFilesMask",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_localeResolver": {
+                "name": "_localeResolver",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Model\\Config\\Converter": {
+        "name": "Magento\\Logging\\Model\\Config\\Converter",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "convert": {
+                "name": "convert",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_getActionTitles": {
+                "name": "_getActionTitles",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_convertGroup": {
+                "name": "_convertGroup",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_convertEvent": {
+                "name": "_convertEvent",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_convertEvents": {
+                "name": "_convertEvents",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_convertSkipOnBack": {
+                "name": "_convertSkipOnBack",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_convertExpectedModels": {
+                "name": "_convertExpectedModels",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_convertExpectedModel": {
+                "name": "_convertExpectedModel",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_convertSkipFields": {
+                "name": "_convertSkipFields",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_convertAdditionalFields": {
+                "name": "_convertAdditionalFields",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Model\\Config\\SchemaLocator": {
+        "name": "Magento\\Logging\\Model\\Config\\SchemaLocator",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getSchema": {
+                "name": "getSchema",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getPerFileSchema": {
+                "name": "getPerFileSchema",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_schema": {
+                "name": "_schema",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_perFileSchema": {
+                "name": "_perFileSchema",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Model\\Config\\Data": {
+        "name": "Magento\\Logging\\Model\\Config\\Data",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": [],
+        "properties": []
+    },
+    "Magento\\Logging\\Model\\Config\\Reader": {
+        "name": "Magento\\Logging\\Model\\Config\\Reader",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_idAttributes": {
+                "name": "_idAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Model\\Source\\Frequency": {
+        "name": "Magento\\Logging\\Model\\Source\\Frequency",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Model\\Event\\Changes": {
+        "name": "Magento\\Logging\\Model\\Event\\Changes",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "beforeSave": {
+                "name": "beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "hasDifference": {
+                "name": "hasDifference",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_calculateDifference": {
+                "name": "_calculateDifference",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "cleanupData": {
+                "name": "cleanupData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_cleanupData": {
+                "name": "_cleanupData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_globalSkipFields": {
+                "name": "_globalSkipFields",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_skipFields": {
+                "name": "_skipFields",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_difference": {
+                "name": "_difference",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Model\\ResourceModel\\Event": {
+        "name": "Magento\\Logging\\Model\\ResourceModel\\Event",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_beforeSave": {
+                "name": "_beforeSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "rotate": {
+                "name": "rotate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getAllFieldValues": {
+                "name": "getAllFieldValues",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getUserNames": {
+                "name": "getUserNames",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getEventChangeIds": {
+                "name": "getEventChangeIds",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "directory": {
+                "name": "directory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_archiveFactory": {
+                "name": "_archiveFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "dateTime": {
+                "name": "dateTime",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Model\\ResourceModel\\Helper": {
+        "name": "Magento\\Logging\\Model\\ResourceModel\\Helper",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Model\\ResourceModel\\Grid\\ActionsGroup": {
+        "name": "Magento\\Logging\\Model\\ResourceModel\\Grid\\ActionsGroup",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_config": {
+                "name": "_config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Model\\ResourceModel\\Grid\\Statuses": {
+        "name": "Magento\\Logging\\Model\\ResourceModel\\Grid\\Statuses",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Model\\ResourceModel\\Grid\\Actions": {
+        "name": "Magento\\Logging\\Model\\ResourceModel\\Grid\\Actions",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "toOptionArray": {
+                "name": "toOptionArray",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_helper": {
+                "name": "_helper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_resource": {
+                "name": "_resource",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Model\\ResourceModel\\Event\\Collection": {
+        "name": "Magento\\Logging\\Model\\ResourceModel\\Event\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getSelectCountSql": {
+                "name": "getSelectCountSql",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Model\\ResourceModel\\Event\\Changes": {
+        "name": "Magento\\Logging\\Model\\ResourceModel\\Event\\Changes",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Model\\ResourceModel\\Event\\Changes\\Collection": {
+        "name": "Magento\\Logging\\Model\\ResourceModel\\Event\\Changes\\Collection",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Model\\Handler\\Controllers": {
+        "name": "Magento\\Logging\\Model\\Handler\\Controllers",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchGeneric": {
+                "name": "postDispatchGeneric",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchSimpleSave": {
+                "name": "postDispatchSimpleSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchConfigView": {
+                "name": "postDispatchConfigView",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchConfigSave": {
+                "name": "postDispatchConfigSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchCategoryMove": {
+                "name": "postDispatchCategoryMove",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchGlobalSearch": {
+                "name": "postDispatchGlobalSearch",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchForgotPassword": {
+                "name": "postDispatchForgotPassword",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchCustomerValidate": {
+                "name": "postDispatchCustomerValidate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchReport": {
+                "name": "postDispatchReport",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchPromoCatalogApply": {
+                "name": "postDispatchPromoCatalogApply",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchPromoCatalogSaveAndApply": {
+                "name": "postDispatchPromoCatalogSaveAndApply",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchNewsletterUnsubscribe": {
+                "name": "postDispatchNewsletterUnsubscribe",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchTaxRatesImport": {
+                "name": "postDispatchTaxRatesImport",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchProductUpdateAttributes": {
+                "name": "postDispatchProductUpdateAttributes",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchTaxClassSave": {
+                "name": "postDispatchTaxClassSave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchTaxClassDelete": {
+                "name": "postDispatchTaxClassDelete",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchSystemBackupsCreate": {
+                "name": "postDispatchSystemBackupsCreate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchSystemBackupsDelete": {
+                "name": "postDispatchSystemBackupsDelete",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchSystemRollback": {
+                "name": "postDispatchSystemRollback",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchReindexProcess": {
+                "name": "postDispatchReindexProcess",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchSystemCurrencySave": {
+                "name": "postDispatchSystemCurrencySave",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchSaveCacheSettings": {
+                "name": "postDispatchSaveCacheSettings",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchTaxRatesExport": {
+                "name": "postDispatchTaxRatesExport",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "postDispatchSalesArchiveManagement": {
+                "name": "postDispatchSalesArchiveManagement",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_logTaxClassEvent": {
+                "name": "_logTaxClassEvent",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_loggingData": {
+                "name": "_loggingData",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "jsonHelper": {
+                "name": "jsonHelper",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_actionAttribute": {
+                "name": "_actionAttribute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "messageManager": {
+                "name": "messageManager",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_structureConfig": {
+                "name": "_structureConfig",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_request": {
+                "name": "_request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_response": {
+                "name": "_response",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_eventChangesFactory": {
+                "name": "_eventChangesFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Model\\Handler\\Models": {
+        "name": "Magento\\Logging\\Model\\Handler\\Models",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "modelSaveAfter": {
+                "name": "modelSaveAfter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "modelDeleteAfter": {
+                "name": "modelDeleteAfter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "modelMassUpdateAfter": {
+                "name": "modelMassUpdateAfter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "modelMassDeleteAfter": {
+                "name": "modelMassDeleteAfter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "modelViewAfter": {
+                "name": "modelViewAfter",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_eventChangesFactory": {
+                "name": "_eventChangesFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Setup\\InstallSchema": {
+        "name": "Magento\\Logging\\Setup\\InstallSchema",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "install": {
+                "name": "install",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\App\\Action\\Plugin\\Log": {
+        "name": "Magento\\Logging\\App\\Action\\Plugin\\Log",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "aroundDispatch": {
+                "name": "aroundDispatch",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_processor": {
+                "name": "_processor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Observer\\AdminSessionLoginSuccessObserver": {
+        "name": "Magento\\Logging\\Observer\\AdminSessionLoginSuccessObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "adminLogin": {
+                "name": "adminLogin",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Observer\\ModelLoadAfterObserver": {
+        "name": "Magento\\Logging\\Observer\\ModelLoadAfterObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_processor": {
+                "name": "_processor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Observer\\AdminLogin": {
+        "name": "Magento\\Logging\\Observer\\AdminLogin",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "logAdminLogin": {
+                "name": "logAdminLogin",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_config": {
+                "name": "_config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_user": {
+                "name": "_user",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_event": {
+                "name": "_event",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_request": {
+                "name": "_request",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_remoteAddress": {
+                "name": "_remoteAddress",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Observer\\AdminSessionLoginFailedObserver": {
+        "name": "Magento\\Logging\\Observer\\AdminSessionLoginFailedObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "adminLogin": {
+                "name": "adminLogin",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Observer\\ModelDeleteAfterObserver": {
+        "name": "Magento\\Logging\\Observer\\ModelDeleteAfterObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_processor": {
+                "name": "_processor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Observer\\ModelSaveAfterObserver": {
+        "name": "Magento\\Logging\\Observer\\ModelSaveAfterObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_processor": {
+                "name": "_processor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Observer\\ControllerPostdispatchObserver": {
+        "name": "Magento\\Logging\\Observer\\ControllerPostdispatchObserver",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "execute": {
+                "name": "execute",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_processor": {
+                "name": "_processor",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Block\\Adminhtml\\Log": {
+        "name": "Magento\\Logging\\Block\\Adminhtml\\Log",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getHeaderText": {
+                "name": "getHeaderText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getGridHtml": {
+                "name": "getGridHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Block\\Adminhtml\\Container": {
+        "name": "Magento\\Logging\\Block\\Adminhtml\\Container",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getHeaderText": {
+                "name": "getHeaderText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Block\\Adminhtml\\Archive": {
+        "name": "Magento\\Logging\\Block\\Adminhtml\\Archive",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "getHeaderText": {
+                "name": "getHeaderText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getGridHtml": {
+                "name": "getGridHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Block\\Adminhtml\\Details": {
+        "name": "Magento\\Logging\\Block\\Adminhtml\\Details",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getHeaderText": {
+                "name": "getHeaderText",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getCurrentEvent": {
+                "name": "getCurrentEvent",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getEventXForwardedIp": {
+                "name": "getEventXForwardedIp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getEventIp": {
+                "name": "getEventIp",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getEventError": {
+                "name": "getEventError",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getEventUser": {
+                "name": "getEventUser",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getEventInfo": {
+                "name": "getEventInfo",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_currentEevent": {
+                "name": "_currentEevent",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_eventUser": {
+                "name": "_eventUser",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_userFactory": {
+                "name": "_userFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Block\\Adminhtml\\Archive\\Grid\\Filter\\Date": {
+        "name": "Magento\\Logging\\Block\\Adminhtml\\Archive\\Grid\\Filter\\Date",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_convertDate": {
+                "name": "_convertDate",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Block\\Adminhtml\\Grid\\Renderer\\Download": {
+        "name": "Magento\\Logging\\Block\\Adminhtml\\Grid\\Renderer\\Download",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "_getValue": {
+                "name": "_getValue",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Block\\Adminhtml\\Grid\\Renderer\\Details": {
+        "name": "Magento\\Logging\\Block\\Adminhtml\\Grid\\Renderer\\Details",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "render": {
+                "name": "render",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Block\\Adminhtml\\Grid\\Filter\\Ip": {
+        "name": "Magento\\Logging\\Block\\Adminhtml\\Grid\\Filter\\Ip",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getCondition": {
+                "name": "getCondition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Block\\Adminhtml\\Grid\\Filter\\User": {
+        "name": "Magento\\Logging\\Block\\Adminhtml\\Grid\\Filter\\User",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_getOptions": {
+                "name": "_getOptions",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getCondition": {
+                "name": "getCondition",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "eventFactory": {
+                "name": "eventFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Block\\Adminhtml\\Details\\Grid": {
+        "name": "Magento\\Logging\\Block\\Adminhtml\\Details\\Grid",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_construct": {
+                "name": "_construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_prepareCollection": {
+                "name": "_prepareCollection",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_prepareColumns": {
+                "name": "_prepareColumns",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_coreRegistry": {
+                "name": "_coreRegistry",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "collectionFactory": {
+                "name": "collectionFactory",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    },
+    "Magento\\Logging\\Block\\Adminhtml\\Details\\Renderer\\Sourcename": {
+        "name": "Magento\\Logging\\Block\\Adminhtml\\Details\\Renderer\\Sourcename",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "render": {
+                "name": "render",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Block\\Adminhtml\\Details\\Renderer\\Diff": {
+        "name": "Magento\\Logging\\Block\\Adminhtml\\Details\\Renderer\\Diff",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "render": {
+                "name": "render",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": []
+    },
+    "Magento\\Logging\\Block\\Adminhtml\\System\\Config\\Actions": {
+        "name": "Magento\\Logging\\Block\\Adminhtml\\System\\Config\\Actions",
+        "isDeprecated": false,
+        "deprecatedSince": null,
+        "see": false,
+        "since": null,
+        "release": "2.1.4",
+        "package": "magento\/module-logging",
+        "packageVersion": "100.1.1",
+        "api": false,
+        "private": false,
+        "methods": {
+            "__construct": {
+                "name": "__construct",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getLabels": {
+                "name": "getLabels",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "getIsChecked": {
+                "name": "getIsChecked",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_getElementHtml": {
+                "name": "_getElementHtml",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        },
+        "properties": {
+            "_template": {
+                "name": "_template",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            },
+            "_config": {
+                "name": "_config",
+                "isDeprecated": false,
+                "deprecatedSince": null,
+                "see": false,
+                "since": null,
+                "release": "2.1.4",
+                "package": "magento\/module-logging",
+                "packageVersion": "100.1.1",
+                "api": false,
+                "private": false
+            }
+        }
+    }
+}
