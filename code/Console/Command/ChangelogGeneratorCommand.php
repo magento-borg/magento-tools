@@ -31,39 +31,38 @@ class ChangelogGeneratorCommand extends AbstractCommand
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $userInput = $this->getUserInput($input);
-        $config = new AppConfig();
-        $config->setEditions([$userInput['edition']]);
-        $config->setTags($userInput['edition'], $userInput['tags']);
-        $config->setLatestRelease($userInput['edition'], $userInput['latest']);
-        $config->setLatestCommit($userInput['edition'], $userInput['branch']);
+        $appConfig = new AppConfig();
+        $appConfig->setEditions([$userInput['edition']]);
+        $appConfig->setTags($userInput['edition'], $userInput['tags']);
+        $appConfig->setLatestRelease($userInput['edition'], $userInput['latest']);
+        $appConfig->setLatestCommit($userInput['edition'], $userInput['branch']);
 
-        $dataStructureFactory = new \Magento\DeprecationTool\DataStructureFactory($config);
+        $dataStructureFactory = new \Magento\DeprecationTool\DataStructureFactory($appConfig);
         $command = new \Magento\DeprecationTool\Compare\Command();
-        $writer = new \Magento\DeprecationTool\Compare\ArtifactWriter($config);
+        $writer = new \Magento\DeprecationTool\Compare\ArtifactWriter($appConfig);
 
-        exec('rm -rf ' . BP . '/var/changelog');
-
-        foreach ($config->getEditions() as $edition) {
+        foreach ($appConfig->getEditions() as $edition) {
+            exec('rm -rf ' . $appConfig->getEditionChangelogPath($edition));
             $dataStructures = $dataStructureFactory->create($edition);
 
             foreach ($dataStructures as $packageName => $dataStructure) {
                 $classesChangelog = $command->compareDeprecatedClasses($dataStructure);
-                $writer->write($packageName, $classesChangelog, \Magento\DeprecationTool\AppConfig::TYPE_DEPRECATED_CLASSES);
+                $writer->write($packageName, $classesChangelog, AppConfig::TYPE_DEPRECATED_CLASSES);
 
                 $methodsChangelog = $command->compareDeprecatedMethods($dataStructure);
-                $writer->write($packageName, $methodsChangelog, \Magento\DeprecationTool\AppConfig::TYPE_DEPRECATED_METHODS);
+                $writer->write($packageName, $methodsChangelog, AppConfig::TYPE_DEPRECATED_METHODS);
 
                 $propertiesChangelog = $command->compareDeprecatedProperties($dataStructure);
-                $writer->write($packageName, $propertiesChangelog, \Magento\DeprecationTool\AppConfig::TYPE_DEPRECATED_PROPERTIES);
+                $writer->write($packageName, $propertiesChangelog, AppConfig::TYPE_DEPRECATED_PROPERTIES);
 
                 $newClassesChangelog = $command->compareNewClasses($dataStructure);
-                $writer->write($packageName, $newClassesChangelog, \Magento\DeprecationTool\AppConfig::TYPE_SINCE_CLASSES);
+                $writer->write($packageName, $newClassesChangelog, AppConfig::TYPE_SINCE_CLASSES);
 
                 $newMethodsChangelog = $command->compareNewMethods($dataStructure);
-                $writer->write($packageName, $newMethodsChangelog, \Magento\DeprecationTool\AppConfig::TYPE_SINCE_METHODS);
+                $writer->write($packageName, $newMethodsChangelog, AppConfig::TYPE_SINCE_METHODS);
 
                 $newPropertiesChangelog = $command->compareNewProperties($dataStructure);
-                $writer->write($packageName, $newPropertiesChangelog, \Magento\DeprecationTool\AppConfig::TYPE_SINCE_PROPERTIES);
+                $writer->write($packageName, $newPropertiesChangelog, AppConfig::TYPE_SINCE_PROPERTIES);
             }
         }
     }

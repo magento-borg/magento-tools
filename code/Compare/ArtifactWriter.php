@@ -28,13 +28,14 @@ class ArtifactWriter
 
     public function write($packageName, $data, $type)
     {
-        if (!empty($data)) {
-            $packageName = str_replace('/', '-', $packageName);
-            if (!file_exists($this->appConfig->getChangelogPath($type))) {
-                @mkdir($this->appConfig->getChangelogPath($type), 0777, true);
+        foreach ($this->appConfig->getEditions() as $edition) {
+            if (!empty($data)) {
+                if (!file_exists($this->appConfig->getChangelogPath($edition, $type))) {
+                    @mkdir($this->appConfig->getChangelogPath($edition, $type), 0777, true);
+                }
+                $jsonReportPath = $this->appConfig->getChangelogPath($edition, $type, $packageName);
+                file_put_contents($jsonReportPath, json_encode($data, JSON_PRETTY_PRINT));
             }
-            $jsonReportPath = $this->appConfig->getChangelogPath($type) . '/' . $packageName . '.json';
-            file_put_contents($jsonReportPath, json_encode($data, JSON_PRETTY_PRINT));
         }
     }
 }

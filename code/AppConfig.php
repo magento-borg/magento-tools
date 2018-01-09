@@ -140,17 +140,28 @@ class AppConfig
     }
 
     /**
+     * @param string $edition
+     * @return string
+     */
+    public function getEditionChangelogPath($edition)
+    {
+        $path = BP . '/var/changelog/magento2' . $edition;
+        return $path;
+    }
+
+    /**
+     * @param string $edition
      * @param $type
      * @param null $packageName
      * @return string
      */
-    public function getChangelogPath($type, $packageName = null)
+    public function getChangelogPath($edition, $type = null, $packageName = null)
     {
+        $path = $this->getEditionChangelogPath($edition) .'/' . $type;
         if ($packageName) {
             $packageName = str_replace('/', '-', $packageName);
-            return BP . '/var/changelog/' . $type . '/' . $packageName . '.json';
+            $path .= '/' . $packageName . '.json';
         }
-        $path = BP . '/var/changelog/' . $type;
         return $path;
     }
 
