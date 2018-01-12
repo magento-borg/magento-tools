@@ -69,7 +69,7 @@ abstract class AbstractUpdater
         $output = [];
         $packages = PackagesListReader::getGitPackages($this->appConfig->getGitSourceCodeLocation($this->edition, $this->appConfig->getLatestRelease($this->edition)));
         foreach (array_keys($packages) as $packageName) {
-            $changelogPath = $this->appConfig->getChangelogPath($this->getLogType(), $packageName);
+            $changelogPath = $this->appConfig->getChangelogPath($this->edition, $this->getLogType(), $packageName);
             if (!file_exists($changelogPath)) {
                 continue;
             }
