@@ -35,7 +35,7 @@ class Enterprise implements ProjectStrategyInterface
         $path = $this->config->getSourceCodePath(AppConfig::EE_EDITION, $release);
         if (!file_exists($path . '/composer.json')) {
             $this->config->createFolder($path);
-            exec('cd ' . $path . '; /usr/local/bin/composer create-project magento/project-enterprise-edition=' . $release . ' --repository-url=https://repo.magento.com ./');
+            exec('cd ' . $path . '; /usr/local/bin/composer create-project --ignore-platform-reqs magento/project-enterprise-edition=' . $release . ' --repository-url=https://repo.magento.com ./');
         }
     }
 

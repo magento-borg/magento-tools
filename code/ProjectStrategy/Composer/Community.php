@@ -36,7 +36,7 @@ class Community implements ProjectStrategyInterface
         $path = $this->config->getSourceCodePath(AppConfig::CE_EDITION, $release);
         if (!file_exists($path . '/composer.json')) {
             $this->config->createFolder($path);
-            exec('cd ' . $path . '; /usr/local/bin/composer create-project magento/project-community-edition=' . $release . ' --repository-url=https://repo.magento.com ./');
+            exec('cd ' . $path . '; /usr/local/bin/composer create-project --ignore-platform-reqs magento/project-community-edition=' . $release . ' --repository-url=https://repo.magento.com ./');
         }
     }
 

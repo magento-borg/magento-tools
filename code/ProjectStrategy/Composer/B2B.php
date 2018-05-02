@@ -15,6 +15,8 @@ class B2B implements ProjectStrategyInterface
         '1.0.0' => '2.2.0',
         '1.0.1' => '2.2.1',
         '1.0.2' => '2.2.2',
+        '1.0.3' => '2.2.3',
+        '1.0.4' => '2.2.4'
     ];
 
     /**
@@ -43,8 +45,8 @@ class B2B implements ProjectStrategyInterface
         if (!file_exists($path . '/composer.json')) {
             $this->config->createFolder($path);
             $eeRelease = isset(self::B2B_EE_MAPPING[$release]) ? self::B2B_EE_MAPPING[$release] : $release;
-            exec('cd ' . $path . '; /usr/local/bin/composer create-project magento/project-enterprise-edition=' . $eeRelease . ' --repository-url=https://repo.magento.com ./');
-            exec('cd ' . $path . '; /usr/local/bin/composer require magento/extension-b2b');
+            exec('cd ' . $path . '; /usr/local/bin/composer create-project --ignore-platform-reqs magento/project-enterprise-edition=' . $eeRelease . ' --repository-url=https://repo.magento.com ./');
+            exec('cd ' . $path . '; /usr/local/bin/composer require --ignore-platform-reqs magento/extension-b2b');
         }
     }
 
